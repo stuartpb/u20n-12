@@ -44,9 +44,11 @@ for i=1, #presentations do
     write'</span>'
   end
   write"<br>"
-  write'<span class="session-title">'
+  write'<a href="'
+  write(pagename,".html")
+  write'" class="session-title">'
   write(htmlenc(pr.title))
-  write'</span>'
+  write'</a>'
   write"<br>"
   write'<span class="session-fulltitle">'
   write(htmlenc(pr.fulltitle))
