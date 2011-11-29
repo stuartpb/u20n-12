@@ -2,7 +2,10 @@
 local function fromCSV (s)
   s = s .. ','        -- ending comma
   local t = {}        -- table to collect fields
+  local row = {}
   local fieldstart = 1
+  local _
+  local char
   repeat
     -- next field is quoted? (start with '"'?)
     if string.find(s, '^"', fieldstart) then
@@ -14,12 +17,17 @@ local function fromCSV (s)
       until c ~= '"'    -- quote not followed by quote?
       if not i then error('unmatched "') end
       local f = string.sub(s, fieldstart+1, i-1)
-      table.insert(t, (string.gsub(f, '""', '"')))
-      fieldstart = string.find(s, ',', i) + 1
+      row[#row+1] = (string.gsub(f, '""', '"'))
+      fieldstart, _, char = string.find(s, '([,\n])', i) + 1
     else                -- unquoted; find next comma
-      local nexti = string.find(s, ',', fieldstart)
-      table.insert(t, string.sub(s, fieldstart, nexti-1))
+      local nexti
+      nexti, _, char = string.find(s, '([,\n])', fieldstart)
+      row[#row+1] = string.sub(s, fieldstart, nexti-1)
       fieldstart = nexti + 1
+    end
+    if char == '\n' then
+      t[#t+1] = row
+      row = {}
     end
   until fieldstart > string.len(s)
   return t
@@ -76,15 +84,18 @@ for i, author_t in pairs(aut_export) do
   local auttab = {lead = lead}
   if #cos > 0 then auttab.cos = cos end
 
-  aut_lookup[author_t.ShortName] = auttab
+  aut_lookup[author_t.ShortTitle] = auttab
 end
 
 --for kicks, let's sort the abstracts by name
 local function abs_sort(m,n)
-  return m["Short Title: "] < n["Short Title: "]
+  return m["Short Title:"] < n["Short Title:"]
 end
 
 table.sort(abs_export,abs_sort)
+
+--open up a file to save this into
+io.output "presentations.lua"
 
 local write = io.write
 --write indented line
@@ -106,11 +117,14 @@ local function write_person(depth, person)
   end
 end
 
+write"--encoding: utf-8\n"
+write"return {\n\n"
+
 for i=1,#abs_export do
   local ab = abs_export[i]
   local shortt = ab["Short Title:"]
   local people = aut_lookup[shortt]
-  wind(1,'{\n')
+  wind(1,'{')
   wind(2,nqps("title",shortt))
   wind(2,nqps("fulltitle",ab["Full Title:"]))
   --we could compare the author information here
@@ -119,10 +133,10 @@ for i=1,#abs_export do
   wind(2,"lead = {")
   write_person(3,people.lead)
   wind(3,"bio = [==[")
-  write(ab["Bio"])
+  write(ab.Bio)
   --append a newline at the end just because it's classy
   write"\n"
-  write"]==],"
+  write"]==],\n"
   wind(2,"},")
   if people.cos then
     wind(2,"cos = {")
@@ -137,6 +151,11 @@ for i=1,#abs_export do
   write(ab["Full Abstract Text:"])
   --append a newline at the end just because it's classy
   write"\n"
-  write"]==],"
-  wind(1,'},')
+  write"]==],\n"
+  wind(2,nqps("track",ab.Track))
+  wind(2,"starttime = 0, --TODO: TIME")
+  wind(2,"length = 1800,")
+  wind(1,'},\n')
 end
+
+write"}\n"
