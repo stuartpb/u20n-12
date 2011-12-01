@@ -18,7 +18,8 @@ local function fromCSV (s)
       if not i then error('unmatched "') end
       local f = string.sub(s, fieldstart+1, i-1)
       row[#row+1] = (string.gsub(f, '""', '"'))
-      fieldstart, _, char = string.find(s, '([,\n])', i) + 1
+      fieldstart, _, char = string.find(s, '([,\n])', i)
+      fieldstart = fieldstart + 1
     else                -- unquoted; find next comma
       local nexti
       nexti, _, char = string.find(s, '([,\n])', fieldstart)
@@ -87,12 +88,14 @@ for i, author_t in pairs(aut_export) do
   aut_lookup[author_t.ShortTitle] = auttab
 end
 
---for kicks, let's sort the abstracts by name
-local function abs_sort(m,n)
-  return m["Short Title:"] < n["Short Title:"]
-end
+--grab the existing entered presentations
+local tracks = require "tracks"
 
-table.sort(abs_export,abs_sort)
+local nameset = {}
+
+for ni = 1, #tracks.all do
+  nameset[tracks.all[ni].title] = true
+end
 
 --open up a file to save this into
 io.output "presentations.lua"
@@ -124,40 +127,42 @@ for i=1,#abs_export do
   local ab = abs_export[i]
   local shortt = ab["Short Title:"]
   local people = aut_lookup[shortt]
-  wind(1,'{')
-  wind(2,nqps("title",shortt))
-  wind(2,nqps("fulltitle",ab["Full Title:"]))
-  --we could compare the author information here
-  --from what's in the exported Abstracts to what's in
-  --the exported Authors, but why bother?
-  wind(2,"lead = {")
-  write_person(3,people.lead)
-  wind(2,"},")
-  if people.cos then
-    wind(2,"cos = {")
-      for coi=1,#people.cos do
-        wind(3,"{")
-        write_person(4,people.cos[coi])
-        wind(3,"},")
-      end
+  if not nameset[shortt] then
+    wind(1,'{')
+    wind(2,nqps("title",shortt))
+    wind(2,nqps("fulltitle",ab["Full Title:"]))
+    --we could compare the author information here
+    --from what's in the exported Abstracts to what's in
+    --the exported Authors, but why bother?
+    wind(2,"lead = {")
+    write_person(3,people.lead)
     wind(2,"},")
+    if people.cos then
+      wind(2,"cos = {")
+        for coi=1,#people.cos do
+          wind(3,"{")
+          write_person(4,people.cos[coi])
+          wind(3,"},")
+        end
+      wind(2,"},")
+    end
+    wind(2,"abstract = [==[")
+    write(ab["Full Abstract Text:"])
+    --append a newline at the end just because it's classy
+    write"\n"
+    write"]==],\n"
+    wind(2,"bio = [==[")
+    write(ab.Bio)
+    --append a newline at the end just because it's classy
+    write"\n"
+    write"]==],\n"
+    wind(2,nqps("track",ab.Track))
+    wind(2,"start = { day = 24, month = 1, year = 2012, --TODO: DATE")
+    wind(3,"hour = 8, min = 30 }, --TODO: TIME")
+    wind(2,"length = 1800, --TODO: LENGTH")
+    wind(2,'room = "221", --TODO: ROOM')
+    wind(1,'},\n')
   end
-  wind(2,"abstract = [==[")
-  write(ab["Full Abstract Text:"])
-  --append a newline at the end just because it's classy
-  write"\n"
-  write"]==],\n"
-  wind(2,"bio = [==[")
-  write(ab.Bio)
-  --append a newline at the end just because it's classy
-  write"\n"
-  write"]==],\n"
-  wind(2,nqps("track",ab.Track))
-  wind(2,"start = { day = 24, month = 1, year = 2012, --TODO: DATE")
-  wind(3,"hour = 8, min = 30}, --TODO: TIME")
-  wind(2,"length = 1800, --TODO: LENGTH")
-  wind(2,'room = "221", --TODO: ROOM')
-  wind(1,'},\n')
 end
 
 write"}\n"
