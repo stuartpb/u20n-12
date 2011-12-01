@@ -132,11 +132,6 @@ for i=1,#abs_export do
   --the exported Authors, but why bother?
   wind(2,"lead = {")
   write_person(3,people.lead)
-  wind(3,"bio = [==[")
-  write(ab.Bio)
-  --append a newline at the end just because it's classy
-  write"\n"
-  write"]==],\n"
   wind(2,"},")
   if people.cos then
     wind(2,"cos = {")
@@ -152,9 +147,16 @@ for i=1,#abs_export do
   --append a newline at the end just because it's classy
   write"\n"
   write"]==],\n"
+  wind(2,"bio = [==[")
+  write(ab.Bio)
+  --append a newline at the end just because it's classy
+  write"\n"
+  write"]==],\n"
   wind(2,nqps("track",ab.Track))
-  wind(2,"starttime = 0, --TODO: TIME")
-  wind(2,"length = 1800,")
+  wind(2,"start = { day = 24, month = 1, year = 2012, --TODO: DATE")
+  wind(3,"hour = 8, min = 30}, --TODO: TIME")
+  wind(2,"length = 1800, --TODO: LENGTH")
+  wind(2,'room = "221", --TODO: ROOM')
   wind(1,'},\n')
 end
 
