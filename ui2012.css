@@ -71,6 +71,12 @@ nav li {
   color: white;
 }
 
+.timesep {
+  margin: 4px 0;
+  height: 1px;
+  background-color: black;
+}
+
 .prestrack {
   float: right;
 }

@@ -45,13 +45,16 @@ for i=1, #tracks.all do
   local pagename = string.lower(pr.lead.last)
   local stime = os.time(pr.start)
   if pr.start.day ~= lastday then
-    write'<h2>'
-    write(os.date("%A, %B %d, %Y",stime))
+    write('<h2>',os.date("%A, %B %d, %Y",stime),'</h2>\n')
     lastday = pr.start.day
-    write'</h2>\n'
   end
+  if stime ~= laststart then
+    write('<h3>',os.date("%I:%M %p",stime),'</h3>\n')
+    laststart = stime
+  end
+
   write('<div class = "presdiv presdiv-',pr.track,'">')
-  write("Room ",pr.room,' ',os.date("%I:%M %p",stime),' ')
+  write("Room ",pr.room,' ')
   write('<span class="prestrack">',tracks.titles[pr.track],"</span>")
   write"<br>\n"
   write'<span class="speaker">'
