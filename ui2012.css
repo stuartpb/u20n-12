@@ -4,6 +4,11 @@ body {
   margin: 4px;
   text-align: left;
 }
+
+a {
+  color: inherit;
+}
+
 header {
   background-color: #000;
   color: #fff;
@@ -15,19 +20,19 @@ header {
 
 nav {
   background-color: #000;
-  margin: 4px 4px 100% 0;
+  margin: 4px 0;
   padding: 8px;
   color: #fff;
-  float: left;
 }
 
 nav ul {
   list-style: none inside;
   padding: 0;
+  margin: 0;
 }
 
-nav a {
-  color: #fff;
+nav li {
+  display: inline;
 }
 
 .logo {
@@ -40,6 +45,7 @@ nav a {
 }
 
 .content {
+  margin-left: 50px;
 
 }
 
@@ -57,4 +63,42 @@ nav a {
 
 .session-fulltitle {
   font-weight: normal;
+}
+
+.presdiv {
+  margin: 4px 0;
+  padding: 6px;
+  color: white;
+}
+
+.prestrack {
+  float: right;
+}
+
+.presdiv-div {
+  background-color: hsl(220,100%,20%);
+}
+
+.presdiv-edu {
+  background-color: hsl(300,100%,20%);
+}
+
+.presdiv-muv {
+  background-color: hsl(350,100%,20%);
+}
+
+.presdiv-oe {
+  background-color: hsl(180,100%,20%);
+}
+
+.presdiv-si {
+  background-color: hsl(35,100%,20%);
+}
+
+.presdiv-srov {
+  background-color: hsl(60,100%,20%);
+}
+
+.presdiv-wrov {
+  background-color: hsl(135,100%,20%);
 }
