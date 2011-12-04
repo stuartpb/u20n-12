@@ -1,4 +1,4 @@
-return {
+local ps = {
   {
     title = "MTS MUV 2011 Overview",
     fulltitle = "MTS Overview of Manned Sub Activity in 2011",
@@ -14,7 +14,6 @@ A yearly review of the state of the Manned Submersible industry in 2011. The ove
     bio = [==[
 Mr. William Kohnen is President of Hydrospace Group which provides specialized integrated solutions for underwater intervention using manned vehicle systems. Mr. Kohnen is the co-founder of SEAmagine Hydrospace Corp. which specializes in the design and construction of manned submersibles. Since 1995, SEAmagine delivered nine submersibles that are depth rated from 150 to 1500 ft. Mr. Kohnen has a background in aerospace with a M.Sc. Electrical Engineering from McGill University, Canada. He has been chair of the Marine Technology Society Manned Underwater Vehicles Committee since 2003 and organizes the yearly MTS MUV program at the Underwater Intervention conference to cover the many issues regarding the manned submersible industry. Mr. Kohnen is an active member of the Deep Submergence Pilot Association and an active member of the ASME Pressure Vessel for Human Occupancy (PVHO) Committee. He is also engaged as an industry representative on the ALVIN Replacement HOV Oversight Committee (RHOC). He has over 15 years experience working with the US Coast Guard and ABS rules and regulations for building submersibles and is a member of the ABS Special Committee on Underwater Systems and Vehicles.
 ]==],
-    track = "Manned Underwater Vehicles",
     start = { day = 24, month = 1, year = 2012,
       hour = 9, min = 00 },
     length = 3600,
@@ -40,7 +39,6 @@ I will use examples of both submersible and surface vessel operations, as well a
     bio = [==[
 
 ]==],
-    track = "Manned Underwater Vehicles",
     start = { day = 24, month = 1, year = 2012,
       hour = 10, min = 30 },
     length = 1800,
@@ -62,7 +60,6 @@ Woods Hole Oceanographic Institution (WHOI) is developing a new deeper diving su
     bio = [==[
 
 ]==],
-    track = "Manned Underwater Vehicles",
     start = { day = 24, month = 1, year = 2012,
       hour = 11, min = 00 },
     length = 1800,
@@ -93,7 +90,6 @@ Southwest Research Institute
     bio = [==[
 Jerry Henkener
 ]==],
-    track = "Manned Underwater Vehicles",
     start = { day = 24, month = 1, year = 2012,
       hour = 11, min = 30 },
     length = 1800,
@@ -115,7 +111,6 @@ Since 1986 MSUBS has been producing small, diesel-electric submersibles; coupled
     bio = [==[
 
 ]==],
-    track = "Manned Underwater Vehicles",
     start = { day = 24, month = 1, year = 2012,
       hour = 13, min = 30},
     length = 1800,
@@ -137,7 +132,6 @@ Since 1986 MSUBS has been producing small, diesel-electric submersibles; coupled
     bio = [==[
 
 ]==],
-    track = "Manned Underwater Vehicles",
     start = { day = 24, month = 1, year = 2012,
       hour = 14, min = 00 },
     length = 1800,
@@ -159,7 +153,6 @@ Since 1986 MSUBS has been producing small, diesel-electric submersibles; coupled
     bio = [==[
 
 ]==],
-    track = "Manned Underwater Vehicles",
     start = { day = 24, month = 1, year = 2012,
       hour = 14, min = 30 },
     length = 1800,
@@ -182,7 +175,6 @@ This presentation will trace the development and use of two manned submersibles 
     bio = [==[
 
 ]==],
-    track = "Manned Underwater Vehicles",
     start = { day = 24, month = 1, year = 2012,
       hour = 15, min = 30 },
     length = 1800,
@@ -213,7 +205,6 @@ Since OceanGate acquired the Antipodes manned submersible (former PC-1501) two y
     bio = [==[
 
 ]==],
-    track = "Manned Underwater Vehicles",
     start = { day = 24, month = 1, year = 2012,
       hour = 16, min = 00 },
     length = 1800,
@@ -237,7 +228,6 @@ Since OceanGate acquired the Antipodes manned submersible (former PC-1501) two y
     bio = [==[
 
 ]==],
-    track = "Manned Underwater Vehicles",
     start = { day = 25, month = 1, year = 2012,
       hour = 8, min = 30 },
     length = 1800,
@@ -263,7 +253,6 @@ Mr. Thomas is the author of various technical papers and a number of new section
 
 Mr. Thomas holds a master’s degree in Naval Architecture from Memorial University of Newfoundland (MUN), Canada and a bachelor’s degree in Marine Engineering from Marine Engineering and Research Institute (MERI), India.
 ]==],
-    track = "Manned Underwater Vehicles",
     start = { day = 25, month = 1, year = 2012,
       hour = 9, min = 00 },
     length = 3600,
@@ -317,7 +306,6 @@ A major obstacle in the development of manned submersibles involves the removal 
     bio = [==[
 Dr. Nuckols joined the faculty at Duke University as Senior Research Scientist in October of 2004.  Prior to joining Duke, he served as a professor at the United States Naval Academy for 20 years while conducting research in underwater life support systems design. He earned a M.S.M.E., Mechanical Engineering, at Duke University in 1974.  He completed his Ph.D at Duke in 1981.
 ]==],
-    track = "Manned Underwater Vehicles",
     start = { day = 25, month = 1, year = 2012,
       hour = 10, min = 30 },
     length = 3600,
@@ -339,7 +327,6 @@ Dr. Nuckols joined the faculty at Duke University as Senior Research Scientist i
     bio = [==[
 
 ]==],
-    track = "Manned Underwater Vehicles",
     start = { day = 25, month = 1, year = 2012,
       hour = 11, min = 30 },
     length = 1800,
@@ -361,7 +348,6 @@ Corvus has obtain class certification for its subsea lithium battery technology 
     bio = [==[
 
 ]==],
-    track = "Manned Underwater Vehicles",
     start = { day = 25, month = 1, year = 2012,
       hour = 13, min = 30 },
     length = 1800,
@@ -391,7 +377,6 @@ Dr. Richard Wilson is the Director of Power and Electrical Systems at Bluefin. H
 
 Dr. Wilson holds a Postdoctoral degree in Electro-Mechanical Design/instrumentation, a  Masters degree in Electro-Mechanical Design/Technology and aBachelor of Engineering in Electrical and Electronics Engineering from Plymouth University in the UK.
 ]==],
-    track = "Manned Underwater Vehicles",
     start = { day = 25, month = 1, year = 2012,
       hour = 14, min = 00},
     length = 1800,
@@ -430,7 +415,6 @@ David is named with other colleagues at SWE on over 9 patents or patent applicat
 
 David is a member of the MTS, an emeritus member of the Society of Exploration Geophysics and a Life Senior member of the IEEE, and has been recognized during his employment at Texas Instruments, as a Texas Instrument’s Senior member of Technical staff.
 ]==],
-    track = "Manned Underwater Vehicles",
     start = { day = 25, month = 1, year = 2012,
       hour = 14, min = 30 },
     length = 1800,
@@ -454,7 +438,6 @@ Acrylics are a proven, reliable material for submersible viewports.  The current
     bio = [==[
 Bart Kemper, P.E. is the principal engineer for Kemper Engineering Services, LLC.  Based in Baton Rouge, LA, Kemper has 20 years experience in engineering ranging from pressure vessels to mechanisms to computer simulations to shock, blast and ballistics.  His work has ranged from saturation diving systems to down hole tools to aerospace and marine applications.  Past recognitions include being one of the Top 10 Federal Engineers in 2007.  He is a member of the ASME Pressure Vessels for Human Occupancy (PVHO) codes and standards committee, has written numerous professional articles, and has several patents and patents pending.
 ]==],
-    track = "Manned Underwater Vehicles",
     start = { day = 26, month = 1, year = 2012,
       hour = 8, min = 30 },
     length = 1800,
@@ -476,7 +459,6 @@ Traditionally, naval architecture has been more craft than science. Determining 
     bio = [==[
 Tobin McNatt is the Director of the Advanced Marine Technology Center (AMTC) within DRS Defense Solutions, LLC.  The AMTC is a group of naval architects and software developers that provides marine vehicle design software products and technical services to a wide spectrum of industry customers. Tobin served as Program Manager for technology development programs for organizations including NAVSEA, NSWC Carderock Division, Office of Naval Research, US Special Operations Command, DARPA, and several ship classification societies.  He led the ocean engineering design and fielding of the full scale open ocean underwater explosions shock testing programs for the USS Jacksonville (SSN 699) and for the submarine shock test vehicle (SSTV).  He served on the pre-commissioning unit of fast attack submarine USS Birmingham (SSN 695), performing operations including reactor plant initial criticality and power range testing.  He also served on the USS Francis Scott Key (SSBN 657) conducting strategic deterrent patrols.  Tobin is a graduate of the U.S. Naval Academy with a degree in Physics.
 ]==],
-    track = "Manned Underwater Vehicles",
     start = { day = 26, month = 1, year = 2012,
       hour = 9, min = 00 },
     length = 1800,
@@ -498,10 +480,15 @@ Tobin McNatt is the Director of the Advanced Marine Technology Center (AMTC) wit
     bio = [==[
 
 ]==],
-    track = "Manned Underwater Vehicles",
     start = { day = 26, month = 1, year = 2012,
       hour = 9, min = 30 },
     length = 1800,
     room = "219",
   },
 }
+
+for i=1, #ps do
+  ps[i].track="muv"
+end
+
+return ps

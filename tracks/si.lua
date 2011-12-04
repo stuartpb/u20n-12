@@ -1,4 +1,4 @@
-return {
+local ps = {
 
   {
     title = "Inertial NAV system for small ROV",
@@ -17,7 +17,6 @@ The ROV & Diver TRACKER  is a complete navigation system that includes a Fiber O
     bio = [==[
 Graduated at the Italian Naval Accademy, after a master degree in electronic engineering and a 16 years long career as Italian Navy Officer, Maurizio Banfi funded Studio Ing. Banfi SAS, that developed the "ROV & Diver TRACKER", now commercially available.
 ]==],
-    track = "Instruments and Sensors",
     start = { day = 25, month = 1, year = 2012,
       hour = 8, min = 30 },
     length = 1800,
@@ -40,7 +39,6 @@ Multibeam imaging sonars have been available since the early nineties and have s
 Andy Goldstein, VideoRay
 Jon Wood, SeeByte
 ]==],
-    track = "Instruments and Sensors",
     start = { day = 25, month = 1, year = 2012,
       hour = 9, min = 00 },
     length = 1800,
@@ -64,7 +62,6 @@ Subsea Construction Manager
     bio = [==[
 Ian Florence has worked in the offshore industry since 1981, starting in the seismic industry he moved to OHP Oilfield hydrographic Projects) in 1984 where he was a survey engineer and online surveyor. From 1986 – 1996 he was a contract engineer, surveyor and party chief for all on the major – and a lot of minor survey contactors. He then became a project surveyor for Subsea 7 for a West of Shetland field for 2 years. He joined Kongsberg Maritime where he specializes in acoustic special projects.
 ]==],
-    track = "Instruments and Sensors",
     start = { day = 25, month = 1, year = 2012,
       hour = 9, min = 30 },
     length = 1800,
@@ -86,7 +83,6 @@ Show Scanning, Imaging, and Multi Beam Sonar uses, describe the differences and 
     bio = [==[
 
 ]==],
-    track = "Instruments and Sensors",
     start = { day = 25, month = 1, year = 2012,
       hour = 10, min = 00 },
     length = 3600,
@@ -108,7 +104,6 @@ This paper discusses some of the unique benefits of the use of real-time 3D imag
     bio = [==[
 
 ]==],
-    track = "Instruments and Sensors",
     start = { day = 25, month = 1, year = 2012,
       hour = 11, min = 30 },
     length = 1800,
@@ -130,7 +125,6 @@ The presentation will review types of instrument currently avaialble, their appl
     bio = [==[
 Jim Britton - As founder and CEO of Deepwater Corrosion services Inc in 1986 he has been responsible for the development of currently used CP measurement systems manufactured by his company.  He has worked offshore on thousands of CP surveys both diver / ROV and topside deployed.  The Polatrak brand is currently the leading leader in this type of equipment.
 ]==],
-    track = "Instruments and Sensors",
     start = { day = 25, month = 1, year = 2012,
       hour = 13, min = 30 },
     length = 1800,
@@ -159,7 +153,6 @@ Kongsberg
     bio = [==[
 to follow, use same from last year.
 ]==],
-    track = "Instruments and Sensors",
     start = { day = 25, month = 1, year = 2012,
       hour = 14, min = 00 },
     length = 1800,
@@ -182,7 +175,6 @@ A successful leak detection strategy must focus on the different physicochemical
     bio = [==[
 Daniel Esser is Managing Director and co-founder of CONTROS Systems & Solutions GmbH, a company that provides state-of-the-art multi-parameter sensor systems and services for both scientific and commercial hydrocarbon and CO2 leak detection and environmental monitoring projects worldwide. After working as a radio operator on a German Research Submarine, Daniel graduated from the University of North London with a Master in International Business. Since then he was working as a project manager, consultant and as a marketing manager for various international companies in the scientific, as well as in the industrial environment. In 2007, CONTROS has successfully launched the first fully integrated Mobile Leak Detection System for the detection, localization and qualification of early stage subsea oil and gas emissions.
 ]==],
-    track = "Instruments and Sensors",
     start = { day = 25, month = 1, year = 2012,
       hour = 14, min = 30 },
     length = 1800,
@@ -216,7 +208,6 @@ Using a photorealistic 3D model as the starting point for underwater asset inspe
     bio = [==[
 
 ]==],
-    track = "Instruments and Sensors",
     start = { day = 25, month = 1, year = 2012,
       hour = 15, min = 00 },
     length = 1800,
@@ -252,7 +243,6 @@ The presentation will encompass a step through the basics of digital 3D photogra
     bio = [==[
 Anthony Hall is the founder and CEO of Welaptega Marine Limited. His experience with digital image analysis goes back to 1988 and his MSc field work in the measurement of marine growth, first in aquaculture and then offshore platforms. Since establishing Welapteag in 1992 he has kept Welaptegab at the leading edge of underwater 3D video and image measurement in support of subsea operations in the offshore industry.
 ]==],
-    track = "Instruments and Sensors",
     start = { day = 25, month = 1, year = 2012,
       hour = 15, min = 30 },
     length = 1800,
@@ -260,3 +250,9 @@ Anthony Hall is the founder and CEO of Welaptega Marine Limited. His experience 
   },
 
 }
+
+for i=1, #ps do
+  ps[i].track="si"
+end
+
+return ps

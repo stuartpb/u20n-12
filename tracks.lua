@@ -1,31 +1,37 @@
-local div =  require "tracks.div"
-local edu =  require "tracks.edu"
-local muv =  require "tracks.muv"
-local oe =   require "tracks.oe"
-local si =   require "tracks.si"
-local srov = require "tracks.srov"
-local wrov = require "tracks.wrov"
---wrex are not included since that track is in the air atm
-
-local eachtrack = {div,edu,muv,oe,si,srov,wrov}
-
+local names = {"div","edu","muv","oe","si","srov","wrov"}
 local all = {}
 
-for ti=1,#eachtrack do
-  local track = eachtrack[ti]
-  for pi=1,#track do
-    all[#all+1]=track[pi]
+local tracks = {
+  names = names,
+  all = all,
+  titles = {
+    div = "Commercial Diving",
+    edu = "Education and Academia",
+    muv = "Manned Underwater Vehicles",
+    oe = "Ocean Engineering",
+    si = "Sensors and Instruments",
+    srov = "Small ROVs",
+    wrov = "Work-Class ROVs",
+  },
+}
+
+for i=1, #names do
+  local name = names[i]
+  local track = require("tracks."..name)
+  for j=1, #track do
+    all[#all+1]=track[j]
   end
+  tracks[name] = track
 end
 
-return {
-  div = div,
-  edu = edu,
-  muv = muv,
-  oe = oe,
-  si = si,
-  srov = srov,
-  wrov = wrov,
-  all = all,
-  names = {"div","edu","muv","oe","si","srov","wrov"}
-}
+table.sort(tracks.all,function(m,n)
+  local mstart,nstart = os.time(m.start), os.time(n.start)
+
+  if mstart == nstart then
+    return m.room < n.room
+  else
+    return mstart < nstart
+  end
+end)
+
+return tracks

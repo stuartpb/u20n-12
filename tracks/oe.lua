@@ -1,4 +1,4 @@
-return {
+local ps = {
 
   {
     title = "Navy Unmanned Systems Experimentation Lab",
@@ -16,7 +16,6 @@ This presentation will cover the initial efforts of this laboratory to develop n
     bio = [==[
 Cdr. John P. Klose is a retired submarine officer and project engineer at the Naval Surface Warfare Center Panama City Division. He has worked for over 25 years with a variety of teams to develop new combat, weapons, C4I, Special Operations Maritime Mobility, and EOD systems. He has a significant backgorund in rapid prototyping, experimentation, and using Government programs such as the Small Buisness Innovaton Research program to foster and promote rapid technology development.
 ]==],
-    track = "Engineering Topics Not Covered by Other Tracks",
     start = { day = 24, month = 1, year = 2012,
       hour = 10, min = 30 },
     length = 1800,
@@ -52,7 +51,6 @@ Bob Underwood is the President and CEO of Polymer Corporation. Polymer Corporati
 His previous experience with Lockheed and TRW plus with US Government at DOT and OMB
     BS in Mechanical Engineering and MS and PhD in Aeronautics and Astronautics from Stanford University, plus MBA from Santa Clara University
 ]==],
-    track = "Engineering Topics Not Covered by Other Tracks",
     start = { day = 24, month = 1, year = 2012,
       hour = 11, min = 00 },
     length = 1800,
@@ -81,7 +79,6 @@ There will be a discussion of specific maintenance practices that are required t
 Mark Miller is the CEO of Terresolve Technologies, a Cleveland-based company that provides non-toxic, biodegradable lubricating products. Mr. Miller has a B.S. in Chemical Engineering from Tufts University and an M.B.A. from Manhattan College. He has engineered, sold and marketed lubricants and lubricant additives for over 20 years.
 Terresolve’s biobased fluids have been extensively proven in the lab and in the field and are renewable, support the agrarian community, and meet federal guidelines for environmentally preferable purchasing.
 ]==],
-    track = "Engineering Topics Not Covered by Other Tracks",
     start = { day = 24, month = 1, year = 2012,
       hour = 11, min = 30 },
     length = 1800,
@@ -111,7 +108,6 @@ The world ocean remains the last unexplored space on earth. Underwater robots, w
     bio = [==[
 Dr. Peter Sapaty (educated in power networks & missile control), Director of Distributed Simulation and Control, Ukrainian Academy of Sciences, is with networking for 45 years. Worked in Germany, UK, Canada and Japan as project leader, research and invited professor. Invented distributed control technology used in different countries and resulted in European Patent and two John Wiley books. Areas of interest: models and languages for coordination and simulation of distributed dynamic systems with application in cooperative robotics, emergency management and infrastructure protection. His bio is in Marquis Who's Who in the World and Cambridge Outstanding Intellectuals of the 21st Century.
 ]==],
-    track = "Engineering Topics Not Covered by Other Tracks",
     start = { day = 24, month = 1, year = 2012,
       hour = 13, min = 30 },
     length = 1800,
@@ -137,9 +133,8 @@ This paper provides a technology update on Kongsberg's AUVs for environmental mo
     bio = [==[
 After graduating with a B.S. in Industrial Engineering from University of Vermont in 1978, Chris Hancock took a commission in the NOAA Corp (National Oceanographic and Atmospheric Administration) where he received his formal training as a hydrographic surveyor and conducted field operations in Washington State, Alaska and Hawaii. After completing his service with NOAA, Chris continued building his offshore experience with several commercial survey companies, holding positions as hydrographic survey, sonar operator, researcher and project manager. Chris spent several years working offshore in the Bay of Campeche, Mexico while assigned to the Ciudad del Carmen office of Brown & Root, Inc. (Houston, Texas). After more than 10 years in the field, Chris transitioned back to engineering working in systems design, software development and mechanical design related to sonar and hydrographic data acquisition and processing systems, eventually holding positions as program manager and general manger with Kongsberg (formerly Simrad) and other firms. Now in sales and marketing, Chris has been involved in the academic, offshore and naval sectors of the marine industry with a global reach, including business development of markets in the United States, Asia, and Latin America. His current focus is on emerging applications of AUV technology in the offshore oil and gas sector.
 ]==],
-    track = "Engineering Topics Not Covered by Other Tracks",
     start = { day = 24, month = 1, year = 2012,
-      hour = 14, min = 00},
+      hour = 14, min = 00 },
     length = 1800,
     room = "217",
   },
@@ -180,7 +175,6 @@ Our proprietary Data Logger for Surface and/or Subsea will aid your operations i
     bio = [==[
 
 ]==],
-    track = "Engineering Topics Not Covered by Other Tracks",
     start = { day = 24, month = 1, year = 2012,
       hour = 14, min = 30 },
     length = 1800,
@@ -209,11 +203,16 @@ In the fall of 2011, Kongsberg Maritime has integrated automatic tracking of pip
     bio = [==[
 After graduating with a B.S. in Industrial Engineering from University of Vermont in 1978, Chris Hancock took a commission in the NOAA Corp (National Oceanographic and Atmospheric Administration) where he received his formal training as a hydrographic surveyor and conducted field operations in Washington State, Alaska and Hawaii. After completing his service with NOAA, Chris continued building his offshore experience with several commercial survey companies, holding positions as hydrographic survey, sonar operator, researcher and project manager. Chris spent several years working offshore in the Bay of Campeche, Mexico while assigned to the Ciudad del Carmen office of Brown & Root, Inc. (Houston, Texas). After more than 10 years in the field, Chris transitioned back to engineering working in systems design, software development and mechanical design related to sonar and hydrographic data acquisition and processing systems, eventually holding positions as program manager and general manger with Kongsberg (formerly Simrad) and other firms. Now in sales and marketing, Chris has been involved in the academic, offshore and naval sectors of the marine industry with a global reach, including business development of markets in the United States, Asia, and Latin America. His current focus is on emerging applications of AUV technology in the offshore oil and gas sector.
 ]==],
-    track = "Engineering Topics Not Covered by Other Tracks",
     start = { day = 24, month = 1, year = 2012,
-      hour = 15, min = 30},
+      hour = 15, min = 30 },
     length = 1800,
     room = "217",
   },
 
 }
+
+for i=1, #ps do
+  ps[i].track="oe"
+end
+
+return ps

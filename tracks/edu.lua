@@ -1,4 +1,4 @@
-return {
+local ps = {
 
   {
     title = "Student Built Vehicles in Field Research",
@@ -33,7 +33,6 @@ This year, Beta Mk II is slated to survey recently unearthed Revolutionary War s
     bio = [==[
 
 ]==],
-    track = "Education and Academic Presentations",
     start = { day = 24, month = 1, year = 2012,
       hour = 8, min = 30},
     length = 1800,
@@ -57,7 +56,6 @@ This talk will discuss some of the ways in which VideoRay fosters undersea robot
     bio = [==[
 Andew Goldstein is the Director of Software Engineering at VideoRay LLC. and is the manager of the University Developer program.  Before VideoRay, he was chief software developer and part owner of Desert Star Systems.  He holds degrees in Materials Science Engineering and Computer Science.
 ]==],
-    track = "Education and Academic Presentations",
     start = { day = 24, month = 1, year = 2012,
       hour = 9, min = 00},
     length = 1800,
@@ -94,7 +92,6 @@ This paper reviews relatively fast evolution showing that participation in stude
     bio = [==[
 
 ]==],
-    track = "Education and Academic Presentations",
     start = { day = 24, month = 1, year = 2012,
       hour = 9, min = 30},
     length = 1800,
@@ -150,7 +147,6 @@ SENSE IT promotes student awareness of the interdisciplinary nature of modern en
     bio = [==[
 Liesl Hotaling is a Senior Research Engineering with the College of Marine Sciences, University of South Florida. She holds a B.S. in Marine Science, a M.A.T. in Science Teaching, and a M.S. in Maritime Systems (ocean engineering). She is a partner in Centers for Ocean Science Education Excellence - Networked Ocean World (COSEE-NOW), serves as the Partnerships and Collaborations Coordinator for the COSEE Network and specializes in real time data education projects and hands-on STEM educational projects supporting environmental observing networks.
 ]==],
-    track = "Education and Academic Presentations",
     start = { day = 24, month = 1, year = 2012,
       hour = 10, min = 30},
     length = 1800,
@@ -172,7 +168,6 @@ My presentation will highlight the CMOP Ocean Observatory and all of the assets 
     bio = [==[
 I have been with CMOP since 2007. My work with CMOP is very exciting as I am a member of the field team. I work on the ocean observatory as an instrument technician and glider pilot. I help construct and populate all of our stations in the Columbia River as well as two ocean buoys. I also participate in Saturday Academy and Oceanography camp as an instructor.
 ]==],
-    track = "Education and Academic Presentations",
     start = { day = 24, month = 1, year = 2012,
       hour = 11, min = 00},
     length = 1800,
@@ -203,7 +198,6 @@ The Great Lakes Naval Memorial and Museum (GLNMM) has developed a program that u
 Dr. Mark Gleason has nearly ten years of diverse experience in the operation of ROVs in education, research and industry. His Ph.D. dissertation research demonstrated the usefulness of small ROVs in natural resources education programs. Those programs and their development led to positions creating educational programs at museums. Those efforts resulted in unique underwater experiences for thousands of students and the general public. Other professional work includes several years operating ROVs in the oil/gas industry in the middle-east.
 His recent work includes developing partnerships between government agencies, non-profits and industry to explore shipwrecks. Those partnerships have used ROVs and side scan sonar to explore approximately thirty Great Lakes shipwrecks. In addition he is creating a marine tech program with a Michigan college that will provide ROV training for college students.
 ]==],
-    track = "Education and Academic Presentations",
     start = { day = 24, month = 1, year = 2012,
       hour = 11, min = 30 },
     length = 1800,
@@ -233,7 +227,6 @@ Jesuit High School successfully completed missions designed by the Marine Advanc
 •	Drake Nylund (junior, third year member) created computer mockups of each ROV component and is transitioning to software development.
 •	Alan Luu (senior, second year member) worked on the design and build of the wellhead cap.  This year Alan is leading the design and build of telemetry sensors.
 ]==],
-    track = "Education and Academic Presentations",
     start = { day = 24, month = 1, year = 2012,
       hour = 13, min = 30 },
     length = 1800,
@@ -262,7 +255,6 @@ Based on this success, the MATE competition will continue its entrepreneurial ap
     bio = [==[
 
 ]==],
-    track = "Education and Academic Presentations",
     start = { day = 24, month = 1, year = 2012,
       hour = 14, min = 00 },
     length = 1800,
@@ -286,7 +278,6 @@ The 2012 mission theme deals with 20th century shipwrecks and their potential en
     bio = [==[
 
 ]==],
-    track = "Education and Academic Presentations",
     start = { day = 24, month = 1, year = 2012,
       hour = 14, min = 30 },
     length = 1800,
@@ -294,3 +285,9 @@ The 2012 mission theme deals with 20th century shipwrecks and their potential en
   },
 
 }
+
+for i=1, #ps do
+  ps[i].track="edu"
+end
+
+return ps

@@ -1,4 +1,4 @@
-return {
+local ps = {
   {
     title = "Advanced Electronic Technologies for Divers",
     fulltitle = "The application of advanced electronic technology in diver hand held systems, to increase diver capability, efficiency and safety, for both military and commercial divers.",
@@ -32,7 +32,6 @@ SAR operations, Crime scene investigations
     bio = [==[
 Jim Garrington is the founder and president of Shark Marine Technologies Inc. a Canadian company that has been creating innovative underwater technologies since 1984. As a diver, Jim's approach to underwater technology was from the inside out, encountering a need and creating a solution. Jim has had extensive experience in many faucets of underwater  operations including archeaology, bathymetric surveys, pipe locating and tracking, ROV piloting, drowned victim recoveries, port security and military mine countermeasures. He has has trained both military and commercial divers around the globe in the use of new underwater detection and navigation technology.
 ]==],
-    track = "Commercial Diving",
     start = { day = 24, month = 1, year = 2012,
       hour = 8, min = 30 },
     length = 1800,
@@ -68,7 +67,6 @@ American Electric Power, a Sustaining Member of ADCI, continues to conduct train
     bio = [==[
 David Scarberry is the Program's Diving Coordinator and contact for AEP.  His career in welding with AEP and as a diving representative in both nuclear and hydroelectric plants spans over 25 years.  Will Hux is a mechanical engineer from Stroud Diving & Hydrography and MESCO.  He comes from a military and commercial diving environment.
 ]==],
-    track = "Commercial Diving",
     start = { day = 24, month = 1, year = 2012,
       hour = 9, min = 00 },
     length = 1800,
@@ -94,7 +92,6 @@ I hope to present this device and share the safe technology with all our members
     bio = [==[
 Will Hux is a graduate of the Coastal School of Deep Sea Diving (1970) and Commercial Diving Center's Bell and Saturation course in 1973.  He is a mechanical engineer and has been employed with Stroud Diving & Hydrography since 1983.  He is a Wound Care Technologist and Certified Hyperbaric Technologist with the American College of Hyperbaric Medicine.
 ]==],
-    track = "Commercial Diving",
     start = { day = 24, month = 1, year = 2012,
       hour = 9, min = 30 },
     length = 1800,
@@ -126,7 +123,6 @@ Provide procedures used to conduct on-site system certification survey of U. S. 
 11 years at NAVSEA Office of Salvage and Diving
 Commander, Civil Engineer Corps, USN
 ]==],
-    track = "Commercial Diving",
     start = { day = 24, month = 1, year = 2012,
       hour = 10, min = 30 },
     length = 1800,
@@ -148,7 +144,6 @@ Commander, Civil Engineer Corps, USN
     bio = [==[
 
 ]==],
-    track = "Commercial Diving",
     start = { day = 24, month = 1, year = 2012,
       hour = 11, min = 30 },
     length = 1800,
@@ -170,7 +165,6 @@ The Code of Federal Regulations specifically adopts the ASME Boiler and Pressure
     bio = [==[
 Bart Kemper, P.E. is the principal engineer for Kemper Engineering Services, LLC.  Based in Baton Rouge, LA, Kemper has 20 years experience in engineering ranging from pressure vessels to mechanisms to computer simulations to shock, blast and ballistics.  His work has ranged from saturation diving systems to down hole tools to aerospace and marine applications.  Past recognitions include being one of the Top 10 Federal Engineers in 2007.  He is a member of the ASME Pressure Vessels for Human Occupancy (PVHO) codes and standards committee, has written numerous professional articles, and has several patents and patents pending.
 ]==],
-    track = "Commercial Diving",
     start = { day = 24, month = 1, year = 2012,
       hour = 13, min = 30 },
     length = 1800,
@@ -192,7 +186,6 @@ Bart Kemper, P.E. is the principal engineer for Kemper Engineering Services, LLC
     bio = [==[
 
 ]==],
-    track = "Commercial Diving",
     start = { day = 24, month = 1, year = 2012,
       hour = 14, min = 00 }, --TODO: TIME
     length = 1800,
@@ -217,7 +210,6 @@ Carl Scheffel Sr. P.E. is President and Chief Engineer of Fox Industries, Inc. C
 
 Prior to joining Fox Industries, Carl spent 15 years as a Consulting Engineer with Rummel, Klepper & Kahl of Baltimore, Maryland where he worked as both a Construction Project Engineer and as a Bridge Design Engineer. Highlights of his career include project design/ construction engineering for the Jones Falls Expressway (I-83) in Baltimore, I-95 (John F. Kennedy Memorial Highway) in Maryland and I-95 in North Carolina. Carl is Director Emeritus of the Maryland Association of Engineers, having previously served in many positions including President. Carl is a frequent exhibitor at World of Concrete, PORTS (ASCE) and Underwater Intervention, and a speaker at Transportation Research Board in Washington DC, 2011 and 2006, and International Bridge Conference, Pittsburgh PA, 2006
 ]==],
-    track = "Commercial Diving",
     start = { day = 24, month = 1, year = 2012,
       hour = 13, min = 30 },
     length = 1800,
@@ -250,7 +242,6 @@ Prior to joining Fox Industries, Carl spent 15 years as a Consulting Engineer wi
     bio = [==[
 
 ]==],
-    track = "Commercial Diving",
     start = { day = 24, month = 1, year = 2012,
       hour = 16, min = 00 }, --TODO: TIME
     length = 1800,
@@ -274,7 +265,6 @@ Prior to joining Fox Industries, Carl spent 15 years as a Consulting Engineer wi
     bio = [==[
 
 ]==],
-    track = "Commercial Diving",
     start = { day = 25, month = 1, year = 2012,
       hour = 8, min = 30 },
     length = 3600,
@@ -296,7 +286,6 @@ Prior to joining Fox Industries, Carl spent 15 years as a Consulting Engineer wi
     bio = [==[
 
 ]==],
-    track = "Commercial Diving",
     start = { day = 25, month = 1, year = 2012,
       hour = 9, min = 30 },
     length = 1800,
@@ -335,7 +324,6 @@ Prior to joining Fox Industries, Carl spent 15 years as a Consulting Engineer wi
     bio = [==[
 
 ]==],
-    track = "Commercial Diving",
     start = { day = 25, month = 1, year = 2012,
       hour = 10, min = 30 },
     length = 5400,
@@ -357,7 +345,6 @@ Prior to joining Fox Industries, Carl spent 15 years as a Consulting Engineer wi
     bio = [==[
 
 ]==],
-    track = "Commercial Diving",
     start = { day = 25, month = 1, year = 2012,
       hour = 13, min = 30 },
     length = 2700,
@@ -381,7 +368,6 @@ Prior to joining Fox Industries, Carl spent 15 years as a Consulting Engineer wi
     bio = [==[
 
 ]==],
-    track = "Commercial Diving",
     start = { day = 25, month = 1, year = 2012,
       hour = 14, min = 15 },
     length = 2700,
@@ -403,7 +389,6 @@ Prior to joining Fox Industries, Carl spent 15 years as a Consulting Engineer wi
     bio = [==[
 
 ]==],
-    track = "Commercial Diving",
     start = { day = 25, month = 1, year = 2012,
       hour = 15, min = 30 },
     length = 3600,
@@ -435,7 +420,6 @@ There will also be a short section in the presentation which will update delegat
     bio = [==[
 Simon Lunt is the Sales Manager at Analox Sensor Technology who have provided the commercial diving industry with gas analysers since 1981.  His history is in chemical and health and safety sales and has been heavily involved in the adoption of the Hypergas MkII by the industry as a vital piece of safety equipment.
 ]==],
-    track = "Commercial Diving",
     start = { day = 25, month = 1, year = 2012,
       hour = 16, min = 30 },
     length = 1800,
@@ -467,11 +451,36 @@ Whether you are a commercial diver, vessel operator or diving contractor, the in
     bio = [==[
 36 year attorney specializing in commercial and recreational diving, 30 plus year attorney for Kirby Morgan DSI, selected as Superlawyer multiple times by fellow attornies in california, winner of one of National Law Journal "Top Defense Wins in 2004; Defended succesfully and also obtained multiple 7 figure verdicts and settlements over the past 30 years. Full bio is at DIVELAW.COM
 ]==],
-    track = "Commercial Diving",
     start = { day = 26, month = 1, year = 2012,
       hour = 10, min = 30 },
     length = 1800,
-    room = "210",
+    room = "221",
+  },
+
+  {
+    title = "Domestic Diver Training for International Certification",
+    fulltitle = "",
+    lead = {
+      first = "David",
+      last = "Parkes",
+      org = "Diver Certification Board of Canada",
+      email = "dparkes@divercertification.com",
+    },
+    abstract = [==[
+Since 2003, the Diver Certification Board of Canada (DCBC) has offered certification to commercial diving personnel who can demonstrate that they have sufficient training and experience to enable them to meet the competency requirements of the appropriate section of the Canadian Standards Association (CSA) Competency Standard for Diving Operations (CSA Standard Z275.4). The DCBC also accredits commercial diver training organizations which train to the competency levels of Z275.4.
+
+<TODO: diving stuff goes here>
+
+]==],
+    bio = [==[
+David Parkes M.Ed
+David Parkes is the Chief Executive Officer of the DCBC.  He retired from the Canadian Coast Guard in October 2000, following a 35-year career during which he served in a number of positions including Senior Examiner of Marine Engineers in Ottawa and, for seven years, Director of the Canadian Coast Guard College in Sydney, Nova Scotia.  For the final four years of his career he was Director of Technical Services for the Maritimes Region of the Coast Guard.
+David was hired as a consultant in early 2001 to create the DCBC and in 2002 he agreed to stay on the first Executive Director.  In 2009, during the development of a policy-based governance structure for the board, David's title was changed to CEO.
+]==],
+    start = { day = 26, month = 1, year = 2012,
+      hour = 11, min = 00 },
+    length = 1800,
+    room = "221",
   },
 
   {
@@ -489,10 +498,15 @@ This subject will address a recent accident that occured to a diver while perfor
     bio = [==[
 I am the diving coordinator for American Electric power.  AEP is one of the nation's largest electric power provider, with over 5 million cutomers, and cover 11 states.  Our generating resources include hydro, wind, fossil and nuclear.  My responsibilites include, but not limited to, the review, and subsequent approval, of all dive plans, ensuring AEP has an adequate resource pool of qualified diving contractors, and supporting the diving companies with engineering and techinal data as required for repairs, modifications, and new construction.
 ]==],
-    track = "Commercial Diving",
     start = { day = 26, month = 1, year = 2012,
       hour = 11, min = 30 },
     length = 1800,
-    room = "210",
+    room = "221",
   },
 }
+
+for i=1, #ps do
+  ps[i].track="div"
+end
+
+return ps

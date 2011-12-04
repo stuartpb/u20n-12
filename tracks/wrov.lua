@@ -1,4 +1,4 @@
-return {
+local ps = {
 
   {
     title = "Hydraulic Fluid Performance at Depth",
@@ -18,7 +18,6 @@ One of these challenges is that at the depths and significantly increased pressu
 Mark Miller is the CEO of Terresolve Technologies, a Cleveland-based company that provides non-toxic, biodegradable lubricating products. Mr. Miller has a B.S. in Chemical Engineering from Tufts University and an M.B.A. from Manhattan College. He has engineered, sold and marketed lubricants and lubricant additives for over 30 years.
 Terresolve's biobased fluids have been extensively proven in the lab and in the field and are renewable, support the agrarian community, and meet federal guidelines for environmentally preferable purchasing.
 ]==],
-    track = "Work Class Remotely Operated Vehicles",
     start = { day = 25, month = 1, year = 2012,
       hour = 9, min = 00 },
     length = 1800,
@@ -48,7 +47,6 @@ David Parkes M.Ed
 David Parkes is the Chief Executive Officer of the DCBC.  He retired from the Canadian Coast Guard in October 2000, following a 35-year career during which he served in a number of positions including Senior Examiner of Marine Engineers in Ottawa and, for seven years, Director of the Canadian Coast Guard College in Sydney, Nova Scotia.  For the final four years of his career he was Director of Technical Services for the Maritimes Region of the Coast Guard.
 David was hired as a consultant in early 2001 to create the DCBC and in 2002 he agreed to stay on the first Executive Director.  In 2009, during the development of a policy-based governance structure for the board, David's title was changed to CEO.
 ]==],
-    track = "Work Class Remotely Operated Vehicles",
     start = { day = 25, month = 1, year = 2012,
       hour = 9, min = 30 },
     length = 1800,
@@ -110,7 +108,6 @@ From 1995 to 2001, he was working in Hitachi Zosen Corporation, as an Engineer a
 Since 2002 he has been working in JAMSTEC (Japan Agency Marine-Earth Science and Technology) as a Senior Research Scientist. He was involved in the drill ship project as a chief engineer of drilling system and also in the development of the deep-sea ROV (remotely operated vehicle) as a project leader.
 His research interests are in offshore deep drilling technology and underwater vehicle.
 ]==],
-    track = "Work Class Remotely Operated Vehicles",
     start = { day = 25, month = 1, year = 2012,
       hour = 10, min = 30 },
     length = 1800,
@@ -136,7 +133,6 @@ This presentation will review features important in reducing downtime including:
     bio = [==[
 Andy Porterfield has been a Mechanical Engineer at Schilling Robotics since 2008, and has prior design and test experience in the Aerospace, Railroad, and Highway Safety industries.
 ]==],
-    track = "Work Class Remotely Operated Vehicles",
     start = { day = 25, month = 1, year = 2012,
       hour = 11, min = 00 },
     length = 1800,
@@ -182,7 +178,6 @@ with the natural sea bottom.
     bio = [==[
 
 ]==],
-    track = "Work Class Remotely Operated Vehicles",
     start = { day = 25, month = 1, year = 2012,
       hour = 11, min = 30 },
     length = 1800,
@@ -206,7 +201,6 @@ This presentation will provide an overview of the primary concerns when integrat
     bio = [==[
 Steve Barrow, senior applications engineer for Schilling Robotics, has designed ROVs and ROV tooling since 1998.
 ]==],
-    track = "Work Class Remotely Operated Vehicles",
     start = { day = 25, month = 1, year = 2012,
       hour = 13, min = 30 },
     length = 1800,
@@ -231,7 +225,6 @@ Improvements in the strength of wire rope technology and the increasing use of a
 Allspeeds Ltd are a renowned UK engineering company with prominent brands such as Tangye, Millingford International (API 11AX-0034) and Webtool and have been designing and manufacturing subsea tooling for over 25 years.
 Keith Elliot has been with the company for 6 years and is Engineering Director responsible for the Design and Manufacture of all the companies products.
 ]==],
-    track = "Work Class Remotely Operated Vehicles",
     start = { day = 25, month = 1, year = 2012,
       hour = 14, min = 00 },
     length = 1800,
@@ -269,9 +262,8 @@ Bill Niblock is the Engineering Manager at ASP, Inc.  Bill supports customers th
 
 Thyge Bollmann is a Vice President at miniBOOSTER Hydraulics A/S in Denmark and works with customers worldwide in support of miniBOOSTER Hydraulic Intensifiers.
 ]==],
-    track = "Work Class Remotely Operated Vehicles",
     start = { day = 25, month = 1, year = 2012,
-      hour = 14, min = 30},
+      hour = 14, min = 30 },
     length = 1800,
     room = "217",
   },
@@ -295,7 +287,6 @@ Waterjet technology has been extended into the deepwater subsea space during the
     bio = [==[
 Worked in the waterjet industry for 10 years. Work in the waterjet industry has focused on development of new applications for waterjet equipment and the extension of waterjet technology into the subsea environment. Professionally registered Electrical Engineer from the the University of Minnesota specializing in machine development and control systems.
 ]==],
-    track = "Work Class Remotely Operated Vehicles",
     start = { day = 25, month = 1, year = 2012, --TODO: DATE
       hour = 15, min = 30 },
     length = 1800,
@@ -320,9 +311,8 @@ The purpose of this talk is to provide an insight into this technology and a gli
 Mahesh Menon, SMD (First author)
 Ioseba Tena, SeeByte (co-author)
 ]==],
-    track = "Work Class Remotely Operated Vehicles",
     start = { day = 25, month = 1, year = 2012,
-      hour = 16, min = 00},
+      hour = 16, min = 00 },
     length = 1800,
     room = "217",
   },
@@ -351,11 +341,16 @@ More than 20 years of industry experience; holds a Bachelor of Science degree in
 
 Successful career has also included a position at Optiphase as a Senior Engineer, responsible for the optical design of fiber-optic interferometer systems and as an engineer for CalTech on the LIGO (Laser Interferometer Gravitational Wave Observatory) project.
 ]==],
-    track = "Work Class Remotely Operated Vehicles",
     start = { day = 25, month = 1, year = 2012,
-      hour = 16, min = 30},
+      hour = 16, min = 30 },
     length = 1800,
     room = "217",
   },
 
 }
+
+for i=1, #ps do
+  ps[i].track="wrov"
+end
+
+return ps
