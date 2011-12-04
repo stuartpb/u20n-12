@@ -187,7 +187,7 @@ Bart Kemper, P.E. is the principal engineer for Kemper Engineering Services, LLC
 
 ]==],
     start = { day = 24, month = 1, year = 2012,
-      hour = 14, min = 00 }, --TODO: TIME
+      hour = 14, min = 00 },
     length = 1800,
     room = "221",
   },
@@ -211,7 +211,7 @@ Carl Scheffel Sr. P.E. is President and Chief Engineer of Fox Industries, Inc. C
 Prior to joining Fox Industries, Carl spent 15 years as a Consulting Engineer with Rummel, Klepper & Kahl of Baltimore, Maryland where he worked as both a Construction Project Engineer and as a Bridge Design Engineer. Highlights of his career include project design/ construction engineering for the Jones Falls Expressway (I-83) in Baltimore, I-95 (John F. Kennedy Memorial Highway) in Maryland and I-95 in North Carolina. Carl is Director Emeritus of the Maryland Association of Engineers, having previously served in many positions including President. Carl is a frequent exhibitor at World of Concrete, PORTS (ASCE) and Underwater Intervention, and a speaker at Transportation Research Board in Washington DC, 2011 and 2006, and International Bridge Conference, Pittsburgh PA, 2006
 ]==],
     start = { day = 24, month = 1, year = 2012,
-      hour = 13, min = 30 },
+      hour = 14, min = 30 },
     length = 1800,
     room = "221",
   },
