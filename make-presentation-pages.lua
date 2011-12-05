@@ -23,14 +23,14 @@ for i=1, #presentations do
   <head>
     <meta charset='utf-8'>
     <title>UI 2012</title>
-    <link rel="stylesheet" type="text/css" href="ui2012.css" />
+    <link rel="stylesheet" type="text/css" href="/2012/ui2012.css" />
   </head>
   <body>
   ]]
 
   write[[
   <header>
-    <img src="logo.jpg" class="logo"> <span class="page-title">underwater intervention 2012</span>
+    <img src="/2012/logo.jpg" class="logo"> <span class="page-title">underwater intervention 2012</span>
   </header>
   ]]
 
