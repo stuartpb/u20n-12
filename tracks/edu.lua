@@ -1,4 +1,5 @@
-local ps = {
+local maketrack = require "maketrack"
+return maketrack("edu", {
 
   {
     title = "Student Built Vehicles in Field Research",
@@ -284,10 +285,4 @@ The 2012 mission theme deals with 20th century shipwrecks and their potential en
     room = "220",
   },
 
-}
-
-for i=1, #ps do
-  ps[i].track="edu"
-end
-
-return ps
+})

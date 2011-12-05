@@ -1,4 +1,5 @@
-local ps = {
+local maketrack = require "maketrack"
+return maketrack("muv", {
   {
     title = "MTS MUV 2011 Overview",
     fulltitle = "MTS Overview of Manned Sub Activity in 2011",
@@ -485,10 +486,4 @@ Tobin McNatt is the Director of the Advanced Marine Technology Center (AMTC) wit
     length = 1800,
     room = "219",
   },
-}
-
-for i=1, #ps do
-  ps[i].track="muv"
-end
-
-return ps
+})

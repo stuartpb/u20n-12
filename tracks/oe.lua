@@ -1,5 +1,5 @@
-local ps = {
-
+local maketrack = require "maketrack"
+return maketrack("oe", {
   {
     title = "Navy Unmanned Systems Experimentation Lab",
     fulltitle = "Bringing Technology to Customers & Markets Faster Through Experimentation",
@@ -209,10 +209,4 @@ After graduating with a B.S. in Industrial Engineering from University of Vermon
     room = "217",
   },
 
-}
-
-for i=1, #ps do
-  ps[i].track="oe"
-end
-
-return ps
+})

@@ -1,4 +1,5 @@
-local ps = {
+local maketrack = require "maketrack"
+return maketrack("si", {
 
   {
     title = "Inertial NAV system for small ROV",
@@ -84,7 +85,7 @@ Show Scanning, Imaging, and Multi Beam Sonar uses, describe the differences and 
 
 ]==],
     start = { day = 25, month = 1, year = 2012,
-      hour = 10, min = 00 },
+      hour = 10, min = 30 },
     length = 3600,
     room = "222",
   },
@@ -209,7 +210,7 @@ Using a photorealistic 3D model as the starting point for underwater asset inspe
 
 ]==],
     start = { day = 25, month = 1, year = 2012,
-      hour = 15, min = 00 },
+      hour = 15, min = 30 },
     length = 1800,
     room = "222",
   },
@@ -244,15 +245,9 @@ The presentation will encompass a step through the basics of digital 3D photogra
 Anthony Hall is the founder and CEO of Welaptega Marine Limited. His experience with digital image analysis goes back to 1988 and his MSc field work in the measurement of marine growth, first in aquaculture and then offshore platforms. Since establishing Welapteag in 1992 he has kept Welaptegab at the leading edge of underwater 3D video and image measurement in support of subsea operations in the offshore industry.
 ]==],
     start = { day = 25, month = 1, year = 2012,
-      hour = 15, min = 30 },
+      hour = 16, min = 00 },
     length = 1800,
     room = "222",
   },
 
-}
-
-for i=1, #ps do
-  ps[i].track="si"
-end
-
-return ps
+})

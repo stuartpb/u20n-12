@@ -1,4 +1,5 @@
-local ps = {
+local maketrack = require "maketrack"
+return maketrack("wrov", {
 
   {
     title = "Hydraulic Fluid Performance at Depth",
@@ -347,10 +348,4 @@ Successful career has also included a position at Optiphase as a Senior Engineer
     room = "217",
   },
 
-}
-
-for i=1, #ps do
-  ps[i].track="wrov"
-end
-
-return ps
+})

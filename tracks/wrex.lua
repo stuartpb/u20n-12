@@ -1,4 +1,5 @@
-return {
+local maketrack = require "maketrack"
+return maketrack("wrex", {
   {
     title = "Ram Bala",
     fulltitle = "A Comprehensive Procedure for Survey and Artifact Identification Using Iver2 - A Case Study",
@@ -50,4 +51,4 @@ Documenting the 2011 National Geographic project where VideoRay, the leading man
     length = 1800, --TODO: LENGTH
     room = "221", --TODO: ROOM
   },
-}
+})

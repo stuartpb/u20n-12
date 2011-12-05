@@ -1,4 +1,5 @@
-local ps = {
+local maketrack = require "maketrack"
+return maketrack("srov", {
   {
     title = "Missing Cave Diver Search",
     fulltitle = "1,300 ROV Penetration at Vortex Springs Florida",
@@ -77,7 +78,7 @@ Rachael Miller is the co-founder and Director of Rozalia Project for a Clean Oce
     lead = {
       first = "Mr.",
       last = "Shibuya",
-      org = "",
+      org = "Shibuya Diving Industry",
       email = "",
     },
 
@@ -208,8 +209,8 @@ Bluefin Robotics recently acquired the assets of Hawkes Remotes, Inc. (HRI), a s
     lead = {
       first = "Tom",
       last = "Glebas",
-      org = "",
-      email = "",
+      org = "VideoRay",
+      email = "Tom.Glebas@videoray.com",
     },
     abstract = [==[
 
@@ -219,6 +220,43 @@ Bluefin Robotics recently acquired the assets of Hawkes Remotes, Inc. (HRI), a s
 ]==],
     start = { day = 24, month = 1, year = 2012,
       hour = 15, min = 30 },
+    length = 1800,
+    room = "218",
+  },
+
+  {
+    title = "Student innovations transforming commercial ROV technologies",
+    fulltitle = "Evaluation of Quality indicators for observation class ROVs",
+    lead = {
+      first = "Dmitry",
+      last = "Lyakhov",
+      org = "Inst.of Marine Technol. Problems",
+      email = "lyakhov@marine.febras.ru",
+    },
+    cos = {
+      {
+        first = "Mokeeva",
+        last = "Irina. G.",
+        org = "Institute of Marine Technology Problems",
+        email = "mokeeva@marine.febras.ru",
+      },
+      {
+        first = "Kostenko",
+        last = "Vladimir.V.",
+        org = "Institute of Marine Technology Problems",
+        email = "kostenko@marine.febras.ru",
+      },
+    },
+    abstract = [==[
+There are a lot new ROVs have entered the market lately. The new trends are low logistics, highly maneuverable systems in addition rated up to 300m. The manufacturers always offer information about forward/backward/vertical/lateral speed of their ROV in ideal near surface conditions more rarely about thruster performance, but the real question of the operator is often about  the possibility of  survey the particular  bottom area in particular(preferably near maximum vehicle rating) depth in particular time under various but real sea conditions. Regardless of ROV mission type the operational challenges caused by the tether drag arise at 300m depths. One of the key features of observation ROVs is accessible bottom or structure survey area from fixed topside. The next is the ROV speed at underwater site which form the survey coverage rate.  Both are defined by ROV propulsion and tether management. This paper presents several models of observation class ROV based on analysis of specifications of commercially available ROV systems. We also discuss several environmental aspects of ROV deployment:  current profile, survey pattern. The tether computer model based on the numerical integration of equilibrium equation of the flexible nonstretchable line used to obtain the parameters of ROV motion according to selected typical ROV systems and environmental conditions. Survey speed and area quality indicators are estimated for several observation ROV models including those developed in the IMPT
+]==],
+    bio = [==[
+Participated in GNOM microROV project 2004-2006 (Shirshov Institute of Oceanology)
+Development of ROV systems for Russian market based on international manufacturers products Seaeye/Seabotix/Sperre 2006-2009 (Tetis-Pro)
+R&D of AUV/ROV/Subsystems 2009 – present (IMPT FEBRAS)
+]==],
+    start = { day = 24, month = 1, year = 2012,
+      hour = 16, min = 00 },
     length = 1800,
     room = "218",
   },
@@ -409,8 +447,8 @@ Mark Feulner has been researcher for Underwater Crime Scene Investigation (UCSI)
     lead = {
       first = "Tom",
       last = "Glebas",
-      org = "",
-      email = "",
+      org = "VideoRay",
+      email = "Tom.Glebas@videoray.com",
     },
     abstract = [==[
 
@@ -469,35 +507,19 @@ Andew Goldstein is the Director of Software Engineering at VideoRay LLC. and is 
   },
 
   {
-    title = "Student innovations transforming commercial ROV technologies",
-    fulltitle = "Evaluation of Quality indicators for observation class ROVs",
+    title = "Small ROV Maintenance",
+    fulltitle = "",
     lead = {
-      first = "Dmitry",
-      last = "Lyakhov",
-      org = "Inst.of Marine Technol. Problems",
-      email = "lyakhov@marine.febras.ru",
-    },
-    cos = {
-      {
-        first = "Mokeeva",
-        last = "Irina. G.",
-        org = "Institute of Marine Technology Problems",
-        email = "mokeeva@marine.febras.ru",
-      },
-      {
-        first = "Kostenko",
-        last = "Vladimir.V.",
-        org = "Institute of Marine Technology Problems",
-        email = "kostenko@marine.febras.ru",
-      },
+      first = "Tom",
+      last = "Glebas",
+      org = "VideoRay",
+      email = "Tom.Glebas@videoray.com",
     },
     abstract = [==[
-There are a lot new ROVs have entered the market lately. The new trends are low logistics, highly maneuverable systems in addition rated up to 300m. The manufacturers always offer information about forward/backward/vertical/lateral speed of their ROV in ideal near surface conditions more rarely about thruster performance, but the real question of the operator is often about  the possibility of  survey the particular  bottom area in particular(preferably near maximum vehicle rating) depth in particular time under various but real sea conditions. Regardless of ROV mission type the operational challenges caused by the tether drag arise at 300m depths. One of the key features of observation ROVs is accessible bottom or structure survey area from fixed topside. The next is the ROV speed at underwater site which form the survey coverage rate.  Both are defined by ROV propulsion and tether management. This paper presents several models of observation class ROV based on analysis of specifications of commercially available ROV systems. We also discuss several environmental aspects of ROV deployment:  current profile, survey pattern. The tether computer model based on the numerical integration of equilibrium equation of the flexible nonstretchable line used to obtain the parameters of ROV motion according to selected typical ROV systems and environmental conditions. Survey speed and area quality indicators are estimated for several observation ROV models including those developed in the IMPT
+
 ]==],
     bio = [==[
-Participated in GNOM microROV project 2004-2006 (Shirshov Institute of Oceanology)
-Development of ROV systems for Russian market based on international manufacturers products Seaeye/Seabotix/Sperre 2006-2009 (Tetis-Pro)
-R&D of AUV/ROV/Subsystems 2009 – present (IMPT FEBRAS)
+
 ]==],
     start = { day = 25, month = 1, year = 2012,
       hour = 16, min = 00 },
@@ -505,10 +527,4 @@ R&D of AUV/ROV/Subsystems 2009 – present (IMPT FEBRAS)
     room = "218",
   },
 
-}
-
-for i=1, #ps do
-  ps[i].track="srov"
-end
-
-return ps
+})

@@ -1,4 +1,5 @@
-local ps = {
+local maketrack = require "maketrack"
+return maketrack("div", {
   {
     title = "Advanced Electronic Technologies for Divers",
     fulltitle = "The application of advanced electronic technology in diver hand held systems, to increase diver capability, efficiency and safety, for both military and commercial divers.",
@@ -503,10 +504,4 @@ I am the diving coordinator for American Electric power.  AEP is one of the nati
     length = 1800,
     room = "221",
   },
-}
-
-for i=1, #ps do
-  ps[i].track="div"
-end
-
-return ps
+})
