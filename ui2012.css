@@ -14,7 +14,6 @@ header {
   color: #fff;
   font-size: 30px;
   width: 100%; height: 40px;
-  //position: fixed;
   text-align: left;
 }
 
@@ -46,7 +45,6 @@ nav li {
 
 .content {
   margin-left: 50px;
-
 }
 
 .speaker {
@@ -107,4 +105,10 @@ nav li {
 
 .presdiv-wrov {
   background-color: hsl(135,100%,20%);
+}
+
+@media print
+{
+.schedday {page-break-before:always}
+.schedday:first-child {page-break-before:auto}
 }

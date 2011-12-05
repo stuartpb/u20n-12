@@ -1,6 +1,7 @@
 local write = io.write
 
-local presentations = require "presentations"
+local tracks = require 'tracks'
+local presentations = tracks.all
 local elements = require "elements"
 
 local function htmlenc(str)
@@ -12,9 +13,9 @@ end
 
 for i=1, #presentations do
   local pr = presentations[i]
-  local speaker = pr.speaker
-  local pagename = string.lower(string.gsub(speaker,",.*$",""))
-  io.output(pagename..".html")
+  local speaker = pr.lead.first .. ' ' .. pr.lead.last
+  local pagename = pr.id
+  io.output('presentations/'..pagename..".html")
 
   write[[
   <!DOCTYPE html>
@@ -33,7 +34,7 @@ for i=1, #presentations do
   </header>
   ]]
 
-  write(elements.nav)
+  --write(elements.nav)
 
   write'<div class="content">\n'
     write"<h1>"
@@ -42,9 +43,9 @@ for i=1, #presentations do
     write"<h2>Presenter</h2>"
     write'<p>'
     write(htmlenc(speaker))
-    if pr.speakorg then
+    if pr.lead.org and string.find(pr.lead.org,"%S") then
       write' ('
-      write(htmlenc(pr.speakorg))
+      write(htmlenc(pr.lead.org))
       write')'
     end
     write"</p>\n"

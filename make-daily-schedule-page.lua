@@ -14,7 +14,7 @@ write[[
 <html>
 <head>
   <meta charset='utf-8'>
-  <title>UI 2012 / presentations / by schedule</title>
+  <title>UI 2012 / schedule</title>
   <link rel="stylesheet" type="text/css" href="ui2012.css" />
 </head>
 <body>
@@ -22,30 +22,31 @@ write[[
 
 write[[
 <header>
-  <img src="logo.jpg" class="logo"> <span class="page-title">underwater intervention 2012: presentations</span>
+  <img src="logo.jpg" class="logo"> <span class="page-title">underwater intervention 2012: schedule</span>
 </header>
 ]]
 
-write(elements.nav)
+--write(elements.nav)
+write[[
+<nav><ul>
+  <li>go to:</li>
+  <li><a href="#tue">tuesday</a></li>
+  <li><a href="#wed">wednesday</a></li>
+  <li><a href="#thu">thursday</a></li>
+</ul></nav>
+]]
 
 write'<div class="content">\n'
-
-write'<h2>Key</h2>\n'
-for i=1, #tracks.names do
-  local tr = tracks.names[i]
-  write('<div class = "presdiv presdiv-',tr,'">')
-  write(tracks.titles[tr])
-  write'</div>\n'
-end
 
 local lastday, laststart, lastend
 for i=1, #tracks.all do
   local pr = tracks.all[i]
   local speaker = pr.lead.first .. ' ' .. pr.lead.last
-  local pagename = string.lower(pr.lead.last)
+  local pagename = pr.id
   local stime = os.time(pr.start)
   if pr.start.day ~= lastday then
-    write('<h2>',os.date("%A, %B %d, %Y",stime),'</h2>\n')
+    write('<h2 id="',string.lower(os.date("%a",stime)),'" class="schedday">',
+      os.date("%A, %B %d, %Y",stime),'</h2>\n')
     lastday = pr.start.day
   end
   if stime ~= laststart then
