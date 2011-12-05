@@ -79,6 +79,10 @@ nav li {
   float: right;
 }
 
+.trackroom {
+  float: right;
+}
+
 .presdiv-div {
   background-color: hsl(220,100%,20%);
 }
@@ -111,4 +115,6 @@ nav li {
 {
 .schedday {page-break-before:always}
 .schedday:first-child {page-break-before:auto}
+.schedtrack {page-break-before:always}
+.schedtrack:first-child {page-break-before:auto}
 }

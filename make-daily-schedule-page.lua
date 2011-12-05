@@ -15,14 +15,14 @@ write[[
 <head>
   <meta charset='utf-8'>
   <title>UI 2012 / schedule</title>
-  <link rel="stylesheet" type="text/css" href="ui2012.css" />
+  <link rel="stylesheet" type="text/css" href="/2012/ui2012.css" />
 </head>
 <body>
 ]]
 
 write[[
 <header>
-  <img src="logo.jpg" class="logo"> <span class="page-title">underwater intervention 2012: schedule</span>
+  <img src="/2012/logo.jpg" class="logo"> <span class="page-title">underwater intervention 2012: schedule</span>
 </header>
 ]]
 
@@ -54,7 +54,7 @@ for i=1, #tracks.all do
     laststart = stime
   end
 
-  write('<div class = "presdiv presdiv-',pr.track,'">')
+  write('<div class = "presdiv presdiv-',pr.track,'" id="',pr.id,'">')
   write("Room ",pr.room,' ')
   write('<span class="prestrack">',tracks.titles[pr.track],"</span>")
   write"<br>\n"
@@ -68,7 +68,7 @@ for i=1, #tracks.all do
   end
   write" - "
   write'<a href="'
-  write(pagename,".html")
+  write('/2012/presentations/',pagename,".html")
   write'" class="session-title">'
   write(htmlenc(pr.title))
   write'</a>'
