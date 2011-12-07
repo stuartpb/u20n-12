@@ -9,6 +9,43 @@ local function htmlenc(str)
   return (string.gsub(str,"[<>&]",{["<"]="&lt;",[">"]="&gt;",["&"]="&amp;"}))
 end
 
+--organize by time--
+
+local times = {}
+for i=1,#tracks.all do
+  local stime = os.time(tracks.all[i].start)
+  if #times < 1 or times[#times] < stime then
+    times[#times+1] = stime
+  end
+end
+
+local tlookup = {}
+local slots = {}
+for i=1,#times do
+  tlookup[times[i]]=i
+  slots[i]={}
+end
+
+for i=1,#tracks.all do
+  local pres = tracks.all[i]
+  local stime = os.time(pres.start)
+  local endtime = stime + pres.length
+  local timei = tlookup[stime]
+
+  --add this presentation to each timeslot it occurs within
+  while timei <= #times and times[timei] < endtime do
+    local sslot = slots[timei]
+    sslot[#sslot+1] = pres
+    timei = timei + 1
+  end
+end
+
+for i=1,#times do
+  table.sort(slots[i],function(m,n) return m.room < n.room end)
+end
+
+--write HTML--
+
 write[[
 <!DOCTYPE html>
 <html>
@@ -42,47 +79,57 @@ write[[
 
 write'<div class="content">\n'
 
-local lastday, laststart, lastend
-for i=1, #tracks.all do
-  local pr = tracks.all[i]
-  local speaker = pr.lead.first .. ' ' .. pr.lead.last
-  local pagename = pr.id
-  local stime = os.time(pr.start)
-  if pr.start.day ~= lastday then
-    write('<h2 id="',string.lower(os.date("%a",stime)),'" class="schedday">',
-      os.date("%A, %B %d, %Y",stime),'</h2>\n')
-    lastday = pr.start.day
-  end
-  if stime ~= laststart then
-    write('<h3>',os.date("%I:%M %p",stime),'</h3>\n')
-    laststart = stime
+local lastday
+for i=1, #times do
+  local slottime = times[i]
+  --write a new date header if we've crossed a day boundary
+  local today = string.lower(os.date("%a",slottime))
+  if today ~= lastday then
+    write('<h2 id="',today,'" class="schedday">',
+      os.date("%A, %B %d, %Y",slottime),'</h2>\n')
+    lastday = today
   end
 
-  write('<div class = "presdiv presdiv-',pr.track,'" id="',pr.id,'">')
-  write("Room ",pr.room,' ')
-  write(string.format(" (%.0f min)",pr.length/60))
-  write('<span class="prestrack">',tracks.titles[pr.track],"</span>")
-  write"<br>\n"
-  write'<span class="speaker">'
-  write(htmlenc(speaker))
-  write'</span>'
-  if pr.lead.org and string.find(pr.lead.org,"%S") then
-    write' <span class="speakorg">('
-    write(htmlenc(pr.lead.org))
-    write')</span>'
-  end
-  write" - "
-  write'<a href="'
-  write('/2012/presentations/',pagename,".html")
-  write'" class="session-title">'
-  write(htmlenc(pr.title))
-  write'</a>'
-  write"<br>\n"
+  write('<h3>',os.date("%I:%M %p",slottime),'</h3>\n')
 
-  write'<span class="session-fulltitle">'
-  write(htmlenc(pr.fulltitle))
-  write'</span>'
-  write'</div>\n'
+  local slot = slots[i]
+  for j=1, #slot do
+    local pr = slot[j]
+    local prestime = os.time(pr.start)
+    local speaker = pr.lead.first .. ' ' .. pr.lead.last
+    local pagename = pr.id
+
+    write('<div class = "presdiv presdiv-',pr.track,'" id="',pr.id,'">')
+    write("Room ",pr.room,' ')
+    if prestime == slottime then
+      write(string.format(" (%.0f min)",pr.length/60))
+    else
+      write(string.format(" (%.0f min, continued from %s)",pr.length/60,
+        os.date("%I:%M %p",prestime)))
+    end
+    write('<span class="prestrack">',tracks.titles[pr.track],"</span>")
+    write"<br>\n"
+    write'<span class="speaker">'
+    write(htmlenc(speaker))
+    write'</span>'
+    if pr.lead.org and string.find(pr.lead.org,"%S") then
+      write' <span class="speakorg">('
+      write(htmlenc(pr.lead.org))
+      write')</span>'
+    end
+    write" - "
+    write'<a href="'
+    write('/2012/presentations/',pagename,".html")
+    write'" class="session-title">'
+    write(htmlenc(pr.title))
+    write'</a>'
+    write"<br>\n"
+
+    write'<span class="session-fulltitle">'
+    write(htmlenc(pr.fulltitle))
+    write'</span>'
+    write'</div>\n'
+  end
 end
 write'</div>'
 
