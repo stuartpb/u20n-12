@@ -126,7 +126,7 @@ Commander, Civil Engineer Corps, USN
 ]==],
     start = { day = 24, month = 1, year = 2012,
       hour = 10, min = 30 },
-    length = 1800,
+    length = 3600,
     room = "221",
   },
 
@@ -218,8 +218,8 @@ Prior to joining Fox Industries, Carl spent 15 years as a Consulting Engineer wi
   },
 
   {
-    title = "Are Today's DMTs Properly Trained?",
-    fulltitle = "The Medical Capabilites & Expectations of Today's DMTs",
+    title = "The Medical Capabilites & Expectations of Today's DMTs",
+    fulltitle = "",
     lead = {
       prefix = "Dr.",
       first = "Brian",
@@ -244,8 +244,41 @@ Prior to joining Fox Industries, Carl spent 15 years as a Consulting Engineer wi
 
 ]==],
     start = { day = 24, month = 1, year = 2012,
-      hour = 16, min = 00 }, --TODO: TIME
+      hour = 15, min = 30 },
     length = 1800,
+    room = "221",
+  },
+
+
+  {
+    title = "Are Today's DMTs Properly Trained?",
+    fulltitle = "",
+    lead = {
+      prefix = "Dr.",
+      first = "Brian",
+      middle = "S.",
+      last = "Bourgeois",
+      org = "",
+      email = "drb@wjimed.com",
+    },
+    cos = {
+      {
+        prefix = "PE",
+        first = "Richard",
+        last = "Meister",
+        org = "",
+        email = "primetimetraining@cox.net",
+      },
+    },
+    abstract = [==[
+
+]==],
+    bio = [==[
+
+]==],
+    start = { day = 24, month = 1, year = 2012,
+      hour = 16, min = 00 },
+    length = 3600,
     room = "221",
   },
 

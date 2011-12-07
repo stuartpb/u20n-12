@@ -7,20 +7,20 @@ return maketrack("edu", {
     lead = {
       first = "Steven",
       last = "Bradshaw",
-      org = "GTSR",
+      org = "Georgia Tech Savannah Robotics",
       email = "sbradshaw6@mail.gatech.edu",
     },
     cos = {
       {
         first = "Phillip",
         last = "Cheng",
-        org = "GTSR",
+        org = "Georgia Tech Savannah Robotics",
         email = "pcheng31@gatech.edu",
       },
       {
         first = "Michael",
         last = "Tam",
-        org = "GTSR",
+        org = "Georgia Tech Savannah Robotics",
         email = "mtam77@gatech.edu",
       },
     },
@@ -69,7 +69,7 @@ Andew Goldstein is the Director of Software Engineering at VideoRay LLC. and is 
     lead = {
       first = "Dmitry",
       last = "Lyakhov",
-      org = "Inst.of Marine Technol. Problems",
+      org = "Institute of Marine Technology Problems",
       email = "lyakhov@marine.febras.ru",
     },
     cos = {
@@ -91,8 +91,10 @@ In result of MATE activities in educational field, specifically - ROV Competitio
 This paper reviews relatively fast evolution showing that participation in student’s competitions opens the doors to industry. Details of development project and ROV itself  described pointing the evolution from student “toy” to real product. The issue of growing demand in UUV operator/technician staff is presented from educational establishment’s side.
 ]==],
     bio = [==[
-
+Dmitry Lyakhov works at the The Institute of Marine Technology Problems. The Institute of Marine Technology Problems is considered to be mostly advanced in the world in the development of autonomous unmanned underwater vehicles (AUV). Along with the fundamental theoretical studies directed to determine principle problems of the underwater robotics, the IMTP performs experimental work for development of the unmanned underwater vehicles intended for utilization in national economy. More than ten AUV types, capable of investigating into sea bottom without man participation, surveying the relief, searching, inspecting the sunken objects and measuring the environmental parameters, have been developed by the institute researchers and engineers and tested at depths up to 6000 m.
 ]==],
+    headshot = "lyakhov.jpg",
+    presimg = "edu3presimg.jpg",
     start = { day = 24, month = 1, year = 2012,
       hour = 9, min = 30},
     length = 1800,
@@ -180,7 +182,8 @@ I have been with CMOP since 2007. My work with CMOP is very exciting as I am a m
     fulltitle = "An educational outreach program for STEM based education",
     lead = {
       first = "Mark",
-      last = "Gleason", --..", PhD"
+      last = "Gleason",
+      suffix = "PhD",
       org = "Great Lakes Naval Memorial and Museum",
       email = "gleason@mtu.edu",
     },
@@ -188,7 +191,7 @@ I have been with CMOP since 2007. My work with CMOP is very exciting as I am a m
       {
         first = "Gary",
         last = "Reynolds",
-        org = "GLNMM",
+        org = "Great Lakes Naval Memorial and Museum",
         email = "reynoldsgk@comcast.net",
       },
     },

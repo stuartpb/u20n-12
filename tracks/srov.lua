@@ -1,3 +1,4 @@
+local shared = require "shared"
 local maketrack = require "maketrack"
 return maketrack("srov", {
   {
@@ -76,21 +77,28 @@ Rachael Miller is the co-founder and Director of Rozalia Project for a Clean Oce
     title = "Using micro-ROV's in the aftermath of Japan's Tsunami",
     fulltitle = "",
     lead = {
-      first = "Mr.",
+      --prefix = "Mr." -- ? People seem to be using it a lot in this one case
+      first = "Masanobu",
       last = "Shibuya",
       org = "Shibuya Diving Industry",
       email = "",
     },
 
     abstract = [==[
+Shibuya Diving Industry (http://www.shibuya-diving.co.jp) is one of Japan’s most innovative, high technology companies.  Founder Mr. Masanobu Shibuya, has lead Japan’s diving evolution in many ways – particularly in protecting the environment, and underwater backhoe work in constructing port facilities.  In addition to leading the company, Mr. Shibuya is an expert underwater photographer and videographer, who is more often in the water  than topside when on site.
 
+Since the Tsunami of March 11th, Shibuya Diving Industry has worked tirelessly to clear and reconstruct port facilities that have been devastated by buildings, cars, people – entire villages washed into the sea.  While every available diver worked around the clock, any technology that could help was needed.
+
+After attending multiple Underwater Intervention conferences – and paying close attention to the technical presentations on small ROVs – Mr. Shibuya placed an order for a VideoRay Pro 4 system with multibeam sonar, non-acoustic positioning, and radiation sensor along with other accessories.  In addition to the hardware, Shibuya Diving Industry purchased factory training, with VideoRay trainers spending a week in Japan explaining, demonstrating, and teaching Shibuya’s staff how microROVs can be used along with divers to make projects saver, faster, and more efficient.
+
+This presentation by Mr. Shibuya himself will explain the results he experienced with the equipment and the lessons he has learned since acquiring it.
 ]==],
     bio = [==[
 
 ]==],
     start = { day = 24, month = 1, year = 2012,
       hour = 10, min = 30 },
-    length = 1800,
+    length = 3600,
     room = "218",
   },
 
@@ -130,15 +138,14 @@ Remotely Operated Vehicles were used during two trips to the Tsunami damaged are
   },
 
   {
-    title = "Remote image enhancement technology",
+    title = "Development and application of accessories on micro-ROVs",
     fulltitle = "",
     lead = {
-      first = "Anders",
-      last = "Holm",
-      org = "",
-      email = "",
+      first = "Tom",
+      last = "Glebas",
+      org = "VideoRay",
+      email = "Tom.Glebas@videoray.com",
     },
-
     abstract = [==[
 
 ]==],
@@ -163,10 +170,7 @@ Remotely Operated Vehicles were used during two trips to the Tsunami damaged are
     abstract = [==[
 The low-logistics associated with microROVs make it an ideal platform for rapid deployment. With microROVs, first respondents are able to rapidly mobilize to an area, run a survey and interact with the subsea environment if required. The time it takes to run a search and the confidence to report that the area has been cleared is often time-crucial for the success of the mission. Recent advances in technology have seen the introduction of software solutions to automate and simplify the piloting of the ROV by analyzing data gathered from navigation and sonar sensors.  Over the last few years technology developments have reduced the size of these sensors and it is now possible to introduce some of the technologies in use with observation-class and work-class ROVs. This talk explores a solution that integrates a phased array Doppler Velocity Log with a microROV and enables a true survey capability that, to date, would normally only be found with Autonomous Underwater Vehicles. The Survey-Control software simplifies the piloting of ROVs, improves the situational awareness of the operator and increases the pace of operations.  With this tool, first respondents will be able to fly the ROV with significantly less training and guide the ROV precisely around the environment.
 ]==],
-    bio = [==[
-Ioseba Tena, SeeByte
-Andy Goldstein, VideoRay
-]==],
+    bio = shared.bios.tena,
     start = { day = 24, month = 1, year = 2012,
       hour = 14, min = 00 },
     length = 1800,
@@ -174,6 +178,28 @@ Andy Goldstein, VideoRay
   },
 
   {
+    title = "Remote image enhancement technology",
+    fulltitle = "",
+    lead = {
+      first = "Anders",
+      last = "Holm",
+      org = "",
+      email = "",
+    },
+
+    abstract = [==[
+
+]==],
+    bio = [==[
+
+]==],
+    start = { day = 24, month = 1, year = 2012,
+      hour = 14, min = 30 },
+    length = 1800,
+    room = "218",
+  },
+
+{
     title = "Bluefin AUVs & ROVs",
     fulltitle = "ROVs and AUVs: Complementary Technologies for Underwater Intervention Tasks",
     lead = {
@@ -193,27 +219,6 @@ Andy Goldstein, VideoRay
     abstract = [==[
 Autonomous Underwater Vehicles (AUVs) and Remotely Operated Vehicles (ROVs) fill different niches within the underwater intervention task spectrum.  AUVs provide the capability for subsea inspection and survey on a variety of range scales and with multiple sensors, including sidescan and synthetic aperture sonar, sub-bottom profiling, multi-beam echosounding and still and video photography.  Small ROVs can provide inspection, repair and maintenance capabilities to assist the oil and gas industries in deep water environments.
 Bluefin Robotics recently acquired the assets of Hawkes Remotes, Inc. (HRI), a spinoff from Hawkes Ocean Technologies (HOT) that develops advanced ROVs.  The HRI designs offer scalable, modular solutions including a thin, armored fiber-optic tether and on-board high-energy-density batteries that will reduce the total cost of ownership/operating costs while simultaneously outperforming existing ROV technology.  Bluefin will leverage their autonomy and subsea experience to add hybrid capabilities to the ROVs and offer them as an extension of their current product line to the oil and gas industry.  The presentation will show how the Bluefin/Hawkes capabilities in the AUV and ROV space provide complementary technologies that will enable a wide variety of underwater intervention tasks with a cost-effective footprint and low infrastructure support.
-]==],
-    bio = [==[
-
-]==],
-    start = { day = 24, month = 1, year = 2012,
-      hour = 14, min = 30 },
-    length = 1800,
-    room = "218",
-  },
-
-  {
-    title = "Development and application of accessories on micro-ROVs",
-    fulltitle = "",
-    lead = {
-      first = "Tom",
-      last = "Glebas",
-      org = "VideoRay",
-      email = "Tom.Glebas@videoray.com",
-    },
-    abstract = [==[
-
 ]==],
     bio = [==[
 
@@ -255,6 +260,7 @@ Participated in GNOM microROV project 2004-2006 (Shirshov Institute of Oceanolog
 Development of ROV systems for Russian market based on international manufacturers products Seaeye/Seabotix/Sperre 2006-2009 (Tetis-Pro)
 R&D of AUV/ROV/Subsystems 2009 – present (IMPT FEBRAS)
 ]==],
+    headshot="lyakhov.jpg",
     start = { day = 24, month = 1, year = 2012,
       hour = 16, min = 00 },
     length = 1800,
@@ -296,7 +302,7 @@ Mr. Joseph Curran has been working with underwater vehicle systems for 12 years.
 During the summer of 2011, King Fahd University of Petroleum and Minerals was contracted by Saudi ARAMCO to conduct  an extensive surveys in the Red Sea where they wanted to conduct test drills for oil.  The survey was needed to complete a baseline assessment and to see if there were any critical habitat areas in or near the proposed well sights.
 This presentation will cover the highlights and triumphs of a very ambitious expedition.
 Some of the requirements for the tasking were an extremely tight work schedule, limited support facilities, accurate positioning for data collection and very specific data gathering.  Additionally, all of the work had to be conducted off of a 25’ Boston Whaler.
-Due to these stringent requirements a VideoRay Pro4 ROV, KCF Technologies Smart Tether, LYYN Video Enhancement System and a  YSI  600XL Sonde Gauge were chosen to complete the survey.
+Due to these stringent requirements a VideoRay Pro4 ROV, KCF Technologies Smart Tether, LYYN Video Enhancement System and a YSI 600XL Sonde Gauge were chosen to complete the survey.
 ]==],
     bio = [==[
 Chief Craig Thorngren, USCG (ret), Principal Submerged Recovery & Inspection Services LLC,
@@ -359,10 +365,7 @@ Van Meter Consulting is based in Cocoa, Florida.
     abstract = [==[
 Multibeam imaging sonars have been available since the early nineties and have served well as a tool to improve situational awareness. Operators can observe targets at distances of tens to hundreds of yards and use the information to navigate underwater vehicles and monitor important subsea regions. The original systems were significant in size and weight and required large electronic pods to beam form and process the raw data. But today’s multibeam imaging sonars are of a size suitable for microROV operation, so much so that they have become a common payload option for many operators. In tandem software solutions enabling close control of unmanned systems using through-the-sensor servoing techniques have evolved to a level of maturity suitable for commercial exploitation. The bringing together of this technology with the microROV will enable a new level of user control to the operational users. A common task such as flying to a target can be a difficult undertaking when faced with currents and tether effects, when time is at a premium this can be frustrating and negatively impact the overall mission needs. This proposed technology enables the microROV to keep station relative to an object or structure identified in the sonar data. The ROV can then maneuver relative to this object and the pilot need only provide simple point-and-click commands on the sonar screen. This talk will illustrate some early results on early prototype work.
 ]==],
-    bio = [==[
-Andy Goldstein, VideoRay
-Jon Wood, SeeByte
-]==],
+    bio = shared.bios.tena,
     track = "Instruments and Sensors",
     start = { day = 25, month = 1, year = 2012,
       hour = 10, min = 30 },

@@ -42,15 +42,16 @@ Metal parts hate water, especially salt water. Add the effects of depth pressure
 For over thirty years, Polymer Corporation has been a leading producer of high-performance plastic parts and assemblies for undersea use.
 ]==],
     bio = [==[
-Bob Underwood is the President and CEO of Polymer Corporation. Polymer Corporation is a low to medium volume plastic manufacture of custom plastic parts and assemblies of the marine and scientific industries.
+Mr. Underwood is President and CEO of Polymer Corporation, a leading manufacturer of plastic parts for marine and defense applications.  In addition, he is a founding and managing partner of North American Funds, institutionally-backed private-equity partnerships specializing in acquiring small businesses and developing them into significantly larger enterprises.  Earlier in his career, Mr. Underwood was President of Northern Capital Corporation, the venture capital subsidiary of The Northern Trust Company, and Vice President of Heizer Corporation when it was the largest independent venture capital/business development firm in the United States.   He also was with TRW and Lockheed as a research scientist, project leader, and manager of startup technology businesses.  At Lockheed, he was on the staff of both the Poseidon and Trident missile program offices.  At TRW, he had responsibility for stimulating technology transfer across the entire corporation.
 
+Mr. Underwood additionally served in the Federal Government as Special Assistant for Engineering Sciences, Office of the Secretary, U.S. Department of Transportation, and with the Office of Management and Budget (OMB), Executive Office of the President.  At OMB, he had management oversight responsibilities for various Federal agencies, including the U.S. Department of Commerce and the U.S. Small Business Administration.
 
-  Mr Underwood is also a founding Partner of North American Funds and sponsored a management lead buy out of Polymer in 2008.  Previous experience with Lockheed and TRW plus with US Government at DOT and OMB.
-   Mr Underwood  holds a BS in Mechanical Engineering and MS and PhD in Aeronautics and Astronautics from Stanford University, plus MBA from Santa Clara University.
+Mr. Underwood has been or is a Director of a number of emerging companies, both private and public.  He is a long-time past member of the Advisory Board for Santa Clara University’s Leavey School of Business and of the National Science Foundation's Advisory Committee on Industrial Innovation.
 
-His previous experience with Lockheed and TRW plus with US Government at DOT and OMB
-    BS in Mechanical Engineering and MS and PhD in Aeronautics and Astronautics from Stanford University, plus MBA from Santa Clara University
+Mr. Underwood holds a B.S. in Mechanical Engineering (with Great Distinction) and an M.S. and Ph.D. in Aeronautical and Astronautical Sciences (with a concentration in fluid mechanics), all from Stanford University.  He received his M.B.A. from Santa Clara University.  He holds one U.S. patent.
 ]==],
+    headshot = "underwood.jpg",
+    presimg = "oe2presimg.jpg",
     start = { day = 24, month = 1, year = 2012,
       hour = 11, min = 00 },
     length = 1800,
@@ -140,8 +141,8 @@ After graduating with a B.S. in Industrial Engineering from University of Vermon
   },
 
   {
-    title = "Data Logger For Surface And/Or Subsea",
-    fulltitle = "HOW TO AID YOUR OPERATIONS IN REDUCING FAILURES",
+    title = "Data Loggers For Surface Or Subsea",
+    fulltitle = "How to aid your operations in reducing failures",
     lead = {
       first = "Raquel",
       last = "Payan",
@@ -149,28 +150,19 @@ After graduating with a B.S. in Industrial Engineering from University of Vermon
       email = "raquel.payan@thesubsea.com",
     },
     abstract = [==[
-HOW TO AID YOUR OPERATIONS IN REDUCING FAILURES
-
-Richard Davidson and Eric Milne, The Subsea Company
-
 The Surface or Subsea Data Logger is intended to give operators the ability to monitor key pressures and provide information in real-time.
 
-The Subsea Company offers 2 types of Data Loggers:
-1)	Surface Data Logger
-2)	Subsea Data Logger
+The Surface Data Logger is specifically designed to capture pressure (P) vs. a set time (T) on a chart recorder or data-logger at high resolution. The test equipment is connected between a hydraulic supply and the equipment to be tested. While operating the equipment, pressure vs. time is recorded on a suitably scaled chart recorder or data-logger. The newly captured chart is compared against known good data. The performance curves are then interpreted to determine if the equipment is operating within an acceptable range. With the Data Logger information, one can determine if the equipment is operating as designed.
 
-The Data Logger is specifically designed to capture pressure (P) vs. a set time (T) on a chart recorder or data-logger at high resolution. The test equipment is connected between a hydraulic supply and the equipment to be tested. While operating the equipment, pressure vs. time is recorded on a suitably scaled chart recorder or data-logger. The newly captured chart is compared against known good data. The performance curves are then interpreted to determine if the equipment is operating within an acceptable range. With the Data Logger information, one can determine if the equipment is operating as designed.
-
-As for the Subsea Data Logger, equipment to record pressures and other data on the BOP Stack while subsea is independent of existing control pods and the data is accessible on the surface. The Subsea Data Logger units can be daisy-chained and placed on the Lower Marine Riser Package (LMRP) and/or lower stack. The Data Logger's battery power source is good for long durations without a recharge. These batteries can be recharged subsea via ROV.  The data is multi-plexed onto a single mode fiber. The on board computer records data from up to 8 analog channels concurrently at a high data rate (up to 250,000 X 8 samples per second). ROV interface is provided for separate communications path to the unit.
+The Subsea Data Logger, equipment to record pressures and other data on the BOP Stack while subsea is independent of existing control pods and the data is accessible on the surface. The Subsea Data Logger units can be daisy-chained and placed on the Lower Marine Riser Package (LMRP) and/or lower stack. The Data Logger's battery power source is good for long durations without a recharge. These batteries can be recharged subsea via ROV.  The data is multi-plexed onto a single mode fiber. The on board computer records data from up to 8 analog channels concurrently at a high data rate (up to 250,000 X 8 samples per second). ROV interface is provided for separate communications path to the unit.
 
 Typical use for the Data Logger for Surface and/or Subsea:
-o	Factory acceptance testing of RAM BOPs, annulars, connectors, valves, BOP stacks and trees
-o	On-hire acceptance testing of production and offshore drilling rigs
-o	Pre-deployment testing of trees and BOP stacks following repairs and maintenance
-o	Before and after maintenance
-o	To justify an extended maintenance period
 
-Our proprietary Data Logger for Surface and/or Subsea will aid your operations in reducing failures. The Data Logger will also give the ability to be proactive with regards to possible government regulations.
+- Factory acceptance testing of RAM BOPs, annulars, connectors, valves, BOP stacks and trees
+- On-hire acceptance testing of production and offshore drilling rigs
+- Pre-deployment testing of trees and BOP stacks following repairs and maintenance
+- Before and after maintenance
+- To justify an extended maintenance period
 ]==],
     bio = [==[
 

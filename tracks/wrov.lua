@@ -1,3 +1,4 @@
+local shared = require "shared"
 local maketrack = require "maketrack"
 return maketrack("wrov", {
 
@@ -109,6 +110,7 @@ From 1995 to 2001, he was working in Hitachi Zosen Corporation, as an Engineer a
 Since 2002 he has been working in JAMSTEC (Japan Agency Marine-Earth Science and Technology) as a Senior Research Scientist. He was involved in the drill ship project as a chief engineer of drilling system and also in the development of the deep-sea ROV (remotely operated vehicle) as a project leader.
 His research interests are in offshore deep drilling technology and underwater vehicle.
 ]==],
+    headshot = "inoue.jpg",
     start = { day = 25, month = 1, year = 2012,
       hour = 10, min = 30 },
     length = 1800,
@@ -214,7 +216,7 @@ Steve Barrow, senior applications engineer for Schilling Robotics, has designed 
     lead = {
       first = "Keith",
       last = "Elliot",
-      org = "Allspeeds Ltd (Webtool)",
+      org = "Allspeeds Ltd. / Webtool",
       email = "keith.elliot@allspeeds.co.uk",
     },
     abstract = [==[
@@ -308,10 +310,7 @@ The last five years has seen the advent of commercial-off-the-shelf (COTS) Remot
 
 The purpose of this talk is to provide an insight into this technology and a glimpse of what to expect in the immediate future.
 ]==],
-    bio = [==[
-Mahesh Menon, SMD (First author)
-Ioseba Tena, SeeByte (co-author)
-]==],
+    bio = shared.bios.tena,
     start = { day = 25, month = 1, year = 2012,
       hour = 16, min = 00 },
     length = 1800,
@@ -348,4 +347,24 @@ Successful career has also included a position at Optiphase as a Senior Engineer
     room = "217",
   },
 
+  {
+    title = "MTS ROV Committee Meeting",
+    fulltitle = "",
+    lead = {
+      first = "Drew",
+      last = "Michel",
+      org = "",
+      email = "",
+    },
+    abstract = [==[
+
+]==],
+    bio = [==[
+
+]==],
+    start = { day = 26, month = 1, year = 2012,
+      hour = 9, min = 00 },
+    length = 5400,
+    room = "217",
+  },
 })

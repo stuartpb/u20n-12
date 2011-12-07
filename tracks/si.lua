@@ -1,3 +1,4 @@
+local shared = require "shared"
 local maketrack = require "maketrack"
 return maketrack("si", {
 
@@ -36,10 +37,7 @@ Graduated at the Italian Naval Accademy, after a master degree in electronic eng
     abstract = [==[
 Multibeam imaging sonars have been available since the early nineties and have served well as a tool to improve situational awareness. Operators can observe targets at distances of tens to hundreds of yards and use the information to navigate underwater vehicles and monitor important subsea regions. The original systems were significant in size and weight and required large electronic pods to beam form and process the raw data. But today’s multibeam imaging sonars are of a size suitable for microROV operation, so much so that they have become a common payload option for many operators. In tandem software solutions enabling close control of unmanned systems using through-the-sensor servoing techniques have evolved to a level of maturity suitable for commercial exploitation. The bringing together of this technology with the microROV will enable a new level of user control to the operational users. A common task such as flying to a target can be a difficult undertaking when faced with currents and tether effects, when time is at a premium this can be frustrating and negatively impact the overall mission needs. This proposed technology enables the microROV to keep station relative to an object or structure identified in the sonar data. The ROV can then maneuver relative to this object and the pilot need only provide simple point-and-click commands on the sonar screen. This talk will illustrate some early results on early prototype work.
 ]==],
-    bio = [==[
-Andy Goldstein, VideoRay
-Jon Wood, SeeByte
-]==],
+    bio = shared.bios.tena,
     start = { day = 25, month = 1, year = 2012,
       hour = 9, min = 00 },
     length = 1800,
@@ -71,7 +69,7 @@ Ian Florence has worked in the offshore industry since 1981, starting in the sei
 
   {
     title = "Description of Solutions Using Sonar Imaging",
-    fulltitle = "Samples - Description of Equipment and Sonar Tools Available for Underwater Inspection and Construction Monitoring",
+    fulltitle = "",
     lead = {
       first = "Mark",
       last = "Klein",
@@ -86,7 +84,28 @@ Show Scanning, Imaging, and Multi Beam Sonar uses, describe the differences and 
 ]==],
     start = { day = 25, month = 1, year = 2012,
       hour = 10, min = 30 },
-    length = 3600,
+    length = 1800,
+    room = "222",
+  },
+
+  {
+    title = "Samples",
+    fulltitle = "Description of Equipment and Sonar Tools Available for Underwater Inspection and Construction Monitoring",
+    lead = {
+      first = "Mark",
+      last = "Klein",
+      org = "S.T. Hudson Engineersin Inc",
+      email = "mklein@sthe.com",
+    },
+    abstract = [==[
+Show Scanning, Imaging, and Multi Beam Sonar uses, describe the differences and reasons for using each.
+]==],
+    bio = [==[
+
+]==],
+    start = { day = 25, month = 1, year = 2012,
+      hour = 11, min = 30 },
+    length = 1800,
     room = "222",
   },
 
