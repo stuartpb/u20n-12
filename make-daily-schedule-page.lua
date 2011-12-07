@@ -22,18 +22,22 @@ write[[
 
 write[[
 <header>
-  <img src="/2012/logo.jpg" class="logo"> <span class="page-title">underwater intervention 2012: schedule</span>
+  <img src="/2012/images/logo.jpg" class="logo"> <span class="page-title">underwater intervention 2012: schedule</span>
 </header>
 ]]
 
---write(elements.nav)
 write[[
-<nav><ul>
-  <li>go to:</li>
-  <li><a href="#tue">tuesday</a></li>
-  <li><a href="#wed">wednesday</a></li>
-  <li><a href="#thu">thursday</a></li>
-</ul></nav>
+<nav>
+  <ul>
+    <li>go to:</li>
+    <li><a href="#tue">tuesday</a></li>
+    <li><a href="#wed">wednesday</a></li>
+    <li><a href="#thu">thursday</a></li>
+  </ul>
+  <ul>
+    <li><a href="/2012/tracks.html">view by track</a></li>
+  </ul>
+</nav>
 ]]
 
 write'<div class="content">\n'
@@ -56,6 +60,7 @@ for i=1, #tracks.all do
 
   write('<div class = "presdiv presdiv-',pr.track,'" id="',pr.id,'">')
   write("Room ",pr.room,' ')
+  write(string.format(" (%.0f min)",pr.length/60))
   write('<span class="prestrack">',tracks.titles[pr.track],"</span>")
   write"<br>\n"
   write'<span class="speaker">'

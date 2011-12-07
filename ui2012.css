@@ -17,6 +17,10 @@ header {
   text-align: left;
 }
 
+h1, h2, h3 {
+  clear: left;
+}
+
 nav {
   background-color: #000;
   margin: 4px 0;
@@ -84,31 +88,47 @@ nav li {
 }
 
 .presdiv-div {
-  background-color: hsl(220,100%,20%);
+  background-color: #006;
 }
 
 .presdiv-edu {
-  background-color: hsl(300,100%,20%);
+  background-color: #606;
 }
 
 .presdiv-muv {
-  background-color: hsl(350,100%,20%);
+  background-color: #600;
 }
 
 .presdiv-oe {
-  background-color: hsl(180,100%,20%);
+  background-color: #066;
 }
 
 .presdiv-si {
-  background-color: hsl(35,100%,20%);
+  background-color: #630;
 }
 
 .presdiv-srov {
-  background-color: hsl(60,100%,20%);
+  background-color: #660;
 }
 
 .presdiv-wrov {
-  background-color: hsl(135,100%,20%);
+  background-color: #060;
+}
+
+.headshot {
+  float: left;
+  max-width: 320px;
+  max-height: 480px;
+  display: block;
+  margin: 4px;
+}
+
+.presimg {
+  float: right;
+  max-width: 320px;
+  max-height: 480px;
+  display: block;
+  margin: 4px;
 }
 
 @media print

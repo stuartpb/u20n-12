@@ -15,28 +15,33 @@ write[[
 <head>
   <meta charset='utf-8'>
   <title>UI 2012 / tracks</title>
-  <link rel="stylesheet" type="text/css" href="ui2012.css" />
+  <link rel="stylesheet" type="text/css" href="/2012/ui2012.css" />
 </head>
 <body>
 ]]
 
 write[[
 <header>
-  <img src="/2012/logo.jpg" class="logo"> <span class="page-title">underwater intervention 2012: tracks</span>
+  <img src="/2012/images/logo.jpg" class="logo"> <span class="page-title">underwater intervention 2012: tracks</span>
 </header>
 ]]
 
 --write(elements.nav)
 write[[
-<nav><ul>
-  <li>go to:</li>
+<nav>
+  <ul>
+    <li>go to:</li>
 ]]
 for i=1, #tracks.names do
   local tn = tracks.names[i]
-  write('  <li><a href="#',tn,'">',tracks.titles[tn],'</a></li>')
+  write('    <li><a href="#',tn,'">',tracks.titles[tn],'</a></li>\n')
 end
 write[[
-</ul></nav>
+  </ul>
+  <ul>
+    <li><a href="/2012/schedule.html">view by day</a></li>
+  </ul>
+</nav>
 ]]
 
 write'<div class="content">\n'
@@ -57,7 +62,9 @@ for ni=1, #tracks.names do
     end
 
     write('<div class="presdiv presdiv-',pr.track,'" id="',pr.id,'">')
-    write(os.date("%I:%M %p",stime),' <span class="trackroom">Room ',pr.room,"</span>")
+    write(os.date("%I:%M %p",stime),
+      string.format(" (%.0f min)",pr.length/60),
+      ' <span class="trackroom">Room ',pr.room,"</span>")
     write"<br>\n"
     write'<span class="speaker">'
     write(htmlenc(speaker))
