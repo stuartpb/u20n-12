@@ -1,4 +1,4 @@
-local names = {"div","edu","muv","oe","si","srov","wrov"}
+local names = {"oe","wrov","srov","muv","edu","div","si",}
 local all = {}
 
 local tracks = {
