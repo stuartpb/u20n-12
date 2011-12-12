@@ -1,0 +1,71 @@
+return {
+  --Innovative Dive Equipment: HTTP/1.1 200 OK
+  ["Georgia Tech Savannah Robotics"] = "http://gtsr.gtsav.gatech.edu/",
+  ["Shark Marine Technologies Inc."] = "http://www.sharkmarine.com/",
+  --Hydrospace Group: HTTP/1.1 200 OK
+  ["VideoRay"] = "http://www.videoray.com/",
+  ["MESCO/ Stroud Diving & Hydrography"] = "http://www.mesco-offshore.com/",
+  ["Rozalia Project for a Clean Ocean"] = "http://www.rozaliaproject.org/",
+  --Institute of Marine Technology Problems: HTTP/1.1 200 OK
+  ["Naval Surface Warfare Center"] = "http://www.navsea.navy.mil/nswc/",
+  --Shibuya Diving Industry: HTTP/1.1 200 OK
+  ["US Coast Guard"] = "http://www.uscg.mil/",
+  ["University of South Florida"] = "http://www.usf.edu/",
+  ["U.S. Navy, Naval Sea Systems Command"] = "http://www.navsea.navy.mil/",
+  ["Polymer Corporation"] = "http://www.polymercorporation.com/",
+  ["WHOI"] = "http://www.whoi.edu/",
+  ["Oregon Health and Science University"] = "http://www.ohsu.edu/",
+  ["Terresolve Technologies"] = "http://www.terresolve.com/",
+  --AEOS: HTTP/1.1 200 OK
+  ["Southwest Research Institute"] = "http://www.swri.org/",
+  ["Great Lakes Naval Memorial and Museum"] = "http://www.silversidesmuseum.org/",
+  ["Mireaux Management Solutions"] = "http://www.mireauxms.com/",
+  ["Institute of Mathematical Machines & Systems Problems"] = "http://www.immsp.kiev.ua/eng/index.html",
+  --Submergence Group: HTTP/1.1 200 OK
+  ["Jesuit High School Robotics Team"] = "http://jesuitrobotics.org/",
+  --Kemper Engineering Services, LLC: HTTP/1.1 200 OK
+  ["Kongsberg Underwater Technologies, Inc."] = "http://www.km.kongsberg.com/ks/web/nobkj0407.nsf/AllWeb/9159A4723A220AE3C1256EDF002C369D?OpenDocument",
+  ["SeeByte"] = "http://www.seebyte.com/",
+  ["SEAmagine Hydrospace corp"] = "http://www.seamagine.com/",
+  ["Marine Advanced Technology Education (MATE) Center"] = "http://www.marinetech.org/",
+  --The Subsea Company: HTTP/1.1 200 OK
+  ["LYYN AB"] = "http://www.lyyn.com/",
+  ["Nuytco Research Ltd"] = "http://www.nuytco.com/",
+  ["MATE Center"] = "http://www.marinetech.org/",
+  ["Fox Industries, Inc."] = "http://www.foxind.com/",
+  ["Bluefin Robotics"] = "http://www.bluefinrobotics.com/",
+  ["Stanley Submarines"] = "http://www.stanleysubmarines.com/",
+  ["OceanGate"] = "http://opentheoceans.com/",
+  ["Naval Surface Warfare Center Carderock Division"] = "http://www.navsea.navy.mil/nswc/carderock",
+  ["PSUBS"] = "http://www.psubs.org/",
+  ["Studio Ing. Banfi SAS"] = "http://www.rovtracker.com/",
+  ["Submerged Recovery & Inspection Services, LLC"] = "http://www.submergedrecovery.com/",
+  ["American Bureau of Shipping"] = "http://www.eagle.org/",
+  ["Diver Certification Board of Canada"] = "http://www.divercertification.com/",
+  --Van Meter Consulting: HTTP/1.1 200 OK
+  ["Kongsberg Maritime Ltd."] = "http://www.km.kongsberg.com/",
+  ["JAMSTEC"] = "http://www.jamstec.go.jp/",
+  ["S.T. Hudson Engineers, Inc"] = "http://www.sthe.com/",
+  ["Schilling Robotics"] = "http://www.schilling.com/",
+  ["Nautilus Marine Group International, LLC"] = "http://www.nautilusmarinegroup.net/",
+  ["Oceaneering Intl."] = "http://www.oceaneering.com/",
+  ["DOER Marine"] = "http://www.doermarine.com/",
+  ["Coda Octopus Group, Inc"] = "http://www.codaoctopus.com/",
+  ["Florida State University Panama City"] = "http://www.pc.fsu.edu/",
+  ["Corvus Energy Ltd."] = "http://www.corvus-energy.com/",
+  ["Deepwater Corrosion Services Inc."] = "http://www.stoprust.com/",
+  ["Allspeeds Ltd. / Webtool"] = "http://www.allspeeds.co.uk/webtool",
+  ["ASP, Inc."] = "http://asp-usa.com/",
+  ["Southwest Electronic Energy Group"] = "http://www.swe.com/",
+  ["Contros Systems & Solutions GmbH"] = "http://www.contros.eu/",
+  --Chukar Waterjet, Inc.: HTTP/1.1 200 OK
+  ["2G Robotics Inc."] = "http://www.2grobotics.com/",
+  ["Welaptega Marine Limited"] = "http://www.welaptega.com/",
+  ["BIRNS, Inc."] = "http://www.birns.com/",
+  ["Analox Sensor Technology"] = "http://www.analox.net/",
+  ["MTS ROV Committee"] = "http://www.rov.org/",
+  ["DRS Advanced Marine Technology Center"] = "http://www.orca3d.com/",
+  ["Innerspace Corp"] = "http://www.stanleyinnerspace.com/",
+  --Lesser & Associates Prof Law corp.: HTTP/1.1 200 OK
+  ["American Electric Power"] = "http://www.aep.com/",
+}
