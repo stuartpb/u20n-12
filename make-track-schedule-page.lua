@@ -39,7 +39,8 @@ end
 write[[
   </ul>
   <ul>
-    <li><a href="/2012/schedule.html">view by day</a></li>
+    <li><a href="/">underwater intervention home</a></li>
+    <li><a href="/2012/schedule.html">view presentations by time</a></li>
   </ul>
 </nav>
 ]]

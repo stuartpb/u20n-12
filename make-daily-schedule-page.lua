@@ -72,7 +72,8 @@ write[[
     <li><a href="#thu">thursday</a></li>
   </ul>
   <ul>
-    <li><a href="/2012/tracks.html">view by track</a></li>
+    <li><a href="/">underwater intervention home</a></li>
+    <li><a href="/2012/tracks.html">view presentations by track</a></li>
   </ul>
 </nav>
 ]]

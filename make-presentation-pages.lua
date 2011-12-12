@@ -67,12 +67,34 @@ for i=1, #presentations do
     write"<h1>"
     write(htmlenc(pr.title))
     write"</h1>\n"
+    write'<p>'
+
+    local starttime = os.time(pr.start)
+    local endtime = starttime + pr.length
+
+    write(os.date("%A, %B %d, %Y",starttime))
+    write'<br>\n'
+
+    write(string.format("%s - %s (%.0f min)",
+      os.date("%I:%M %p",starttime),
+      os.date("%I:%M %p",endtime),
+      pr.length/60))
+    write'<br>\n'
+
+    write("Room ",pr.room," - ",tracks.titles[pr.track],'\n')
+
+    write'</p>\n'
     write"<h2>Presenter</h2>"
     write'<p>'
     write(htmlenc(speaker))
     if pr.lead.org and string.find(pr.lead.org,"%S") then
       write'<br>'
-      write(htmlenc(pr.lead.org))
+      if pr.lead.homepage then
+        write('<a href="',pr.lead.homepage,'">',
+          htmlenc(pr.lead.org),'</a>')
+      else
+        write(htmlenc(pr.lead.org))
+      end
     end
     write"</p>\n"
     write'<h2>Abstract</h2>\n'
