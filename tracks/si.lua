@@ -157,7 +157,7 @@ Jim Britton - As founder and CEO of Deepwater Corrosion services Inc in 1986 he 
     lead = {
       first = "Mark",
       last = "Klein",
-      org = "S.T. Hudson Engineersin Inc",
+      org = "S.T. Hudson Engineers, Inc",
       email = "mklein@sthe.com",
     },
     abstract = [==[

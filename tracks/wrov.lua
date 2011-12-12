@@ -193,7 +193,7 @@ with the natural sea bottom.
     lead = {
       first = "Steve",
       last = "Barrow",
-      org = "Schilling Robotics LLC",
+      org = "Schilling Robotics",
       email = "steve.barrow@schilling.com",
     },
     abstract = [==[
