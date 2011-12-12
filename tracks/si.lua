@@ -69,11 +69,11 @@ Ian Florence has worked in the offshore industry since 1981, starting in the sei
 
   {
     title = "Description of Solutions Using Sonar Imaging",
-    fulltitle = "",
+    fulltitle = "Description of Equipment and Sonar Tools Available for Underwater Inspection and Construction Monitoring",
     lead = {
       first = "Mark",
       last = "Klein",
-      org = "S.T. Hudson Engineersin Inc",
+      org = "S.T. Hudson Engineers, Inc",
       email = "mklein@sthe.com",
     },
     abstract = [==[
@@ -89,22 +89,22 @@ Show Scanning, Imaging, and Multi Beam Sonar uses, describe the differences and 
   },
 
   {
-    title = "Samples",
-    fulltitle = "Description of Equipment and Sonar Tools Available for Underwater Inspection and Construction Monitoring",
+    title = "Scanning Sonar Surveys",
+    fulltitle = "Using the MS 1000 scanning sonar for creating baseline surveys on large scale projects",
     lead = {
-      first = "Mark",
-      last = "Klein",
-      org = "S.T. Hudson Engineersin Inc",
-      email = "mklein@sthe.com",
+      first = "Brian",
+      last = "Abbott",
+      org = "Nautilus Marine Group International, LLC",
+      email = "abbott@nautilusmarinegroup.net",
     },
     abstract = [==[
-Show Scanning, Imaging, and Multi Beam Sonar uses, describe the differences and reasons for using each.
+Using the MS 1000 scanning sonar for creating baseline surveys on large scale projects. These large scale projects can be but not limited to bridges, dams, ports & harbors and canal systems.  Creating these baseline surveys allows for better engineering assessment of structures and site conditions for homeland security issues.  Changing the orientation of the sonar allows one to image in different plans and obtain information necessary to build a three dimensional structure of the site.  All of this information can be tied into a GPSRTK system allowing for one to reacquire information at a later date and time.
 ]==],
     bio = [==[
 
 ]==],
     start = { day = 25, month = 1, year = 2012,
-      hour = 11, min = 30 },
+      hour = 11, min = 00 },
     length = 1800,
     room = "222",
   },
@@ -261,7 +261,7 @@ Using a photorealistic 3D model as the starting point for underwater asset inspe
 The presentation will encompass a step through the basics of digital 3D photogrammetric modeling hardware and techniques, followed by a series of case studies that highlight the flexibility and value of the technology to provide highly accurate geometric information of damaged subsea components that can then be used to conduct structural analyses (e.g. FEAs). design tooling, and and verify design repairs. Case studies will include but not be limited to an impact-damaged well head, a deepwater pipeline damaged by anchor impacts, and heavily corroded mooring components. The presentation will finish with some discussion of the opportunities by this technology in combination with advances in metallic and polymer 3D printing technologies
 ]==],
     bio = [==[
-Anthony Hall is the founder and CEO of Welaptega Marine Limited. His experience with digital image analysis goes back to 1988 and his MSc field work in the measurement of marine growth, first in aquaculture and then offshore platforms. Since establishing Welapteag in 1992 he has kept Welaptegab at the leading edge of underwater 3D video and image measurement in support of subsea operations in the offshore industry.
+Anthony Hall is the founder and CEO of Welaptega Marine Limited. His experience with digital image analysis goes back to 1988 and his MSc field work in the measurement of marine growth, first in aquaculture and then offshore platforms. Since establishing Welaptega in 1992 he has kept Welaptega at the leading edge of underwater 3D video and image measurement in support of subsea operations in the offshore industry.
 ]==],
     start = { day = 25, month = 1, year = 2012,
       hour = 16, min = 00 },

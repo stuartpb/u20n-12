@@ -353,14 +353,33 @@ Successful career has also included a position at Optiphase as a Senior Engineer
     lead = {
       first = "Drew",
       last = "Michel",
-      org = "",
-      email = "",
+      org = "MTS ROV Committee",
+      email = "rovdrew@earthlink.net",
     },
     abstract = [==[
+The agenda for the MTS ROV Committee meeting:
 
+- Review the current work and programs of the committee
+  - Underwater intervention
+  - MATE ROV Competition
+  - MATE ROV in-a-bag
+  - Scholarships
+- Discuss future leadership of the committee and vote for officers
+- Continue the technical discussion on the future of ROV and AUV technology and how these two technologies are becoming more similar
 ]==],
     bio = [==[
+Drew has 45 years of experience in technical and executive positions in the industry and is currently one of the most respected independent ROV consultants in this field.   His accomplishments and awards include;
 
+-	Induction into the Offshore Energy Center Hall of Fame in 2010
+-	Selection for induction into the ADCI Commercial Diving hall of Fame in 2012
+-	A Fellow and President elect of the Marine Technology Society (MTS)
+-	A senior member of the Institute of Electrical and Electronic Engineers (IEEE).
+-	Has served 21 consecutive years as Chair of the MTS ROV Committee
+-	Has served 20 years as Co-chair of the Annual Underwater Intervention Conference.
+-	Serves on the National Visiting committee (board) of the Marine Advanced Technology Education Center.
+-	Served on the National Academy of Sciences committee on Undersea Vehicles and National Needs and National Research Council committee on Undersea Observatories.
+-	A recipient of the MTS Lockheed-Martin Award for Ocean Science and Engineering;
+-	An Engineering News Record Honoree for Outstanding Engineering Achievement
 ]==],
     start = { day = 26, month = 1, year = 2012,
       hour = 9, min = 00 },

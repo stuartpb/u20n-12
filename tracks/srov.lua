@@ -11,22 +11,27 @@ return maketrack("srov", {
       email = "sam@inodive.com",
     },
     abstract = [==[
-Our agency was contacted by the Holmes County Sheriff’s Office after all other efforts failed to locate the remains of a cave diver who reportedly failed to return to the surface after a deep cave penetration dive into Vortex Springs.
-   Before we left to assist with our Pro 4 ROV we were told that the missing diver was believed to be deep in the cave (approx 1,400 feet), in an area where the diameter of the tube where the diver was thought to be was equal to the size of the diver. Before our arrival experienced cave divers had searched the inside of the cave, and penetrated approx 1,200 feet into the cave. It was hoped that the ROV could reach an additional 200 feet, which was the limit of the mapped system. This area of the cave was not much larger that the ROV itself, and the ROV, or any diver reaching this point would not be able to turn around to exit the cave.
-   Unfortunately we were not able to locate the lost diver, but this presentation will review the challenges we encountered using an ROV in these most difficult circumstances, in a rarely attempted type of search and recovery mission. I will also talk about the equipment used during this attempted recovery, the support supplied by Video Ray, and the lessons learned during the mission.
+Our agency was contacted by the Holmes County Sheriff's Office after all other efforts failed to locate the remains of a cave diver who reportedly failed to return to the surface after a deep cave penetration dive into Vortex Springs.
+
+Before we left to assist with our Pro 4 ROV we were told that the missing diver was believed to be deep in the cave (approx 1,400 feet), in an area where the diameter of the tube where the diver was thought to be was equal to the size of the diver. Before our arrival experienced cave divers had searched the inside of the cave, and penetrated approx 1,200 feet into the cave. It was hoped that the ROV could reach an additional 200 feet, which was the limit of the mapped system. This area of the cave was not much larger that the ROV itself, and the ROV, or any diver reaching this point would not be able to turn around to exit the cave.
+
+Unfortunately we were not able to locate the lost diver, but this presentation will review the challenges we encountered using an ROV in these most difficult circumstances, in a rarely attempted type of search and recovery mission. I will also talk about the equipment used during this attempted recovery, the support supplied by Video Ray, and the lessons learned during the mission.
 ]==],
     bio = [==[
-                               Sam Lapinsky 11/10/2011
+Sam Lapinsky has been working in law enforcement for the past 14 years. For the last 8 years, he has been assigned to the agency's Marine Patrol Unit/Dive Rescue Team. In addition to his Marine Patrol duties, he is also a Public Safety Scuba Instructor (Dive Rescue International), dive equipment repair technician, USCG licensed vessel Captain (100 Ton Master), and one of several persons in his unit responsible for operating and maintaining their electronic sensing and search equipment.
 
-    My name is Sam Lapinsky and I have been working in law enforcement for the past 14 years. For the last 8 years I have been assigned to our agency's Marine Patrol Unit/Dive Rescue Team. In addition to my Marine Patrol duties I am also a Public Safety Scuba Instructor (Dive Rescue International), dive equipment repair technician, USCG licensed vessel Captain (100 Ton Master), and I am one of several persons in our unit responsible for operating and maintaining our electronic sensing, and search equipment.
-  In addition to my Law Enforcement duties I also own a small company (Innovative Dive Equipment Inc.) where I manufacture and sell specialty dive accessories.
-    I’ve been diving for 31 years, and in the early 80’s, before my Law Enforcement career, I was employed as a wreck salvage diver. I was first introduced to electronic devices used to locate things underwater during this time. Later in the 80’s I was employed as a dive boat Captain.
-   Finding things underwater has long been a passion of mine, and as a member of different teams I have been part of many successes locating objects underwater.
+In addition to his Law Enforcement duties, he also owns a a small company (Innovative Dive Equipment Inc.) where he manufactures and sells specialty dive accessories.
+
+He has been diving for 31 years, and in the early 80s, before his Law Enforcement career, he was employed as a wreck salvage diver. He was first introduced to electronic devices used to locate things underwater during this time. Later in the 80s he was employed as a dive boat Captain.
+
+Finding things underwater has long been a passion of his, and as a member of different teams he has been part of many successes locating objects underwater.
 ]==],
     start = { day = 24, month = 1, year = 2012,
       hour = 8, min = 30 },
     length = 1800,
     room = "218",
+    headshot = "lapinsky.jpg",
+    presimg = "mcdavsfc.jpg",
   },
 
   {
@@ -183,16 +188,17 @@ The low-logistics associated with microROVs make it an ideal platform for rapid 
     lead = {
       first = "Anders",
       last = "Holm",
-      org = "",
-      email = "",
+      org = "LYYN AB",
+      email = "Anders.Holm@lyyn.com",
     },
 
     abstract = [==[
 
 ]==],
     bio = [==[
-
+Anders Holm is currently the chief technical officer (CTO) at LYYN AB. He founded the company in 2003 together with Olle Holm, Andreas Ekengren and Jan Nilsson. Anders Holm and Olle Holm developed the basic ideas behind the LYYN products. Anders previously worked at SonyEricsson as a lead system architect for SonyEricsson internet services. Prior to that he worked as consultant unit manager for several software consultancies in Sweden. Anders Holm has a Ph.D in Electrical Measurements (experimental physics) from Lund University and a M.Sc in Engineering Physics also from Lund University.
 ]==],
+    headshot = "holm.jpg",
     start = { day = 24, month = 1, year = 2012,
       hour = 14, min = 30 },
     length = 1800,
@@ -235,7 +241,7 @@ Bluefin Robotics recently acquired the assets of Hawkes Remotes, Inc. (HRI), a s
     lead = {
       first = "Dmitry",
       last = "Lyakhov",
-      org = "Inst.of Marine Technol. Problems",
+      org = "Institute of Marine Technology Problems",
       email = "lyakhov@marine.febras.ru",
     },
     cos = {
@@ -253,7 +259,11 @@ Bluefin Robotics recently acquired the assets of Hawkes Remotes, Inc. (HRI), a s
       },
     },
     abstract = [==[
-There are a lot new ROVs have entered the market lately. The new trends are low logistics, highly maneuverable systems in addition rated up to 300m. The manufacturers always offer information about forward/backward/vertical/lateral speed of their ROV in ideal near surface conditions more rarely about thruster performance, but the real question of the operator is often about  the possibility of  survey the particular  bottom area in particular(preferably near maximum vehicle rating) depth in particular time under various but real sea conditions. Regardless of ROV mission type the operational challenges caused by the tether drag arise at 300m depths. One of the key features of observation ROVs is accessible bottom or structure survey area from fixed topside. The next is the ROV speed at underwater site which form the survey coverage rate.  Both are defined by ROV propulsion and tether management. This paper presents several models of observation class ROV based on analysis of specifications of commercially available ROV systems. We also discuss several environmental aspects of ROV deployment:  current profile, survey pattern. The tether computer model based on the numerical integration of equilibrium equation of the flexible nonstretchable line used to obtain the parameters of ROV motion according to selected typical ROV systems and environmental conditions. Survey speed and area quality indicators are estimated for several observation ROV models including those developed in the IMPT
+The Institute of Marine Technology Problems (IMPT) is a unit of the Far Eastern Branch of the Russian Academy of Sciences. It was formed as the Navigation and Control Systems Lab in 1972 and in 1988 grown into the IMPT with an emphasis on research, development and engineering of AUVs. In an almost 40 years of establishment, the IMPT has been successful in developing dozens of unmanned underwater vehicles (prototypes and initial production).
+
+Although the Institute  is not an educational establishment there are several students from local colleges and universities who are pursuing their Bachelor's, Master's and PhD degrees.
+
+Since 2008, teams of students from IMPT have participated in the MATE ROV Competition. In 2010 they won. This paper will present how the student ROV innovations were transformed into commercial product and why students involved in MATE are in demand in the underwater engineering workplace. Theoretical approaches in developing underwater vehicles, practical construction work and sea trials will be described in this presentation giving useful insight to students, teachers, and underwater technology professionals.
 ]==],
     bio = [==[
 Participated in GNOM microROV project 2004-2006 (Shirshov Institute of Oceanology)
@@ -396,15 +406,19 @@ Multibeam imaging sonars have been available since the early nineties and have s
 
   {
     title = "High performance hydraulic manipulator",
-    fulltitle = "",
+    fulltitle = "Excavating and retrieving ancient artefacts from the seabed using a small but high performance hydraulic manipulator",
     lead = {
       first = "Chris",
-      last = "Loubieski",
+      last = "Lokuciewski",
       org = "",
-      email = "",
+      email = "enquiries@hydro-lek.com",
     },
     abstract = [==[
+Excavating and recovering ancient artefacts from the seabed demands precise and highly reliable equipment.  Florida-based RPM Nautical Foundation (RPMNF) has pushed the boundaries of maritime archaeology by performing the careful and precise work necessary for professional archaeology at depths beyond effective diver range.
 
+To accomplish these goals, RPMNF uses an ROV fitted with two Hydro-lek multifunctional manipulator arms, most recently in the Egadi Islands off Sicily where they discovered warship rams that date back to the 3rd century BC.
+
+This paper will provide an overview of how these Hydro-Lek manipulators were utilized in the recovery of not just these important archaeological artefacts but also in many other deep sea salvage operations.  It will also explain the design and operation of the hydraulic manipulator technology and how smaller ROV's can be empowered by the use of high performance subsea tooling.
 ]==],
     bio = [==[
 

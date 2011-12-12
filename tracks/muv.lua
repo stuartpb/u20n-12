@@ -6,7 +6,7 @@ return maketrack("muv", {
     lead = {
       first = "William",
       last = "Kohnen",
-      org = "HYDROSPACE Group",
+      org = "Hydrospace Group",
       email = "wkohnen@hydrospacegroup.com",
     },
     abstract = [==[
@@ -146,10 +146,17 @@ Since 1986 MSUBS has been producing small, diesel-electric submersibles; coupled
       first = "Phil",
       last = "Nuytten",
       org = "Nuytco Research Ltd",
-      email = "",
+      email = "nrl@nuytco.com",
+      homepage = "http://nuytco.com/"
     },
     abstract = [==[
+The presentation provides an overview of the submersible activity at Nuytco for 2011. The review will include:
 
+1. Completion of year 5 of Canadian Space Agency and NASA mission analogs as part of the Pavilion Lake Research Program.
+2. Newtsuit and Dual DeepWorker dives to support filming and research operations on the wreck of the RMS Lusitania.
+3. Deployment of the ‘Dual DeepWorker’ submersible to perform fisheries research on natural and manmade habitats off the coast of California.
+4. Deployment of 2 Deep Worker submersibles to support the NASA Extreme Environment Mission Operations #15 (NEEMO 15). Deep Workers were used as vehicle Analogs for NASA’s proposed Multi Mission Space Exploration Vehicle (MMSEV).
+5. Completion of the Shaft 19 remediation project for the NYDEP in Valhalla NY. Nuytco Research deployed two Newtsuits to support construction efforts to complete the uptake and downtake shaft repairs on the worlds’ largest UV Water Purification facility.
 ]==],
     bio = [==[
 

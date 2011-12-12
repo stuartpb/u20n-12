@@ -92,7 +92,7 @@ Terresolve’s biobased fluids have been extensively proven in the lab and in th
     lead = {
       first = "Peter",
       last = "Sapaty",
-      org = "Inst. Mathematical Machines & Systems, National Academy of Sciences",
+      org = "Institute of Mathematical Machines & Systems Problems",
       email = "peter.sapaty@gmail.com",
     },
     cos = {

@@ -136,14 +136,37 @@ Commander, Civil Engineer Corps, USN
     lead = {
       first = "Miriam",
       last = "Boudreaux",
-      org = "",
+      org = "Mireaux Management Solutions",
+      homepage = "http://www.mireauxms.com",
       email = "miriam@mireauxms.com",
     },
     abstract = [==[
+This presentation is aimed at highlighting the benefits of implementing a management system that integrates quality and safety to improve the overall operations and safety performance of a Diving organization.  Organizations that have an established quality management system enjoy higher levels of customer and employee satisfaction.  Employees feel empowered to contribute to the success of the system and also are able to make better decisions because the organization’s processes are in control.  But how can an organization achieve this level of operational excellence?
 
+In this session we will answer the following questions:
+
+1.	What is a Quality Management System and how does it relate to Safety?
+2.	List of Diving companies throughout the world who operate under a Quality or Safety Management System certified to ISO 9001 and/or OHSAS 18001.
+3.	10 Things Diving companies can do to get a Quality/Safety Management System off the ground.
+4.	10 tangible benefits of implementing a quality/safety management system in a Diving organization.
+
+Attendees will also receive a checklist at the end of the session that can be used to identify the gaps in their quality/safety management system within their organizations to determine areas that need further work in order to achieve full compliance.
 ]==],
     bio = [==[
+Miriam Boudreaux, an ISO 9001, ISO 27001, QMS, ISMS and Web Specialist, is the President of Mireaux
+Management Solutions, a consulting firm headquartered in Houston, TX.
 
+Before venturing on her own, Miriam held positions as Corporate Quality Director, Senior Quality Manager and Process Engineering Manager. She successfully led her companies through ISO 9001, ISO 14001, QS 9000 and TL 9000 certifications.
+
+Miriam holds a Bachelor of Science Degree in Industrial Engineering from the University of Lima and a
+Master of Science Degree in Industrial Engineering from the University of Houston. She is a certified QMS and ISMS Auditor by the Registrar Accreditation Board (RABQSA). She is also a Certified Quality Engineer (CQE) and a Certified Quality Manager (CQMgr) by the American Society for Quality (ASQ).
+
+Miriam has served as an Examiner with the Texas Award for Performance Excellence and has participated as a Speaker at the ISO 9000 International Conference, the Underwater Intervention convention and other conferences. Miriam maintains the ISO Vanguard Blog and her articles have been published by magazines such as Quality Progress (American Society for Quality), Quality Digest and the
+American Automotive Industry Action Group (AIAG).
+
+In 2010 Miriam was nominated as a candidate for the Houston Business Woman of the Year Award by the National Association of Women Business Owners (NAWBO). In 2011 she received an Honorable Mention from the Enterprising Women of the Year Award.
+
+Besides her current position as President and head consultant of Mireaux, Miriam also provides her Auditing services to one of the major international ISO registrars, performing ISO certification audits on a subcontract basis.
 ]==],
     start = { day = 24, month = 1, year = 2012,
       hour = 11, min = 30 },
@@ -327,7 +350,7 @@ Prior to joining Fox Industries, Carl spent 15 years as a Consulting Engineer wi
   },
 
   {
-    title = "Diving & Decomprerssion Potpourri",
+    title = "Diving & Decompression Potpourri",
     fulltitle = "",
     lead = {
       first = "Tony",
@@ -461,12 +484,13 @@ Simon Lunt is the Sales Manager at Analox Sensor Technology who have provided th
   },
 
   {
-    title = "LEGAL UPDATE 2012",
+    title = "Legal Update 2012",
     fulltitle = "Legal Update 2012 For the Commerical Dive Industry",
     lead = {
-      first = "rick",
-      last = "lesser",
+      first = "Rick",
+      last = "Lesser",
       org = "Lesser & Associates Prof Law corp.",
+      homepage = "http://divelaw.com",
       email = "lesser@divelaw.com",
     },
     cos = {
