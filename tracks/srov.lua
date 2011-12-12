@@ -389,8 +389,8 @@ Multibeam imaging sonars have been available since the early nineties and have s
     lead = {
       first = "Matt",
       last = "Cowan",
-      org = "",
-      email = "",
+      org = "KCF Technologies, Inc.",
+      email = "mcowen@kcftech.com",
     },
     abstract = [==[
 
@@ -508,8 +508,8 @@ Andew Goldstein is the Director of Software Engineering at VideoRay LLC. and is 
     lead = {
       first = "Darren",
       last = "Moss",
-      org = "",
-      email = "",
+      org = "Teledyne Technologies, Inc.",
+      email = "dmoss@teledyne.com",
     },
     abstract = [==[
 

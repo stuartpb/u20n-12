@@ -157,27 +157,6 @@ Liesl Hotaling is a Senior Research Engineering with the College of Marine Scien
   },
 
   {
-    title = "Collaboratory Science",
-    fulltitle = "Using the Coastal Margin Observation and Prediction Collaboratory as an Educational Platform: Resources and Opportunities for Educators and Students",
-    lead = {
-      first = "Katie",
-      last = "Rathmell",
-      org = "Oregon Health and Science University",
-      email = "rathmellk@stccmop.org",
-    },
-    abstract = [==[
-My presentation will highlight the CMOP Ocean Observatory and all of the assets and technologies we currently use to collect and disseminate data to the broader scientific community. Including sensors from WetLabs, Turner, Sunburst, Satlantic, Remus AUV's, and Slocum gliders. I will specifically talk about our educational opportunities such as real-time data and interactive web resources for educators and students in the classroom, Saturday Academy, Oceanography camp, Observatory camp, internships, graduate education, tribal partnerships, and community outreach.
-]==],
-    bio = [==[
-I have been with CMOP since 2007. My work with CMOP is very exciting as I am a member of the field team. I work on the ocean observatory as an instrument technician and glider pilot. I help construct and populate all of our stations in the Columbia River as well as two ocean buoys. I also participate in Saturday Academy and Oceanography camp as an instructor.
-]==],
-    start = { day = 24, month = 1, year = 2012,
-      hour = 11, min = 00},
-    length = 1800,
-    room = "220",
-  },
-
-  {
     title = "ROVs in education",
     fulltitle = "An educational outreach program for STEM based education",
     lead = {
