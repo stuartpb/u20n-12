@@ -4,7 +4,7 @@ return maketrack("muv", {
     title = "MTS MUV 2011 Overview",
     fulltitle = "MTS Overview of Manned Sub Activity in 2011",
     lead = {
-      first = "William",
+      first = "Will",
       last = "Kohnen",
       org = "Hydrospace Group",
       email = "wkohnen@hydrospacegroup.com",
@@ -12,9 +12,7 @@ return maketrack("muv", {
     abstract = [==[
 A yearly review of the state of the Manned Submersible industry in 2011. The overview will look at developments in all branches of activity, including international research, tourism activity, leisure and security developments. This will include a summary of submersibles under Classification, operating and in construction, review of the industry trends and regulatory highlights for the year.
 ]==],
-    bio = [==[
-Mr. William Kohnen is President of Hydrospace Group which provides specialized integrated solutions for underwater intervention using manned vehicle systems. Mr. Kohnen is the co-founder of SEAmagine Hydrospace Corp. which specializes in the design and construction of manned submersibles. Since 1995, SEAmagine delivered nine submersibles that are depth rated from 150 to 1500 ft. Mr. Kohnen has a background in aerospace with a M.Sc. Electrical Engineering from McGill University, Canada. He has been chair of the Marine Technology Society Manned Underwater Vehicles Committee since 2003 and organizes the yearly MTS MUV program at the Underwater Intervention conference to cover the many issues regarding the manned submersible industry. Mr. Kohnen is an active member of the Deep Submergence Pilot Association and an active member of the ASME Pressure Vessel for Human Occupancy (PVHO) Committee. He is also engaged as an industry representative on the ALVIN Replacement HOV Oversight Committee (RHOC). He has over 15 years experience working with the US Coast Guard and ABS rules and regulations for building submersibles and is a member of the ABS Special Committee on Underwater Systems and Vehicles.
-]==],
+    bio = shared.bios.kohnen,
     start = { day = 24, month = 1, year = 2012,
       hour = 9, min = 00 },
     length = 3600,
@@ -47,8 +45,29 @@ I will use examples of both submersible and surface vessel operations, as well a
   },
 
   {
+    title = "RHOV Personnel Sphere Update",
+    fulltitle = "RHOV Personnel Sphere Update - The End is in Sight",
+    lead = {
+      first = "Jerry",
+      last = "Henkener",
+      org = "Southwest Research Institute",
+      email = "jerry.henkener@swri.org",
+    },
+    abstract = [==[
+Southwest Research Institute (SwRI) is under contract to WHOI to design, fabricate and test the titanium personnel sphere that will be installed in the upgraded ALVIN submersible. SwRI is nearing completion of the fabrication and testing phases for the new personnel sphere. The personnel sphere will be tested in the Annapolis Test Chambers for a 6500 MSW maximum operating depth. The fabrication and testing had been expected to be completed but the decision to have the personnel sphere dual certified by both ABS and NAVSEA has resulted in schedule delays. All major weldments and the final machining of all components have been completed without experiencing any appreciable distortion or change in out-of-sphericity. Component assembly and structural validation tests are in progress. Stud welding procedures for the viewport windows and the hatch have been developed and are being employed.  A strain gauge location plan is being developed based upon an as-built dimensional FEA model and analysis. A comprehensive hydrostatic test procedure is being developed and going through the dual approval process leading up to the hydro test in the Spring of 2012.  SwRI will deliver the sphere and documentation to WHOI after the hydro test to complete our contract. The status and activities since last year and activities to complete the personnel sphere in 2012 will be discussed.
+]==],
+    bio = [==[
+
+]==],
+    start = { day = 24, month = 1, year = 2012,
+      hour = 11, min = 00 },
+    length = 1800,
+    room = "219",
+  },
+
+  {
     title = "RHOV Project - ALVIN Update",
-    fulltitle = "ALVIN SUBMERSIBLE UPGRADE PROGRAM",
+    fulltitle = "ALVIN Submerible Upgrade Program",
     lead = {
       first = "Kurt",
       last = "Uetz",
@@ -62,69 +81,18 @@ Woods Hole Oceanographic Institution (WHOI) is developing a new deeper diving su
 
 ]==],
     start = { day = 24, month = 1, year = 2012,
-      hour = 11, min = 00 },
-    length = 1800,
-    room = "219",
-  },
-
-  {
-    title = "RHOV Personnel Sphere Update",
-    fulltitle = "RHOV Personnel Sphere Update - The End is in Sight",
-    lead = {
-      first = "Jerry",
-      last = "Henkener",
-      org = "Southwest Research Institute",
-      email = "jerry.henkener@swri.org",
-    },
-    abstract = [==[
-October 3, 2011
-
-Abstract for UI-2012
-
-RHOV PERSONNEL SPHERE UPDATE - THE END IS IN SIGHT
-
-Southwest Research Institute® (SwRI®) is under contract to WHOI to design, fabricate and test the titanium personnel sphere that will be installed in the upgraded ALVIN submersible. SwRI is nearing completion of the fabrication and testing phases for the new personnel sphere. The personnel sphere will be tested in the Annapolis Test Chambers for a 6500 MSW maximum operating depth. The fabrication and testing had been expected to be completed but the decision to have the personnel sphere dual certified by both ABS and NAVSEA has resulted in schedule delays. All major weldments and the final machining of all components have been completed without experiencing any appreciable distortion or change in out-of-sphericity. Component assembly and structural validation tests are in progress. Stud welding procedures for the viewport windows and the hatch have been developed and are being employed.  A strain gauge location plan is being developed based upon an as-built dimensional FEA model and analysis. A comprehensive hydrostatic test procedure is being developed and going through the dual approval process leading up to the hydro test in the Spring of 2012.  SwRI will deliver the sphere and documentation to WHOI after the hydro test to complete our contract. The status and activities since last year and activities to complete the personnel sphere in 2012 will be discussed
-
-Jerry Henkener
-Southwest Research Institute
-]==],
-    bio = [==[
-Jerry Henkener
-]==],
-    start = { day = 24, month = 1, year = 2012,
       hour = 11, min = 30 },
     length = 1800,
     room = "219",
   },
 
   {
-    title = "Ocean-Going Diesel-Electric Submarine",
-    fulltitle = "Development of a commercial, Ocean-going, diesel electric submarine for extended operations at sea.",
+    title = "Titanic at 100",
+    fulltitle = "Legal Implications to Visitors, Researchers and Salvors",
     lead = {
-      first = "Brett",
-      last = "Phaneuf",
-      org = "Submergence Group",
-      email = "brett@promare.org",
-    },
-    abstract = [==[
-Since 1986 MSUBS has been producing small, diesel-electric submersibles; coupled with recent rapid prototypng projects, in concert with Submergence Group, that produced manned and unmanned vehicles ranging from 10-65 tons, MSUBS and Submergence Group have embarked on a project to produce the world's first privately owned and operated ocean-going diesel-electric submarine for research purposes.  The submarine, as yet unnammed, will be approximately 30 meters in length with a beam of nearly 4 meters and be capable of diving to 300msw and trasitting vast ocean distances while snorkelling.  The presentation will provide an overview of the submarine design and production plans.
-]==],
-    bio = [==[
-
-]==],
-    start = { day = 24, month = 1, year = 2012,
-      hour = 13, min = 30},
-    length = 1800,
-    room = "219",
-  },
-
-  {
-    title = "Ocean Pearl Submersible Deployments in 2011",
-    fulltitle = "",
-    lead = {
-      first = "Charles",
-      last = "Kohnen",
-      org = "SEAmagine Hydrospace corp",
+      first = "Laura",
+      last = "Gongaware",
+      org = "NOAA",
       email = "",
     },
     abstract = [==[
@@ -134,7 +102,57 @@ Since 1986 MSUBS has been producing small, diesel-electric submersibles; coupled
 
 ]==],
     start = { day = 24, month = 1, year = 2012,
+      hour = 13, min = 30 },
+    length = 1800,
+    room = "219",
+  },
+
+  {
+    title = "MUV exploration 1/2 Mile Down",
+    fulltitle = "MUV exploration to 1/2 mile depths for pennies on the dollar, 4,000 hours later",
+    lead = {
+      first = "Karl",
+      last = "Stanley",
+      org = "Stanley Submarines",
+      email = "karl@stanleysubmarines.com",
+    },
+    abstract = [==[
+This presentation will trace the development and use of two manned submersibles on budgets that are a fraction of other vehicles with similar capabilities.  The first one of these was began in 1989 and named C-BUG (Controlled by Buoyancy Underwater Glider). It was one of the first winged subs ever made and enjoyed a successful career spanning over 550 dives in three countries. The next vehicle was named Idabel, and despite an initial budget of under 100k it has made over 900 dives to depths of up to half a mile.   In addition to keeping manufacturing costs low, operating costs have been kept low as well by a location choice that offers immediate access to deep water without the need for a support craft of any sort. A third aspect to the low operating costs has been the engineering of Idabel for minimum displacement. This craft carries two passengers and a pilot and weighs in at just over 9,000 pounds, making it not only less expensive to build and operate, but giving it a distinct advantage for photography. This formula has resulted in dive rates that start at just $400 per person for a 1000 foot dive, and a day rate of $2,000 for up to 6 hour-long dives.
+]==],
+    bio = [==[
+
+]==],
+    start = { day = 24, month = 1, year = 2012,
       hour = 14, min = 00 },
+    length = 1800,
+    room = "219",
+  },
+
+  {
+    title = "Antipodes LRT Update",
+    fulltitle = "Developing a Launch, Retrieval, and Transport System for Ocean Exploration",
+    lead = {
+      first = "Stockton",
+      last = "Rush",
+      org = "OceanGate",
+      email = "stockton@opentheoceans.com",
+    },
+    cos = {
+      {
+        first = "Guillermo",
+        last = "Sohnlein",
+        org = "OceanGate",
+        email = "guillermo@opentheoceans.com",
+      },
+    },
+    abstract = [==[
+Since OceanGate acquired the Antipodes manned submersible (former PC-1501) two years ago, we have been deploying her on different missions in support of ocean exploration, marine research, filmmaking, and education and community outreach.  To expand our range of operations while simultaneously controlling costs, we have been developing a towable Launch, Retrieval, and Transport (LRT) system that will allow us to access more near-shore dive sites without the need for expensive support vessels.  We tested our first prototype in Southern California last fall, and we are currently developing the next version out of our headquarters in Seattle.  We plan to field-test this next system in Florida during early 2012, so this presentation will provide an update on our efforts and our future plans.
+]==],
+    bio = [==[
+
+]==],
+    start = { day = 24, month = 1, year = 2012,
+      hour = 14, min = 30 },
     length = 1800,
     room = "219",
   },
@@ -162,59 +180,7 @@ The presentation provides an overview of the submersible activity at Nuytco for 
 
 ]==],
     start = { day = 24, month = 1, year = 2012,
-      hour = 14, min = 30 },
-    length = 1800,
-    room = "219",
-  },
-
-
-  {
-    title = "MUV exploration 1/2 Mile Down",
-    fulltitle = "MUV exploration to 1/2 mile depths for pennies on the dollar, 4,000 hours later",
-    lead = {
-      first = "Karl",
-      last = "Stanley",
-      org = "Stanley Submarines",
-      email = "karl@stanleysubmarines.com",
-    },
-    abstract = [==[
-This presentation will trace the development and use of two manned submersibles on budgets that are a fraction of other vehicles with similar capabilities.  The first one of these was began in 1989 and named C-BUG (Controlled by Buoyancy Underwater Glider). It was one of the first winged subs ever made and enjoyed a successful career spanning over 550 dives in three countries. The next vehicle was named Idabel, and despite an initial budget of under 100k it has made over 900 dives to depths of up to half a mile.   In addition to keeping manufacturing costs low, operating costs have been kept low as well by a location choice that offers immediate access to deep water without the need for a support craft of any sort. A third aspect to the low operating costs has been the engineering of Idabel for minimum displacement. This craft carries two passengers and a pilot and weighs in at just over 9,000 pounds, making it not only less expensive to build and operate, but giving it a distinct advantage for photography. This formula has resulted in dive rates that start at just $400 per person for a 1000 foot dive, and a day rate of $2,000 for up to 6 hour-long dives.
-]==],
-    bio = [==[
-
-]==],
-    start = { day = 24, month = 1, year = 2012,
       hour = 15, min = 30 },
-    length = 1800,
-    room = "219",
-  },
-
-
-  {
-    title = "Antipodes LRT Update",
-    fulltitle = "Developing a Launch, Retrieval, and Transport System for Ocean Exploration",
-    lead = {
-      first = "Guillermo",
-      last = "Sohnlein",
-      org = "OceanGate",
-      email = "guillermo@opentheoceans.com",
-    },
-    cos = {
-      {
-        first = "Stockton",
-        last = "Rush",
-        org = "OceanGate",
-        email = "stockton@opentheoceans.com",
-      },
-    },
-    abstract = [==[
-Since OceanGate acquired the Antipodes manned submersible (former PC-1501) two years ago, we have been deploying her on different missions in support of ocean exploration, marine research, filmmaking, and education and community outreach.  To expand our range of operations while simultaneously controlling costs, we have been developing a towable Launch, Retrieval, and Transport (LRT) system that will allow us to access more near-shore dive sites without the need for expensive support vessels.  We tested our first prototype in Southern California last fall, and we are currently developing the next version out of our headquarters in Seattle.  We plan to field-test this next system in Florida during early 2012, so this presentation will provide an update on our efforts and our future plans.
-]==],
-    bio = [==[
-
-]==],
-    start = { day = 24, month = 1, year = 2012,
-      hour = 16, min = 00 },
     length = 1800,
     room = "219",
   },
@@ -243,7 +209,7 @@ Since OceanGate acquired the Antipodes manned submersible (former PC-1501) two y
   },
 
   {
-    title = "Overview of ABS Rule Change Proposals",
+    title = "Overview of ABS Rule Change Proposals and Open Industry Discussion",
     fulltitle = "Overview of ABS Rule Change Proposals for 2012 (Annual ABS - Industry Meeting)",
     lead = {
       first = "Roy",
@@ -321,6 +287,27 @@ Dr. Nuckols joined the faculty at Duke University as Senior Research Scientist i
   },
 
   {
+    title = "Ocean-Going Diesel-Electric Submarine",
+    fulltitle = "Development of a commercial, Ocean-going, diesel electric submarine for extended operations at sea.",
+    lead = {
+      first = "Brett",
+      last = "Phaneuf",
+      org = "Submergence Group",
+      email = "brett@promare.org",
+    },
+    abstract = [==[
+Since 1986 MSUBS has been producing small, diesel-electric submersibles; coupled with recent rapid prototypng projects, in concert with Submergence Group, that produced manned and unmanned vehicles ranging from 10-65 tons, MSUBS and Submergence Group have embarked on a project to produce the world's first privately owned and operated ocean-going diesel-electric submarine for research purposes.  The submarine, as yet unnammed, will be approximately 30 meters in length with a beam of nearly 4 meters and be capable of diving to 300msw and trasitting vast ocean distances while snorkelling.  The presentation will provide an overview of the submarine design and production plans.
+]==],
+    bio = [==[
+
+]==],
+    start = { day = 25, month = 1, year = 2012,
+      hour = 11, min = 00},
+    length = 1800,
+    room = "219",
+  },
+
+  {
     title = "Deep Ocean Engineering Solutions",
     fulltitle = "TBD",
     lead = {
@@ -392,8 +379,8 @@ Dr. Wilson holds a Postdoctoral degree in Electro-Mechanical Design/instrumentat
   },
 
   {
-    title = "LI-ION BATTERY SYSTEM FOR MUVS",
-    fulltitle = "OPERATION, MAINTENANCE, & SAFETY OF A MODULAR LI-ION BATTERY SYSTEM FOR MANNED UNDER WATER VEHICLES",
+    title = "Li-Ion Battery System for MUVs",
+    fulltitle = "Operation, Maintenance, & Safety Of A Modular Li-Ion Battery System For Manned Underwater Vehicles",
     lead = {
       first = "David",
       last = "White",
@@ -401,18 +388,20 @@ Dr. Wilson holds a Postdoctoral degree in Electro-Mechanical Design/instrumentat
       email = "dwhite@swe.com",
     },
     abstract = [==[
-ABSTRACT:  Large, modularly constructed Li-Ion and Li-Polymer battery systems are now being constructed for manned under water vehicles.  A significant advantage of modular construction of large battery systems is the maintainability of the battery system and the economic edge gained by repairing a large battery system using a single, relatively inexpensive, replacement battery module.  Battery system modularity also provides an easy path to improved reliability and safety via redundancy.
-	The presentation will describe the architecture of a 240 Volt, 58 KWh battery system constructed using 64 identical, autonomous battery modules that provide as much as 8X redundancy.  A list of continuously available normal and fault status for a module is described.  A consol display of this operational status for all 64 modules and of the overall system is provided.
-	Both standard and state-of-the-art advances for operation, maintenance, and safety of the battery system will be described.  Significant among the state-of-the-art advances are:
+This presentation provides an overview of a modularly constructed 240 Volt 58 KWh Li-Polymer battery system for a manned deep submergence vehicle.  Architecture, operation, maintenance, and safety features of the battery system are provided. An innovative method for rapid module replacement with immediate system availability is described. Two new means for detection of battery module State Of Health is described and an automatic means for detection of cell internal shorts is described. A means to extend battery life and safety using module charge control is described.  Packaging of the pressure equalized battery modules and battery system is described.
 
-1)  A fast, safe, & automatic, module balancing method for supporting module replacement that is typically 100X faster than conventional methods;
-2)  Two means for determining module State Of Health;
-3)  An innovative means for timely detection of internal shorts within any cell in the battery system; and
-4)  Ability to extend battery life and improve safety by automatically adjusting the charge level of all the modules within the battery system.
+Large, modularly constructed Li-Ion and Li-Polymer battery systems are now being constructed for manned under water vehicles. A significant advantage of modular construction of large battery systems is the maintainability of the battery system and the economic edge gained by repairing a large battery system using a single, relatively inexpensive, replacement battery module. Battery system modularity also provides an easy path to improved reliability and safety via redundancy.
 
-	The presentation will also describe a means of packaging the 64 modules that allow for pressure equalization of the modules, for mounting the battery external to the manned compartment, and that subdivide the battery system into sections that can be jettisoned.
+The presentation will describe the architecture of a 240 Volt, 58 KWh battery system constructed using 64 identical, autonomous battery modules that provide as much as 8X redundancy. A list of continuously available normal and fault status for a module is described. A console display of this operational status for all 64 modules and of the overall system is provided.
 
-PRESENTATION BRIEF DESCRIPTION:  This presentation provides an overview of a modularly constructed 240 Volt 58 KWh Li-Polymer battery system for a manned deep submergence vehicle.  Architecture, operation, maintenance, and safety features of the battery system are provided.  An innovative method for rapid module replacement with immediate system availability is described.  Two new means for detection of battery module State Of Health is described and an automatic means for detection of cell internal shorts is described.  A means to extend battery life and safety using module charge control is described.  Packaging of the pressure equalized battery modules and battery system is described.
+Both standard and state-of-the-art advances for operation, maintenance, and safety of the battery system will be described. Significant among the state-of-the-art advances are:
+
+1. A fast, safe, & automatic, module balancing method for supporting module replacement that is typically 100X faster than conventional methods;
+2. Two means for determining module State Of Health;
+3. An innovative means for timely detection of internal shorts within any cell in the battery system; and
+4. Ability to extend battery life and improve safety by automatically adjusting the charge level of all the modules within the battery system.
+
+The presentation will also describe a means of packaging the 64 modules that allow for pressure equalization of the modules, for mounting the battery external to the manned compartment, and that subdivide the battery system into sections that can be jettisoned.
 ]==],
     bio = [==[
 David White graduated from Texas A& M University in 1970 with a BS in Electrical Engineering.
@@ -429,6 +418,27 @@ David is a member of the MTS, an emeritus member of the Society of Exploration G
     room = "219",
   },
 
+  {
+    title = "MTS MUV Committee Meeting",
+    fulltitle = "Annual Committee Meeting for MTS Manned Underwater Vehicles",
+    lead = {
+      first = "Will",
+      last = "Kohnen",
+      org = "Hydrospace Group",
+      email = "wkohnen@hydrospacegroup.com",
+    },
+    abstract = [==[
+
+]==],
+    bio = [==[
+
+]==],
+    start = { day = 25, month = 1, year = 2012,
+      hour = 15, min = 30 },
+    length = 3600,
+    room = "219",
+  },
+
   -- Thursday, January 26, 2011
 
   {
@@ -441,10 +451,10 @@ David is a member of the MTS, an emeritus member of the Society of Exploration G
       email = "bkemper@kemperengineering.com",
     },
     abstract = [==[
-Acrylics are a proven, reliable material for submersible viewports.  The current codes and standards reflect a first-generation development of defining a nonmetallic for pressure vessel application.  Kemper Engineering Services, Blanson Ltd., Atlantis Submarines, and Hydrospace Group are building on decades of in-service data to potentially expand the application of acrylics.
+Acrylics are a proven, reliable material for submersible viewports.  The current codes and standards reflect a first-generation development of defining a nonmetallic for pressure vessel application. Kemper Engineering Services, Blanson Ltd., Atlantis Submarines, and Hydrospace Group are building on decades of in-service data to potentially expand the application of acrylics.
 ]==],
     bio = [==[
-Bart Kemper, P.E. is the principal engineer for Kemper Engineering Services, LLC.  Based in Baton Rouge, LA, Kemper has 20 years experience in engineering ranging from pressure vessels to mechanisms to computer simulations to shock, blast and ballistics.  His work has ranged from saturation diving systems to down hole tools to aerospace and marine applications.  Past recognitions include being one of the Top 10 Federal Engineers in 2007.  He is a member of the ASME Pressure Vessels for Human Occupancy (PVHO) codes and standards committee, has written numerous professional articles, and has several patents and patents pending.
+Bart Kemper, P.E. is the principal engineer for Kemper Engineering Services, LLC.  Based in Baton Rouge, LA, Kemper has 20 years experience in engineering ranging from pressure vessels to mechanisms to computer simulations to shock, blast and ballistics. His work has ranged from saturation diving systems to down hole tools to aerospace and marine applications. Past recognitions include being one of the Top 10 Federal Engineers in 2007. He is a member of the ASME Pressure Vessels for Human Occupancy (PVHO) codes and standards committee, has written numerous professional articles, and has several patents and patents pending.
 ]==],
     start = { day = 26, month = 1, year = 2012,
       hour = 8, min = 30 },
@@ -453,7 +463,7 @@ Bart Kemper, P.E. is the principal engineer for Kemper Engineering Services, LLC
   },
 
   {
-    title = "Tobin McNatt",
+    title = "Naval CADD Software",
     fulltitle = "Naval Architecture Software Tools for Underwater Vehicle Design",
     lead = {
       first = "Tobin",
@@ -462,7 +472,7 @@ Bart Kemper, P.E. is the principal engineer for Kemper Engineering Services, LLC
       email = "tmcnatt@drs-ds.com",
     },
     abstract = [==[
-Traditionally, naval architecture has been more craft than science. Determining what is ‘right’ in a particular situation in the absence of definitive supporting analysis encompasses the art of naval architecture to this day.  With the advent of computers, naval architects began to move their work from ‘the drawing board’ into the computer and its display.  This presentation describes the evolution of computer-based naval architecture tools from the early stages circa 1980 through the present, from the point of view of a team that pioneered tools which gained a diverse user community over that time frame.  This team’s story reflects progress and successes as well as continuing opportunities for advancement. Technical domains such as hull form design, hydrostatics and stability, structures, and weights and moments will be included, with applications to underwater vehicles discussed.  Technology developments related to software architecture and development processes will be highlighted, as well as a view toward future opportunities to further integrate and extend the scope of marine vehicle design tools.
+Traditionally, naval architecture has been more craft than science. Determining what is 'right' in a particular situation in the absence of definitive supporting analysis encompasses the art of naval architecture to this day.  With the advent of computers, naval architects began to move their work from 'the drawing board' into the computer and its display.  This presentation describes the evolution of computer-based naval architecture tools from the early stages circa 1980 through the present, from the point of view of a team that pioneered tools which gained a diverse user community over that time frame.  This team's story reflects progress and successes as well as continuing opportunities for advancement. Technical domains such as hull form design, hydrostatics and stability, structures, and weights and moments will be included, with applications to underwater vehicles discussed.  Technology developments related to software architecture and development processes will be highlighted, as well as a view toward future opportunities to further integrate and extend the scope of marine vehicle design tools.
 ]==],
     bio = [==[
 Tobin McNatt is the Director of the Advanced Marine Technology Center (AMTC) within DRS Defense Solutions, LLC.  The AMTC is a group of naval architects and software developers that provides marine vehicle design software products and technical services to a wide spectrum of industry customers. Tobin served as Program Manager for technology development programs for organizations including NAVSEA, NSWC Carderock Division, Office of Naval Research, US Special Operations Command, DARPA, and several ship classification societies.  He led the ocean engineering design and fielding of the full scale open ocean underwater explosions shock testing programs for the USS Jacksonville (SSN 699) and for the submarine shock test vehicle (SSTV).  He served on the pre-commissioning unit of fast attack submarine USS Birmingham (SSN 695), performing operations including reactor plant initial criticality and power range testing.  He also served on the USS Francis Scott Key (SSBN 657) conducting strategic deterrent patrols.  Tobin is a graduate of the U.S. Naval Academy with a degree in Physics.
@@ -477,10 +487,10 @@ Tobin McNatt is the Director of the Advanced Marine Technology Center (AMTC) wit
     title = "Review of Power to Thrust Conversion for Modern Underwater Thrusters",
     fulltitle = "",
     lead = {
-      first = "Omar",
-      last = "Raffeh",
-      org = "Innerspace Corp",
-      email = "",
+      first = "Will",
+      last = "Kohnen",
+      org = "Hydrospace Group",
+      email = "wkohnen@hydrospacegroup.com",
     },
     abstract = [==[
 
@@ -491,6 +501,51 @@ Tobin McNatt is the Director of the Advanced Marine Technology Center (AMTC) wit
     start = { day = 26, month = 1, year = 2012,
       hour = 9, min = 30 },
     length = 1800,
+    room = "219",
+  },
+
+  {
+    title = "Modern Buoyancy Foams for Underwater Vehicles",
+    fulltitle = "Modern Buoyancy Foams for Underwater Vehicles - Technical Discussion Panel",
+    lead = {
+      first = "Roy",
+      last = "Thomas",
+      org = "ABS",
+      email = "",
+    },
+    cos = {
+      {
+        first = "Tom",
+        last = "Murray",
+        org = "Engr Syntactic Solutions",
+        email = "",
+      },
+      {
+        first = "Fred",
+        last = "McGuire",
+        org = "Flotation Technology",
+        email = "",
+      },
+      {
+        first = "Jim",
+        last = "Teague",
+        org = "Teague Enterprises",
+        email = "",
+      },
+      {
+        first = "Robert",
+        last = "Kelly",
+        org = "Trelleborg Offshore Boston, Inc.",
+        email = "",
+      },
+    },
+    abstract = [==[
+]==],
+    bio = [==[
+]==],
+    start = { day = 26, month = 1, year = 2012,
+      hour = 10, min = 30 },
+    length = 5400,
     room = "219",
   },
 })

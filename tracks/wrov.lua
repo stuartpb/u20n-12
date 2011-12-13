@@ -299,18 +299,14 @@ Worked in the waterjet industry for 10 years. Work in the waterjet industry has 
   {
     title = "ROV Automation",
     fulltitle = "Navigation, Object Tracking and Data Monitoring in Real-Time for ROV Automation",
-    lead = {
-      first = "Ioseba",
-      last = "Tena",
-      org = "SeeByte",
-      email = "ioseba.tena@seebyte.com",
-    },
+    lead = shared.leads.tena,
     abstract = [==[
 The last five years has seen the advent of commercial-off-the-shelf (COTS) Remotely Operated Vehicle (ROV) automation solutions. The challenges posed by a rapidly expanding ROV pilot workforce, dynamic working environments and increasing demands on quality and performance have been the main drivers for this technology. A good example of its application is the 2008 Doc Ricketts vehicle. This was a Workclass ROV (WROV) equipped with the basic autonomy building blocks to enable station keeping, waypoint following and object tracking. The Doc Ricketts WROV is still in active service with MBARI. This basic capability paved the way for commercial applications and now station keeping is a standard option. More recently, Jan De Nul Fall Pipe ROV is an example that uses COTS sophisticated cruise and mission planning modules. This world's first enables precise positioning of the ROV over a pipeline as it swings from side to side and places rocks over the product. Available capabilities today include real-time monitoring and control of multiple ROVs relative to chart data, mid-water DP using INS and tracking sonar, pre-lay survey flight modes and hands-off touchdown monitoring using sonar. The combination of data from optical cameras with 3D sonar imaging will further enhance the mapping of the subsea environment to facilitate various activities such as mission planning and training.
 
 The purpose of this talk is to provide an insight into this technology and a glimpse of what to expect in the immediate future.
 ]==],
     bio = shared.bios.tena,
+    headshot = shared.headshots.tena,
     start = { day = 25, month = 1, year = 2012,
       hour = 16, min = 00 },
     length = 1800,

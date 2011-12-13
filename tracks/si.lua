@@ -28,16 +28,12 @@ Graduated at the Italian Naval Accademy, after a master degree in electronic eng
   {
     title = "Through-the-sensor Multibeam control of ROVs",
     fulltitle = "Multibeam Imaging Sonar-Track, through-the-sensor control for microROVs",
-    lead = {
-      first = "Ioseba",
-      last = "Tena",
-      org = "SeeByte",
-      email = "ioseba.tena@seebyte.com",
-    },
+    lead = shared.leads.tena,
     abstract = [==[
 Multibeam imaging sonars have been available since the early nineties and have served well as a tool to improve situational awareness. Operators can observe targets at distances of tens to hundreds of yards and use the information to navigate underwater vehicles and monitor important subsea regions. The original systems were significant in size and weight and required large electronic pods to beam form and process the raw data. But today’s multibeam imaging sonars are of a size suitable for microROV operation, so much so that they have become a common payload option for many operators. In tandem software solutions enabling close control of unmanned systems using through-the-sensor servoing techniques have evolved to a level of maturity suitable for commercial exploitation. The bringing together of this technology with the microROV will enable a new level of user control to the operational users. A common task such as flying to a target can be a difficult undertaking when faced with currents and tether effects, when time is at a premium this can be frustrating and negatively impact the overall mission needs. This proposed technology enables the microROV to keep station relative to an object or structure identified in the sonar data. The ROV can then maneuver relative to this object and the pilot need only provide simple point-and-click commands on the sonar screen. This talk will illustrate some early results on early prototype work.
 ]==],
     bio = shared.bios.tena,
+    headshot = shared.headshots.tena,
     start = { day = 25, month = 1, year = 2012,
       hour = 9, min = 00 },
     length = 1800,
@@ -70,18 +66,12 @@ Ian Florence has worked in the offshore industry since 1981, starting in the sei
   {
     title = "Description of Solutions Using Sonar Imaging",
     fulltitle = "Description of Equipment and Sonar Tools Available for Underwater Inspection and Construction Monitoring",
-    lead = {
-      first = "Mark",
-      last = "Klein",
-      org = "S.T. Hudson Engineers, Inc",
-      email = "mklein@sthe.com",
-    },
+    lead = shared.leads.klein,
     abstract = [==[
 Show Scanning, Imaging, and Multi Beam Sonar uses, describe the differences and reasons for using each.
 ]==],
-    bio = [==[
-
-]==],
+    bio = shared.bios.klein,
+    headshot = shared.headshots.klein,
     start = { day = 25, month = 1, year = 2012,
       hour = 10, min = 30 },
     length = 1800,
@@ -89,20 +79,21 @@ Show Scanning, Imaging, and Multi Beam Sonar uses, describe the differences and 
   },
 
   {
-    title = "Scanning Sonar Surveys",
-    fulltitle = "Using the MS 1000 scanning sonar for creating baseline surveys on large scale projects",
-    lead = {
-      first = "Brian",
-      last = "Abbott",
-      org = "Nautilus Marine Group International, LLC",
-      email = "abbott@nautilusmarinegroup.net",
-    },
+    title = "Case Study of Remote Sensing in Construction",
+    fulltitle = "A review of several imaging methods used in a recent construction project to monitor dredging, diving, and progress of a diffuser installation in black water.",
+    lead = shared.leads.klein,
     abstract = [==[
-Using the MS 1000 scanning sonar for creating baseline surveys on large scale projects. These large scale projects can be but not limited to bridges, dams, ports & harbors and canal systems.  Creating these baseline surveys allows for better engineering assessment of structures and site conditions for homeland security issues.  Changing the orientation of the sonar allows one to image in different plans and obtain information necessary to build a three dimensional structure of the site.  All of this information can be tied into a GPSRTK system allowing for one to reacquire information at a later date and time.
-]==],
-    bio = [==[
+To follow:
 
+Scanning Sonar
+Side scan sonar
+hydrographic surveying
+multibeam imaging sonar
+Tri Tech
+Kongsberg
 ]==],
+    bio = shared.bios.klein,
+    headshot = shared.headshots.klein,
     start = { day = 25, month = 1, year = 2012,
       hour = 11, min = 00 },
     length = 1800,
@@ -152,26 +143,19 @@ Jim Britton - As founder and CEO of Deepwater Corrosion services Inc in 1986 he 
   },
 
   {
-    title = "Case Study of Remote Sensing in Construction",
-    fulltitle = "A review of several imaging methods used in a recent construction project to monitor dredging, diving, and progress of a diffuser installation in black water.",
+    title = "Scanning Sonar Surveys",
+    fulltitle = "Using the MS 1000 scanning sonar for creating baseline surveys on large scale projects",
     lead = {
-      first = "Mark",
-      last = "Klein",
-      org = "S.T. Hudson Engineers, Inc",
-      email = "mklein@sthe.com",
+      first = "Brian",
+      last = "Abbott",
+      org = "Nautilus Marine Group International, LLC",
+      email = "abbott@nautilusmarinegroup.net",
     },
     abstract = [==[
-To follow:
-
-Scanning Sonar
-Side scan sonar
-hydrographic surveying
-multibeam imaging sonar
-Tri Tech
-Kongsberg
+Using the MS 1000 scanning sonar for creating baseline surveys on large scale projects. These large scale projects can be but not limited to bridges, dams, ports & harbors and canal systems.  Creating these baseline surveys allows for better engineering assessment of structures and site conditions for homeland security issues.  Changing the orientation of the sonar allows one to image in different plans and obtain information necessary to build a three dimensional structure of the site.  All of this information can be tied into a GPSRTK system allowing for one to reacquire information at a later date and time.
 ]==],
     bio = [==[
-to follow, use same from last year.
+
 ]==],
     start = { day = 25, month = 1, year = 2012,
       hour = 14, min = 00 },

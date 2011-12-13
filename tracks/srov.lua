@@ -145,18 +145,12 @@ Remotely Operated Vehicles were used during two trips to the Tsunami damaged are
   {
     title = "Development and application of accessories on micro-ROVs",
     fulltitle = "",
-    lead = {
-      first = "Tom",
-      last = "Glebas",
-      org = "VideoRay",
-      email = "Tom.Glebas@videoray.com",
-    },
+    lead = shared.leads.glebas,
     abstract = [==[
 
 ]==],
-    bio = [==[
-
-]==],
+    bio = shared.bios.glebas,
+    headshot = shared.headshots.glebas,
     start = { day = 24, month = 1, year = 2012,
       hour = 13, min = 30 },
     length = 1800,
@@ -166,16 +160,12 @@ Remotely Operated Vehicles were used during two trips to the Tsunami damaged are
   {
     title = "New autonomous survey capabilities for ROVs",
     fulltitle = "New autonomous survey capabilities for microROVs",
-    lead = {
-      first = "Ioseba",
-      last = "Tena",
-      org = "SeeByte",
-      email = "ioseba.tena@seebyte.com",
-    },
+    lead = shared.leads.tena,
     abstract = [==[
 The low-logistics associated with microROVs make it an ideal platform for rapid deployment. With microROVs, first respondents are able to rapidly mobilize to an area, run a survey and interact with the subsea environment if required. The time it takes to run a search and the confidence to report that the area has been cleared is often time-crucial for the success of the mission. Recent advances in technology have seen the introduction of software solutions to automate and simplify the piloting of the ROV by analyzing data gathered from navigation and sonar sensors.  Over the last few years technology developments have reduced the size of these sensors and it is now possible to introduce some of the technologies in use with observation-class and work-class ROVs. This talk explores a solution that integrates a phased array Doppler Velocity Log with a microROV and enables a true survey capability that, to date, would normally only be found with Autonomous Underwater Vehicles. The Survey-Control software simplifies the piloting of ROVs, improves the situational awareness of the operator and increases the pace of operations.  With this tool, first respondents will be able to fly the ROV with significantly less training and guide the ROV precisely around the environment.
 ]==],
     bio = shared.bios.tena,
+    headshot = shared.headshots.tena,
     start = { day = 24, month = 1, year = 2012,
       hour = 14, min = 00 },
     length = 1800,
@@ -183,22 +173,21 @@ The low-logistics associated with microROVs make it an ideal platform for rapid 
   },
 
   {
-    title = "Remote image enhancement technology",
+    title = "Tether-based positioning system technology",
     fulltitle = "",
     lead = {
-      first = "Anders",
-      last = "Holm",
-      org = "LYYN AB",
-      email = "Anders.Holm@lyyn.com",
+      first = "Matt",
+      last = "Cowan",
+      org = "KCF Technologies, Inc.",
+      email = "mcowen@kcftech.com",
     },
-
     abstract = [==[
 
 ]==],
     bio = [==[
-Anders Holm is currently the chief technical officer (CTO) at LYYN AB. He founded the company in 2003 together with Olle Holm, Andreas Ekengren and Jan Nilsson. Anders Holm and Olle Holm developed the basic ideas behind the LYYN products. Anders previously worked at SonyEricsson as a lead system architect for SonyEricsson internet services. Prior to that he worked as consultant unit manager for several software consultancies in Sweden. Anders Holm has a Ph.D in Electrical Measurements (experimental physics) from Lund University and a M.Sc in Engineering Physics also from Lund University.
+
 ]==],
-    headshot = "holm.jpg",
+
     start = { day = 24, month = 1, year = 2012,
       hour = 14, min = 30 },
     length = 1800,
@@ -238,12 +227,7 @@ Bluefin Robotics recently acquired the assets of Hawkes Remotes, Inc. (HRI), a s
   {
     title = "Student innovations transforming commercial ROV technologies",
     fulltitle = "Evaluation of Quality indicators for observation class ROVs",
-    lead = {
-      first = "Dmitry",
-      last = "Lyakhov",
-      org = "Institute of Marine Technology Problems",
-      email = "lyakhov@marine.febras.ru",
-    },
+    lead = shared.leads.lyakhov,
     cos = {
       {
         first = "Mokeeva",
@@ -265,12 +249,8 @@ Although the Institute  is not an educational establishment there are several st
 
 Since 2008, teams of students from IMPT have participated in the MATE ROV Competition. In 2010 they won. This paper will present how the student ROV innovations were transformed into commercial product and why students involved in MATE are in demand in the underwater engineering workplace. Theoretical approaches in developing underwater vehicles, practical construction work and sea trials will be described in this presentation giving useful insight to students, teachers, and underwater technology professionals.
 ]==],
-    bio = [==[
-Participated in GNOM microROV project 2004-2006 (Shirshov Institute of Oceanology)
-Development of ROV systems for Russian market based on international manufacturers products Seaeye/Seabotix/Sperre 2006-2009 (Tetis-Pro)
-R&D of AUV/ROV/Subsystems 2009 – present (IMPT FEBRAS)
-]==],
-    headshot="lyakhov.jpg",
+    bio = shared.bios.lyakhov,
+    headshot = shared.headshots.lyakhov,
     start = { day = 24, month = 1, year = 2012,
       hour = 16, min = 00 },
     length = 1800,
@@ -358,7 +338,7 @@ With over 10 years of field experience and more than 500 successful projects, St
 Van Meter Consulting is based in Cocoa, Florida.
 ]==],
     start = { day = 25, month = 1, year = 2012,
-      hour = 9, min = 30},
+      hour = 9, min = 30 },
     length = 1800,
     room = "218",
   },
@@ -366,16 +346,12 @@ Van Meter Consulting is based in Cocoa, Florida.
   {
     title = "Tracking through Multibeam",
     fulltitle = "Multibeam Imaging Sonar-Track, through-the-sensor control for microROVs",
-    lead = {
-      first = "Ioseba",
-      last = "Tena",
-      org = "SeeByte",
-      email = "ioseba.tena@seebyte.com",
-    },
+    lead = shared.leads.tena,
     abstract = [==[
 Multibeam imaging sonars have been available since the early nineties and have served well as a tool to improve situational awareness. Operators can observe targets at distances of tens to hundreds of yards and use the information to navigate underwater vehicles and monitor important subsea regions. The original systems were significant in size and weight and required large electronic pods to beam form and process the raw data. But today’s multibeam imaging sonars are of a size suitable for microROV operation, so much so that they have become a common payload option for many operators. In tandem software solutions enabling close control of unmanned systems using through-the-sensor servoing techniques have evolved to a level of maturity suitable for commercial exploitation. The bringing together of this technology with the microROV will enable a new level of user control to the operational users. A common task such as flying to a target can be a difficult undertaking when faced with currents and tether effects, when time is at a premium this can be frustrating and negatively impact the overall mission needs. This proposed technology enables the microROV to keep station relative to an object or structure identified in the sonar data. The ROV can then maneuver relative to this object and the pilot need only provide simple point-and-click commands on the sonar screen. This talk will illustrate some early results on early prototype work.
 ]==],
     bio = shared.bios.tena,
+    headshot = shared.headshots.tena,
     track = "Instruments and Sensors",
     start = { day = 25, month = 1, year = 2012,
       hour = 10, min = 30 },
@@ -384,20 +360,22 @@ Multibeam imaging sonars have been available since the early nineties and have s
   },
 
   {
-    title = "Tether-based positioning system technology",
+    title = "Remote image enhancement technology",
     fulltitle = "",
     lead = {
-      first = "Matt",
-      last = "Cowan",
-      org = "KCF Technologies, Inc.",
-      email = "mcowen@kcftech.com",
+      first = "Anders",
+      last = "Holm",
+      org = "LYYN AB",
+      email = "Anders.Holm@lyyn.com",
     },
+
     abstract = [==[
 
 ]==],
     bio = [==[
-
+Anders Holm is currently the chief technical officer (CTO) at LYYN AB. He founded the company in 2003 together with Olle Holm, Andreas Ekengren and Jan Nilsson. Anders Holm and Olle Holm developed the basic ideas behind the LYYN products. Anders previously worked at SonyEricsson as a lead system architect for SonyEricsson internet services. Prior to that he worked as consultant unit manager for several software consultancies in Sweden. Anders Holm has a Ph.D in Electrical Measurements (experimental physics) from Lund University and a M.Sc in Engineering Physics also from Lund University.
 ]==],
+    headshot = "holm.jpg",
     start = { day = 25, month = 1, year = 2012,
       hour = 11, min = 00 },
     length = 1800,
@@ -461,18 +439,12 @@ Mark Feulner has been researcher for Underwater Crime Scene Investigation (UCSI)
   {
     title = "Fleet Management for small ROV operations",
     fulltitle = "",
-    lead = {
-      first = "Tom",
-      last = "Glebas",
-      org = "VideoRay",
-      email = "Tom.Glebas@videoray.com",
-    },
+    lead = shared.leads.glebas,
     abstract = [==[
 
 ]==],
-    bio = [==[
-
-]==],
+    bio = shared.bios.glebas,
+    headshot = shared.headshots.glebas,
     start = { day = 25, month = 1, year = 2012,
       hour = 14, min = 00 },
     length = 1800,
@@ -526,18 +498,12 @@ Andew Goldstein is the Director of Software Engineering at VideoRay LLC. and is 
   {
     title = "Small ROV Maintenance",
     fulltitle = "",
-    lead = {
-      first = "Tom",
-      last = "Glebas",
-      org = "VideoRay",
-      email = "Tom.Glebas@videoray.com",
-    },
+    lead = shared.leads.glebas,
     abstract = [==[
 
 ]==],
-    bio = [==[
-
-]==],
+    bio = shared.bios.glebas,
+    headshot = shared.headshots.glebas,
     start = { day = 25, month = 1, year = 2012,
       hour = 16, min = 00 },
     length = 1800,

@@ -66,12 +66,7 @@ Andew Goldstein is the Director of Software Engineering at VideoRay LLC. and is 
   {
     title = "ROV competition",
     fulltitle = "From ROV competition to subsea technology",
-    lead = {
-      first = "Dmitry",
-      last = "Lyakhov",
-      org = "Institute of Marine Technology Problems",
-      email = "lyakhov@marine.febras.ru",
-    },
+    lead = shared.leads.lyakhov,
     cos = {
       {
         first = "Sergey",
@@ -90,10 +85,8 @@ Andew Goldstein is the Director of Software Engineering at VideoRay LLC. and is 
 In result of MATE activities in educational field, specifically - ROV Competition, 2010 winner student ROV has been successfully commercialized this year. The supply from  Institute of Marine Technology Problems was for Russian Far East Maritime State University  for educational as well as coastal and port/harbor applied  marine research
 This paper reviews relatively fast evolution showing that participation in student’s competitions opens the doors to industry. Details of development project and ROV itself  described pointing the evolution from student “toy” to real product. The issue of growing demand in UUV operator/technician staff is presented from educational establishment’s side.
 ]==],
-    bio = [==[
-Dmitry Lyakhov works at the The Institute of Marine Technology Problems. The Institute of Marine Technology Problems is considered to be mostly advanced in the world in the development of autonomous unmanned underwater vehicles (AUV). Along with the fundamental theoretical studies directed to determine principle problems of the underwater robotics, the IMTP performs experimental work for development of the unmanned underwater vehicles intended for utilization in national economy. More than ten AUV types, capable of investigating into sea bottom without man participation, surveying the relief, searching, inspecting the sunken objects and measuring the environmental parameters, have been developed by the institute researchers and engineers and tested at depths up to 6000 m.
-]==],
-    headshot = "lyakhov.jpg",
+    bio = shared.bios.lyakhov,
+    headshot = shared.headshots.lyakhov,
     presimg = "edu3presimg.jpg",
     start = { day = 24, month = 1, year = 2012,
       hour = 9, min = 30},
