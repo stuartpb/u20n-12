@@ -4,8 +4,7 @@ return maketrack("oe", {
     title = "Navy Unmanned Systems Experimentation Lab",
     fulltitle = "Bringing Technology to Customers & Markets Faster Through Experimentation",
     lead = {
-      first = "John",
-      last = "Klose",
+      first = "John", last = "Klose",
       org = "Naval Surface Warfare Center",
       email = "john.p.klose@navy.mil",
     },
@@ -14,7 +13,7 @@ Technical innovations are occurring at an ever-increasing rate and create new ch
 This presentation will cover the initial efforts of this laboratory to develop new innovative Operational Concepts for Explosive Ordnance Disposal forces, Anti-Terrorism/Force Protection (AT/FP) forces, and Maritime Critical Infrastructure Protection using modular, Micro Unmanned Surface Vessel (USV) technology. The presentation will focus on processes for creating modular hardware and software architectures, conducting important experiments in the operational environment, and finding or developing new technologies that open up new possibilities for innovative changes to operational concepts or market segments.
 ]==],
     bio = [==[
-Cdr. John P. Klose is a retired submarine officer and project engineer at the Naval Surface Warfare Center Panama City Division. He has worked for over 25 years with a variety of teams to develop new combat, weapons, C4I, Special Operations Maritime Mobility, and EOD systems. He has a significant backgorund in rapid prototyping, experimentation, and using Government programs such as the Small Buisness Innovaton Research program to foster and promote rapid technology development.
+Cdr. John P. Klose is a retired submarine officer and project engineer at the Naval Surface Warfare Center Panama City Division. He has worked for over 25 years with a variety of teams to develop new combat, weapons, C4I, Special Operations Maritime Mobility, and EOD systems. He has a significant background in rapid prototyping, experimentation, and using Government programs such as the Small Buisness Innovaton Research program to foster and promote rapid technology development.
 ]==],
     start = { day = 24, month = 1, year = 2012,
       hour = 10, min = 30 },
@@ -25,32 +24,18 @@ Cdr. John P. Klose is a retired submarine officer and project engineer at the Na
   {
     title = "Plastic Parts for Undersea Applications",
     fulltitle = "Plastic Parts for Difficult Undersea Applications",
-    lead = {
-      first = "Robert",
-      last = "Underwood",
-      org = "Polymer Corporation",
-      email = "cjenkins@polymercorporation.com",
-    },
+    lead = "Robert Underwood",
     abstract = [==[
 Metal parts hate water, especially salt water. Add the effects of depth pressure and the rough operating conditions often experienced in the field and the marine parts designer faces unique and difficult challenges.  Frequently plastic is the answer.  Advances in plastic materials and manufacturing processes make that increasingly the case.  Plastic neither rusts nor corrodes, can be as tough as metal, is lightweight, has no magnetic signature, and can be formed into a wide variety of shapes.  Plastic parts can be designed to withstand extreme depth pressures, to minimize or eliminate leak paths, not to outgas, and for specific underwater signal reflection, transmission, or attenuation characteristics.  Plastic can be used to encapsulate delicate electronics, GPS modules, antennae, and power connectors.  This presentation provides an overview of the present state of the art in plastics materials and manufacturing processes for undersea applications and highlights particularly difficult missions where plastic parts have been critical to success.  Highlighted missions include:
-•	AUVs discovering Air France 447 wreckage 2 ½ miles down in the Atlantic
-•	Combat divers mapping a harbor minefield
-•	Navy SEALS conducting  underwater special ops
-•	In-situ instruments monitoring ocean conditions for weather forecasting and climate modeling
-•	ROVs  working on the floor of the Gulf of Mexico
+
+- AUVs discovering Air France 447 wreckage 2 ½ miles down in the Atlantic
+- Combat divers mapping a harbor minefield
+- Navy SEALS conducting  underwater special ops
+- In-situ instruments monitoring ocean conditions for weather forecasting and climate modeling
+- ROVs working on the floor of the Gulf of Mexico
 
 For over thirty years, Polymer Corporation has been a leading producer of high-performance plastic parts and assemblies for undersea use.
 ]==],
-    bio = [==[
-Mr. Underwood is President and CEO of Polymer Corporation, a leading manufacturer of plastic parts for marine and defense applications.  In addition, he is a founding and managing partner of North American Funds, institutionally-backed private-equity partnerships specializing in acquiring small businesses and developing them into significantly larger enterprises.  Earlier in his career, Mr. Underwood was President of Northern Capital Corporation, the venture capital subsidiary of The Northern Trust Company, and Vice President of Heizer Corporation when it was the largest independent venture capital/business development firm in the United States.   He also was with TRW and Lockheed as a research scientist, project leader, and manager of startup technology businesses.  At Lockheed, he was on the staff of both the Poseidon and Trident missile program offices.  At TRW, he had responsibility for stimulating technology transfer across the entire corporation.
-
-Mr. Underwood additionally served in the Federal Government as Special Assistant for Engineering Sciences, Office of the Secretary, U.S. Department of Transportation, and with the Office of Management and Budget (OMB), Executive Office of the President.  At OMB, he had management oversight responsibilities for various Federal agencies, including the U.S. Department of Commerce and the U.S. Small Business Administration.
-
-Mr. Underwood has been or is a Director of a number of emerging companies, both private and public.  He is a long-time past member of the Advisory Board for Santa Clara University’s Leavey School of Business and of the National Science Foundation's Advisory Committee on Industrial Innovation.
-
-Mr. Underwood holds a B.S. in Mechanical Engineering (with Great Distinction) and an M.S. and Ph.D. in Aeronautical and Astronautical Sciences (with a concentration in fluid mechanics), all from Stanford University.  He received his M.B.A. from Santa Clara University.  He holds one U.S. patent.
-]==],
-    headshot = "underwood.jpg",
     presimg = "oe2presimg.jpg",
     start = { day = 24, month = 1, year = 2012,
       hour = 11, min = 00 },
@@ -61,12 +46,7 @@ Mr. Underwood holds a B.S. in Mechanical Engineering (with Great Distinction) an
   {
     title = "Environmentally Safe Lubricants",
     fulltitle = "Innovations in Biodegradable, Environmentally Safe Lubricants",
-    lead = {
-      first = "Mark",
-      last = "Miller",
-      org = "Terresolve Technologies",
-      email = "memiller@terresolve.com",
-    },
+    lead = "Mark Miller",
     abstract = [==[
 There is increasing pressure from government, industry and the public to protect the environment. Many underwater projects require the use of environmentally preferable, biodegradable products to bid for contracts. While initially more expensive, these fluids can save money and time when properly utilized. They can improve equipment performance, while protecting the user from costly fines and clean up in the event of a leak or spill.
 
@@ -75,10 +55,6 @@ Environmentally safe lubricants will be presented from a 'hands-on' perspective.
 The paper will explore the types of biodegradable products and how they interact with underwater equipment. Included will be their compatibility with hydraulics, pumps, sealing materials, hoses, and other important components. Water infiltration, high pressure, wide temperature range usage as well as ways to manage these challenges will also be discussed.
 
 There will be a discussion of specific maintenance practices that are required to maintain long useful life of these fluids as well as long equipment life. This will include real world experience gained by several successful long term field demonstrations with commercial and military divers and ROVs. Data that will be used covers oil analysis, equipment inspections, operating conditions, and overall cost savings.
-]==],
-    bio = [==[
-Mark Miller is the CEO of Terresolve Technologies, a Cleveland-based company that provides non-toxic, biodegradable lubricating products. Mr. Miller has a B.S. in Chemical Engineering from Tufts University and an M.B.A. from Manhattan College. He has engineered, sold and marketed lubricants and lubricant additives for over 20 years.
-Terresolve’s biobased fluids have been extensively proven in the lab and in the field and are renewable, support the agrarian community, and meet federal guidelines for environmentally preferable purchasing.
 ]==],
     start = { day = 24, month = 1, year = 2012,
       hour = 11, min = 30 },
@@ -90,24 +66,22 @@ Terresolve’s biobased fluids have been extensively proven in the lab and in th
     title = "High-level Organization of UUVs",
     fulltitle = "High-level Organization of Unmanned Underwater Systems",
     lead = {
-      first = "Peter",
-      last = "Sapaty",
+      first = "Peter", last = "Sapaty",
       org = "Institute of Mathematical Machines & Systems Problems",
       email = "peter.sapaty@gmail.com",
+      bio = [==[
+Dr. Peter Sapaty (educated in power networks & missile control), Director of Distributed Simulation and Control, Ukrainian Academy of Sciences, is with networking for 45 years. Worked in Germany, UK, Canada and Japan as project leader, research and invited professor. Invented distributed control technology used in different countries and resulted in European Patent and two John Wiley books. Areas of interest: models and languages for coordination and simulation of distributed dynamic systems with application in cooperative robotics, emergency management and infrastructure protection. His bio is in Marquis Who's Who in the World and Cambridge Outstanding Intellectuals of the 21st Century.
+]==],
     },
     cos = {
       {
-        first = "Bob",
-        last = "Nugent",
+        first = "Bob", last = "Nugent",
         org = "AMI International",
-        email = " bnugent@amiinter.com",
+        email = "bnugent@amiinter.com",
       },
     },
     abstract = [==[
 The world ocean remains the last unexplored space on earth. Underwater robots, when massively deployed, can bring huge benefit. Their use, however, is much more complicated than aerial or ground ones, due to communication problems. That is why enhancing intelligence of individual robots for increasing autonomy and reducing communications is the primary goal. In this paper we are offering a high-level distributed control technology that can dynamically integrate any underwater units into operable teams with a sort of global consciousness and pursuing global goals. It is based on universal knowledge processing and control modules easily installed in units and communicating with each other via any available channels. Ad hoc networks of these modules spatially, in parallel, interpret global mission descriptions in a special high-level Distributed Scenario Language (DSL) reflecting top semantics of what to be done in a distributed maritime space, while leaving system structuring and task-oriented C2 entirely to automatic language interpretation.  Extremely  short, created on the fly, DSL scenarios are injected into the robotic swarm from any unit, subsequently covering the whole system and setting the needed behavior, with communications between vehicles much shorter than with any other approaches (thus suitable for low speed channels). Implementation details of the technology will be revealed, and exemplary scenarios in DSL related to underwater environments, like collective distributed search of a large territory for specific objects or patrolling coastline will be shown. Cooperation with surface and aerial vehicles, also with higher-level manned systems within the same organizational model, are discussed too.
-]==],
-    bio = [==[
-Dr. Peter Sapaty (educated in power networks & missile control), Director of Distributed Simulation and Control, Ukrainian Academy of Sciences, is with networking for 45 years. Worked in Germany, UK, Canada and Japan as project leader, research and invited professor. Invented distributed control technology used in different countries and resulted in European Patent and two John Wiley books. Areas of interest: models and languages for coordination and simulation of distributed dynamic systems with application in cooperative robotics, emergency management and infrastructure protection. His bio is in Marquis Who's Who in the World and Cambridge Outstanding Intellectuals of the 21st Century.
 ]==],
     start = { day = 24, month = 1, year = 2012,
       hour = 13, min = 30 },
@@ -118,21 +92,13 @@ Dr. Peter Sapaty (educated in power networks & missile control), Director of Dis
   {
     title = "Environmental Monitoring with AUVs",
     fulltitle = "Environmental Monitoring with AUVs - New sensors and techniques for detection and assessment of hydrocarbons in deep water",
-    lead = {
-      first = "Chris",
-      last = "Hancock",
-      org = "Kongsberg Underwater Technologies, Inc.",
-      email = "chris.hancock@kongsberg.com",
-    },
+    lead = "Chris Hancock",
     abstract = [==[
 "AUVs are ideal platforms for carrying an array of sensors for monitoring the environment around offshore installations. Combined with subsea docking technology, AUVs equipped with environmental sensors provide a persistent early warning capability against oil and gas leaks from drilling operations and pipelines, or other environmental contaminants. Acoustics is emerging as an alternative method of indirectly (or directly) detecting hydrocarbons in the water column. Kongsberg sonars are at the forefront of this developing technology which has also been adapted for AUV application. Its fisheries echo sounders have been used extensively in recent years for detecting and tracking oil plumes resulting from subsea leaks.
 
 Kongsberg's AUVs combine the latest in sonar technology, hydrocarbon sensors (â€œsniffersâ€) and other chemical sensors to provide a full suite of environmental sensors on a long endurance, autonomous and low-logistics subsea platform. Our host of in-house AUV technologies enables a reliable and capable environmental monitoring and warning tool and includes subsea docking, through-moonpool launch and recovery, platform hovering and adaptive behaviors. Kongsberg AUVs are also fully modular in design, allowing operators to configure a vehicle to suit the task at hand.
 
 This paper provides a technology update on Kongsberg's AUVs for environmental monitoring and presents recent test results for key technologies, including detecting hydrocarbons with acoustical sensors."
-]==],
-    bio = [==[
-After graduating with a B.S. in Industrial Engineering from University of Vermont in 1978, Chris Hancock took a commission in the NOAA Corp (National Oceanographic and Atmospheric Administration) where he received his formal training as a hydrographic surveyor and conducted field operations in Washington State, Alaska and Hawaii. After completing his service with NOAA, Chris continued building his offshore experience with several commercial survey companies, holding positions as hydrographic survey, sonar operator, researcher and project manager. Chris spent several years working offshore in the Bay of Campeche, Mexico while assigned to the Ciudad del Carmen office of Brown & Root, Inc. (Houston, Texas). After more than 10 years in the field, Chris transitioned back to engineering working in systems design, software development and mechanical design related to sonar and hydrographic data acquisition and processing systems, eventually holding positions as program manager and general manger with Kongsberg (formerly Simrad) and other firms. Now in sales and marketing, Chris has been involved in the academic, offshore and naval sectors of the marine industry with a global reach, including business development of markets in the United States, Asia, and Latin America. His current focus is on emerging applications of AUV technology in the offshore oil and gas sector.
 ]==],
     start = { day = 24, month = 1, year = 2012,
       hour = 14, min = 00 },
@@ -144,8 +110,7 @@ After graduating with a B.S. in Industrial Engineering from University of Vermon
     title = "Data Loggers For Surface Or Subsea",
     fulltitle = "How to aid your operations in reducing failures",
     lead = {
-      first = "Raquel",
-      last = "Payan",
+      first = "Raquel", last = "Payan",
       org = "The Subsea Company",
       email = "raquel.payan@thesubsea.com",
     },
@@ -164,9 +129,6 @@ Typical use for the Data Logger for Surface and/or Subsea:
 - Before and after maintenance
 - To justify an extended maintenance period
 ]==],
-    bio = [==[
-
-]==],
     start = { day = 24, month = 1, year = 2012,
       hour = 14, min = 30 },
     length = 1800,
@@ -177,12 +139,7 @@ Typical use for the Data Logger for Surface and/or Subsea:
   {
     title = "Advancements in Pipeline Inspection with AUVs",
     fulltitle = "Advancements in Pipeline Inspection with AUVs - results from field trials of the HUGIN AUV and the HISAS Synthetic Aperture Sonar",
-    lead = {
-      first = "Chris",
-      last = "Hancock",
-      org = "Kongsberg Underwater Technologies, Inc.",
-      email = "chris.hancock@kongsberg.com",
-    },
+    lead = "Chris Hancock",
     abstract = [==[
 HUGIN and REMUS AUVs use advanced feature recognition algorithms, developed originally for mine-detection, to track subsea pipelines directly in sonar data in real time. This, combined with sensors such as multibeam echo sounder and high-resolution still camera, enables inspection of pipelines at a considerably higher speed, and thus lower cost, than traditional methods, while producing higher quality data. Kongsberg Maritime’s unique way of performing pipeline inspection with AUV involves two fully-autonomous passes along a pipeline. The first pass is run off to the side, and by using either high-resolution interferometric synthetic aperture sonar (HISAS) or conventional side scan sonar (SSS), a wide swath around the pipeline is mapped as the AUV automatically tracks the pipeline directly from the sonar data. This way, the pipeline’s actual position is determined and knowledge is gained about surrounding threats like anchors and trawling activity in a wide swath of up more than 200 meters.
 
@@ -191,9 +148,6 @@ The second pass is run directly over the pipeline at a low altitude, and accurat
 In cases where a priori data about the pipeline’s position is poor, and where the pipeline may be partially buried, this concept exploits the wide swath afforded by the HISAS by increasing tracking robustness and reducing the need for lateral search patterns to reacquire partially buried pipelines.
 
 In the fall of 2011, Kongsberg Maritime has integrated automatic tracking of pipelines directly from the multibeam echo sounder data, thereby adding an important capability in the toolbox available to the AUV operator. In cases where it is appropriate, this can remove the need for the first survey pass, and gives the operator more flexibility in how to design the inspection mission. This paper highlights recent test results from industry-funded technology demonstration trials conducted along pipelines in the North Sea.
-]==],
-    bio = [==[
-After graduating with a B.S. in Industrial Engineering from University of Vermont in 1978, Chris Hancock took a commission in the NOAA Corp (National Oceanographic and Atmospheric Administration) where he received his formal training as a hydrographic surveyor and conducted field operations in Washington State, Alaska and Hawaii. After completing his service with NOAA, Chris continued building his offshore experience with several commercial survey companies, holding positions as hydrographic survey, sonar operator, researcher and project manager. Chris spent several years working offshore in the Bay of Campeche, Mexico while assigned to the Ciudad del Carmen office of Brown & Root, Inc. (Houston, Texas). After more than 10 years in the field, Chris transitioned back to engineering working in systems design, software development and mechanical design related to sonar and hydrographic data acquisition and processing systems, eventually holding positions as program manager and general manger with Kongsberg (formerly Simrad) and other firms. Now in sales and marketing, Chris has been involved in the academic, offshore and naval sectors of the marine industry with a global reach, including business development of markets in the United States, Asia, and Latin America. His current focus is on emerging applications of AUV technology in the offshore oil and gas sector.
 ]==],
     start = { day = 24, month = 1, year = 2012,
       hour = 15, min = 30 },

@@ -3,12 +3,7 @@ return maketrack("div", {
   {
     title = "Advanced Electronic Technologies for Divers",
     fulltitle = "The application of advanced electronic technology in diver hand held systems, to increase diver capability, efficiency and safety, for both military and commercial divers.",
-    lead = {
-      first = "Jim",
-      last = "Garrington",
-      org = "Shark Marine Technologies Inc.",
-      email = "jhoney@sharkmarine.com",
-    },
+    lead = "Jim Garrington",
     abstract = [==[
 This presentation will cover new technologies available to divers in commercial, military or scientific roles that will provide them with more capabilities, and a safer work environment.
 
@@ -30,9 +25,6 @@ Archaeological mapping, bathymetry
 Law Enforcement
 SAR operations, Crime scene investigations
 ]==],
-    bio = [==[
-Jim Garrington is the founder and president of Shark Marine Technologies Inc. a Canadian company that has been creating innovative underwater technologies since 1984. As a diver, Jim's approach to underwater technology was from the inside out, encountering a need and creating a solution. Jim has had extensive experience in many faucets of underwater  operations including archeaology, bathymetric surveys, pipe locating and tracking, ROV piloting, drowned victim recoveries, port security and military mine countermeasures. He has has trained both military and commercial divers around the globe in the use of new underwater detection and navigation technology.
-]==],
     start = { day = 24, month = 1, year = 2012,
       hour = 8, min = 30 },
     length = 1800,
@@ -42,31 +34,10 @@ Jim Garrington is the founder and president of Shark Marine Technologies Inc. a 
   {
     title = "AEP Diving Contact Training Program",
     fulltitle = "Training Power Plant personnel to work with Divers:  AEP continues the \"Diving Contact\" training program and adds an Advanced Program for Mixed Gas Diving.",
-    lead = {
-      first = "Will F.",
-      last = "Hux",
-      org = "MESCO/ Stroud Diving & Hydrography",
-      email = "will.hux@mesco-offshore.com",
-    },
-    cos = {
-      {
-        first = "Will  F.",
-        last = "Hux",
-        org = "MESCO/ Stroud Diving & Hydrography",
-        email = "will.hux@mesco-offshore.com",
-      },
-      {
-        first = "David",
-        last = "Scarberry",
-        org = "American Electric Power",
-        email = "descarberry@aep.com",
-      },
-    },
+    lead = "Will F. Hux",
+    cos = { "David Scarberry", },
     abstract = [==[
 American Electric Power, a Sustaining Member of ADCI, continues to conduct training of its employees in the rules and regulations of commercial diving via OSHA, US Coast Guard and the ADCI Consensus Standards.  Training programs are conducted each year at selected AEP facilities for new students and re-qualifying Diving Contacts.  Criteria for becoming a Diving Contact at AEP is delineated in their program and requires each person to be nominated by management, complete the program and a written examination.  They serve in the program for a period of three years and must re-qualify by attending refresher training.  An AEP Diving Contact works directly with diving contractors at any AEP facility.  They are familiar with all diving regulations and the Consensus Standards, including Rev. 6, and can work the diving tables for repetitive dives, surface decompression on air or oxygen for example. Since they understand parts of our industry; they really make it easier for a diving contractor to communicate with them.  Dave Scarberry has been their Diving Coordinator and the originator of their program since inception and is responsible for its development and administration.  Will Hux is the instructor from MESCO/ Stroud Diving & Hydrography and wrote the training curriculum for the classroom portion of the training.  They make a strong team in presenting a safety program of which is an industry first.
-]==],
-    bio = [==[
-David Scarberry is the Program's Diving Coordinator and contact for AEP.  His career in welding with AEP and as a diving representative in both nuclear and hydroelectric plants spans over 25 years.  Will Hux is a mechanical engineer from Stroud Diving & Hydrography and MESCO.  He comes from a military and commercial diving environment.
 ]==],
     start = { day = 24, month = 1, year = 2012,
       hour = 9, min = 00 },
@@ -77,21 +48,13 @@ David Scarberry is the Program's Diving Coordinator and contact for AEP.  His ca
   {
     title = "Electronic Recording Diving & Chamber Dives",
     fulltitle = "Electronic Recording of Diving & Chamber Dives",
-    lead = {
-      first = "Will F.",
-      last = "Hux",
-      org = "MESCO/ Stroud Diving & Hydrography",
-      email = "will.hux@mesco-offshore.com",
-    },
+    lead = "Will F. Hux",
     abstract = [==[
 While it has been common industry practice to rely on hand written dive logs for divers and chamber runs for decompression, we have to rely completely on the integrity, quality, and capability of the human element to make detailed time and data entries without errors and while possibly being distracted by a great many things on deck.  Our company has been using electronic recorders and pressure sensors on chambers for years but now there exists a small device which we've been testing and have in practice for years which we issue to each diver and place in each of our chambers.  It records the time, depth, and temperature of the entire dive including the rates of ascent and descent.  They are a remarkable tool to counsel employees who violate descent and ascent rates or supervisors who allow surface intervals to go beyond the 5 minutes allowed between surfacing a diver and surface-decompression.
 
 As a safety device, the recorders are completely indelible and the data is stored where it cannot be tampered with or changed.  They couple magnetically to upload data and there are no plugs or ports.  the only battery comes installed at the factory and they last approximately 10 years depending on usage.  These record chamber runs with precision and are completely intrinsic and sealed so there is no need to worry in an oxygen environment.  Testing is underway in our deep hyperbaric testing chamber to determine accuracy and integrity of its program and depth capability.
 
 I hope to present this device and share the safe technology with all our members in January.
-]==],
-    bio = [==[
-Will Hux is a graduate of the Coastal School of Deep Sea Diving (1970) and Commercial Diving Center's Bell and Saturation course in 1973.  He is a mechanical engineer and has been employed with Stroud Diving & Hydrography since 1983.  He is a Wound Care Technologist and Certified Hyperbaric Technologist with the American College of Hyperbaric Medicine.
 ]==],
     start = { day = 24, month = 1, year = 2012,
       hour = 9, min = 30 },
@@ -107,6 +70,11 @@ Will Hux is a graduate of the Coastal School of Deep Sea Diving (1970) and Comme
       last = "Frey",
       org = "U.S. Navy, Naval Sea Systems Command",
       email = "michael.a.frey@navy.mil",
+      bio = [==[
+- 30 years experience as a U.S. Navy Diver
+- 11 years at NAVSEA Office of Salvage and Diving
+- Commander, Civil Engineer Corps, USN
+]==],
     },
     cos = {
       {
@@ -119,11 +87,6 @@ Will Hux is a graduate of the Coastal School of Deep Sea Diving (1970) and Comme
     abstract = [==[
 Provide procedures used to conduct on-site system certification survey of U. S. Navy Diving Life Support Equipment.  Present the detailed checklist and requirements used to inspect the material and operational condition of the system.  Discuss U.S. Navy diving system maintence requirements and the system used to track the completion of required maintenance.  Present the documentation used by maintenance personnel to document re-entry and work completed on a certified system.  Discuss the documentation required for replacing components of a certified diving life support system.
 ]==],
-    bio = [==[
-30 years experience as a U.S. Navy Diver
-11 years at NAVSEA Office of Salvage and Diving
-Commander, Civil Engineer Corps, USN
-]==],
     start = { day = 24, month = 1, year = 2012,
       hour = 10, min = 30 },
     length = 3600,
@@ -133,13 +96,7 @@ Commander, Civil Engineer Corps, USN
   {
     title = "Quality Management System Improves Dive Ops and Safety",
     fulltitle = "",
-    lead = {
-      first = "Miriam",
-      last = "Boudreaux",
-      org = "Mireaux Management Solutions",
-      homepage = "http://www.mireauxms.com",
-      email = "miriam@mireauxms.com",
-    },
+    lead = "Miriam Boudreaux",
     abstract = [==[
 This presentation is aimed at highlighting the benefits of implementing a management system that integrates quality and safety to improve the overall operations and safety performance of a Diving organization.  Organizations that have an established quality management system enjoy higher levels of customer and employee satisfaction.  Employees feel empowered to contribute to the success of the system and also are able to make better decisions because the organization’s processes are in control.  But how can an organization achieve this level of operational excellence?
 
@@ -152,22 +109,6 @@ In this session we will answer the following questions:
 
 Attendees will also receive a checklist at the end of the session that can be used to identify the gaps in their quality/safety management system within their organizations to determine areas that need further work in order to achieve full compliance.
 ]==],
-    bio = [==[
-Miriam Boudreaux, an ISO 9001, ISO 27001, QMS, ISMS and Web Specialist, is the President of Mireaux
-Management Solutions, a consulting firm headquartered in Houston, TX.
-
-Before venturing on her own, Miriam held positions as Corporate Quality Director, Senior Quality Manager and Process Engineering Manager. She successfully led her companies through ISO 9001, ISO 14001, QS 9000 and TL 9000 certifications.
-
-Miriam holds a Bachelor of Science Degree in Industrial Engineering from the University of Lima and a
-Master of Science Degree in Industrial Engineering from the University of Houston. She is a certified QMS and ISMS Auditor by the Registrar Accreditation Board (RABQSA). She is also a Certified Quality Engineer (CQE) and a Certified Quality Manager (CQMgr) by the American Society for Quality (ASQ).
-
-Miriam has served as an Examiner with the Texas Award for Performance Excellence and has participated as a Speaker at the ISO 9000 International Conference, the Underwater Intervention convention and other conferences. Miriam maintains the ISO Vanguard Blog and her articles have been published by magazines such as Quality Progress (American Society for Quality), Quality Digest and the
-American Automotive Industry Action Group (AIAG).
-
-In 2010 Miriam was nominated as a candidate for the Houston Business Woman of the Year Award by the National Association of Women Business Owners (NAWBO). In 2011 she received an Honorable Mention from the Enterprising Women of the Year Award.
-
-Besides her current position as President and head consultant of Mireaux, Miriam also provides her Auditing services to one of the major international ISO registrars, performing ISO certification audits on a subcontract basis.
-]==],
     start = { day = 24, month = 1, year = 2012,
       hour = 11, min = 30 },
     length = 1800,
@@ -177,17 +118,9 @@ Besides her current position as President and head consultant of Mireaux, Miriam
   {
     title = "USCG Acceptance of non-ASME PVHOs",
     fulltitle = "Case Studies in US Coast Guard Approval of PVHOs Not Constructed As ASME Pressure Vessels.",
-    lead = {
-      first = "Bart",
-      last = "Kemper",
-      org = "Kemper Engineering Services, LLC",
-      email = "bkemper@kemperengineering.com",
-    },
+    lead = "Bart Kemper",
     abstract = [==[
 The Code of Federal Regulations specifically adopts the ASME Boiler and Pressure Vessel Code and the PVHO as the standards for diving systems in US waters.  Not all diving systems are made to ASME standards.  This presentation examines several case studies of where the US Coast Guard approved non-ASME vessels.
-]==],
-    bio = [==[
-Bart Kemper, P.E. is the principal engineer for Kemper Engineering Services, LLC.  Based in Baton Rouge, LA, Kemper has 20 years experience in engineering ranging from pressure vessels to mechanisms to computer simulations to shock, blast and ballistics.  His work has ranged from saturation diving systems to down hole tools to aerospace and marine applications.  Past recognitions include being one of the Top 10 Federal Engineers in 2007.  He is a member of the ASME Pressure Vessels for Human Occupancy (PVHO) codes and standards committee, has written numerous professional articles, and has several patents and patents pending.
 ]==],
     start = { day = 24, month = 1, year = 2012,
       hour = 13, min = 30 },
@@ -207,9 +140,6 @@ Bart Kemper, P.E. is the principal engineer for Kemper Engineering Services, LLC
     abstract = [==[
 
 ]==],
-    bio = [==[
-
-]==],
     start = { day = 24, month = 1, year = 2012,
       hour = 14, min = 00 },
     length = 1800,
@@ -225,14 +155,14 @@ Bart Kemper, P.E. is the principal engineer for Kemper Engineering Services, LLC
       last = "Scheffel",
       org = "Fox Industries, Inc.",
       email = "kscheffel@foxind.com",
-    },
-    abstract = [==[
-Originally presented at the Transportation Research Board in January 2011.  This paper discusses systems and techniques that have been utilized to restore the structural integrity and protect concrete, steel, and woodpiles for more than 35 years. Many bridges in active use today are well beyond their intended designed life.  Since it would be much too costly and time consuming to replace these bridges with new bridges, proven repair and rehabilitation systems are critical to the life and safety of these structures. This paper will discuss the use of the FX-70 Inert Corrosion Free fiberglass jacket system that utilizes FX-70-6 Hydro-Ester Multipurpose Marine Epoxy and FX-225 Underwater Mortar specifically designed for bridge pile restoration.
-]==],
-    bio = [==[
+      bio = [==[
 Carl Scheffel Sr. P.E. is President and Chief Engineer of Fox Industries, Inc. Carl has been with Fox since 1970 and is a minority shareholder. He has provided countless material recommendations to consultants and public agencies regarding the selection and applications of engineered materials specified for both new construction and rehabilitation including the FX-70 Inert Corrosion Free Fiberglass Jacket System. Carl’s knowledge of underwater construction methods relating to piers, piles, bulkheads and structures is world renowned.
 
 Prior to joining Fox Industries, Carl spent 15 years as a Consulting Engineer with Rummel, Klepper & Kahl of Baltimore, Maryland where he worked as both a Construction Project Engineer and as a Bridge Design Engineer. Highlights of his career include project design/ construction engineering for the Jones Falls Expressway (I-83) in Baltimore, I-95 (John F. Kennedy Memorial Highway) in Maryland and I-95 in North Carolina. Carl is Director Emeritus of the Maryland Association of Engineers, having previously served in many positions including President. Carl is a frequent exhibitor at World of Concrete, PORTS (ASCE) and Underwater Intervention, and a speaker at Transportation Research Board in Washington DC, 2011 and 2006, and International Bridge Conference, Pittsburgh PA, 2006
+]==],
+    },
+    abstract = [==[
+Originally presented at the Transportation Research Board in January 2011.  This paper discusses systems and techniques that have been utilized to restore the structural integrity and protect concrete, steel, and woodpiles for more than 35 years. Many bridges in active use today are well beyond their intended designed life.  Since it would be much too costly and time consuming to replace these bridges with new bridges, proven repair and rehabilitation systems are critical to the life and safety of these structures. This paper will discuss the use of the FX-70 Inert Corrosion Free fiberglass jacket system that utilizes FX-70-6 Hydro-Ester Multipurpose Marine Epoxy and FX-225 Underwater Mortar specifically designed for bridge pile restoration.
 ]==],
     start = { day = 24, month = 1, year = 2012,
       hour = 14, min = 30 },
@@ -261,9 +191,6 @@ Prior to joining Fox Industries, Carl spent 15 years as a Consulting Engineer wi
       },
     },
     abstract = [==[
-
-]==],
-    bio = [==[
 
 ]==],
     start = { day = 24, month = 1, year = 2012,
@@ -296,9 +223,6 @@ Prior to joining Fox Industries, Carl spent 15 years as a Consulting Engineer wi
     abstract = [==[
 
 ]==],
-    bio = [==[
-
-]==],
     start = { day = 24, month = 1, year = 2012,
       hour = 16, min = 00 },
     length = 3600,
@@ -319,9 +243,6 @@ Prior to joining Fox Industries, Carl spent 15 years as a Consulting Engineer wi
     abstract = [==[
 
 ]==],
-    bio = [==[
-
-]==],
     start = { day = 25, month = 1, year = 2012,
       hour = 8, min = 30 },
     length = 3600,
@@ -338,9 +259,6 @@ Prior to joining Fox Industries, Carl spent 15 years as a Consulting Engineer wi
       email = "",
     },
     abstract = [==[
-
-]==],
-    bio = [==[
 
 ]==],
     start = { day = 25, month = 1, year = 2012,
@@ -378,9 +296,6 @@ Prior to joining Fox Industries, Carl spent 15 years as a Consulting Engineer wi
     abstract = [==[
 
 ]==],
-    bio = [==[
-
-]==],
     start = { day = 25, month = 1, year = 2012,
       hour = 10, min = 30 },
     length = 5400,
@@ -397,9 +312,6 @@ Prior to joining Fox Industries, Carl spent 15 years as a Consulting Engineer wi
       email = "SidM@hds.org",
     },
     abstract = [==[
-
-]==],
-    bio = [==[
 
 ]==],
     start = { day = 25, month = 1, year = 2012,
@@ -422,9 +334,6 @@ Prior to joining Fox Industries, Carl spent 15 years as a Consulting Engineer wi
     abstract = [==[
 
 ]==],
-    bio = [==[
-
-]==],
     start = { day = 25, month = 1, year = 2012,
       hour = 14, min = 15 },
     length = 2700,
@@ -443,9 +352,6 @@ Prior to joining Fox Industries, Carl spent 15 years as a Consulting Engineer wi
     abstract = [==[
 
 ]==],
-    bio = [==[
-
-]==],
     start = { day = 25, month = 1, year = 2012,
       hour = 15, min = 30 },
     length = 3600,
@@ -460,6 +366,9 @@ Prior to joining Fox Industries, Carl spent 15 years as a Consulting Engineer wi
       last = "Lunt",
       org = "Analox Sensor Technology",
       email = "simon.lunt@analox.biz",
+      bio = [==[
+Simon Lunt is the Sales Manager at Analox Sensor Technology who have provided the commercial diving industry with gas analysers since 1981.  His history is in chemical and health and safety sales and has been heavily involved in the adoption of the Hypergas MkII by the industry as a vital piece of safety equipment.
+]==],
     },
     cos = {
       {
@@ -473,9 +382,6 @@ Prior to joining Fox Industries, Carl spent 15 years as a Consulting Engineer wi
 This session will be jointly presented by Simon Lunt, Analox & Larry Janicek, LBJ Maritime.  It is intended to highlight some of the salient points in relation to monitoring hydrocarbons in the diving bell which are covered in greater detail in the official Analox Hypergas MkII training course offered by both Analox and LBJ Maritime.  This taster session will help delegates to determine if the full course is suitable for them.
 
 There will also be a short section in the presentation which will update delegates on Analox's project relating to the monitoring of H2S in the diving bell.
-]==],
-    bio = [==[
-Simon Lunt is the Sales Manager at Analox Sensor Technology who have provided the commercial diving industry with gas analysers since 1981.  His history is in chemical and health and safety sales and has been heavily involved in the adoption of the Hypergas MkII by the industry as a vital piece of safety equipment.
 ]==],
     start = { day = 25, month = 1, year = 2012,
       hour = 16, min = 30 },
@@ -492,10 +398,13 @@ Simon Lunt is the Sales Manager at Analox Sensor Technology who have provided th
       org = "Lesser & Associates Prof Law corp.",
       homepage = "http://divelaw.com",
       email = "lesser@divelaw.com",
+      bio = [==[
+36 year attorney specializing in commercial and recreational diving, 30 plus year attorney for Kirby Morgan DSI, selected as Superlawyer multiple times by fellow attornies in california, winner of one of National Law Journal "Top Defense Wins in 2004; Defended succesfully and also obtained multiple 7 figure verdicts and settlements over the past 30 years. Full bio is at DIVELAW.COM
+]==],
     },
     cos = {
       {
-        first = "michele",
+        first = "Michele",
         last = "Nelson Bass",
         org = "",
         email = "mnzg@sopris.net",
@@ -505,9 +414,6 @@ Simon Lunt is the Sales Manager at Analox Sensor Technology who have provided th
 The US Supreme Court ruling in Atlantic Sounding v Townsend and the cases that have followed over the last two years have turned previously allowed employee damage remedies upside down. Punitive damages have been allowed not only in unseaworthiness claims, but in loss of consortium claims as well. In virtually all aspects of commercial diving and vessel operations , there has been a steady expansion of employee rights that every marine contractor and vessel operator need to understand and plan for.
 Bringing you over three decades of diving risk management and analysis,  six time Superlawyer Rick Lesser will provide a summary of the most current aspects of diving and maritime law that will be invaluable in making  your own analysis of the risks and potential legal problems facing you., and more importantly, how to deal with them.
 Whether you are a commercial diver, vessel operator or diving contractor, the information in this seminar is vital to help you protect your business and your livelihood.
-]==],
-    bio = [==[
-36 year attorney specializing in commercial and recreational diving, 30 plus year attorney for Kirby Morgan DSI, selected as Superlawyer multiple times by fellow attornies in california, winner of one of National Law Journal "Top Defense Wins in 2004; Defended succesfully and also obtained multiple 7 figure verdicts and settlements over the past 30 years. Full bio is at DIVELAW.COM
 ]==],
     start = { day = 26, month = 1, year = 2012,
       hour = 10, min = 30 },
@@ -523,17 +429,17 @@ Whether you are a commercial diver, vessel operator or diving contractor, the in
       last = "Parkes",
       org = "Diver Certification Board of Canada",
       email = "dparkes@divercertification.com",
+      bio = [==[
+David Parkes M.Ed
+David Parkes is the Chief Executive Officer of the DCBC.  He retired from the Canadian Coast Guard in October 2000, following a 35-year career during which he served in a number of positions including Senior Examiner of Marine Engineers in Ottawa and, for seven years, Director of the Canadian Coast Guard College in Sydney, Nova Scotia.  For the final four years of his career he was Director of Technical Services for the Maritimes Region of the Coast Guard.
+David was hired as a consultant in early 2001 to create the DCBC and in 2002 he agreed to stay on the first Executive Director.  In 2009, during the development of a policy-based governance structure for the board, David's title was changed to CEO.
+]==],
     },
     abstract = [==[
 Since 2003, the Diver Certification Board of Canada (DCBC) has offered certification to commercial diving personnel who can demonstrate that they have sufficient training and experience to enable them to meet the competency requirements of the appropriate section of the Canadian Standards Association (CSA) Competency Standard for Diving Operations (CSA Standard Z275.4). The DCBC also accredits commercial diver training organizations which train to the competency levels of Z275.4.
 
 <TODO: diving stuff goes here>
 
-]==],
-    bio = [==[
-David Parkes M.Ed
-David Parkes is the Chief Executive Officer of the DCBC.  He retired from the Canadian Coast Guard in October 2000, following a 35-year career during which he served in a number of positions including Senior Examiner of Marine Engineers in Ottawa and, for seven years, Director of the Canadian Coast Guard College in Sydney, Nova Scotia.  For the final four years of his career he was Director of Technical Services for the Maritimes Region of the Coast Guard.
-David was hired as a consultant in early 2001 to create the DCBC and in 2002 he agreed to stay on the first Executive Director.  In 2009, during the development of a policy-based governance structure for the board, David's title was changed to CEO.
 ]==],
     start = { day = 26, month = 1, year = 2012,
       hour = 11, min = 00 },
@@ -544,17 +450,9 @@ David was hired as a consultant in early 2001 to create the DCBC and in 2002 he 
   {
     title = "Underwater Burning and Welding Safety",
     fulltitle = "Underwater Burning and Welding Safety",
-    lead = {
-      first = "David",
-      last = "Scarberry",
-      org = "American Electric Power",
-      email = "descarberry@aep.com",
-    },
+    lead = "David Scarberry",
     abstract = [==[
 This subject will address a recent accident that occured to a diver while performing an underwater welding operation.  The resulting investigation and root cause analysis lead to the identification of several unrealized conditions that aided in creating this "perfect storm."  These included such items as unaccounted power sources, unfamiliar with tools, unknown actual amperage from welder, and adjacent work groups.  The end result was a new, and more detailed JHA was created that addresses these hazards.  This JHA includes all of the best safet practices as laid out by the ADCI, but also takes it to the next level of pre-job set ups, and a firm commitment by AEP on how all U/W buring and welding work will conducted across the entire fleet.
-]==],
-    bio = [==[
-I am the diving coordinator for American Electric power.  AEP is one of the nation's largest electric power provider, with over 5 million cutomers, and cover 11 states.  Our generating resources include hydro, wind, fossil and nuclear.  My responsibilites include, but not limited to, the review, and subsequent approval, of all dive plans, ensuring AEP has an adequate resource pool of qualified diving contractors, and supporting the diving companies with engineering and techinal data as required for repairs, modifications, and new construction.
 ]==],
     start = { day = 26, month = 1, year = 2012,
       hour = 11, min = 30 },

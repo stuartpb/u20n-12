@@ -2,6 +2,7 @@ local write = io.write
 
 local tracks = require "tracks"
 local elements = require "elements"
+local presenters = require "presenters"
 
 io.output"tracks.html"
 
@@ -54,7 +55,18 @@ for ni=1, #tracks.names do
   write('<h2 class="schedtrack" id="',tname,'">',tracks.titles[tname],'</h2>\n')
   for i=1, #track do
     local pr = track[i]
-    local speaker = pr.lead.first .. ' ' .. pr.lead.last
+
+    local speaker, lead
+
+    --transitional selection
+    if type(pr.lead) == "string" then
+      speaker = pr.lead
+      lead = presenters[speaker]
+    else
+      lead = pr.lead
+      speaker = lead.first .. ' ' .. lead.last
+    end
+
     local pagename = pr.id
     local stime = os.time(pr.start)
     if pr.start.day ~= lastday then
@@ -70,9 +82,9 @@ for ni=1, #tracks.names do
     write'<span class="speaker">'
     write(htmlenc(speaker))
     write'</span>'
-    if pr.lead.org and string.find(pr.lead.org,"%S") then
+    if lead.org and string.find(lead.org,"%S") then
       write' <span class="speakorg">('
-      write(htmlenc(pr.lead.org))
+      write(htmlenc(lead.org))
       write')</span>'
     end
     write" - "

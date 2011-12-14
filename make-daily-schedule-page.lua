@@ -2,6 +2,7 @@ local write = io.write
 
 local tracks = require "tracks"
 local elements = require "elements"
+local presenters = require "presenters"
 
 io.output"schedule.html"
 
@@ -97,7 +98,17 @@ for i=1, #times do
   for j=1, #slot do
     local pr = slot[j]
     local prestime = os.time(pr.start)
-    local speaker = pr.lead.first .. ' ' .. pr.lead.last
+    local speaker, lead
+
+    --transitional selection
+    if type(pr.lead) == "string" then
+      speaker = pr.lead
+      lead = presenters[speaker]
+    else
+      lead = pr.lead
+      speaker = lead.first .. ' ' .. lead.last
+    end
+
     local pagename = pr.id
 
     write('<div class = "presdiv presdiv-',pr.track,'" id="',pr.id,'">')
@@ -113,9 +124,9 @@ for i=1, #times do
     write'<span class="speaker">'
     write(htmlenc(speaker))
     write'</span>'
-    if pr.lead.org and string.find(pr.lead.org,"%S") then
+    if lead.org and string.find(lead.org,"%S") then
       write' <span class="speakorg">('
-      write(htmlenc(pr.lead.org))
+      write(htmlenc(lead.org))
       write')</span>'
     end
     write" - "

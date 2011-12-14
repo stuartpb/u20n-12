@@ -3,6 +3,7 @@ local write = io.write
 local tracks = require 'tracks'
 local presentations = tracks.all
 local elements = require "elements"
+local presenters = require "presenters"
 
 --Try to use a proper Markdown encoder, but fail somewhat gracefully otherwise.
 local htmlenc
@@ -24,7 +25,18 @@ end
 
 for i=1, #presentations do
   local pr = presentations[i]
-  local speaker = pr.lead.first .. ' ' .. pr.lead.last
+
+  local speaker, lead
+
+  --transitional selection
+  if type(pr.lead) == "string" then
+    speaker = pr.lead
+    lead = presenters[speaker]
+  else
+    lead = pr.lead
+    speaker = lead.first .. ' ' .. lead.last
+  end
+
   local pagename = pr.id
   io.output('presentations/'..pagename..".html")
 
@@ -87,13 +99,13 @@ for i=1, #presentations do
     write"<h2>Presenter</h2>"
     write'<p>'
     write(htmlenc(speaker))
-    if pr.lead.org and string.find(pr.lead.org,"%S") then
+    if lead.org and string.find(lead.org,"%S") then
       write'<br>'
-      if pr.lead.homepage then
-        write('<a href="',pr.lead.homepage,'">',
-          htmlenc(pr.lead.org),'</a>')
+      if lead.homepage then
+        write('<a href="',lead.homepage,'">',
+          htmlenc(lead.org),'</a>')
       else
-        write(htmlenc(pr.lead.org))
+        write(htmlenc(lead.org))
       end
     end
     write"</p>\n"
@@ -105,14 +117,16 @@ for i=1, #presentations do
     end
     write(htmlenc(pr.abstract))
     write'</p>\n'
-    write'<h2>Presenter Bio</h2>\n'
-    write'<p>'
-    if pr.headshot then
-      write('<img class="headshot" src="',
-        '/2012/images/',pr.headshot,'">','\n')
+    if lead.bio then
+      write'<h2>Presenter Bio</h2>\n'
+      write'<p>'
+      if lead.headshot then
+        write('<img class="headshot" src="',
+          '/2012/images/',lead.headshot,'">','\n')
+      end
+      write(htmlenc(lead.bio))
+      write'</p>\n'
     end
-    write(htmlenc(pr.bio))
-    write'</p>\n'
   write'</div>'
 
   write[[
