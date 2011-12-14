@@ -1,8 +1,7 @@
 local write = io.write
 
 local tracks = require 'tracks'
-local presentations = tracks.all
-local elements = require "elements"
+local allprs = tracks.all
 local presenters = require "presenters"
 
 --Try to use a proper Markdown encoder, but fail somewhat gracefully otherwise.
@@ -19,12 +18,12 @@ else
     return (string.gsub((string.gsub((string.gsub(str,
       "[<>&]",{["<"]="&lt;",[">"]="&gt;",["&"]="&amp;"})),
       "\n\n","\n<br><br>\n")),
-      "\n%-","\n<br>%-"))
+      "\n[%-0123456789]","\n<br>%-"))
   end
 end
 
-for i=1, #presentations do
-  local pr = presentations[i]
+for i=1, #allprs do
+  local pr = allprs[i]
 
   local speaker, lead
 

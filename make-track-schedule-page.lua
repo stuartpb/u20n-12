@@ -1,7 +1,6 @@
 local write = io.write
 
 local tracks = require "tracks"
-local elements = require "elements"
 local presenters = require "presenters"
 
 io.output"tracks.html"
@@ -27,16 +26,17 @@ write[[
 </header>
 ]]
 
---write(elements.nav)
 write[[
 <nav>
   <ul>
     <li>go to:</li>
 ]]
+
 for i=1, #tracks.names do
   local tn = tracks.names[i]
   write('    <li><a href="#',tn,'">',tracks.titles[tn],'</a></li>\n')
 end
+
 write[[
   </ul>
   <ul>

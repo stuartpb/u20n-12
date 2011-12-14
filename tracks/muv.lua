@@ -33,15 +33,7 @@ I will use examples of both submersible and surface vessel operations, as well a
   {
     title = "RHOV Personnel Sphere Update",
     fulltitle = "RHOV Personnel Sphere Update - The End is in Sight",
-    lead = {
-      first = "Jerry",
-      last = "Henkener",
-      org = "Southwest Research Institute",
-      email = "jerry.henkener@swri.org",
-      bio = [==[
-
-]==],
-    },
+    lead = "Jerry Henkener",
     abstract = [==[
 Southwest Research Institute (SwRI) is under contract to WHOI to design, fabricate and test the titanium personnel sphere that will be installed in the upgraded ALVIN submersible. SwRI is nearing completion of the fabrication and testing phases for the new personnel sphere. The personnel sphere will be tested in the Annapolis Test Chambers for a 6500 MSW maximum operating depth. The fabrication and testing had been expected to be completed but the decision to have the personnel sphere dual certified by both ABS and NAVSEA has resulted in schedule delays. All major weldments and the final machining of all components have been completed without experiencing any appreciable distortion or change in out-of-sphericity. Component assembly and structural validation tests are in progress. Stud welding procedures for the viewport windows and the hatch have been developed and are being employed.  A strain gauge location plan is being developed based upon an as-built dimensional FEA model and analysis. A comprehensive hydrostatic test procedure is being developed and going through the dual approval process leading up to the hydro test in the Spring of 2012.  SwRI will deliver the sphere and documentation to WHOI after the hydro test to complete our contract. The status and activities since last year and activities to complete the personnel sphere in 2012 will be discussed.
 ]==],
@@ -54,15 +46,7 @@ Southwest Research Institute (SwRI) is under contract to WHOI to design, fabrica
   {
     title = "RHOV Project - ALVIN Update",
     fulltitle = "ALVIN Submerible Upgrade Program",
-    lead = {
-      first = "Kurt",
-      last = "Uetz",
-      org = "WHOI",
-      email = "kuetz@whoi.edu",
-      bio = [==[
-
-]==],
-    },
+    lead = "Kurt Uetz",
     abstract = [==[
 Woods Hole Oceanographic Institution (WHOI) is developing a new deeper diving submersible by upgrading the present ALVIN in stages. The upgraded ALVIN will ultimately have an increased operating depth from 4500 MSW to 6500 MSW. The project at WHOI is being accomplished in two phases. .  .    .
 ]==],
@@ -75,17 +59,9 @@ Woods Hole Oceanographic Institution (WHOI) is developing a new deeper diving su
   {
     title = "Titanic at 100",
     fulltitle = "Legal Implications to Visitors, Researchers and Salvors",
-    lead = {
-      first = "Laura",
-      last = "Gongaware",
-      org = "NOAA",
-      email = "",
-      bio = [==[
-
-]==],
-    },
+    lead = "Laura Gongaware",
     abstract = [==[
-
+Titanic is now 100 and on April 15, 2012 Titanic will be subject to the 2001 UNESCO Convention on the Protection of Underwater Cultural Heritage (UCH) as well other U.S. domestic laws.   This presentation will discuss these laws and the unique use of the law of salvage to protect Titanic from looting and keep the collection of salvaged as an intact collection for the public benefit.    Finally, the presentation will discuss the potential implications of all of these laws to those planning visits to the wrecksite in commemorating the 100th Anniversary, including on manned submersibles.
 ]==],
     start = { day = 24, month = 1, year = 2012,
       hour = 13, min = 30 },
@@ -96,15 +72,7 @@ Woods Hole Oceanographic Institution (WHOI) is developing a new deeper diving su
   {
     title = "MUV exploration 1/2 Mile Down",
     fulltitle = "MUV exploration to 1/2 mile depths for pennies on the dollar, 4,000 hours later",
-    lead = {
-      first = "Karl",
-      last = "Stanley",
-      org = "Stanley Submarines",
-      email = "karl@stanleysubmarines.com",
-      bio = [==[
-
-]==],
-    },
+    lead = "Karl Stanley",
     abstract = [==[
 This presentation will trace the development and use of two manned submersibles on budgets that are a fraction of other vehicles with similar capabilities.  The first one of these was began in 1989 and named C-BUG (Controlled by Buoyancy Underwater Glider). It was one of the first winged subs ever made and enjoyed a successful career spanning over 550 dives in three countries. The next vehicle was named Idabel, and despite an initial budget of under 100k it has made over 900 dives to depths of up to half a mile.   In addition to keeping manufacturing costs low, operating costs have been kept low as well by a location choice that offers immediate access to deep water without the need for a support craft of any sort. A third aspect to the low operating costs has been the engineering of Idabel for minimum displacement. This craft carries two passengers and a pilot and weighs in at just over 9,000 pounds, making it not only less expensive to build and operate, but giving it a distinct advantage for photography. This formula has resulted in dive rates that start at just $400 per person for a 1000 foot dive, and a day rate of $2,000 for up to 6 hour-long dives.
 ]==],
@@ -117,15 +85,7 @@ This presentation will trace the development and use of two manned submersibles 
   {
     title = "Antipodes LRT Update",
     fulltitle = "Developing a Launch, Retrieval, and Transport System for Ocean Exploration",
-    lead = {
-      first = "Stockton",
-      last = "Rush",
-      org = "OceanGate",
-      email = "stockton@opentheoceans.com",
-      bio = [==[
-
-]==],
-    },
+    lead = "Stockton Rush",
     cos = {
       {
         first = "Guillermo",
@@ -162,22 +122,27 @@ The presentation provides an overview of the submersible activity at Nuytco for 
     room = "219",
   },
 
+  {
+    title = "Forward Looking Sonar Technology for UW Vehicles",
+    fulltitle = "",
+    lead = "Peter K. Eriksen",
+    abstract = [==[
+The presentation will review the basics of forward looking sonar technologies, its evolution over the years and the present state-of-the-art in multibeam capabilities. This includes discussion and examples of object detection in the water column as well as on the seabed, such as underwater structures, pipelines, marine mammals and hydrocarbon (oil & gas) detection. The adaptation and optimization of these technologies to underwater vehicles is an important aspect of the technology and its future developments. The presentation will address Interface and Power considerations, flexibility of installation and real-time signal processing tradeoffs. These devices provide essential long range viewing capability to help high speed unmanned vehicles as well as manned vehicles under low visibility conditions.
+]==],
+    start = { day = 24, month = 1, year = 2012,
+      hour = 16, min = 00 },
+    length = 1800,
+    room = "219",
+  },
+
 -- Wednesday, January 25, 2012
 
   {
     title = "PSUBS Overview and K-600 rebuild",
     fulltitle = "",
-    lead = {
-      first = "Jon",
-      last = "Wallace",
-      org = "PSUBS",
-      email = "",
-      bio = [==[
-
-]==],
-    },
+    lead = "Jon Wallace",
     abstract = [==[
-
+This presentation will provide an update of PSUBS (Personal Submersibles Organization) activities for the past year including various submarine projects under development, organization roadmap and interaction with other industry organizations, and a review of the re-building of the K-600 Kittredge submersible.
 ]==],
     start = { day = 25, month = 1, year = 2012,
       hour = 8, min = 30 },
@@ -201,70 +166,23 @@ Open meeting of the American Bureau of Shipping (ABS) with the subsea industry t
   {
     title = "Alternative CO2 Scrubber",
     fulltitle = "An Alternative Method to Remove Carbon Dioxide From Submersible Environments",
-    lead = {
-      first = "Marshall",
-      last = "Nuckols",
-      org = "",
-      email = "marshall.nuckols@duke.edu",
-      bio = [==[
-Dr. Nuckols joined the faculty at Duke University as Senior Research Scientist in October of 2004.  Prior to joining Duke, he served as a professor at the United States Naval Academy for 20 years while conducting research in underwater life support systems design. He earned a M.S.M.E., Mechanical Engineering, at Duke University in 1974.  He completed his Ph.D at Duke in 1981.
-]==],
-    },
-    cos = {
-      {
-        first = "Serpil",
-        last = "Awdry",
-        org = "University of Bath",
-        email = "s.awdry@bath.ac.uk",
-      },
-      {
-        first = "Stam",
-        last = "Kolaczkowski",
-        org = "University of Bath",
-        email = "cesstk@bath.ac.uk",
-      },
-      {
-        first = "Chien",
-        last = "Le",
-        org = "University of Bath",
-        email = "DCL22@bath.ac.uk",
-      },
-      {
-        first = "Tony",
-        last = "Smith",
-        org = "S&C ThermoFluids Ltd",
-        email = "tony.smith@thermofluids.co.uk",
-      },
-      {
-        first = "Dave",
-        last = "Thomas",
-        org = "S&C ThermoFluids Ltd",
-        email = "david.thomas@thermofluids.co.uk",
-      },
-    },
+    lead = "Marshall Nuckols",
+    cos = { "Serpil Awdry", "Stam Kolaczkowski", "Chien Le", "Tony Smith", "Dave Thomas", },
     abstract = [==[
 A major obstacle in the development of manned submersibles involves the removal of metabolically-produced carbon dioxide from the cabin environment, particularly during long-duration, cold water operations.  Traditional CO2 absorption methods utilized in underwater life support systems use alkali metal hydroxide chemical beds—mostly calcium hydroxide—which have been shown to have poor absorption efficiencies in cold environments.  Experimental evidence suggests that seawater, a readily accessible medium during submersible operations, could be a highly effective alternative scrubbing medium to remove metabolically-produced carbon dioxide.  Laboratory CO2 absorption trials are currently being conducted in a joint research effort between Duke University and the University of Bath in the United Kingdom, under sponsorship by the Office of Naval Research.  An overview of these absorption trials will be presented and the physical principles governing this absorption technique will be explained.   Alternative concept designs will be introduced and the suitability of these concepts for open and closed-circuit breathing systems will be discussed.
 ]==],
     start = { day = 25, month = 1, year = 2012,
       hour = 10, min = 30 },
-    length = 3600,
+    length = 1800,
     room = "219",
   },
 
   {
     title = "Ocean-Going Diesel-Electric Submarine",
     fulltitle = "Development of a commercial, Ocean-going, diesel electric submarine for extended operations at sea.",
-    lead = {
-      first = "Brett",
-      last = "Phaneuf",
-      org = "Submergence Group",
-      email = "brett@promare.org",
-      bio = [==[
-
-]==],
-    },
+    lead = "Brett Phaneuf",
     abstract = [==[
-Since 1986 MSUBS has been producing small, diesel-electric submersibles; coupled with recent rapid prototypng projects, in concert with Submergence Group, that produced manned and unmanned vehicles ranging from 10-65 tons, MSUBS and Submergence Group have embarked on a project to produce the world's first privately owned and operated ocean-going diesel-electric submarine for research purposes.  The submarine, as yet unnammed, will be approximately 30 meters in length with a beam of nearly 4 meters and be capable of diving to 300msw and trasitting vast ocean distances while snorkelling.  The presentation will provide an overview of the submarine design and production plans.
+Since 1986 MSUBS has been producing small, diesel-electric submersibles; coupled with recent rapid prototyping projects, in concert with Submergence Group, that produced manned and unmanned vehicles ranging from 25-65 tons, MSUBS and Submergence Group have embarked on a project to produce the world's first privately owned and operated ocean-going diesel-electric submarine for research purposes.  The submarine, as yet unnamed, will be approximately 30 meters in length with a beam of nearly 4 meters and be capable of diving to 300msw and transiting vast ocean distances while snorkeling.  The presentation will provide an overview of the submarine design and production plans.
 ]==],
     start = { day = 25, month = 1, year = 2012,
       hour = 11, min = 00},
@@ -275,15 +193,7 @@ Since 1986 MSUBS has been producing small, diesel-electric submersibles; coupled
   {
     title = "Deep Ocean Engineering Solutions",
     fulltitle = "TBD",
-    lead = {
-      first = "Liz",
-      last = "Taylor",
-      org = "DOER Marine",
-      email = "Liz@doermarine.com",
-      bio = [==[
-
-]==],
-    },
+    lead = "Liz Taylor",
     abstract = [==[
 
 ]==],
@@ -296,17 +206,10 @@ Since 1986 MSUBS has been producing small, diesel-electric submersibles; coupled
   {
     title = "SubSea Lithium Battery Certification",
     fulltitle = "Subsea Lithium Battery Certification Considerations at ABS, LR and DNV",
-    lead = {
-      first = "Matt",
-      last = "Koenig",
-      org = "Corvus Energy Ltd.",
-      email = "Mkoenig@corvus-energy.com",
-      bio = [==[
-
-]==],
-    },
+    lead = "Brent Perry",
+    cos = { "Matt Koenig", }
     abstract = [==[
-Corvus has obtain class certification for its subsea lithium battery technology from Lloyds Registry and is completing its classification with ABS and DNV. The presentation will review the certification process and . . .
+In 2010 and 2011 Corvus Energy has obtained class certification for its subsea lithium battery technology from Lloyds Registry and is completing its classification with the American Bureau of Shipping (ABS) and Det Nortske Veritas (DNV). The presentation will review the certification process and discuss the future trends and possibilities for use of these batteries in underwater vehicles.
 ]==],
     start = { day = 25, month = 1, year = 2012,
       hour = 13, min = 30 },
@@ -317,17 +220,7 @@ Corvus has obtain class certification for its subsea lithium battery technology 
   {
     title = "Pressure Tolerant Batteries for Subsea use",
     fulltitle = "Modular Pressure-Tolerant Batteries for Subsea Applications",
-    lead = {
-      first = "Richard",
-      last = "Wilson",
-      org = "Bluefin Robotics",
-      email = "rwilson@bluefinrobotics.com",
-      bio = [==[
-Dr. Richard Wilson is the Director of Power and Electrical Systems at Bluefin. He has over ten years experience in the design of AUVs and has made significant contributions to Bluefin's pressure-tolerant battery and power systems. Dr. Wilson was the project manager and designer of a number of battery products including an 8.8 kWh pressure tolerant battery designed for use in large battery systems, and also the smart-battery electronics board and power control systems that are used across the battery range. In addition, he has served as project manager for the GAMBIT AUV (ONR-sponsored joint US/UK sonar test bed vehicle) and has led the design of all of the electrical systems that are used on the Bluefin vehicles. Prior to joining Bluefin, Dr. Wilson was employed by the Proudman Oceanographic Laboratory in the UK developing marine instrumentation.
-
-Dr. Wilson holds a Postdoctoral degree in Electro-Mechanical Design/instrumentation, a  Masters degree in Electro-Mechanical Design/Technology and aBachelor of Engineering in Electrical and Electronics Engineering from Plymouth University in the UK.
-]==],
-    },
+    lead = "Dr. Richard Wilson",
     abstract = [==[
 Subsea power has long been identified as a challenging component of designing and operating underwater equipment. There is a continuous demand for reliable energy sources that allows equipment to run for longer, operate at deeper depths, and offer enhanced performance.
 
@@ -346,21 +239,7 @@ Additionally, a new method of achieving safer performance of lithium-based batte
   {
     title = "Li-Ion Battery System for MUVs",
     fulltitle = "Operation, Maintenance, & Safety Of A Modular Li-Ion Battery System For Manned Underwater Vehicles",
-    lead = {
-      first = "David",
-      last = "White",
-      org = "Southwest Electronic Energy Group",
-      email = "dwhite@swe.com",
-      bio = [==[
-David White graduated from Texas A& M University in 1970 with a BS in Electrical Engineering.
-
-David’s practical design experience is in large, high capacity, high reliability computer and system designs used in battery operated, man portable applications that must work in any environment above, on, or under the earth.
-
-David is named with other colleagues at SWE on over 9 patents or patent applications covering inventions for Continuous Cell Balancing Methods, Module Balancing Methods, and BMS algorithms for extending Li-Ion battery life, reliability, and safety.
-
-David is a member of the MTS, an emeritus member of the Society of Exploration Geophysics and a Life Senior member of the IEEE, and has been recognized during his employment at Texas Instruments, as a Texas Instrument’s Senior member of Technical staff.
-]==],
-    },
+    lead = "David White",
     abstract = [==[
 This presentation provides an overview of a modularly constructed 240 Volt 58 KWh Li-Polymer battery system for a manned deep submergence vehicle.  Architecture, operation, maintenance, and safety features of the battery system are provided. An innovative method for rapid module replacement with immediate system availability is described. Two new means for detection of battery module State Of Health is described and an automatic means for detection of cell internal shorts is described. A means to extend battery life and safety using module charge control is described.  Packaging of the pressure equalized battery modules and battery system is described.
 
@@ -414,15 +293,7 @@ Acrylics are a proven, reliable material for submersible viewports.  The current
   {
     title = "Naval CADD Software",
     fulltitle = "Naval Architecture Software Tools for Underwater Vehicle Design",
-    lead = {
-      first = "Tobin",
-      last = "McNatt",
-      org = "DRS Advanced Marine Technology Center",
-      email = "tmcnatt@drs-ds.com",
-      bio = [==[
-Tobin McNatt is the Director of the Advanced Marine Technology Center (AMTC) within DRS Defense Solutions, LLC.  The AMTC is a group of naval architects and software developers that provides marine vehicle design software products and technical services to a wide spectrum of industry customers. Tobin served as Program Manager for technology development programs for organizations including NAVSEA, NSWC Carderock Division, Office of Naval Research, US Special Operations Command, DARPA, and several ship classification societies.  He led the ocean engineering design and fielding of the full scale open ocean underwater explosions shock testing programs for the USS Jacksonville (SSN 699) and for the submarine shock test vehicle (SSTV).  He served on the pre-commissioning unit of fast attack submarine USS Birmingham (SSN 695), performing operations including reactor plant initial criticality and power range testing.  He also served on the USS Francis Scott Key (SSBN 657) conducting strategic deterrent patrols.  Tobin is a graduate of the U.S. Naval Academy with a degree in Physics.
-]==],
-    },
+    lead = "Tobin McNatt",
     abstract = [==[
 Traditionally, naval architecture has been more craft than science. Determining what is 'right' in a particular situation in the absence of definitive supporting analysis encompasses the art of naval architecture to this day.  With the advent of computers, naval architects began to move their work from 'the drawing board' into the computer and its display.  This presentation describes the evolution of computer-based naval architecture tools from the early stages circa 1980 through the present, from the point of view of a team that pioneered tools which gained a diverse user community over that time frame.  This team's story reflects progress and successes as well as continuing opportunities for advancement. Technical domains such as hull form design, hydrostatics and stability, structures, and weights and moments will be included, with applications to underwater vehicles discussed.  Technology developments related to software architecture and development processes will be highlighted, as well as a view toward future opportunities to further integrate and extend the scope of marine vehicle design tools.
 ]==],
@@ -449,32 +320,7 @@ Traditionally, naval architecture has been more craft than science. Determining 
     title = "Modern Buoyancy Foams for Underwater Vehicles",
     fulltitle = "Modern Buoyancy Foams for Underwater Vehicles - Technical Discussion Panel",
     lead = "Roy Thomas",
-    cos = {
-      {
-        first = "Tom",
-        last = "Murray",
-        org = "Engr Syntactic Solutions",
-        email = "",
-      },
-      {
-        first = "Fred",
-        last = "McGuire",
-        org = "Flotation Technology",
-        email = "",
-      },
-      {
-        first = "Jim",
-        last = "Teague",
-        org = "Teague Enterprises",
-        email = "",
-      },
-      {
-        first = "Robert",
-        last = "Kelly",
-        org = "Trelleborg Offshore Boston, Inc.",
-        email = "",
-      },
-    },
+    cos = { "Thomas J Murray", "Jim Teague", "Robert Kelly", },
     abstract = [==[
 ]==],
     start = { day = 26, month = 1, year = 2012,
