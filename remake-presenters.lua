@@ -45,9 +45,9 @@ for i=1, #names do
       writef("    %s = %q,\n",field,p[field])
     end
   end
-  if p[bio] then
+  if p.bio then
     write("    bio = [==[\n")
-    write(p[bio])
+    write(p.bio)
     write("]==],\n")
   end
   write'  },\n'
