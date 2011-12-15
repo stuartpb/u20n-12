@@ -156,7 +156,7 @@ David Scarberry is the diving coordinator for American Electric Power.  AEP is o
   ["Miriam Boudreaux"]={
       first = "Miriam", last = "Boudreaux",
       org = "Mireaux Management Solutions",
-      homepage = "http://www.mireauxms.com",
+      homepage = "http://www.mireauxms.com/",
       email = "miriam@mireauxms.com",
       bio = [==[
 Miriam Boudreaux, an ISO 9001, ISO 27001, QMS, ISMS and Web Specialist, is the President of Mireaux
@@ -281,7 +281,7 @@ Terresolve's biobased fluids have been extensively proven in the lab and in the 
   ["Phil Nuytten"] = {
     first = "Phil", last = "Nuytten",
     org = "Nuytco Research Ltd",
-    homepage = "http://nuytco.com/",
+    homepage = "http://www.nuytco.com/",
     email = "nrl@nuytco.com",
     bio = [==[
 Dr. Phil Nuytten has spent his life in subsea exploration. He has logged many thousands of hours underwater world-wide as a working commercial diver, and as a developer of underwater equipment and techniques. He is widely regarded as one of the pioneers of the modern commercial diving industry and a significant force in the creation of new technology. His goal has been to provide scientific, technical, military, and sport divers full access to continental shelf depths without the hazards of decompression, so that humans can explore, learn about, and - ultimately - protect the world’s oceans.
@@ -458,7 +458,7 @@ David is a member of the MTS, an emeritus member of the Society of Exploration G
   ["Tobin McNatt"] = {
     first = "Tobin", last = "McNatt",
     org = "DRS Advanced Marine Technology Center",
-    homepage = "http://www.drs-ds.com",
+    homepage = "http://www.drs-ds.com/",
     email = "tmcnatt@drs-ds.com",
     bio = [==[
 Tobin McNatt is the Director of the Advanced Marine Technology Center (AMTC) within DRS Defense Solutions, LLC.  The AMTC is a group of naval architects and software developers that provides marine vehicle design software products and technical services to a wide spectrum of industry customers. Tobin served as Program Manager for technology development programs for organizations including NAVSEA, NSWC Carderock Division, Office of Naval Research, US Special Operations Command, DARPA, and several ship classification societies.  He led the ocean engineering design and fielding of the full scale open ocean underwater explosions shock testing programs for the USS Jacksonville (SSN 699) and for the submarine shock test vehicle (SSTV).  He served on the pre-commissioning unit of fast attack submarine USS Birmingham (SSN 695), performing operations including reactor plant initial criticality and power range testing.  He also served on the USS Francis Scott Key (SSBN 657) conducting strategic deterrent patrols.  Tobin is a graduate of the U.S. Naval Academy with a degree in Physics.
@@ -468,8 +468,8 @@ Tobin McNatt is the Director of the Advanced Marine Technology Center (AMTC) wit
 
   ["Robert Kelly"] = {
     first = "Robert", last = "Kelly",
-    org = "Trelleborg Offshore",
-    homepage = "www.trelleborg.com/en/Offshore-Boston/",
+    org = "Trelleborg Offshore Boston",
+    homepage = "http://www.trelleborg.com/en/Offshore-Boston/",
     email = "bob.kelly@trelleborg.com",
     bio = [==[
 Mr. Kelly is vice-president of Trelleborg Offshore, in charge of global customer solutions.  With a global reputation for material development, Trelleborg Offshore is recognized as a leading manufacturer of advanced glass microspheres and high performance syntactic foams which are used in such markets as aerospace, defense, tooling products and buoyancy materials for underwater vehicles.  Located in Mansfield, MA, Trelleborg Offshore Boston was established in 1948 as Emerson & Cuming, Inc., the company was the first to offer a complete line of commercially available aerospace grade glass microspheres through and has continued to focus on material innovation ever since.
@@ -480,7 +480,7 @@ Mr. Kelly is vice-president of Trelleborg Offshore, in charge of global customer
   ["Thomas J Murray"] = {
     first = "Thomas", middle = "J", last = "Murray",
     org = "Engineered Syntactic Systems",
-    homepage = "http://www.esyntactic.com",
+    homepage = "http://www.esyntactic.com/",
     email = "tech@esyntactic.com",
     bio = [==[
 Mr. Murray is a Materials Engineers with over 30 years of experience in the Research and Development of composite materials with more than 20 years of experience in syntactic foams. He is one of the three founding directors of CMT Materials, Inc (1998), and Engineered Syntactic Systems (2005). Mr. Murray holds both a Bachelor of Science degree in Chemical Engineering and a Master of Science in Plastics Engineering from the University of Massachusetts at Lowell. Prior to starting the companies, he was employed with the Raytheon Corporation as the manager of the Composites Group in the Materials Engineering Laboratory. He has also held materials engineering positions with WRGrace/Emerson & Cuming and the Army’s Materials Technology Laboratory.
@@ -491,7 +491,7 @@ Mr. Murray is a Materials Engineers with over 30 years of experience in the Rese
   ["Jim Teague"] = {
     first = "Jim", last = "Teague",
     org = "J Teague Enterprises, LLC",
-    homepage = "http://www.jteagueenterprises.com",
+    homepage = "http://www.jteagueenterprises.com/",
     email = "Teague@jteagueenterprises.com",
     bio = [==[
 J Teague Enterprises, LLC is located in Norfolk, Massachusetts. The founder of the agency has a BS in Management from Stonehill College and over 40 years experience in Corporate Sales and Sales Management and General Managers positions.  Since 1978 Jim has been actively involved in all of the man rated deep water vehicles.  From Turtle to Seacliff to Alvin to Nautile and finally Dragon Jim has either supplied the materials or wrote the specifications, in conjunction with the U.S. Navy. J Teague Enterprises, LLC has an agreement with the United States Navy, via a major sub-contractor, to supply guidance and consultation regarding improvement in margin and stability on deep ocean programs. The expertise provided assures the Navy they will receive the greatest return on their investment whether it be in the littoral or deep ocean environments. Because J Teague Enterprises, LLC is not restricted to working with a single syntactic foam manufacturer, there are no agreements with any one provider, the Navy, as well as others J Teague Enterprises, LLC work with are guaranteed open and fair assessment of the materials available and the capabilities of those offering to supply them.
@@ -618,7 +618,7 @@ Simon Lunt is the Sales Manager at Analox Sensor Technology who have provided th
   ["Rick Lesser"] = {
     first = "Rick", last = "Lesser",
     org = "Lesser & Associates Prof Law corp.",
-    homepage = "http://divelaw.com",
+    homepage = "http://divelaw.com/",
     email = "lesser@divelaw.com",
     bio = [==[
 36 year attorney specializing in commercial and recreational diving, 30 plus year attorney for Kirby Morgan DSI, selected as Superlawyer multiple times by fellow attornies in california, winner of one of National Law Journal "Top Defense Wins in 2004; Defended succesfully and also obtained multiple 7 figure verdicts and settlements over the past 30 years. Full bio is at DIVELAW.COM
@@ -829,7 +829,7 @@ Anthony Hall is the founder and CEO of Welaptega Marine Limited. His experience 
   ["Marie McCormick"] = {
     first = "Marie",
     last = "McCormick",
-    org = "www.Welaptega.com",
+    org = "Welaptega Marine Limited",
     email = "m.mccormick@welaptega.com",
   },
 
