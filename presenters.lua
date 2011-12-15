@@ -293,7 +293,7 @@ Dr. Phil Nuytten has spent his life in subsea exploration. He has logged many th
     first = "Peter", middle = "K.", last = "Eriksen",
     org = "Norbit Subsea AS",
     homepage = "http://www.norbit.no/",
-    email = "",
+    email = "pke@norbit.no",
     bio = [==[
 Peter K. Eriksen is Business Development Director of Norbit Subsea AS which provides integrated acoustic solutions for many underwater application areas.  Manned and unmanned vehicle and systems is one of the main application areas. Mr. Eriksen is also founder and co-owner of GOMX2 in Santa Barbara; a consultancy company providing design, project management and business development to some of the main companies within the underwater acoustic instrumentation market. Mr. Eriksen started his acoustic career in active vibration control in 1991. Mr. Eriksen worked for RESON from 1992 and became member of the global management team in 1995 as the Chief Technology Officer. As group CTO he led the development of the new state of the art multibeam sonar design. Recently Mr. Eriksen has undertaken the lead for Norbit Subsea business development activities. Mr. Eriksen graduated from Aalborg University, Denmark, in 1989 with a B.Sc in Mechanical Engineering and a M.Sc in Acoustics. He also holds an MBA from Kellogg Northwestern, Chicago. Mr. Eriksen has published numerous papers on utilization of multibeam technology as well as general underwater acoustic system.
 ]==],
@@ -554,8 +554,13 @@ Prior to joining Fox Industries, Carl spent 15 years as a Consulting Engineer wi
 
   ["Chris Peppler"] = {
     first = "Chris", last = "Peppler",
-    org = "",
-    email = "",
+    org = "Safety Management Systems",
+    email = "cpeppler@gmail.com",
+    bio = [==[
+Christopher is employed by Safety Management Systems and brings to the table over 10 years of diving and emergency medical experience. Christopher is a Board certified Hyperbaric Technologist, Diving Medical Technician, and Commercial Diver. Christopher is also the a Course Director for a NBDHMT approved Diver Medical Technician class. Christophers passion lies in employee health and safety and he has incorporated this into the diving industry. Christopher was insturmental in development of a commercial diving harness that reduced suspension trauma and airway occlusin of a unconcious diver. Currently his work has been developing hyperbaric safe paitent monitoring equipment for the offshore and clinic hyperbaric world.
+
+Christopher has over 10 years diving experience with a focus on commercial oilfield diving. He is a PADI, NAUI, and SSI Scuba Diver, and holds commercial certifications with the ADC and the CSA. He is board certified by the NBDHMT, a member of the ASSE and a active instructor for Diving Medical Technicians.
+]==],
   },
 
   ["Tony Alleman, MD MPH"] = {
@@ -981,7 +986,7 @@ Steve Barrow, senior applications engineer for Schilling Robotics, has designed 
 ]==],
   },
 
-  ["Keith Elliot"] ={
+  ["Keith Elliot"] = {
     first = "Keith", last = "Elliot",
     org = "Allspeeds Ltd. / Webtool",
     email = "keith.elliot@allspeeds.co.uk",
