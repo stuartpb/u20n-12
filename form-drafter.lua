@@ -81,7 +81,7 @@ local descriptions = {
   ['Headshot'] = [[A picture of you.]],
   --Presentation Info
   ['Full title'] = [[A one-line description of your presentation, longer than the title. For instance, a presentation entitled "Hydraulic Fluid Performance at Depth" could have a full title of "The effect of Depth and Pressure on Hydraulic and Dielectric Fluids".]],
-  ['Abstract'] = [[An in-depth description of your presentation, from one to three paragraphs. See http://underwaterintervention.com/2012/presentations/wrov1.html#abstract for an example.]],
+  ['Abstract'] = [[An in-depth description of your presentation, from one to three paragraphs. See http://underwaterintervention.com/2012/presentations/hydraulic-fluid-performance-at-depth.html#abstract for an example.]],
   ['Presentation Image'] = [[An image that represents your presentation (not to be confused with your personal headshot).]],
 }
 
@@ -136,18 +136,14 @@ for name_i = 1, #namelist do
           list[prl_i] = format('- %s: %s',datum,descriptions[datum])
         end
         insert(message,concat(list,'\n'))
+        insert(message,format(
+          'Please visit http://underwaterintervention.com/2012/presentations/%s.html to verify that the information we have on file is accurate.',
+          pres.id))
       end
     end
 
     if miss.cos then
       insert(message,"Your co-presenters, copied on this message, can submit this information as well.")
-    end
-
-    if prof.homepage then
-      insert(message,format(
-        "I want to verify that the homepage URL we have on file for your organization (%s, %s) matches your expectations.",
-        prof.org, prof.homepage))
-
     end
 
     insert(messages,concat(message,'\n\n'))
