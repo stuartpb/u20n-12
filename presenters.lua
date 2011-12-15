@@ -841,6 +841,14 @@ return {
     email = "tony.smith@thermofluids.co.uk",
   },
 
+  ["Guillermo Sohnlein"] = {
+    first = "Guillermo",
+    last = "Sohnlein",
+    org = "OceanGate",
+    homepage = "http://opentheoceans.com/",
+    email = "guillermo@opentheoceans.com",
+  },
+
   ["Karl Stanley"] = {
     first = "Karl",
     last = "Stanley",

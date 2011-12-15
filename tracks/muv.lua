@@ -86,14 +86,7 @@ This presentation will trace the development and use of two manned submersibles 
     title = "Antipodes LRT Update",
     fulltitle = "Developing a Launch, Retrieval, and Transport System for Ocean Exploration",
     lead = "Stockton Rush",
-    cos = {
-      {
-        first = "Guillermo",
-        last = "Sohnlein",
-        org = "OceanGate",
-        email = "guillermo@opentheoceans.com",
-      },
-    },
+    cos = { "Guillermo Sohnlein", },
     abstract = [==[
 Since OceanGate acquired the Antipodes manned submersible (former PC-1501) two years ago, we have been deploying her on different missions in support of ocean exploration, marine research, filmmaking, and education and community outreach.  To expand our range of operations while simultaneously controlling costs, we have been developing a towable Launch, Retrieval, and Transport (LRT) system that will allow us to access more near-shore dive sites without the need for expensive support vessels.  We tested our first prototype in Southern California last fall, and we are currently developing the next version out of our headquarters in Seattle.  We plan to field-test this next system in Florida during early 2012, so this presentation will provide an update on our efforts and our future plans.
 ]==],
