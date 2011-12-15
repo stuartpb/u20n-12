@@ -56,16 +56,8 @@ for ni=1, #tracks.names do
   for i=1, #track do
     local pr = track[i]
 
-    local speaker, lead
-
-    --transitional selection
-    if type(pr.lead) == "string" then
-      speaker = pr.lead
-      lead = presenters[speaker]
-    else
-      lead = pr.lead
-      speaker = lead.first .. ' ' .. lead.last
-    end
+    local speaker = pr.lead
+    local lead = presenters[speaker]
 
     local pagename = pr.id
     local stime = os.time(pr.start)

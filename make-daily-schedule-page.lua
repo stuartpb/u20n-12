@@ -97,16 +97,11 @@ for i=1, #times do
   for j=1, #slot do
     local pr = slot[j]
     local prestime = os.time(pr.start)
-    local speaker, lead
 
-    --transitional selection
-    if type(pr.lead) == "string" then
-      speaker = pr.lead
-      lead = presenters[speaker]
-    else
-      lead = pr.lead
-      speaker = lead.first .. ' ' .. lead.last
-    end
+    local speaker = pr.lead
+    local lead = presenters[speaker]
+
+    assert(lead, "Missing presenter: "..speaker.." ("..pr.id..")")
 
     local pagename = pr.id
 

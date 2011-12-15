@@ -207,7 +207,7 @@ Since 1986 MSUBS has been producing small, diesel-electric submersibles; coupled
     title = "SubSea Lithium Battery Certification",
     fulltitle = "Subsea Lithium Battery Certification Considerations at ABS, LR and DNV",
     lead = "Brent Perry",
-    cos = { "Matt Koenig", }
+    cos = { "Matt Koenig", },
     abstract = [==[
 In 2010 and 2011 Corvus Energy has obtained class certification for its subsea lithium battery technology from Lloyds Registry and is completing its classification with the American Bureau of Shipping (ABS) and Det Nortske Veritas (DNV). The presentation will review the certification process and discuss the future trends and possibilities for use of these batteries in underwater vehicles.
 ]==],

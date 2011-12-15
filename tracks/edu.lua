@@ -4,26 +4,8 @@ return maketrack("edu", {
   {
     title = "Student Built Vehicles in Field Research",
     fulltitle = "Utilizing Student \"Built-for-Competition\" Vehicles in Real World Applications",
-    lead = {
-      first = "Steven",
-      last = "Bradshaw",
-      org = "Georgia Tech Savannah Robotics",
-      email = "sbradshaw6@mail.gatech.edu",
-    },
-    cos = {
-      {
-        first = "Phillip",
-        last = "Cheng",
-        org = "Georgia Tech Savannah Robotics",
-        email = "pcheng31@gatech.edu",
-      },
-      {
-        first = "Michael",
-        last = "Tam",
-        org = "Georgia Tech Savannah Robotics",
-        email = "mtam77@gatech.edu",
-      },
-    },
+    lead = "Steven Bradshaw",
+    cos = { "Phillip Cheng", "Michael Tam", },
     abstract = [==[
 The MATE Center provides an outlet for students of all ages to build and test Remotely Operated Vehicles (ROV). MATE Center goes through great lengths to plan and simulate ‘real-world’ problems as the basis for their competitions. From submarine search and rescue operations to underwater sea mount exploration and, more recently, oil spill containment, the competitions attempt to simulate reality.
 
@@ -56,20 +38,7 @@ This talk will discuss some of the ways in which VideoRay fosters undersea robot
     title = "ROV competition",
     fulltitle = "From ROV competition to subsea technology",
     lead = "Dmitry Lyakhov",
-    cos = {
-      {
-        first = "Sergey",
-        last = "Ogay",
-        org = "Maritime State University named after admiral G.I.Nevelskoi",
-        email = "ogay@msun.ru",
-      },
-      {
-        first = "Jill",
-        last = "Zande",
-        org = "MATE",
-        email = "jzande@marinetech.org",
-      },
-    },
+    cos = { "Sergey Ogay", "Jill Zande", },
     abstract = [==[
 In result of MATE activities in educational field, specifically - ROV Competition, 2010 winner student ROV has been successfully commercialized this year. The supply from  Institute of Marine Technology Problems was for Russian Far East Maritime State University  for educational as well as coastal and port/harbor applied  marine research
 This paper reviews relatively fast evolution showing that participation in student’s competitions opens the doors to industry. Details of development project and ROV itself  described pointing the evolution from student “toy” to real product. The issue of growing demand in UUV operator/technician staff is presented from educational establishment’s side.
@@ -84,47 +53,8 @@ This paper reviews relatively fast evolution showing that participation in stude
   {
     title = "SENSE IT",
     fulltitle = "SENSE IT - Student created water quality sensors",
-    lead = {
-      first = "Liesl",
-      last = "Hotaling",
-      org = "University of South Florida",
-      email = "lieslhotaling@yahoo.com",
-      bio = [==[
-Liesl Hotaling is a Senior Research Engineering with the College of Marine Sciences, University of South Florida. She holds a B.S. in Marine Science, a M.A.T. in Science Teaching, and a M.S. in Maritime Systems (ocean engineering). She is a partner in Centers for Ocean Science Education Excellence - Networked Ocean World (COSEE-NOW), serves as the Partnerships and Collaborations Coordinator for the COSEE Network and specializes in real time data education projects and hands-on STEM educational projects supporting environmental observing networks.
-]==],
-    },
-    cos = {
-      {
-        first = "James",
-        last = "Bonner",
-        org = "Clarkson University",
-        email = "jbonner@clarkson.edu",
-      },
-      {
-        first = "William",
-        last = "Kirkey",
-        org = "Clarkson University",
-        email = "wkirkey@clarkson.edu",
-      },
-      {
-        first = "Peiyi",
-        last = "Lin",
-        org = "Columbia University - Teachers College",
-        email = "pl2151@columbia.edu",
-      },
-      {
-        first = "Susan",
-        last = "Lowes",
-        org = "Columbia University - Teachers College",
-        email = "lowes@tc.edu",
-      },
-      {
-        first = "Temitope",
-        last = "Ojo",
-        org = "Clarkson University",
-        email = "tojo@clarkson.edu",
-      },
-    },
+    lead = "Liesl Hotaling",
+    cos = { "James Bonner", "William Kirkey", "Peiyi Lin", "Susan Lowes", "Temitope Ojo" },
     abstract = [==[
 The SENSE IT project provides high school students the opportunity to build, calibrate and test a set of sensors and circuits, to measure a variety of physical quantities. To build and understand their sensors, student use a wide range of core knowledge of mathematics and physical science, as well as learning practical technology skills such as soldering and debugging circuits. Then students interface their sensors with computers, write programs to gather raw signals from the sensors, implement calibration curves, and perform data manipulation and data logging. Students then program their own communications protocols for wireless data transmission and connect their computerized sensor stations together to form a distributed wireless sensor network.
 
@@ -139,26 +69,8 @@ SENSE IT promotes student awareness of the interdisciplinary nature of modern en
   {
     title = "ROVs in education",
     fulltitle = "An educational outreach program for STEM based education",
-    lead = {
-      first = "Mark",
-      last = "Gleason",
-      suffix = "PhD",
-      org = "Great Lakes Naval Memorial and Museum",
-      email = "gleason@mtu.edu",
-      bio = [==[
-Dr. Mark Gleason has nearly ten years of diverse experience in the operation of ROVs in education, research and industry. His Ph.D. dissertation research demonstrated the usefulness of small ROVs in natural resources education programs. Those programs and their development led to positions creating educational programs at museums. Those efforts resulted in unique underwater experiences for thousands of students and the general public. Other professional work includes several years operating ROVs in the oil/gas industry in the middle-east.
-
-His recent work includes developing partnerships between government agencies, non-profits and industry to explore shipwrecks. Those partnerships have used ROVs and side scan sonar to explore approximately thirty Great Lakes shipwrecks. In addition he is creating a marine tech program with a Michigan college that will provide ROV training for college students.
-]==],
-    },
-    cos = {
-      {
-        first = "Gary",
-        last = "Reynolds",
-        org = "Great Lakes Naval Memorial and Museum",
-        email = "reynoldsgk@comcast.net",
-      },
-    },
+    lead = "Mark Gleason, PhD",
+    cos = { "Gary Reynolds" },
     abstract = [==[
 The Great Lakes Naval Memorial and Museum (GLNMM) has developed a program that utilizes ROV kits and a professional build ROV to promote STEM based education for all ages. These programs utilize underwater technology to provide educational activities that promote a greater understanding of the underwater environment through direct interaction. The technology used in these programs are small underwater robots referred to as remotely operated vehicles or ROVs. These ROVs can be created, designed and build by students or other program participants such as teachers. GLNMM has created a traveling educational outreach program that includes classes of different lengths and levels for people of all ages and backgrounds. These classes can be offered at locations throughout the region and include two separate experiences. The first experience is creating and building a ROV that the participants can use to explore the underwater environment. The second part is the opportunity to drive a professionally build ROV to explore underwater to depths of several hundred feet. Most dives are in only in depths of fifty feet or less. This technology allows the participants an experience similar to being a SCUBA diver.
 ]==],
@@ -171,12 +83,7 @@ The Great Lakes Naval Memorial and Museum (GLNMM) has developed a program that u
   {
     title = "Capping gulf oil well, high school style!",
     fulltitle = "\"Phorcys\", MATE 2011 Champion ROV Overview by Jesuit High School Robotics Team",
-    lead = {
-      first = "Rolf",
-      last = "Konstad",
-      org = "Jesuit High School Robotics Team",
-      email = "rovcoach@gmail.com",
-    },
+    lead = "Rolf Konstad",
     abstract = [==[
 Jesuit High School successfully completed missions designed by the Marine Advanced Technology Education (MATE) Center to cap a flowing oil well and assess environmental damage, simulating the challenges that BP encountered in the gulf oil spill.  The MATE Center holds an annual ROV competition and hosts high school, college, and university teams from around the world.  The 2011 competition was held at the NASA Neutral Buoyancy Lab in Houston, Texas, adding the challenge of withstanding a depth of 40 feet.  The Jesuit High School Robotics Team, with a budget of $15,000 and a schedule of 20 workdays, manufactured the winning ROV with modular accessories specifically designed for each task, Ethernet communications, and a vectored control system.  This presentation will provide an overview of the ROV, including the design process, control system, accessories, and potential full scale applications.
 
@@ -221,12 +128,7 @@ Based on this success, the MATE competition will continue its entrepreneurial ap
   {
     title = "Shipwreck as Educational Model",
     fulltitle = "Educating the next generation of scientists with real world scenarios:  Modeling a shipwreck for the MATE Center ROV competition",
-    lead = {
-      first = "Matthew",
-      last = "Gardner",
-      org = "MATE Center",
-      email = "megardner@juno.com",
-    },
+    lead = "Matthew Gardner",
     abstract = [==[
 In an effort to provide realistic educational experiences for students, the MATE Center works closely with marine industry professionals to develop ROV competition mission tasks that model real world scenarios.  The goal of the MATE Center missions is to present challenges students might experience in the field and familiarize them with another aspect of the underwater industry.
 

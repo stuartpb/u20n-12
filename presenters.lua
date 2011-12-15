@@ -237,6 +237,36 @@ His research interests are in offshore deep drilling technology and underwater v
     headshot = "inoue.jpg",
   },
 
+  ["Akira Asada"] = {
+    first = "Akira", last = "Asada",
+    org = "The University of Tokyo",
+    email = "asada@iis.u-tokyo.ac.jp",
+  },
+
+  ["Tokuihiro Katsui"] = {
+    first = "Tokuihiro", last = "Katsui",
+    org = "Kobe University",
+    email = "katsui@maritime.kobe-u.ac.jp",
+  },
+
+  ["Masashi Mochizuki"] = {
+    first = "Masashi", last = "Mochizuki",
+    org = "The University of Tokyo",
+    email = "moma@iis.u-tokyo.ac.jp",
+  },
+
+  ["Hiroyuki Osawa"] = {
+    first = "Hiroyuki", last = "Osawa",
+    org = "JAMSTEC",
+    email = "osawah@jamstec.go.jp",
+  },
+
+  ["Ken Takagi"] = {
+    first = "Ken", last = "Takagi",
+    org = "The University of Tokyo",
+    email = "takagi@k.u-tokyo.ac.jp",
+  },
+
   ["Mark Miller"] = {
     first = "Mark", last = "Miller",
     org = "Terresolve Technologies",
@@ -467,5 +497,560 @@ Mr. Murray is a Materials Engineers with over 30 years of experience in the Rese
 J Teague Enterprises, LLC is located in Norfolk, Massachusetts. The founder of the agency has a BS in Management from Stonehill College and over 40 years experience in Corporate Sales and Sales Management and General Managers positions.  Since 1978 Jim has been actively involved in all of the man rated deep water vehicles.  From Turtle to Seacliff to Alvin to Nautile and finally Dragon Jim has either supplied the materials or wrote the specifications, in conjunction with the U.S. Navy. J Teague Enterprises, LLC has an agreement with the United States Navy, via a major sub-contractor, to supply guidance and consultation regarding improvement in margin and stability on deep ocean programs. The expertise provided assures the Navy they will receive the greatest return on their investment whether it be in the littoral or deep ocean environments. Because J Teague Enterprises, LLC is not restricted to working with a single syntactic foam manufacturer, there are no agreements with any one provider, the Navy, as well as others J Teague Enterprises, LLC work with are guaranteed open and fair assessment of the materials available and the capabilities of those offering to supply them.
 ]==],
     headshot = "teague.jpg",
+  },
+
+  ["Michael Frey"] = {
+    first = "Michael", last = "Frey",
+    org = "U.S. Navy, Naval Sea Systems Command",
+    email = "michael.a.frey@navy.mil",
+    bio = [==[
+- 30 years experience as a U.S. Navy Diver
+- 11 years at NAVSEA Office of Salvage and Diving
+- Commander, Civil Engineer Corps, USN
+]==],
+  },
+
+  ["Brendan Murphy"] = {
+    first = "Brendan", last = "Murphy",
+    org = "Naval Sea Systems Command",
+    email = "brendan.w.murphy@navy.mil",
+  },
+
+  ["Chad Quibodeaux"] = {
+    first = "Chad", last = "Quibodeaux",
+    org = "",
+    email = "chad@candssafety.com",
+  },
+
+  ["Carl Scheffel"] = {
+    first = "Carl", last = "Scheffel",
+    org = "Fox Industries, Inc.",
+    email = "kscheffel@foxind.com",
+    bio = [==[
+Carl Scheffel Sr. P.E. is President and Chief Engineer of Fox Industries, Inc. Carl has been with Fox since 1970 and is a minority shareholder. He has provided countless material recommendations to consultants and public agencies regarding the selection and applications of engineered materials specified for both new construction and rehabilitation including the FX-70 Inert Corrosion Free Fiberglass Jacket System. Carl’s knowledge of underwater construction methods relating to piers, piles, bulkheads and structures is world renowned.
+
+Prior to joining Fox Industries, Carl spent 15 years as a Consulting Engineer with Rummel, Klepper & Kahl of Baltimore, Maryland where he worked as both a Construction Project Engineer and as a Bridge Design Engineer. Highlights of his career include project design/ construction engineering for the Jones Falls Expressway (I-83) in Baltimore, I-95 (John F. Kennedy Memorial Highway) in Maryland and I-95 in North Carolina. Carl is Director Emeritus of the Maryland Association of Engineers, having previously served in many positions including President. Carl is a frequent exhibitor at World of Concrete, PORTS (ASCE) and Underwater Intervention, and a speaker at Transportation Research Board in Washington DC, 2011 and 2006, and International Bridge Conference, Pittsburgh PA, 2006
+]==],
+  },
+
+  ["Dr. Brian S. Bourgeois, PE"] = {
+    prefix = "Dr.", first = "Brian", middle = "S.",
+    last = "Bourgeois", suffix = "PE",
+    org = "",
+    email = "drb@wjimed.com",
+  },
+
+  ["Richard Meister"] = {
+    first = "Richard", last = "Meister",
+    org = "",
+    email = "primetimetraining@cox.net",
+  },
+
+  ["Peter Bennett"] = {
+    first = "Peter", last = "Bennett",
+    org = "",
+    email = "PeterBennett@uhms.org",
+  },
+
+  ["Chris Peppler"] = {
+    first = "Chris", last = "Peppler",
+    org = "",
+    email = "",
+  },
+
+  ["Tony Alleman, MD MPH"] = {
+    first = "Tony", last = "Alleman", suffix = "MD MPH",
+    org = "",
+    email = "talleman@omcsl.com",
+  },
+
+  ["Joe Serio, MD"] = {
+    first = "Joe", last = "Serio", suffix = "MD",
+    org = "",
+    email = "jrserio@cox.net",
+  },
+
+  ["Robert Bourgeois, MD MPH"] = {
+    first = "Robert", last = "Bourgeois", suffix = "MD MPH",
+    org = "",
+    email = "cajunmd@b-m-c.net",
+  },
+
+  ["Sid Macken"] = {
+    first = "Sid", last = "Macken",
+    org = "",
+    email = "SidM@hds.org",
+  },
+
+  ["David J Kelly"] = {
+    first = "David", middle = "J", last = "Kelly",
+    org = "",
+    email = "david.j.kelly2@navy.mil",
+  },
+
+  ["Bill Orr"] = {
+    first = "Bill", last = "Orr",
+    org = "",
+    email = "william.orr@navy.mil",
+  },
+
+  ["Simon Lunt"] = {
+    first = "Simon", last = "Lunt",
+    org = "Analox Sensor Technology",
+    email = "simon.lunt@analox.biz",
+    bio = [==[
+Simon Lunt is the Sales Manager at Analox Sensor Technology who have provided the commercial diving industry with gas analysers since 1981.  His history is in chemical and health and safety sales and has been heavily involved in the adoption of the Hypergas MkII by the industry as a vital piece of safety equipment.
+]==],
+  },
+
+  ["Larry Janicek"] = {
+    first = "Larry",
+    last = "Janicek",
+    org = "LBJ Maritime",
+    email = "larryj@lbjmaritime.com",
+  },
+
+  ["Rick Lesser"] = {
+    first = "Rick", last = "Lesser",
+    org = "Lesser & Associates Prof Law corp.",
+    homepage = "http://divelaw.com",
+    email = "lesser@divelaw.com",
+    bio = [==[
+36 year attorney specializing in commercial and recreational diving, 30 plus year attorney for Kirby Morgan DSI, selected as Superlawyer multiple times by fellow attornies in california, winner of one of National Law Journal "Top Defense Wins in 2004; Defended succesfully and also obtained multiple 7 figure verdicts and settlements over the past 30 years. Full bio is at DIVELAW.COM
+]==],
+  },
+
+  ["Michele Nelson Bass"] = {
+    first = "Michele", middle = "Nelson", last = "Bass",
+    org = "",
+    email = "mnzg@sopris.net",
+  },
+
+  ["Sergey Ogay"] = {
+    first = "Sergey", last = "Ogay",
+    org = "Maritime State University named after admiral G.I.Nevelskoi",
+    email = "ogay@msun.ru",
+  },
+
+  ["Matthew Gardner"] = {
+    first = "Matthew", last = "Gardner",
+    org = "MATE Center",
+    email = "megardner@juno.com",
+  },
+
+  ["Steven Bradshaw"] = {
+    first = "Steven", last = "Bradshaw",
+    org = "Georgia Tech Savannah Robotics",
+    email = "sbradshaw6@mail.gatech.edu",
+  },
+
+  ["Phillip Cheng"] = {
+    first = "Phillip", last = "Cheng",
+    org = "Georgia Tech Savannah Robotics",
+    email = "pcheng31@gatech.edu",
+  },
+
+  ["Michael Tam"] = {
+    first = "Michael", last = "Tam",
+    org = "Georgia Tech Savannah Robotics",
+    email = "mtam77@gatech.edu",
+  },
+
+  ["Liesl Hotaling"] = {
+    first = "Liesl", last = "Hotaling",
+    org = "University of South Florida",
+    email = "lieslhotaling@yahoo.com",
+    bio = [==[
+Liesl Hotaling is a Senior Research Engineering with the College of Marine Sciences, University of South Florida. She holds a B.S. in Marine Science, a M.A.T. in Science Teaching, and a M.S. in Maritime Systems (ocean engineering). She is a partner in Centers for Ocean Science Education Excellence - Networked Ocean World (COSEE-NOW), serves as the Partnerships and Collaborations Coordinator for the COSEE Network and specializes in real time data education projects and hands-on STEM educational projects supporting environmental observing networks.
+]==],
+  },
+
+  ["James Bonner"] = {
+    first = "James", last = "Bonner",
+    org = "Clarkson University",
+    email = "jbonner@clarkson.edu",
+  },
+
+  ["William Kirkey"] = {
+    first = "William", last = "Kirkey",
+    org = "Clarkson University",
+    email = "wkirkey@clarkson.edu",
+  },
+
+  ["Peiyi Lin"] = {
+    first = "Peiyi", last = "Lin",
+    org = "Columbia University - Teachers College",
+    email = "pl2151@columbia.edu",
+  },
+
+  ["Susan Lowes"] = {
+    first = "Susan", last = "Lowes",
+    org = "Columbia University - Teachers College",
+    email = "lowes@tc.edu",
+  },
+
+  ["Temitope Ojo"] = {
+    first = "Temitope", last = "Ojo",
+    org = "Clarkson University",
+    email = "tojo@clarkson.edu",
+  },
+
+  ["Mark Gleason, PhD"] = {
+    first = "Mark",
+    last = "Gleason",
+    suffix = "PhD",
+    org = "Great Lakes Naval Memorial and Museum",
+    email = "gleason@mtu.edu",
+    bio = [==[
+Dr. Mark Gleason has nearly ten years of diverse experience in the operation of ROVs in education, research and industry. His Ph.D. dissertation research demonstrated the usefulness of small ROVs in natural resources education programs. Those programs and their development led to positions creating educational programs at museums. Those efforts resulted in unique underwater experiences for thousands of students and the general public. Other professional work includes several years operating ROVs in the oil/gas industry in the middle-east.
+
+His recent work includes developing partnerships between government agencies, non-profits and industry to explore shipwrecks. Those partnerships have used ROVs and side scan sonar to explore approximately thirty Great Lakes shipwrecks. In addition he is creating a marine tech program with a Michigan college that will provide ROV training for college students.
+]==],
+  },
+
+  ["Gary Reynolds"] = {
+    first = "Gary",
+    last = "Reynolds",
+    org = "Great Lakes Naval Memorial and Museum",
+    email = "reynoldsgk@comcast.net",
+  },
+
+  ["Rolf Konstad"] = {
+    first = "Rolf",
+    last = "Konstad",
+    org = "Jesuit High School Robotics Team",
+    email = "rovcoach@gmail.com",
+  },
+
+  ["John Klose"] = {
+    first = "John", last = "Klose",
+    org = "Naval Surface Warfare Center",
+    email = "john.p.klose@navy.mil",
+    bio = [==[
+Cdr. John P. Klose is a retired submarine officer and project engineer at the Naval Surface Warfare Center Panama City Division. He has worked for over 25 years with a variety of teams to develop new combat, weapons, C4I, Special Operations Maritime Mobility, and EOD systems. He has a significant background in rapid prototyping, experimentation, and using Government programs such as the Small Buisness Innovaton Research program to foster and promote rapid technology development.
+]==],
+  },
+
+  ["Peter Sapaty"] = {
+    first = "Peter", last = "Sapaty",
+    org = "Institute of Mathematical Machines & Systems Problems",
+    email = "peter.sapaty@gmail.com",
+    bio = [==[
+Dr. Peter Sapaty (educated in power networks & missile control), Director of Distributed Simulation and Control, Ukrainian Academy of Sciences, is with networking for 45 years. Worked in Germany, UK, Canada and Japan as project leader, research and invited professor. Invented distributed control technology used in different countries and resulted in European Patent and two John Wiley books. Areas of interest: models and languages for coordination and simulation of distributed dynamic systems with application in cooperative robotics, emergency management and infrastructure protection. His bio is in Marquis Who's Who in the World and Cambridge Outstanding Intellectuals of the 21st Century.
+]==],
+  },
+
+  ["Bob Nugent"] = {
+    first = "Bob", last = "Nugent",
+    org = "AMI International",
+    email = "bnugent@amiinter.com",
+  },
+
+  ["Raquel Payan"] = {
+    first = "Raquel", last = "Payan",
+    org = "The Subsea Company",
+    email = "raquel.payan@thesubsea.com",
+  },
+
+  ["Maurizio Banfi"] = {
+    first = "Maurizio", last = "Banfi",
+    org = "Studio Ing. Banfi SAS",
+    email = "mauriziobanfi@tiscali.it",
+    bio = [==[
+Graduated at the Italian Naval Accademy, after a master degree in electronic engineering and a 16 years long career as Italian Navy Officer, Maurizio Banfi funded Studio Ing. Banfi SAS, that developed the "ROV & Diver TRACKER", now commercially available.
+]==],
+  },
+
+  ["Ian Florence"] = {
+    first = "Ian", last = "Florence",
+    org = "Kongsberg Maritime Ltd.",
+    email = "ian.florence@kongsberg.com",
+    bio = [==[
+Ian Florence has worked in the offshore industry since 1981, starting in the seismic industry he moved to OHP Oilfield hydrographic Projects) in 1984 where he was a survey engineer and online surveyor. From 1986 – 1996 he was a contract engineer, surveyor and party chief for all on the major – and a lot of minor survey contactors. He then became a project surveyor for Subsea 7 for a West of Shetland field for 2 years. He joined Kongsberg Maritime where he specializes in acoustic special projects.
+]==],
+  },
+
+  ["Blair Cunningham"] = {
+    first = "Blair", last = "Cunningham",
+    org = "Coda Octopus Group, Inc",
+    email = "blair.cunningham@codaoctopus.com",
+  },
+
+  ["Jim Britton"] = {
+    first = "Jim", last = "Britton",
+    org = "Deepwater Corrosion Services Inc.",
+    email = "jbritton@stoprust.com",
+    bio = [==[
+Jim Britton - As founder and CEO of Deepwater Corrosion services Inc in 1986 he has been responsible for the development of currently used CP measurement systems manufactured by his company.  He has worked offshore on thousands of CP surveys both diver / ROV and topside deployed.  The Polatrak brand is currently the leading leader in this type of equipment.
+]==],
+  },
+
+  ["Brian Abbott"] = {
+    first = "Brian", last = "Abbott",
+    org = "Nautilus Marine Group International, LLC",
+    email = "abbott@nautilusmarinegroup.net",
+  },
+
+  ["Daniel Esser"] = {
+    first = "Daniel", last = "Esser",
+    org = "Contros Systems & Solutions GmbH",
+    email = "d.esser@contros.eu",
+    bio = [==[
+Daniel Esser is Managing Director and co-founder of CONTROS Systems & Solutions GmbH, a company that provides state-of-the-art multi-parameter sensor systems and services for both scientific and commercial hydrocarbon and CO2 leak detection and environmental monitoring projects worldwide. After working as a radio operator on a German Research Submarine, Daniel graduated from the University of North London with a Master in International Business. Since then he was working as a project manager, consultant and as a marketing manager for various international companies in the scientific, as well as in the industrial environment. In 2007, CONTROS has successfully launched the first fully integrated Mobile Leak Detection System for the detection, localization and qualification of early stage subsea oil and gas emissions.
+]==],
+  },
+
+  ["Neil Cavan"] = {
+    first = "Neil", last = "Cavan",
+    org = "2G Robotics Inc.",
+    email = "ncavan@2grobotics.com",
+  },
+
+  ["Jason Gillham"] = {
+    first = "Jason", last = "Gillham",
+    org = "2G Robotics Inc.",
+    email = "jgillham@2grobotics.com",
+  },
+
+  ["Anthony Hall"] = {
+    first = "Anthony", last = "Hall",
+    org = "Welaptega Marine Limited",
+    email = "a.hall@welaptega.com",
+    bio = [==[
+Anthony Hall is the founder and CEO of Welaptega Marine Limited. His experience with digital image analysis goes back to 1988 and his MSc field work in the measurement of marine growth, first in aquaculture and then offshore platforms. Since establishing Welaptega in 1992 he has kept Welaptega at the leading edge of underwater 3D video and image measurement in support of subsea operations in the offshore industry.
+]==],
+  },
+
+  ["Marie McCormick"] = {
+    first = "Marie",
+    last = "McCormick",
+    org = "www.Welaptega.com",
+    email = "m.mccormick@welaptega.com",
+  },
+
+  ["Alastair Trower"] = {
+    first = "Alastair",
+    last = "Trower",
+    org = "Welaptega Marine Limited",
+    email = "a.trower@welaptega.com",
+  },
+
+  ["Thomas Wrasse"] = {
+    first = "Thomas", last = "Wrasse",
+    org = "",
+    email = "jartans@charter.net",
+  },
+
+  ["Rachael Miller"] = {
+    first = "Rachael", last = "Miller",
+    org = "Rozalia Project for a Clean Ocean",
+    email = "rachael@rozaliaproject.org",
+    bio = [==[
+Rachael Miller is the co-founder and Director of Rozalia Project for a Clean Ocean, whose mission is to find and remove marine debris through action, technology, outreach and research. She is also the co-captain of Rozalia Project’s trash-hunting mothership, American Promise (a Ted Hood 60’ sailing research vessel). Rachael established the first public access, ROV-supported shipwreck tour in North American, and is a trainer for VideoRay training remotely operated vehicle (ROV) pilots. She is the primary ROV pilot and technician for the Rozalia Project and travels throughout the US with the ROV/sonar delivering marine debris programs and cleaning harbors. Though dedicated to a clean ocean, she lives, with her husband and 2 Newfoundlands, in the mountains of Vermont.
+]==],
+  },
+
+  ["Masanobu Shibuya"] = {
+    first = "Masanobu", last = "Shibuya",
+    org = "Shibuya Diving Industry",
+    email = "",
+  },
+
+  ["Eric Steimle"] = {
+    first = "Eric", last = "Steimle",
+    org = "AEOS",
+    email = "esteimle@gmail.com",
+  },
+
+  ["Robin Murphy"] = {
+    first = "Robin", last = "Murphy",
+    org = "TAMU",
+    email = "murphy@cse.tamu.edu",
+  },
+
+  ["Jesse Rodocker"] = {
+    first = "Jesse", last = "Rodocker",
+    org = "SeaBotix",
+    email = "Jesse@seabotix.com",
+  },
+
+  ["Matt Cowan"] = {
+    first = "Matt", last = "Cowan",
+    org = "KCF Technologies, Inc.",
+    email = "mcowen@kcftech.com",
+  },
+
+  ["Joshua Elvander"] = {
+    first = "Joshua", last = "Elvander",
+    org = "Bluefin Robotics",
+    email = "rednavle@gmail.com",
+  },
+
+  ["Michael Donovan"] = {
+    first = "Michael", last = "Donovan",
+    org = "Bluefin Robotics",
+    email = "mdonovan@bluefinrobotics.com",
+  },
+
+  ["Irina G. Mokeeva"] = {
+    first = "Irina", middle = "G.", last = "Mokeeva",
+    org = "Institute of Marine Technology Problems",
+    email = "mokeeva@marine.febras.ru",
+  },
+
+  ["Vladimir V. Kostenko"] = {
+    first = "Vladimir", middle = "V.", last = "Kostenko",
+    org = "Institute of Marine Technology Problems",
+    email = "kostenko@marine.febras.ru",
+  },
+
+  ["Joseph Curran"] = {
+    first = "Joseph", last = "Curran",
+    org = "Naval Surface Warfare Center Carderock Division",
+    email = "joseph.r.curran@navy.mil",
+    bio = [==[
+Mr. Joseph Curran has been working with underwater vehicle systems for 12 years. He has operated AUVs at MIT, ROVs for the Navy, and has been a guest expert on Junkyard Wars for TLC. He currently works for the Naval Surface Warfare Center, Carderock Division, in West Bethesda, MD.
+]==],
+  },
+
+  ["Steven Van Meter"] = {
+    first = "Steven", last = "Van Meter",
+    org = "Van Meter Consulting",
+    email = "svm123@mindspring.com",
+    bio = [==[
+A pioneer and world leading expert on micro ROV operations, Steve retired in 2005 from the US government after 30 years of service. His last posting was as the Hazardous Duty Robotics Specialist for NASA’s Space Shuttle program at the Kennedy Space Center, Florida.
+
+He purchased the first VideoRay system sold in 2000 and has been using VideoRay systems since to service clients worldwide in a full range of applications.
+
+He pioneered the use of the micro ROV to support the Offshore Oil & Gas industry and has performed specialized support services in diverse locations from Siberian Russia, Gulf of Mexico, Black Sea, South China Sea, the Caribbean, South America and the Middle East.
+
+With over 10 years of field experience and more than 500 successful projects, Steve is the Go-To Guy when the job calls for a Micro ROV. His services include training, consultation and operational support.
+
+Van Meter Consulting is based in Cocoa, Florida.
+]==],
+  },
+
+  ["Chris Lokuciewski"] = {
+    first = "Chris", last = "Lokuciewski",
+    org = "",
+    email = "enquiries@hydro-lek.com",
+  },
+
+  ["Mark Feulner"] = {
+    first = "Mark", last = "Feulner",
+    org = "Florida State University Panama City",
+    email = "mfeulner@pc.fsu.edu",
+    bio = [==[
+Mark Feulner has been researcher for Underwater Crime Scene Investigation (UCSI) at FSUPC for eight years, and is co-author of the UCSI Protocols Manual.  He has Master's degrees in Nautical Archaeology and Criminology and currently holds a faculty position in Public Safety and Security at Florida State.  Mr. Feulner has assisted law enforcement agencies and private institutions in numerous underwater investigations, and has trained public safety divers and military personnel in the use of various marine technologies for underwater work.
+]==],
+  },
+
+  ["Michael Zinszer"] = {
+    first = "Michael", last = "Zinszer",
+    org = "Florida State University Panama City",
+    email = "mzinszer@pc.fsu.edu",
+  },
+
+  ["Darren Moss"] = {
+    first = "Darren", last = "Moss",
+    org = "Teledyne Technologies, Inc.",
+    email = "dmoss@teledyne.com",
+  },
+
+  ["Andy Porterfield"] = {
+    first = "Andy", last = "Porterfield",
+    org = "Schilling Robotics",
+    email = "andy.porterfield@schilling.com",
+    bio = [==[
+Andy Porterfield has been a Mechanical Engineer at Schilling Robotics since 2008, and has prior design and test experience in the Aerospace, Railroad, and Highway Safety industries.
+]==],
+  },
+
+  ["Hans Kros"] = {
+    first = "Hans", last = "Kros",
+    org = "Oceaneering Intl.",
+    email = "hkros@oceaneering.com",
+  },
+
+  ["Steve Barrow"] = {
+    first = "Steve", last = "Barrow",
+    org = "Schilling Robotics",
+    email = "steve.barrow@schilling.com",
+    bio = [==[
+Steve Barrow, senior applications engineer for Schilling Robotics, has designed ROVs and ROV tooling since 1998.
+]==],
+  },
+
+  ["Keith Elliot"] ={
+    first = "Keith", last = "Elliot",
+    org = "Allspeeds Ltd. / Webtool",
+    email = "keith.elliot@allspeeds.co.uk",
+    bio = [==[
+Allspeeds Ltd are a renowned UK engineering company with prominent brands such as Tangye, Millingford International (API 11AX-0034) and Webtool and have been designing and manufacturing subsea tooling for over 25 years.
+
+Keith Elliot has been with the company for 6 years and is Engineering Director responsible for the Design and Manufacture of all the companies products.
+]==],
+  },
+
+  ["Bill Niblock"] = {
+    first = "Bill", last = "Niblock",
+    org = "ASP, Inc.",
+    email = "Bill.Niblock@airsyspro.com",
+    bio = [==[
+Bill Niblock is the Engineering Manager at ASP, Inc.  Bill supports customers throughout North America in several industries that are using hydraulic intensifiers to meet high pressure hydraulic needs.
+]==]
+  },
+
+  ["Thyge Bollmann"] = {
+    first = "Thyge", last = "Bollmann",
+    org = "miniBOOSTER Hydraulics A/S",
+    email = "TB@minibooster.com",
+    bio = [==[
+Thyge Bollmann is a Vice President at miniBOOSTER Hydraulics A/S in Denmark and works with customers worldwide in support of miniBOOSTER Hydraulic Intensifiers.
+]==],
+  },
+
+  ["Bruce Kivisto"] = {
+    first = "Bruce", last = "Kivisto",
+    org = "Chukar Waterjet, Inc.",
+    email = "brucek@chukarwaterjet.com",
+    bio = [==[
+Worked in the waterjet industry for 10 years. Work in the waterjet industry has focused on development of new applications for waterjet equipment and the extension of waterjet technology into the subsea environment. Professionally registered Electrical Engineer from the the University of Minnesota specializing in machine development and control systems.
+]==],
+  },
+
+  ["Steve Bell"] = {
+    first = "Steve", last = "Bell",
+    org = "BIRNS, Inc.",
+    email = "sbell@birns.com",
+    bio = [==[
+Serves as Optical/Photonics Engineer for BIRNS, Inc., an ISO 9001:2008-certified global leader in the design and manufacture of unique lines of high performance lights, connectors, penetrators and custom cable assemblies.
+
+Responsible for the design, development and execution of the company’s diverse fiber-optic connector systems, and has helped BIRNS expand and enhance its wide range of popular fiber optic and hybrid connector solutions, including the new BIRNS Millennium™ standard electro-optical hybrid series.
+
+More than 20 years of industry experience; holds a Bachelor of Science degree in Optical Engineering.  Prior to joining the team at BIRNS, served as a Senior Photonics Engineer at Sabeus Federal Systems, LLC, where designed, built, and tested fiber-optic hydrophones for prototype towed acoustic arrays for the US Navy.
+
+Successful career has also included a position at Optiphase as a Senior Engineer, responsible for the optical design of fiber-optic interferometer systems and as an engineer for CalTech on the LIGO (Laser Interferometer Gravitational Wave Observatory) project.
+]==],
+  },
+
+  ["Drew Michel"] = {
+    first = "Drew", last = "Michel",
+    org = "MTS ROV Committee",
+    email = "rovdrew@earthlink.net",
+    bio = [==[
+Drew has 45 years of experience in technical and executive positions in the industry and is currently one of the most respected independent ROV consultants in this field.   His accomplishments and awards include;
+
+-	Induction into the Offshore Energy Center Hall of Fame in 2010
+-	Selection for induction into the ADCI Commercial Diving hall of Fame in 2012
+-	A Fellow and President elect of the Marine Technology Society (MTS)
+-	A senior member of the Institute of Electrical and Electronic Engineers (IEEE).
+-	Has served 21 consecutive years as Chair of the MTS ROV Committee
+-	Has served 20 years as Co-chair of the Annual Underwater Intervention Conference.
+-	Serves on the National Visiting committee (board) of the Marine Advanced Technology Education Center.
+-	Served on the National Academy of Sciences committee on Undersea Vehicles and National Needs and National Research Council committee on Undersea Observatories.
+-	A recipient of the MTS Lockheed-Martin Award for Ocean Science and Engineering;
+-	An Engineering News Record Honoree for Outstanding Engineering Achievement
+]==],
   },
 }

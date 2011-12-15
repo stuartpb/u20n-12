@@ -39,33 +39,7 @@ In general the levels of certification and the competencies required to obtain c
     title = "Hard rock coring on steep terrain",
     fulltitle = "Hard-Rock Coring at Steep Terrain Seafloor with a Flipper-Type Crawler ROV",
     lead = "Tomoya Inoue",
-    cos = {
-      {
-        first = "Akira", last = "Asada",
-        org = "The University of Tokyo",
-        email = "asada@iis.u-tokyo.ac.jp",
-      },
-      {
-        first = "Tokuihiro", last = "Katsui",
-        org = "Kobe University",
-        email = "katsui@maritime.kobe-u.ac.jp",
-      },
-      {
-        first = "Masashi", last = "Mochizuki",
-        org = "The University of Tokyo",
-        email = "moma@iis.u-tokyo.ac.jp",
-      },
-      {
-        first = "Hiroyuki", last = "Osawa",
-        org = "JAMSTEC",
-        email = "osawah@jamstec.go.jp",
-      },
-      {
-        first = "Ken", last = "Takagi",
-        org = "The University of Tokyo",
-        email = "takagi@k.u-tokyo.ac.jp",
-      },
-    },
+    cos = { "Akira Asada", "Tokuihiro Katsui", "Masashi Mochizuki", "Hiroyuki Osawa", "Ken Takagi" },
     abstract = [==[
 Coring at flat even seafloor have been conducted. However, there are of slight difficulty for a conventional ROV to conduct at steep or irregular terrain seafloor because the ROV needs a function or mechanism to keep its attitude tenaciously being subjected to a reaction force.
 
@@ -83,14 +57,7 @@ This paper presents the advantageous mobility of the flipper type crawler ROV wh
   {
     title = "ROV Repair in less than 60 Minutes",
     fulltitle = "ROV Repair and Return to Work in 60 Minutes or Less",
-    lead = {
-      first = "Andy", last = "Porterfield",
-      org = "Schilling Robotics",
-      email = "andy.porterfield@schilling.com",
-      bio = [==[
-Andy Porterfield has been a Mechanical Engineer at Schilling Robotics since 2008, and has prior design and test experience in the Aerospace, Railroad, and Highway Safety industries.
-]==],
-    },
+    lead = "Andy Porterfield",
     abstract = [==[
 In response to the complexity of the missions they are asked to perform, ROVs continue to become more powerful and complicated in design.  When a component fails, repair tasks can take multiple hours and have a significant economic impact on ROV operators and their customers.  In all instances of major ROV subsystem repairs, the component that needs to be replaced or repaired is located in the second or third tier of the design; gaining access to and repairing the failed component can require multiple hours of work.  For example, a HPU replacement on a conventional ROV can typically take 8 hours.  With an average pipelay vessel day rate of $180,000, the vessel downtime cost of such a task can easily mount to $60,000 or more.
 
@@ -107,12 +74,7 @@ This presentation will review features important in reducing downtime including:
   {
     title = "ROV Dredging Using Advanced Techniques",
     fulltitle = "ROV Dredging Using Advanced Techniques",
-    lead = {
-      first = "Hans",
-      last = "Kros",
-      org = "Oceaneering Intl.",
-      email = "hkros@oceaneering.com",
-    },
+    lead = "Hans Kros",
     abstract = [==[
 Trends in underwater salvage and excavation markets indicate improved access
 to remote areas and complex dredging methods are more available to subsea
@@ -149,15 +111,7 @@ with the natural sea bottom.
   {
     title = "Integrating Equipment to Work Class ROVs",
     fulltitle = "Considerations When Integrating Equipment or Tooling to a Work Class ROV",
-    lead = {
-      first = "Steve",
-      last = "Barrow",
-      org = "Schilling Robotics",
-      email = "steve.barrow@schilling.com",
-      bio = [==[
-Steve Barrow, senior applications engineer for Schilling Robotics, has designed ROVs and ROV tooling since 1998.
-]==],
-    },
+    lead = "Steve Barrow",
     abstract = [==[
 Remotely Operated Vehicles (ROVs) serve as the primary platform for a variety of operations in deep water.  ROVs must often be reconfigured with different tools or sensors to accomplish these missions.  However, integrating new sensors, equipment or tooling to a work-class ROV can be a difficult and time consuming experience.
 The lack of standardization between different models of ROVs also makes preplanning the equipment integration difficult.  Taking the time to understand and address the basic considerations and the options available will help to prevent last minute emergencies.
@@ -172,17 +126,7 @@ This presentation will provide an overview of the primary concerns when integrat
   {
     title = "ROV Cutting Tools",
     fulltitle = "ROV deployed tools for cutting ropes, umbilicals, cables and pipelines",
-    lead = {
-      first = "Keith",
-      last = "Elliot",
-      org = "Allspeeds Ltd. / Webtool",
-      email = "keith.elliot@allspeeds.co.uk",
-      bio = [==[
-Allspeeds Ltd are a renowned UK engineering company with prominent brands such as Tangye, Millingford International (API 11AX-0034) and Webtool and have been designing and manufacturing subsea tooling for over 25 years.
-
-Keith Elliot has been with the company for 6 years and is Engineering Director responsible for the Design and Manufacture of all the companies products.
-]==],
-    },
+    lead = "Keith Elliot",
     abstract = [==[
 ROV deployed cutting tools are an important part of the subsea toolbox, and are essential equipment for the installation  and decommissioning of subsea tiebacks and other subsea installations.
 An overview of the available technologies will be discussed, with particular focus given to the correct selection of the tool to suit the application.  Guidance will be given regarding the safe deployment, use, retrieval and storage of subsea cutting tools, with particular focus on those deployed by ROV to deep water.
@@ -197,24 +141,8 @@ Improvements in the strength of wire rope technology and the increasing use of a
   {
     title = "Hydraulic Intensifiers",
     fulltitle = "Hydraulic Intensifers are a Boost for ROV Tooling Requirements",
-    lead = {
-      first = "Bill", last = "Niblock",
-      org = "ASP, Inc.",
-      email = "Bill.Niblock@airsyspro.com",
-      bio = [==[
-Bill Niblock is the Engineering Manager at ASP, Inc.  Bill supports customers throughout North America in several industries that are using hydraulic intensifiers to meet high pressure hydraulic needs.
-]==]
-    },
-    cos = {
-      {
-        first = "Thyge", last = "Bollmann",
-        org = "miniBOOSTER Hydraulics A/S",
-        email = "TB@minibooster.com",
-        bio = [==[
-Thyge Bollmann is a Vice President at miniBOOSTER Hydraulics A/S in Denmark and works with customers worldwide in support of miniBOOSTER Hydraulic Intensifiers.
-]==],
-      },
-    },
+    lead = "Bill Niblock",
+    cos = { "Thyge Bollmann", },
     abstract = [==[
 The presentation will focus on recent and anticipated trends for high pressure hydraulics in subsea applications, predominately in the oil production industry and how compact hydraulic intensifiers can be a cost effective and reliable solution.
 
@@ -233,14 +161,7 @@ Beyond ROV.  Some of the intervention applications that are served by ROVs, also
   {
     title = "Waterjet Applications Subsea",
     fulltitle = "Waterjet Technology and Applications Deepwater Subsea",
-    lead = {
-      first = "Bruce", last = "Kivisto",
-      org = "Chukar Waterjet, Inc.",
-      email = "brucek@chukarwaterjet.com",
-      bio = [==[
-Worked in the waterjet industry for 10 years. Work in the waterjet industry has focused on development of new applications for waterjet equipment and the extension of waterjet technology into the subsea environment. Professionally registered Electrical Engineer from the the University of Minnesota specializing in machine development and control systems.
-]==],
-    },
+    lead = "Bruce Kivisto",
     abstract = [==[
 Waterjet technology has been developed for application in deepwater (3,000m+) environments. It offers several important advantages over existing technologies and presents new opportunities for continued refinement of subsea maintenance, repair, salvage, and emergency response techniques.
 
@@ -248,7 +169,7 @@ Advances in waterjet intensifier pump technology allow it to be applied subsea a
 
 Waterjet technology has been extended into the deepwater subsea space during the past year. Inclusion of an intensifier style subsea waterjet system in the collection of emergency response assets will give another option for cutting, salvage, and conduct of rapid de-mobilization operations.
 ]==],
-    start = { day = 25, month = 1, year = 2012, --TODO: DATE
+    start = { day = 25, month = 1, year = 2012,
       hour = 15, min = 30 },
     length = 1800,
     room = "217",
@@ -272,20 +193,7 @@ The purpose of this talk is to provide an insight into this technology and a gli
   {
     title = "Fiber Optic Connectivity",
     fulltitle = "Considerations for Successful Optical Fiber Connectivity in Subsea Applications",
-    lead = {
-      first = "Steve", last = "Bell",
-      org = "BIRNS, Inc.",
-      email = "sbell@birns.com",
-      bio = [==[
-Serves as Optical/Photonics Engineer for BIRNS, Inc., an ISO 9001:2008-certified global leader in the design and manufacture of unique lines of high performance lights, connectors, penetrators and custom cable assemblies.
-
-Responsible for the design, development and execution of the company’s diverse fiber-optic connector systems, and has helped BIRNS expand and enhance its wide range of popular fiber optic and hybrid connector solutions, including the new BIRNS Millennium™ standard electro-optical hybrid series.
-
-More than 20 years of industry experience; holds a Bachelor of Science degree in Optical Engineering.  Prior to joining the team at BIRNS, served as a Senior Photonics Engineer at Sabeus Federal Systems, LLC, where designed, built, and tested fiber-optic hydrophones for prototype towed acoustic arrays for the US Navy.
-
-Successful career has also included a position at Optiphase as a Senior Engineer, responsible for the optical design of fiber-optic interferometer systems and as an engineer for CalTech on the LIGO (Laser Interferometer Gravitational Wave Observatory) project.
-]==],
-    },
+    lead = "Steve Bell",
     abstract = [==[
 Fiber optic connectors deliver massive bandwidth in a minute footprint, and thus are becoming increasingly popular for ROV and manned submersibles for everything from vehicle control and HD cameras to tracking and fiber based sensors. However, there are numerous complex engineering considerations for such systems, given the rigorous demands of subsea applications. Thus, it's key to make informed decisions about how fiber optics should be integrated into a design from its inception to achieve the maximum advantage of the technology.
 
@@ -301,25 +209,7 @@ Further, it examines to the future of the technology and how it can shape the de
   {
     title = "MTS ROV Committee Meeting",
     fulltitle = "",
-    lead = {
-      first = "Drew", last = "Michel",
-      org = "MTS ROV Committee",
-      email = "rovdrew@earthlink.net",
-      bio = [==[
-Drew has 45 years of experience in technical and executive positions in the industry and is currently one of the most respected independent ROV consultants in this field.   His accomplishments and awards include;
-
--	Induction into the Offshore Energy Center Hall of Fame in 2010
--	Selection for induction into the ADCI Commercial Diving hall of Fame in 2012
--	A Fellow and President elect of the Marine Technology Society (MTS)
--	A senior member of the Institute of Electrical and Electronic Engineers (IEEE).
--	Has served 21 consecutive years as Chair of the MTS ROV Committee
--	Has served 20 years as Co-chair of the Annual Underwater Intervention Conference.
--	Serves on the National Visiting committee (board) of the Marine Advanced Technology Education Center.
--	Served on the National Academy of Sciences committee on Undersea Vehicles and National Needs and National Research Council committee on Undersea Observatories.
--	A recipient of the MTS Lockheed-Martin Award for Ocean Science and Engineering;
--	An Engineering News Record Honoree for Outstanding Engineering Achievement
-]==],
-    },
+    lead = "Drew Michel",
     abstract = [==[
 The agenda for the MTS ROV Committee meeting:
 

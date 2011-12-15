@@ -3,17 +3,11 @@ return maketrack("oe", {
   {
     title = "Navy Unmanned Systems Experimentation Lab",
     fulltitle = "Bringing Technology to Customers & Markets Faster Through Experimentation",
-    lead = {
-      first = "John", last = "Klose",
-      org = "Naval Surface Warfare Center",
-      email = "john.p.klose@navy.mil",
-    },
+    lead = "John Klose",
     abstract = [==[
 Technical innovations are occurring at an ever-increasing rate and create new challenges for both government and industry engineers to take advantage and transition new technology to meet their operational and business needs. Finding rapid technology transition and product development processes that can keep pace with technological innovations is key to bringing the best technology to our customers. To this end, the Naval Surface Warfare Center's Panama City Division has created a special laboratory for unmanned systems experimentation, prototyping and technology transition that is seeking to rapidly develop innovative applications of new and existing technology in modular forms in order to bring new operational concepts to life in much shorter timeframes than normal system development processes.
+
 This presentation will cover the initial efforts of this laboratory to develop new innovative Operational Concepts for Explosive Ordnance Disposal forces, Anti-Terrorism/Force Protection (AT/FP) forces, and Maritime Critical Infrastructure Protection using modular, Micro Unmanned Surface Vessel (USV) technology. The presentation will focus on processes for creating modular hardware and software architectures, conducting important experiments in the operational environment, and finding or developing new technologies that open up new possibilities for innovative changes to operational concepts or market segments.
-]==],
-    bio = [==[
-Cdr. John P. Klose is a retired submarine officer and project engineer at the Naval Surface Warfare Center Panama City Division. He has worked for over 25 years with a variety of teams to develop new combat, weapons, C4I, Special Operations Maritime Mobility, and EOD systems. He has a significant background in rapid prototyping, experimentation, and using Government programs such as the Small Buisness Innovaton Research program to foster and promote rapid technology development.
 ]==],
     start = { day = 24, month = 1, year = 2012,
       hour = 10, min = 30 },
@@ -65,21 +59,8 @@ There will be a discussion of specific maintenance practices that are required t
   {
     title = "High-level Organization of UUVs",
     fulltitle = "High-level Organization of Unmanned Underwater Systems",
-    lead = {
-      first = "Peter", last = "Sapaty",
-      org = "Institute of Mathematical Machines & Systems Problems",
-      email = "peter.sapaty@gmail.com",
-      bio = [==[
-Dr. Peter Sapaty (educated in power networks & missile control), Director of Distributed Simulation and Control, Ukrainian Academy of Sciences, is with networking for 45 years. Worked in Germany, UK, Canada and Japan as project leader, research and invited professor. Invented distributed control technology used in different countries and resulted in European Patent and two John Wiley books. Areas of interest: models and languages for coordination and simulation of distributed dynamic systems with application in cooperative robotics, emergency management and infrastructure protection. His bio is in Marquis Who's Who in the World and Cambridge Outstanding Intellectuals of the 21st Century.
-]==],
-    },
-    cos = {
-      {
-        first = "Bob", last = "Nugent",
-        org = "AMI International",
-        email = "bnugent@amiinter.com",
-      },
-    },
+    lead = "Peter Sapaty",
+    cos = { "Bob Nugent" },
     abstract = [==[
 The world ocean remains the last unexplored space on earth. Underwater robots, when massively deployed, can bring huge benefit. Their use, however, is much more complicated than aerial or ground ones, due to communication problems. That is why enhancing intelligence of individual robots for increasing autonomy and reducing communications is the primary goal. In this paper we are offering a high-level distributed control technology that can dynamically integrate any underwater units into operable teams with a sort of global consciousness and pursuing global goals. It is based on universal knowledge processing and control modules easily installed in units and communicating with each other via any available channels. Ad hoc networks of these modules spatially, in parallel, interpret global mission descriptions in a special high-level Distributed Scenario Language (DSL) reflecting top semantics of what to be done in a distributed maritime space, while leaving system structuring and task-oriented C2 entirely to automatic language interpretation.  Extremely  short, created on the fly, DSL scenarios are injected into the robotic swarm from any unit, subsequently covering the whole system and setting the needed behavior, with communications between vehicles much shorter than with any other approaches (thus suitable for low speed channels). Implementation details of the technology will be revealed, and exemplary scenarios in DSL related to underwater environments, like collective distributed search of a large territory for specific objects or patrolling coastline will be shown. Cooperation with surface and aerial vehicles, also with higher-level manned systems within the same organizational model, are discussed too.
 ]==],
@@ -109,11 +90,7 @@ This paper provides a technology update on Kongsberg's AUVs for environmental mo
   {
     title = "Data Loggers For Surface Or Subsea",
     fulltitle = "How to aid your operations in reducing failures",
-    lead = {
-      first = "Raquel", last = "Payan",
-      org = "The Subsea Company",
-      email = "raquel.payan@thesubsea.com",
-    },
+    lead = "Raquel Payan",
     abstract = [==[
 The Surface or Subsea Data Logger is intended to give operators the ability to monitor key pressures and provide information in real-time.
 
@@ -134,7 +111,6 @@ Typical use for the Data Logger for Surface and/or Subsea:
     length = 1800,
     room = "217",
   },
-
 
   {
     title = "Advancements in Pipeline Inspection with AUVs",

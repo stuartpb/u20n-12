@@ -25,16 +25,8 @@ end
 for i=1, #allprs do
   local pr = allprs[i]
 
-  local speaker, lead
-
-  --transitional selection
-  if type(pr.lead) == "string" then
-    speaker = pr.lead
-    lead = presenters[speaker]
-  else
-    lead = pr.lead
-    speaker = lead.first .. ' ' .. lead.last
-  end
+  local speaker = pr.lead
+  local lead = presenters[speaker]
 
   local pagename = pr.id
   io.output('presentations/'..pagename..".html")

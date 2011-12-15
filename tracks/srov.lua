@@ -21,12 +21,7 @@ Unfortunately we were not able to locate the lost diver, but this presentation w
   {
     title = "Under Ice Operations Using a Micro-ROV",
     fulltitle = "Under Ice Operations Using a Micro-ROV",
-    lead = {
-      first = "Thomas",
-      last = "Wrasse",
-      org = "",
-      email = "jartans@charter.net",
-    },
+    lead = "Thomas Wrasse",
     abstract = [==[
 While underwater operations provide a host of significant anxieties, when a sheet of ice is added to the picture the pressure increases similar to a diver descending down the water column.  Past practice - putting human life in jeopardy by traversing unsafe ice conditions or by placing divers into a confined space is no longer advisable.  Micro-ROV technology allows first responders to locate, inspect, and retrieve rapidly, efficiently, safely, and cost-effectively.  The requirement of cutting large holes for under ice diving creates future public hazards until solid freeze up occurs.   The extremely small hole required of the Micro-ROV minimizes vulnerability and can easily be made safe upon completion of the task.
 The Micro-ROV is easily deployed, with minimal risk, into a potential human trap eliminating travel to the unknown.  The Micro-ROV can without difficulty, assess hazards, survey the scene, locate and identify targets, recover evidence and provide a safe lane of travel for a diver.  It doesn’t matter if it is an object that has fallen through or a survey that needs to be done; the employment of Micro-ROV under ice operation is a safe first alternative.
@@ -41,15 +36,7 @@ This presentation will show the experiences of several small ROV projects succes
   {
     title = "Marine debris and underwater tech",
     fulltitle = "Integrating a micro-ROV, imaging sonar, image enhancement, side scan sonar and tether-based positioning systems to find and remove marine debris along the New England Coast.",
-    lead = {
-      first = "Rachael",
-      last = "Miller",
-      org = "Rozalia Project for a Clean Ocean",
-      email = "rachael@rozaliaproject.org",
-      bio = [==[
-Rachael Miller is the co-founder and Director of Rozalia Project for a Clean Ocean, whose mission is to find and remove marine debris through action, technology, outreach and research. She is also the co-captain of Rozalia Project’s trash-hunting mothership, American Promise (a Ted Hood 60’ sailing research vessel). Rachael established the first public access, ROV-supported shipwreck tour in North American, and is a trainer for VideoRay training remotely operated vehicle (ROV) pilots. She is the primary ROV pilot and technician for the Rozalia Project and travels throughout the US with the ROV/sonar delivering marine debris programs and cleaning harbors. Though dedicated to a clean ocean, she lives, with her husband and 2 Newfoundlands in the mountains of Vermont.
-]==],
-    },
+    lead = "Rachael Miller",
     abstract = [==[
 The mission of Rozalia Project for a Clean Ocean is to find and remove marine debris from our oceans, bays and rivers. Marine debris takes many forms, and occurs in all marine environments, presenting myriad challenges in removing it from the water. Rachael Miller of Rozalia Project uses a VideoRay with BlueView sonar, Lyyn image enhancement, and Smart Tether positioning system along with the Tritech Starfish side scan sonar, to scour the bottom of a variety of venues looking for and retrieving marine debris - from small pieces of plastic to large masses of derelict fishing gear - and everything in-between. This presentation will show specific examples of how the equipment is integrated and used in concert to locate and recover a variety of objects of differing size and material, and how different benthic environments and conditions affect mission planning and execution. The presentation will conclude with a discussion of lessons learned and the strategies Rachael used to handle specific challenges related to debris search and recovery.
 ]==],
@@ -62,13 +49,7 @@ The mission of Rozalia Project for a Clean Ocean is to find and remove marine de
   {
     title = "Using micro-ROV's in the aftermath of Japan's Tsunami",
     fulltitle = "",
-    lead = {
-      --prefix = "Mr." -- ? People seem to be using it a lot in this one case
-      first = "Masanobu",
-      last = "Shibuya",
-      org = "Shibuya Diving Industry",
-      email = "",
-    },
+    lead = "Masanobu Shibuya",
     abstract = [==[
 Shibuya Diving Industry (http://www.shibuya-diving.co.jp) is one of Japan’s most innovative, high technology companies.  Founder Mr. Masanobu Shibuya, has lead Japan’s diving evolution in many ways – particularly in protecting the environment, and underwater backhoe work in constructing port facilities.  In addition to leading the company, Mr. Shibuya is an expert underwater photographer and videographer, who is more often in the water  than topside when on site.
 
@@ -87,26 +68,8 @@ This presentation by Mr. Shibuya himself will explain the results he experienced
   {
     title = "ROV's for Disaster Recovery",
     fulltitle = "The Use of Remotely Operated Vehicles for Disaster Recovery in the Tsunami stricken areas of Minamisanriku and Rikuzentakata Japan.",
-    lead = {
-      first = "Eric",
-      last = "Steimle",
-      org = "AEOS",
-      email = "esteimle@gmail.com",
-    },
-    cos = {
-      {
-        first = "Robin",
-        last = "Murphy",
-        org = "TAMU",
-        email = "murphy@cse.tamu.edu",
-      },
-      {
-        first = "Jesse",
-        last = "Rodocker",
-        org = "SeaBotix",
-        email = "Jesse@seabotix.com",
-      },
-    },
+    lead = "Eric Steimle",
+    cos = { "Robin Murphy", "Jesse Rodocker", },
     abstract = [==[
 Remotely Operated Vehicles were used during two trips to the Tsunami damaged areas in the Iwate Prefecture of Japan. In April 2011 four ROV’s were used to inspect infrastructure and to assist with victim search and recovery.  The ROV’s successfully allowed a fishing port to be reopened and were used to search for victims in debris to dangerous for manual search with divers. During this trip a SeaBotix SARbot, a SeaBotix LBV-300-5, a SeaMor ROV and an AC-ROV were used. A second trip in October 2011 saw a return to the city of Minamisanriku Cho. The city had requested an expanded search for debris in the ports and open areas of the bay where fishing nets were to be redeployed. Based on lessons learned in April a SeaBotix SARbot was chosen.  This paper will present data and lessons learned from the two trips.
 ]==],
@@ -145,12 +108,7 @@ The low-logistics associated with microROVs make it an ideal platform for rapid 
   {
     title = "Tether-based positioning system technology",
     fulltitle = "",
-    lead = {
-      first = "Matt",
-      last = "Cowan",
-      org = "KCF Technologies, Inc.",
-      email = "mcowen@kcftech.com",
-    },
+    lead = "Matt Cowan",
     abstract = [==[
 
 ]==],
@@ -163,20 +121,8 @@ The low-logistics associated with microROVs make it an ideal platform for rapid 
 {
     title = "Bluefin AUVs & ROVs",
     fulltitle = "ROVs and AUVs: Complementary Technologies for Underwater Intervention Tasks",
-    lead = {
-      first = "Joshua",
-      last = "Elvander",
-      org = "Bluefin Robotics",
-      email = "rednavle@gmail.com",
-    },
-    cos = {
-      {
-        first = "Michael",
-        last = "Donovan",
-        org = "Bluefin Robotics",
-        email = "mdonovan@bluefinrobotics.com",
-      },
-    },
+    lead = "Joshua Elvander",
+    cos = { "Michael Donovan", },
     abstract = [==[
 Autonomous Underwater Vehicles (AUVs) and Remotely Operated Vehicles (ROVs) fill different niches within the underwater intervention task spectrum.  AUVs provide the capability for subsea inspection and survey on a variety of range scales and with multiple sensors, including sidescan and synthetic aperture sonar, sub-bottom profiling, multi-beam echosounding and still and video photography.  Small ROVs can provide inspection, repair and maintenance capabilities to assist the oil and gas industries in deep water environments.
 Bluefin Robotics recently acquired the assets of Hawkes Remotes, Inc. (HRI), a spinoff from Hawkes Ocean Technologies (HOT) that develops advanced ROVs.  The HRI designs offer scalable, modular solutions including a thin, armored fiber-optic tether and on-board high-energy-density batteries that will reduce the total cost of ownership/operating costs while simultaneously outperforming existing ROV technology.  Bluefin will leverage their autonomy and subsea experience to add hybrid capabilities to the ROVs and offer them as an extension of their current product line to the oil and gas industry.  The presentation will show how the Bluefin/Hawkes capabilities in the AUV and ROV space provide complementary technologies that will enable a wide variety of underwater intervention tasks with a cost-effective footprint and low infrastructure support.
@@ -191,20 +137,7 @@ Bluefin Robotics recently acquired the assets of Hawkes Remotes, Inc. (HRI), a s
     title = "Student innovations transforming commercial ROV technologies",
     fulltitle = "Evaluation of Quality indicators for observation class ROVs",
     lead = "Dmitry Lyakhov",
-    cos = {
-      {
-        first = "Mokeeva",
-        last = "Irina. G.",
-        org = "Institute of Marine Technology Problems",
-        email = "mokeeva@marine.febras.ru",
-      },
-      {
-        first = "Kostenko",
-        last = "Vladimir.V.",
-        org = "Institute of Marine Technology Problems",
-        email = "kostenko@marine.febras.ru",
-      },
-    },
+    cos = { "Irina G. Mokeeva", "Vladimir V. Kostenko" },
     abstract = [==[
 The Institute of Marine Technology Problems (IMPT) is a unit of the Far Eastern Branch of the Russian Academy of Sciences. It was formed as the Navigation and Control Systems Lab in 1972 and in 1988 grown into the IMPT with an emphasis on research, development and engineering of AUVs. In an almost 40 years of establishment, the IMPT has been successful in developing dozens of unmanned underwater vehicles (prototypes and initial production).
 
@@ -221,15 +154,7 @@ Since 2008, teams of students from IMPT have participated in the MATE ROV Compet
   {
     title = "Navy Hull Inspections",
     fulltitle = "Leveraging divers and ROVs to collect  data on Navy ships",
-    lead = {
-      first = "Joseph",
-      last = "Curran",
-      org = "Naval Surface Warfare Center Carderock Division",
-      email = "joseph.r.curran@navy.mil",
-      bio = [==[
-Mr. Joseph Curran has been working with underwater vehicle systems for 12 years. He has operated AUVs at MIT, ROVs for the Navy, and has been a guest expert on Junkyard Wars for TLC. He currently works for the Naval Surface Warfare Center, Carderock Division, in West Bethesda, MD.
-]==],
-    },
+    lead = "Joseph Curran",
     abstract = [==[
 In order to quantify the effect of biofouling on ship performance, an accurate measure must be made of the fouling on the ship. This biofouling is very dependent on timing and ship service. Inspections must be carried out immediately after a ship’s return, and before a deployment. Not only are multiple, repeatable points to be inspected on the ship, but the ability must exist to do so anywhere in the world and on short notice. Both divers and ROVs were utilized to accomplish this mission.
 By utilizing both divers and ROVs, NSWC Carderock Division has been able to provide a consistent, high-quality survey of Navy ship hulls to meet the goals of the experiment. The lessons learned from over 60 hull inspections in two years will be shared. These include comments on rapid response, ship tagouts, ruggedization for air shipment of systems, and a novel CONOP for small-footprint operation on a pier. Divers and ROVs need not be competitors. By playing to the strengths of both, a much better product can be produced, and vital data can be gathered that would otherwise be missed.
@@ -259,23 +184,7 @@ Due to these stringent requirements a VideoRay Pro4 ROV, KCF Technologies Smart 
   {
     title = "Micro ROV Support To Offshore O&G",
     fulltitle = "Micro ROV Support to the Offshore Oil & Gas Industry - Case Studies",
-    lead = {
-      first = "Steven",
-      last = "Van Meter",
-      org = "Van Meter Consulting",
-      email = "svm123@mindspring.com",
-      bio = [==[
-A pioneer and world leading expert on micro ROV operations, Steve retired in 2005 from the US government after 30 years of service. His last posting was as the Hazardous Duty Robotics Specialist for NASA’s Space Shuttle program at the Kennedy Space Center, Florida.
-
-He purchased the first VideoRay system sold in 2000 and has been using VideoRay systems since to service clients worldwide in a full range of applications.
-
-He pioneered the use of the micro ROV to support the Offshore Oil & Gas industry and has performed specialized support services in diverse locations from Siberian Russia, Gulf of Mexico, Black Sea, South China Sea, the Caribbean, South America and the Middle East.
-
-With over 10 years of field experience and more than 500 successful projects, Steve is the Go-To Guy when the job calls for a Micro ROV. His services include training, consultation and operational support.
-
-Van Meter Consulting is based in Cocoa, Florida.
-]==],
-    },
+    lead = "Steven Van Meter",
     abstract = [==[
 The use of VideoRays in the Offshore Oil & Gas Industry is growing rapidly, as recent results of inspections of facilities and vessels around the world show that this is compelling technology. Inspections can often be done more rapidly, efficiently, safely, and at lower cost than other traditional methods. In many cases there are critical areas and mechanisms that cannot be inspected safely by ANY other method. The extreme portability, small size, low power consumption of modern micro ROVs combined with their depth, current handling, and tether pulling capabilities combine to provide completely new tactics, techniques, and procedures.
 
@@ -317,12 +226,7 @@ Multibeam imaging sonars have been available since the early nineties and have s
   {
     title = "High performance hydraulic manipulator",
     fulltitle = "Excavating and retrieving ancient artefacts from the seabed using a small but high performance hydraulic manipulator",
-    lead = {
-      first = "Chris",
-      last = "Lokuciewski",
-      org = "",
-      email = "enquiries@hydro-lek.com",
-    },
+    lead = "Chris Lokuciewski",
     abstract = [==[
 Excavating and recovering ancient artefacts from the seabed demands precise and highly reliable equipment.  Florida-based RPM Nautical Foundation (RPMNF) has pushed the boundaries of maritime archaeology by performing the careful and precise work necessary for professional archaeology at depths beyond effective diver range.
 
@@ -339,23 +243,8 @@ This paper will provide an overview of how these Hydro-Lek manipulators were uti
   {
     title = "ROV Training for PSD & Port Security",
     fulltitle = "Micro ROVs in Public Safety Diving and Port Security: The Need for Standards and Training",
-    lead = {
-      first = "Mark",
-      last = "Feulner",
-      org = "Florida State University Panama City",
-      email = "mfeulner@pc.fsu.edu",
-      bio = [==[
-Mark Feulner has been researcher for Underwater Crime Scene Investigation (UCSI) at FSUPC for eight years, and is co-author of the UCSI Protocols Manual.  He has Master's degrees in Nautical Archaeology and Criminology and currently holds a faculty position in Public Safety and Security at Florida State.  Mr. Feulner has assisted law enforcement agencies and private institutions in numerous underwater investigations, and has trained public safety divers and military personnel in the use of various marine technologies for underwater work.
-]==],
-    },
-    cos = {
-      {
-        first = "Michael",
-        last = "Zinszer",
-        org = "Florida State University Panama City",
-        email = "mzinszer@pc.fsu.edu",
-      },
-    },
+    lead = "Mark Feulner",
+    cos = { "Michael Zinszer", },
     abstract = [==[
 Florida State University Panama City (FSUPC) completed an evaluation study in 2010 that examined the techniques and tools available for the execution of the search and inspection activities that public safety divers are routinely called upon to perform.  The test teams were drawn from major ports across the country and were selected for their experience and skill in conducting port security operations as well as routine public safety dive functions.  The teams included Seattle Police Department Harbor Patrol, NYPD Scuba Team, Jacksonville Sheriff Office Dive Team, and the FBI’s USERT team out of Los Angeles. A team from FSUPC’s Underwater Crime Scene Investigation was utilized to augment the dataset.  The findings indicated that traditional and technology-augmented search techniques were all very successful methods, particularly in the specific contexts for which they were developed.  However, broader implications to ROV training and use were suggested by the results.  While these observations were beyond the scope of the study, they provide valuable insights that are shared in this paper.
 ]==],
@@ -396,12 +285,7 @@ This talk will discuss some examples of such non-traditional uses by VideoRay cu
   {
     title = "A high performance mini-ROV for fishery bi-catch studies",
     fulltitle = "",
-    lead = {
-      first = "Darren",
-      last = "Moss",
-      org = "Teledyne Technologies, Inc.",
-      email = "dmoss@teledyne.com",
-    },
+    lead = "Darren Moss",
     abstract = [==[
 
 ]==],

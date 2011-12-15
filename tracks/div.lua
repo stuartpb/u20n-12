@@ -65,25 +65,8 @@ I hope to present this device and share the safe technology with all our members
   {
     title = "U.S. Navy Diving System Certification Survey",
     fulltitle = "U.S. Navy On-Site Diving System Certifcation Survey and System Re-Entry Control Records",
-    lead = {
-      first = "Michael",
-      last = "Frey",
-      org = "U.S. Navy, Naval Sea Systems Command",
-      email = "michael.a.frey@navy.mil",
-      bio = [==[
-- 30 years experience as a U.S. Navy Diver
-- 11 years at NAVSEA Office of Salvage and Diving
-- Commander, Civil Engineer Corps, USN
-]==],
-    },
-    cos = {
-      {
-        first = "Brendan",
-        last = "Murphy",
-        org = "Naval Sea Systems Command",
-        email = "brendan.w.murphy@navy.mil",
-      },
-    },
+    lead = "Michael Frey",
+    cos = { "Brendan Murphy", },
     abstract = [==[
 Provide procedures used to conduct on-site system certification survey of U. S. Navy Diving Life Support Equipment.  Present the detailed checklist and requirements used to inspect the material and operational condition of the system.  Discuss U.S. Navy diving system maintence requirements and the system used to track the completion of required maintenance.  Present the documentation used by maintenance personnel to document re-entry and work completed on a certified system.  Discuss the documentation required for replacing components of a certified diving life support system.
 ]==],
@@ -131,12 +114,7 @@ The Code of Federal Regulations specifically adopts the ASME Boiler and Pressure
   {
     title = "Improved Glove Technolgy entering the Diving Field",
     fulltitle = "",
-    lead = {
-      first = "Chad",
-      last = "Quibodeaux",
-      org = "",
-      email = "chad@candssafety.com",
-    },
+    lead = "Chad Quibodeaux",
     abstract = [==[
 
 ]==],
@@ -150,17 +128,7 @@ The Code of Federal Regulations specifically adopts the ASME Boiler and Pressure
   {
     title = "Pile Restoration and Protection",
     fulltitle = "FX-70 Inert Corrosion Free Fiberglass Jacket System for Pile Restoration and Protection",
-    lead = {
-      first = "Carl",
-      last = "Scheffel",
-      org = "Fox Industries, Inc.",
-      email = "kscheffel@foxind.com",
-      bio = [==[
-Carl Scheffel Sr. P.E. is President and Chief Engineer of Fox Industries, Inc. Carl has been with Fox since 1970 and is a minority shareholder. He has provided countless material recommendations to consultants and public agencies regarding the selection and applications of engineered materials specified for both new construction and rehabilitation including the FX-70 Inert Corrosion Free Fiberglass Jacket System. Carl’s knowledge of underwater construction methods relating to piers, piles, bulkheads and structures is world renowned.
-
-Prior to joining Fox Industries, Carl spent 15 years as a Consulting Engineer with Rummel, Klepper & Kahl of Baltimore, Maryland where he worked as both a Construction Project Engineer and as a Bridge Design Engineer. Highlights of his career include project design/ construction engineering for the Jones Falls Expressway (I-83) in Baltimore, I-95 (John F. Kennedy Memorial Highway) in Maryland and I-95 in North Carolina. Carl is Director Emeritus of the Maryland Association of Engineers, having previously served in many positions including President. Carl is a frequent exhibitor at World of Concrete, PORTS (ASCE) and Underwater Intervention, and a speaker at Transportation Research Board in Washington DC, 2011 and 2006, and International Bridge Conference, Pittsburgh PA, 2006
-]==],
-    },
+    lead = "Carl Scheffel",
     abstract = [==[
 Originally presented at the Transportation Research Board in January 2011.  This paper discusses systems and techniques that have been utilized to restore the structural integrity and protect concrete, steel, and woodpiles for more than 35 years. Many bridges in active use today are well beyond their intended designed life.  Since it would be much too costly and time consuming to replace these bridges with new bridges, proven repair and rehabilitation systems are critical to the life and safety of these structures. This paper will discuss the use of the FX-70 Inert Corrosion Free fiberglass jacket system that utilizes FX-70-6 Hydro-Ester Multipurpose Marine Epoxy and FX-225 Underwater Mortar specifically designed for bridge pile restoration.
 ]==],
@@ -173,23 +141,8 @@ Originally presented at the Transportation Research Board in January 2011.  This
   {
     title = "The Medical Capabilites & Expectations of Today's DMTs",
     fulltitle = "",
-    lead = {
-      prefix = "Dr.",
-      first = "Brian",
-      middle = "S.",
-      last = "Bourgeois",
-      org = "",
-      email = "drb@wjimed.com",
-    },
-    cos = {
-      {
-        prefix = "PE",
-        first = "Richard",
-        last = "Meister",
-        org = "",
-        email = "primetimetraining@cox.net",
-      },
-    },
+    lead = "Dr. Brian S. Bourgeois, PE",
+    cos = { "Richard Meister", },
     abstract = [==[
 
 ]==],
@@ -203,23 +156,8 @@ Originally presented at the Transportation Research Board in January 2011.  This
   {
     title = "Are Today's DMTs Properly Trained?",
     fulltitle = "",
-    lead = {
-      prefix = "Dr.",
-      first = "Brian",
-      middle = "S.",
-      last = "Bourgeois",
-      org = "",
-      email = "drb@wjimed.com",
-    },
-    cos = {
-      {
-        prefix = "PE",
-        first = "Richard",
-        last = "Meister",
-        org = "",
-        email = "primetimetraining@cox.net",
-      },
-    },
+    lead = "Dr. Brian S. Bourgeois, PE",
+    cos = { "Richard Meister", },
     abstract = [==[
 
 ]==],
@@ -234,12 +172,7 @@ Originally presented at the Transportation Research Board in January 2011.  This
   {
     title = "Saturation Diving and the Nervous System",
     fulltitle = "The High Pressure Nervous Syndrome (HPNS) and Working Saturation Dives to over 2000 fsw",
-    lead = {
-      first = "Peter",
-      last = "Bennett",
-      org = "",
-      email = "PeterBennett@uhms.org",
-    },
+    lead = "Peter Bennett",
     abstract = [==[
 
 ]==],
@@ -252,12 +185,7 @@ Originally presented at the Transportation Research Board in January 2011.  This
   {
     title = "Hyperbaric Vital Signs",
     fulltitle = "Vital Signs monitoring in a Hyperbaric environment",
-    lead = {
-      first = "Chris",
-      last = "Peppler",
-      org = "",
-      email = "",
-    },
+    lead = "Chris Peppler",
     abstract = [==[
 
 ]==],
@@ -270,29 +198,8 @@ Originally presented at the Transportation Research Board in January 2011.  This
   {
     title = "Diving & Decompression Potpourri",
     fulltitle = "",
-    lead = {
-      first = "Tony",
-      last = "Alleman",
-      suffix = "MD MPH",
-      org = "",
-      email = "talleman@omcsl.com",
-    },
-    cos = {
-      {
-        first = "Joe",
-        last = "Serio",
-        suffix = "MD",
-        org = "",
-        email = "jrserio@cox.net",
-      },
-      {
-        first = "Robert",
-        last = "Bourgeois",
-        suffix = "MD MPH",
-        org = "",
-        email = "cajunmd@b-m-c.net",
-      },
-    },
+    lead = "Tony Alleman, MD MPH",
+    cos = { "Joe Serio, MD", "Robert Bourgeois, MD MPH" },
     abstract = [==[
 
 ]==],
@@ -305,12 +212,7 @@ Originally presented at the Transportation Research Board in January 2011.  This
   {
     title = "McCray Diving Helmet",
     fulltitle = "",
-    lead = {
-      first = "Sid",
-      last = "Macken",
-      org = "",
-      email = "SidM@hds.org",
-    },
+    lead = "Sid Macken",
     abstract = [==[
 
 ]==],
@@ -323,14 +225,7 @@ Originally presented at the Transportation Research Board in January 2011.  This
   {
     title = "Diving Accident which claimed five lives aboard USS GRAYBACK (SS-574)",
     fulltitle = "",
-    lead = {
-      prefix = "Mr.",
-      first = "David",
-      middle = "J",
-      last = "Kelly",
-      org = "",
-      email = "david.j.kelly2@navy.mil",
-    },
+    lead = "David J Kelly",
     abstract = [==[
 
 ]==],
@@ -343,12 +238,7 @@ Originally presented at the Transportation Research Board in January 2011.  This
   {
     title = "Using ISMERLO (relating to the KOOSHA1 sinking)",
     fulltitle = "",
-    lead = {
-      first = "Bill",
-      last = "Orr",
-      org = "",
-      email = "william.orr@navy.mil",
-    },
+    lead = "Bill Orr",
     abstract = [==[
 
 ]==],
@@ -361,23 +251,8 @@ Originally presented at the Transportation Research Board in January 2011.  This
   {
     title = "Analox Hypergas MkII Training Taster",
     fulltitle = "Highlights from the full Analox Hypergas MkII training course",
-    lead = {
-      first = "Simon",
-      last = "Lunt",
-      org = "Analox Sensor Technology",
-      email = "simon.lunt@analox.biz",
-      bio = [==[
-Simon Lunt is the Sales Manager at Analox Sensor Technology who have provided the commercial diving industry with gas analysers since 1981.  His history is in chemical and health and safety sales and has been heavily involved in the adoption of the Hypergas MkII by the industry as a vital piece of safety equipment.
-]==],
-    },
-    cos = {
-      {
-        first = "Larry",
-        last = "Janicek",
-        org = "LBJ Maritime",
-        email = "larryj@lbjmaritime.com",
-      },
-    },
+    lead = "Simon Lunt",
+    cos = { "Larry Janicek", },
     abstract = [==[
 This session will be jointly presented by Simon Lunt, Analox & Larry Janicek, LBJ Maritime.  It is intended to highlight some of the salient points in relation to monitoring hydrocarbons in the diving bell which are covered in greater detail in the official Analox Hypergas MkII training course offered by both Analox and LBJ Maritime.  This taster session will help delegates to determine if the full course is suitable for them.
 
@@ -392,24 +267,8 @@ There will also be a short section in the presentation which will update delegat
   {
     title = "Legal Update 2012",
     fulltitle = "Legal Update 2012 For the Commerical Dive Industry",
-    lead = {
-      first = "Rick",
-      last = "Lesser",
-      org = "Lesser & Associates Prof Law corp.",
-      homepage = "http://divelaw.com",
-      email = "lesser@divelaw.com",
-      bio = [==[
-36 year attorney specializing in commercial and recreational diving, 30 plus year attorney for Kirby Morgan DSI, selected as Superlawyer multiple times by fellow attornies in california, winner of one of National Law Journal "Top Defense Wins in 2004; Defended succesfully and also obtained multiple 7 figure verdicts and settlements over the past 30 years. Full bio is at DIVELAW.COM
-]==],
-    },
-    cos = {
-      {
-        first = "Michele",
-        last = "Nelson Bass",
-        org = "",
-        email = "mnzg@sopris.net",
-      },
-    },
+    lead = "Rick Lesser",
+    cos = { "Michele Nelson Bass", },
     abstract = [==[
 The US Supreme Court ruling in Atlantic Sounding v Townsend and the cases that have followed over the last two years have turned previously allowed employee damage remedies upside down. Punitive damages have been allowed not only in unseaworthiness claims, but in loss of consortium claims as well. In virtually all aspects of commercial diving and vessel operations , there has been a steady expansion of employee rights that every marine contractor and vessel operator need to understand and plan for.
 Bringing you over three decades of diving risk management and analysis,  six time Superlawyer Rick Lesser will provide a summary of the most current aspects of diving and maritime law that will be invaluable in making  your own analysis of the risks and potential legal problems facing you., and more importantly, how to deal with them.
@@ -424,21 +283,8 @@ Whether you are a commercial diver, vessel operator or diving contractor, the in
   {
     title = "Domestic Diver Training for International Certification",
     fulltitle = "",
-    lead = {
-      first = "David",
-      last = "Parkes",
-      org = "Diver Certification Board of Canada",
-      email = "dparkes@divercertification.com",
-      bio = [==[
-David Parkes M.Ed
-David Parkes is the Chief Executive Officer of the DCBC.  He retired from the Canadian Coast Guard in October 2000, following a 35-year career during which he served in a number of positions including Senior Examiner of Marine Engineers in Ottawa and, for seven years, Director of the Canadian Coast Guard College in Sydney, Nova Scotia.  For the final four years of his career he was Director of Technical Services for the Maritimes Region of the Coast Guard.
-David was hired as a consultant in early 2001 to create the DCBC and in 2002 he agreed to stay on the first Executive Director.  In 2009, during the development of a policy-based governance structure for the board, David's title was changed to CEO.
-]==],
-    },
+    lead = "David Parkes",
     abstract = [==[
-Since 2003, the Diver Certification Board of Canada (DCBC) has offered certification to commercial diving personnel who can demonstrate that they have sufficient training and experience to enable them to meet the competency requirements of the appropriate section of the Canadian Standards Association (CSA) Competency Standard for Diving Operations (CSA Standard Z275.4). The DCBC also accredits commercial diver training organizations which train to the competency levels of Z275.4.
-
-<TODO: diving stuff goes here>
 
 ]==],
     start = { day = 26, month = 1, year = 2012,
