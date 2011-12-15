@@ -98,7 +98,7 @@ for ni = 1, #tracks.all do
 end
 
 --open up a file to save this into
-io.output "presentations.lua"
+--io.output "presentations.lua"
 
 local write = io.write
 --write indented line

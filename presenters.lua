@@ -34,6 +34,18 @@ return {
     email = "s.awdry@bath.ac.uk",
   },
 
+  ["Ramprasad Balasubramanian"] = {
+    first = "Ramprasad",
+    last = "Balasubramanian",
+    org = "University of Massachusetts Dartmouth",
+    homepage = "http://www.umassd.edu/",
+    email = "r.bala@umassd.edu",
+    bio = [==[
+Dr. Balasubramanian is an Associate Professor of Computer Science in the Department of Computer and Information Science at the University Of Massachusetts Dartmouth (UMass Dartmouth). He works with the Advanced Technology Manufacturing Center (ATMC) of UMass Dartmouth as well as OceanServer Technologies, Fall River, MA. His research interests include multi-sensor data fusion, multi-auv collaboration and coordination. He continues to work on several projects related to the US Navy and the Office of Naval Research.
+]==],
+    },
+
+
   ["Maurizio Banfi"] = {
     first = "Maurizio",
     last = "Banfi",
@@ -669,6 +681,14 @@ Simon Lunt is the Sales Manager at Analox Sensor Technology who have provided th
 ]==],
   },
 
+  ["Brian Luzzi"]  = {
+    first = "Brian",
+    last = "Luzzi",
+    org = "VideoRay",
+    homepage = "http://www.videoray.com/",
+    email = "brian.luzzi@videoray.com",
+  },
+
   ["Dmitry Lyakhov"] = {
     first = "Dmitry",
     last = "Lyakhov",
@@ -944,6 +964,19 @@ Brent Perry is a global operating and management executive whose successful at b
 Brett Phaneuf is president of ProMare, a non-profit organization established in 2001 to promote marine research and exploration throughout the world.  ProMare executes a variety of marine research projects independently and in concert with academic, corporate, public and governmental organizations and agencies. ProMare projects are designed to advance man's knowledge of history and science and to reinvigorate underwater exploration through fusion of popular media and scholarly research.
 ]==],
   },
+
+  ["Dave Phillips"] = {
+      first = "Dave",
+      last = "Phillips",
+      org = "St Louis County Sheriff's Office",
+      homepage = "http://www.stlouiscountymn.gov/GOVERNMENT/DepartmentsAgencies/Sheriff.aspx",
+      email = "davnan@q.com",
+      bio = [==[
+Dave Phillips is the Undersheriff for the St. Louis County Sheriff's Office in Duluth, Minnesota. Dave has 24 years of law enforcement experience, and has worked as a Patrol Sergeant, Tactical Team Leader and Commander, and Liaison to the St. Louis County Rescue Squad. Dave currently is second in command of the Sheriff's Office and serves on the Western Lake Superior Area Maritime Security Committee and Arrowhead Joint Terrorism Task Force.
+
+Dave is also a VideoRay Certified Instructor and has conducted operator trainings for many public and private agencies including New York Police Counter-terror division, United States Coast Guard, Miami-Dade Police Dive Team, US Army Corp of Engineers, among others. As a VideoRay consultant, he has travelled the United States and several countries on a wide variety of missions ranging from jobs on Gulf of Mexico oil rigs and searches for missing persons in Norway and Ecuador, to equipment demos in Southeast Asia. Dave has been a certified diver since 1977 and enjoys cruising Lake Superior with his family on their boat, "Kristarah".
+]==],
+    },
 
   ["Andy Porterfield"] = {
     first = "Andy",

@@ -1,4 +1,4 @@
-local names = {"oe","wrov","srov","muv","edu","div","si",}
+local names = {"oe","wrov","srov","muv","edu","div","si","wrex"}
 local all = {}
 
 local tracks = {
@@ -11,6 +11,7 @@ local tracks = {
     oe = "Ocean Engineering",
     si = "Sensors and Instruments",
     srov = "Small ROVs",
+    wrex = "Shipwrecks",
     wrov = "Work-Class ROVs",
   },
 }
