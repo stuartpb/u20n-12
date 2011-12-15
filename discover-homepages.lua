@@ -1,10 +1,13 @@
-local tracks = require 'tracks'
+local people = require 'presenters'
 
 local http=require"socket.http"
 --ugh
 local ltn12=require"ltn12"
 
-local outfile = io.open('homepages.lua','w')
+--get the old ones
+local homepages = require "homepages"
+
+local outfile = io.open('new-homepages.lua','w')
 
 local function write(...)
   io.stdout:write(...)
@@ -32,18 +35,24 @@ end
 local set={}
 
 write'return {\n'
-for i=1,#tracks.all do
-  local org = tracks.all[i].lead.org
+for name, lead in pairs(people) do
+  local org = lead.org
   if org and string.find(org,"%S") and not set[org] then
     set[org] = true
-    local searchurl = string.format("http://www.google.com/search?&q=%s&btnI",urlencode(org))
-    local what, code, tab, str = http.request{url=searchurl,method="HEAD",redirect=false}
-
-    if code ~= 302 then
-      write(string.format("  --%s: %s\n",org,str))
+    local homepage
+    if homepages[org] then
+      homepage = homepages[org]
     else
-      write(string.format("  [%q] = %q,\n",org,tab.location))
+      local searchurl = string.format("http://www.google.com/search?&q=%s&btnI",urlencode(org))
+      local what, code, tab, str = http.request{url=searchurl,method="HEAD",redirect=false}
+
+      if code ~= 302 then
+        homepage = ""
+      else
+        homepage = tab.location
+      end
     end
+    write(string.format("  [%q] = %q,\n",org,homepage))
   end
 end
 write'}\n'
