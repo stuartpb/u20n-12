@@ -136,10 +136,10 @@ for name_i = 1, #namelist do
           list[prl_i] = format('- %s: %s',datum,descriptions[datum])
         end
         insert(message,concat(list,'\n'))
-        insert(message,format(
-          'Please visit http://underwaterintervention.com/2012/presentations/%s.html to verify that the information we have on file is accurate.',
-          pres.id))
       end
+      insert(message,format(
+        'Please visit http://underwaterintervention.com/2012/presentations/%s.html to verify that the information we have on file is accurate.',
+        pres.id))
     end
 
     if miss.cos then
