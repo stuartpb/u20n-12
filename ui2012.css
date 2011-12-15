@@ -51,6 +51,10 @@ nav li {
   margin-left: 50px;
 }
 
+.content a {
+  color: blue;
+}
+
 .speaker {
   font-weight: bold;
 }
@@ -71,6 +75,10 @@ nav li {
   margin: 4px 0;
   padding: 6px;
   color: white;
+}
+
+.presdiv a {
+  color: inherit;
 }
 
 .timesep {
