@@ -87,7 +87,7 @@ for i=1, #allprs do
     write("Room ",pr.room," - ",tracks.titles[pr.track],'\n')
 
     write'</p>\n'
-    write"<h2>Presenter</h2>"
+    write'<h2 id="presenter">Presenter</h2>'
     write'<p>'
     write(htmlenc(speaker))
     if lead.org and string.find(lead.org,"%S") then
@@ -100,7 +100,7 @@ for i=1, #allprs do
       end
     end
     write"</p>\n"
-    write'<h2>Abstract</h2>\n'
+    write'<h2 id="abstract">Abstract</h2>\n'
     write'<p>'
     if pr.presimg then
       write('<img class="presimg" src="',
@@ -109,7 +109,7 @@ for i=1, #allprs do
     write(htmlenc(pr.abstract))
     write'</p>\n'
     if lead.bio then
-      write'<h2>Presenter Bio</h2>\n'
+      write'<h2 id="bio">Presenter Bio</h2>\n'
       write'<p>'
       if lead.headshot then
         write('<img class="headshot" src="',
