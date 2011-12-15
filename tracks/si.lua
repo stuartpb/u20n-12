@@ -49,7 +49,7 @@ Subsea Construction Manager
     fulltitle = "Description of Equipment and Sonar Tools Available for Underwater Inspection and Construction Monitoring",
     lead = "Mark Klein",
     abstract = [==[
-Show Scanning, Imaging, and Multi Beam Sonar uses, describe the differences and reasons for using each.
+A description of various sonar imaging tools readily available to contractors, engineers, and owners associated with underwater infrastructure and construction.  Specifically, inland applications are provided with the goal of sharing exciting opportunities to better communicate and monitor underwater work.  This presentation will review basic imaging techniques, share several samples of sonar imaging recently used to support underwater construction, monitor water intake structures, dock and ship berth maintenance, and dredge operations.  Discussion of how to expand the use of sonar in various markets which can enhance communication, and improve safety on underwater projects.
 ]==],
     start = { day = 25, month = 1, year = 2012,
       hour = 10, min = 30 },
@@ -62,14 +62,7 @@ Show Scanning, Imaging, and Multi Beam Sonar uses, describe the differences and 
     fulltitle = "A review of several imaging methods used in a recent construction project to monitor dredging, diving, and progress of a diffuser installation in black water.",
     lead = "Mark Klein",
     abstract = [==[
-To follow:
-
-Scanning Sonar
-Side scan sonar
-hydrographic surveying
-multibeam imaging sonar
-Tri Tech
-Kongsberg
+Share the benefits and results of using scanning and multi-beam sonar imaging systems on two recent underwater construction projects.  Share samples and results of using both Tritech and Kongsberg systems.  These case studies will review leased and owned systems and how they provided cost effective and safe solutions.  The two case studies provided will include the installation of a new outfall including monitoring dredge and diving operations.  The second case study will show imaging solutions used to improve quality control and safety during the desilting and cleaning of intakes at a Nuclear power plant after Hurricane Irene.  These projects provide examples of sonar imaging readily available for incorporation into a majority of underwater construction projects, especially for inland black water projects.
 ]==],
     start = { day = 25, month = 1, year = 2012,
       hour = 11, min = 00 },

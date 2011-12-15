@@ -45,6 +45,7 @@ In this talk we present a comprehensive survey procedure developed in-house and 
       hour = 15, min = 30 },
     length = 1800,
     room = "222",
+    presimg = "UWI-pres-RB.jpg",
   },
 
 })

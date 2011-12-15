@@ -40,11 +40,11 @@ return {
     org = "University of Massachusetts Dartmouth",
     homepage = "http://www.umassd.edu/",
     email = "r.bala@umassd.edu",
+    headshot = "bala.jpg",
     bio = [==[
 Dr. Balasubramanian is an Associate Professor of Computer Science in the Department of Computer and Information Science at the University Of Massachusetts Dartmouth (UMass Dartmouth). He works with the Advanced Technology Manufacturing Center (ATMC) of UMass Dartmouth as well as OceanServer Technologies, Fall River, MA. His research interests include multi-sensor data fusion, multi-auv collaboration and coordination. He continues to work on several projects related to the US Navy and the Office of Naval Research.
 ]==],
     },
-
 
   ["Maurizio Banfi"] = {
     first = "Maurizio",
@@ -539,6 +539,10 @@ Worked in the waterjet industry for 10 years. Work in the waterjet industry has 
     org = "S.T. Hudson Engineers, Inc",
     homepage = "http://www.sthe.com/",
     email = "mklein@sthe.com",
+    headshot = "klein.jpg",
+    bio = [==[
+Mark I Klein the Manager of Field Services for S.T. Hudson Engineers Inc. has over 30 years experience in the Marine Construction and Engineering Field.  A graduate of Pennsylvania State University, (BSCE 87), and Florida Tech (UT 81), Mr. Klein has continuously used and adapted new technology and applied it to meet the rigorous demands for a wide range of clients to meet traditional, and sometimes non-traditional requirements.  Mr. Klein is also a Certified Hydrographer (ACSM #182), and Commercial Hard Hat Diver specializing in black water and inland applications.  Marine Corrosion and Structural Evaluations, with Dredge Consulting are routine services provided by S.T. Hudson Engineers Inc.
+]==]
   },
 
   ["John Klose"] = {
