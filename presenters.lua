@@ -468,6 +468,14 @@ His research interests are in offshore deep drilling technology and underwater v
     email = "katsui@maritime.kobe-u.ac.jp",
   },
 
+  ["David J Kelly"] = {
+    first = "David",
+    middle = "J",
+    last = "Kelly",
+    org = "",
+    email = "david.j.kelly2@navy.mil",
+  },
+
   ["Robert Kelly"] = {
     first = "Robert",
     last = "Kelly",
@@ -478,14 +486,6 @@ His research interests are in offshore deep drilling technology and underwater v
     bio = [==[
 Mr. Kelly is vice-president of Trelleborg Offshore, in charge of global customer solutions.  With a global reputation for material development, Trelleborg Offshore is recognized as a leading manufacturer of advanced glass microspheres and high performance syntactic foams which are used in such markets as aerospace, defense, tooling products and buoyancy materials for underwater vehicles.  Located in Mansfield, MA, Trelleborg Offshore Boston was established in 1948 as Emerson & Cuming, Inc., the company was the first to offer a complete line of commercially available aerospace grade glass microspheres through and has continued to focus on material innovation ever since.
 ]==],
-  },
-
-  ["David J Kelly"] = {
-    first = "David",
-    middle = "J",
-    last = "Kelly",
-    org = "",
-    email = "david.j.kelly2@navy.mil",
   },
 
   ["Bart Kemper"] = {
@@ -779,20 +779,20 @@ Rachael Miller is the co-founder and Director of Rozalia Project for a Clean Oce
     email = "dmoss@teledyne.com",
   },
 
-  ["Robin Murphy"] = {
-    first = "Robin",
-    last = "Murphy",
-    org = "TAMU",
-    homepage = "http://www.tamu.edu/",
-    email = "murphy@cse.tamu.edu",
-  },
-
   ["Brendan Murphy"] = {
     first = "Brendan",
     last = "Murphy",
     org = "Naval Sea Systems Command",
     homepage = "http://www.navsea.navy.mil/",
     email = "brendan.w.murphy@navy.mil",
+  },
+
+  ["Robin Murphy"] = {
+    first = "Robin",
+    last = "Murphy",
+    org = "TAMU",
+    homepage = "http://www.tamu.edu/",
+    email = "murphy@cse.tamu.edu",
   },
 
   ["Thomas J Murray"] = {
@@ -1121,6 +1121,14 @@ Ioseba joined SeeByte as a founding member of the management team and initially 
 ]==],
   },
 
+  ["Dave Thomas"] = {
+    first = "Dave",
+    last = "Thomas",
+    org = "S&C ThermoFluids Ltd",
+    homepage = "http://www.thermofluids.co.uk/",
+    email = "david.thomas@thermofluids.co.uk",
+  },
+
   ["Roy Thomas"] = {
     first = "Roy",
     last = "Thomas",
@@ -1135,14 +1143,6 @@ Mr. Thomas is the author of various technical papers and a number of new section
 
 Mr. Thomas holds a master's degree in Naval Architecture from Memorial University of Newfoundland (MUN), Canada and a bachelor's degree in Marine Engineering from Marine Engineering and Research Institute (MERI), India.
 ]==],
-  },
-
-  ["Dave Thomas"] = {
-    first = "Dave",
-    last = "Thomas",
-    org = "S&C ThermoFluids Ltd",
-    homepage = "http://www.thermofluids.co.uk/",
-    email = "david.thomas@thermofluids.co.uk",
   },
 
   ["William Thompson"] = {

@@ -1,7 +1,6 @@
 local ps = require "presenters"
-local homepages = require "homepages"
 
-local outfile = io.open('new-presenters.lua','w')
+local outfile = io.open('presenters.lua','w')
 
 local function write(...)
   io.stdout:write(...)
@@ -15,12 +14,13 @@ end
 local names = {}
 for name, data in pairs(ps) do
   names[#names+1]=name
-  if data.org and string.find(data.org,"%S") then
-    data.homepage = homepages[data.org]
-  end
 end
 
-table.sort(names,function(m,n) return ps[m].last < ps[n].last end)
+table.sort(names,function(m,n)
+  local mlast = ps[m].last
+  local nlast = ps[n].last
+  if mlast == nlast then return m < n
+  else return mlast < nlast end end)
 
 local fields = {
   "prefix",
