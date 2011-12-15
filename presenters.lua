@@ -1,3 +1,5 @@
+--encoding: utf-8
+
 return {
 
   ["Brian Abbott"] = {
@@ -71,7 +73,7 @@ Steve Barrow, senior applications engineer for Schilling Robotics, has designed 
     bio = [==[
 Serves as Optical/Photonics Engineer for BIRNS, Inc., an ISO 9001:2008-certified global leader in the design and manufacture of unique lines of high performance lights, connectors, penetrators and custom cable assemblies.
 
-Responsible for the design, development and execution of the company’s diverse fiber-optic connector systems, and has helped BIRNS expand and enhance its wide range of popular fiber optic and hybrid connector solutions, including the new BIRNS Millennium™ standard electro-optical hybrid series.
+Responsible for the design, development and execution of the company's diverse fiber-optic connector systems, and has helped BIRNS expand and enhance its wide range of popular fiber optic and hybrid connector solutions, including the new BIRNS Millennium standard electro-optical hybrid series.
 
 More than 20 years of industry experience; holds a Bachelor of Science degree in Optical Engineering.  Prior to joining the team at BIRNS, served as a Senior Photonics Engineer at Sabeus Federal Systems, LLC, where designed, built, and tested fiber-optic hydrophones for prototype towed acoustic arrays for the US Navy.
 
@@ -280,7 +282,7 @@ Mark Feulner has been researcher for Underwater Crime Scene Investigation (UCSI)
     homepage = "http://www.km.kongsberg.com/",
     email = "ian.florence@kongsberg.com",
     bio = [==[
-Ian Florence has worked in the offshore industry since 1981, starting in the seismic industry he moved to OHP Oilfield hydrographic Projects) in 1984 where he was a survey engineer and online surveyor. From 1986 – 1996 he was a contract engineer, surveyor and party chief for all on the major – and a lot of minor survey contactors. He then became a project surveyor for Subsea 7 for a West of Shetland field for 2 years. He joined Kongsberg Maritime where he specializes in acoustic special projects.
+Ian Florence has worked in the offshore industry since 1981, starting in the seismic industry he moved to OHP Oilfield hydrographic Projects) in 1984 where he was a survey engineer and online surveyor. From 1986 - 1996 he was a contract engineer, surveyor and party chief for all on the major - and a lot of minor survey contactors. He then became a project surveyor for Subsea 7 for a West of Shetland field for 2 years. He joined Kongsberg Maritime where he specializes in acoustic special projects.
 ]==],
   },
 
@@ -639,8 +641,13 @@ Finding things underwater has long been a passion of his, and as a member of dif
   ["Chris Lokuciewski"] = {
     first = "Chris",
     last = "Lokuciewski",
-    org = "",
+    org = "Hydro-Lek Ltd",
+    homepage = "http://www.hydro-lek.com",
     email = "enquiries@hydro-lek.com",
+    headshot = "lokuciewski.jpg",
+    bio = [==[
+Chris Lokuciewski is founder and MD of Hydro-Lek Ltd, leading manufacturer of remote handling systems for the subsea, nuclear and defence industries. Chris's background stems from vast experience in underwater engineering. His experience as a manned submersible pilot, ROV pilot and ROV designer led him to set up Hydro-Lek in 1996.
+]==],
   },
 
   ["Susan Lowes"] = {
@@ -750,7 +757,7 @@ Terresolve's biobased fluids have been extensively proven in the lab and in the 
     homepage = "http://www.rozaliaproject.org/",
     email = "rachael@rozaliaproject.org",
     bio = [==[
-Rachael Miller is the co-founder and Director of Rozalia Project for a Clean Ocean, whose mission is to find and remove marine debris through action, technology, outreach and research. She is also the co-captain of Rozalia Project’s trash-hunting mothership, American Promise (a Ted Hood 60’ sailing research vessel). Rachael established the first public access, ROV-supported shipwreck tour in North American, and is a trainer for VideoRay training remotely operated vehicle (ROV) pilots. She is the primary ROV pilot and technician for the Rozalia Project and travels throughout the US with the ROV/sonar delivering marine debris programs and cleaning harbors. Though dedicated to a clean ocean, she lives, with her husband and 2 Newfoundlands, in the mountains of Vermont.
+Rachael Miller is the co-founder and Director of Rozalia Project for a Clean Ocean, whose mission is to find and remove marine debris through action, technology, outreach and research. She is also the co-captain of Rozalia Project's trash-hunting mothership, American Promise (a Ted Hood 60' sailing research vessel). Rachael established the first public access, ROV-supported shipwreck tour in North American, and is a trainer for VideoRay training remotely operated vehicle (ROV) pilots. She is the primary ROV pilot and technician for the Rozalia Project and travels throughout the US with the ROV/sonar delivering marine debris programs and cleaning harbors. Though dedicated to a clean ocean, she lives, with her husband and 2 Newfoundlands, in the mountains of Vermont.
 ]==],
   },
 
@@ -804,7 +811,7 @@ Rachael Miller is the co-founder and Director of Rozalia Project for a Clean Oce
     email = "tech@esyntactic.com",
     headshot = "murray.jpg",
     bio = [==[
-Mr. Murray is a Materials Engineers with over 30 years of experience in the Research and Development of composite materials with more than 20 years of experience in syntactic foams. He is one of the three founding directors of CMT Materials, Inc (1998), and Engineered Syntactic Systems (2005). Mr. Murray holds both a Bachelor of Science degree in Chemical Engineering and a Master of Science in Plastics Engineering from the University of Massachusetts at Lowell. Prior to starting the companies, he was employed with the Raytheon Corporation as the manager of the Composites Group in the Materials Engineering Laboratory. He has also held materials engineering positions with WRGrace/Emerson & Cuming and the Army’s Materials Technology Laboratory.
+Mr. Murray is a Materials Engineers with over 30 years of experience in the Research and Development of composite materials with more than 20 years of experience in syntactic foams. He is one of the three founding directors of CMT Materials, Inc (1998), and Engineered Syntactic Systems (2005). Mr. Murray holds both a Bachelor of Science degree in Chemical Engineering and a Master of Science in Plastics Engineering from the University of Massachusetts at Lowell. Prior to starting the companies, he was employed with the Raytheon Corporation as the manager of the Composites Group in the Materials Engineering Laboratory. He has also held materials engineering positions with WRGrace/Emerson & Cuming and the Army's Materials Technology Laboratory.
 ]==],
   },
 
@@ -847,7 +854,7 @@ Dr. Nuckols joined the faculty at Duke University as Senior Research Scientist i
     email = "nrl@nuytco.com",
     headshot = "nuytten.jpg",
     bio = [==[
-Dr. Phil Nuytten has spent his life in subsea exploration. He has logged many thousands of hours underwater world-wide as a working commercial diver, and as a developer of underwater equipment and techniques. He is widely regarded as one of the pioneers of the modern commercial diving industry and a significant force in the creation of new technology. His goal has been to provide scientific, technical, military, and sport divers full access to continental shelf depths without the hazards of decompression, so that humans can explore, learn about, and - ultimately - protect the world’s oceans.
+Dr. Phil Nuytten has spent his life in subsea exploration. He has logged many thousands of hours underwater world-wide as a working commercial diver, and as a developer of underwater equipment and techniques. He is widely regarded as one of the pioneers of the modern commercial diving industry and a significant force in the creation of new technology. His goal has been to provide scientific, technical, military, and sport divers full access to continental shelf depths without the hazards of decompression, so that humans can explore, learn about, and - ultimately - protect the world's oceans.
 ]==],
   },
 
@@ -922,7 +929,7 @@ Christopher has over 10 years diving experience with a focus on commercial oilfi
     email = "e.bperry@corvus-energy.com",
     headshot = "perry.jpg",
     bio = [==[
-Brent Perry is a global operating and management executive who’s successful at building high-performance teams and leading sophisticated manufacturing and service organizations.  His history in designing, engineering and manufacturing ships and yachts from 32 to 164 feet in length have developed an understanding of the demands and expectations of commercial and industrial marine applications within the marine industry, and these expectations are what have driven the business and engineering model of Corvus Energy Ltd.  Corvus Energy Batteries represent the next level of energy supply that will change the face of how the submersible marine industry develops over the next twenty years.
+Brent Perry is a global operating and management executive whose successful at building high-performance teams and leading sophisticated manufacturing and service organizations.  His history in designing, engineering and manufacturing ships and yachts from 32 to 164 feet in length have developed an understanding of the demands and expectations of commercial and industrial marine applications within the marine industry, and these expectations are what have driven the business and engineering model of Corvus Energy Ltd.  Corvus Energy Batteries represent the next level of energy supply that will change the face of how the submersible marine industry develops over the next twenty years.
 ]==],
   },
 
@@ -980,7 +987,7 @@ Andy Porterfield has been a Mechanical Engineer at Schilling Robotics since 2008
     email = "stockton@opentheoceans.com",
     headshot = "rush.jpg",
     bio = [==[
-Stockton Rush is co-founder and Chief Technology Officer of OceanGate. Stockton also currently serves on the Boards of Directors for several Seattle-based technology ventures, including OceanGate strategic partner BlueView Technologies, a manufacturer of small, high frequency sonar systems. Previously, Stockton was a founding partner of Peregrine Partners, a San Francisco based venture capital firm. He began his career as a Flight Test Engineer on the F-15 program with the McDonnell Douglas Corporation and then flew over 400 hours as a DC-8 co-pilot for Overseas National Airways out of Jeddah, Saudi Arabia. Stockton holds a commercial pilot’s license with multi-engine, helicopter, instrument, seaplane and DC-8 ratings. He also constructed and flies a Glasair III experimental aircraft and completed a heavily modified Kittredge K-350 two-man submersible in 2006. Stockton earned a BSE in Aerospace Engineering from Princeton University and an MBA from the University of California at Berkeley Haas School of Business.
+Stockton Rush is co-founder and Chief Technology Officer of OceanGate. Stockton also currently serves on the Boards of Directors for several Seattle-based technology ventures, including OceanGate strategic partner BlueView Technologies, a manufacturer of small, high frequency sonar systems. Previously, Stockton was a founding partner of Peregrine Partners, a San Francisco based venture capital firm. He began his career as a Flight Test Engineer on the F-15 program with the McDonnell Douglas Corporation and then flew over 400 hours as a DC-8 co-pilot for Overseas National Airways out of Jeddah, Saudi Arabia. Stockton holds a commercial pilot's license with multi-engine, helicopter, instrument, seaplane and DC-8 ratings. He also constructed and flies a Glasair III experimental aircraft and completed a heavily modified Kittredge K-350 two-man submersible in 2006. Stockton earned a BSE in Aerospace Engineering from Princeton University and an MBA from the University of California at Berkeley Haas School of Business.
 ]==],
   },
 
@@ -1013,7 +1020,7 @@ David Scarberry is the diving coordinator for American Electric Power.  AEP is o
     homepage = "http://www.foxind.com/",
     email = "kscheffel@foxind.com",
     bio = [==[
-Carl Scheffel Sr. P.E. is President and Chief Engineer of Fox Industries, Inc. Carl has been with Fox since 1970 and is a minority shareholder. He has provided countless material recommendations to consultants and public agencies regarding the selection and applications of engineered materials specified for both new construction and rehabilitation including the FX-70 Inert Corrosion Free Fiberglass Jacket System. Carl’s knowledge of underwater construction methods relating to piers, piles, bulkheads and structures is world renowned.
+Carl Scheffel Sr. P.E. is President and Chief Engineer of Fox Industries, Inc. Carl has been with Fox since 1970 and is a minority shareholder. He has provided countless material recommendations to consultants and public agencies regarding the selection and applications of engineered materials specified for both new construction and rehabilitation including the FX-70 Inert Corrosion Free Fiberglass Jacket System. Carl's knowledge of underwater construction methods relating to piers, piles, bulkheads and structures is world renowned.
 
 Prior to joining Fox Industries, Carl spent 15 years as a Consulting Engineer with Rummel, Klepper & Kahl of Baltimore, Maryland where he worked as both a Construction Project Engineer and as a Bridge Design Engineer. Highlights of his career include project design/ construction engineering for the Jones Falls Expressway (I-83) in Baltimore, I-95 (John F. Kennedy Memorial Highway) in Maryland and I-95 in North Carolina. Carl is Director Emeritus of the Maryland Association of Engineers, having previously served in many positions including President. Carl is a frequent exhibitor at World of Concrete, PORTS (ASCE) and Underwater Intervention, and a speaker at Transportation Research Board in Washington DC, 2011 and 2006, and International Bridge Conference, Pittsburgh PA, 2006
 ]==],
@@ -1115,7 +1122,7 @@ J Teague Enterprises, LLC is located in Norfolk, Massachusetts. The founder of t
     email = "ioseba.tena@seebyte.com",
     headshot = "tena.jpg",
     bio = [==[
-As SeeByte's Sales Manager, Ioseba is responsible for the development of SeeByte's commercial strategies and managing the sales process within the company. Having completed his PhD at Heriot-Watt University, Ioseba was then involved in developing smart solutions for the underwater vehicle industry for more than 10 years and continues to lend his expertise to the Engineering team. Ioseba’s focus on customer relationships and needs was the driver behind his transition from Engineering to SeeByte's sales team, where he has held his position as Sales Manager since 2008.
+As SeeByte's Sales Manager, Ioseba is responsible for the development of SeeByte's commercial strategies and managing the sales process within the company. Having completed his PhD at Heriot-Watt University, Ioseba was then involved in developing smart solutions for the underwater vehicle industry for more than 10 years and continues to lend his expertise to the Engineering team. Ioseba's focus on customer relationships and needs was the driver behind his transition from Engineering to SeeByte's sales team, where he has held his position as Sales Manager since 2008.
 
 Ioseba joined SeeByte as a founding member of the management team and initially led the development of navigation, sonar imaging and sonar processing tools. Prior to SeeByte, Ioseba worked as a Research Associate at Heriot-Watt University developing smart software for Autonomous Underwater Vehicles (AUVs).
 ]==],
@@ -1209,7 +1216,7 @@ Mr. Underwood is President and CEO of Polymer Corporation, a leading manufacture
 
 Mr. Underwood additionally served in the Federal Government as Special Assistant for Engineering Sciences, Office of the Secretary, U.S. Department of Transportation, and with the Office of Management and Budget (OMB), Executive Office of the President.  At OMB, he had management oversight responsibilities for various Federal agencies, including the U.S. Department of Commerce and the U.S. Small Business Administration.
 
-Mr. Underwood has been or is a Director of a number of emerging companies, both private and public.  He is a long-time past member of the Advisory Board for Santa Clara University’s Leavey School of Business and of the National Science Foundation's Advisory Committee on Industrial Innovation.
+Mr. Underwood has been or is a Director of a number of emerging companies, both private and public.  He is a long-time past member of the Advisory Board for Santa Clara University's Leavey School of Business and of the National Science Foundation's Advisory Committee on Industrial Innovation.
 
 Mr. Underwood holds a B.S. in Mechanical Engineering (with Great Distinction) and an M.S. and Ph.D. in Aeronautical and Astronautical Sciences (with a concentration in fluid mechanics), all from Stanford University.  He received his M.B.A. from Santa Clara University.  He holds one U.S. patent.
 ]==],
@@ -1222,7 +1229,7 @@ Mr. Underwood holds a B.S. in Mechanical Engineering (with Great Distinction) an
     homepage = "http://vanmeterconsulting.com/",
     email = "svm123@mindspring.com",
     bio = [==[
-A pioneer and world leading expert on micro ROV operations, Steve retired in 2005 from the US government after 30 years of service. His last posting was as the Hazardous Duty Robotics Specialist for NASA’s Space Shuttle program at the Kennedy Space Center, Florida.
+A pioneer and world leading expert on micro ROV operations, Steve retired in 2005 from the US government after 30 years of service. His last posting was as the Hazardous Duty Robotics Specialist for NASA's Space Shuttle program at the Kennedy Space Center, Florida.
 
 He purchased the first VideoRay system sold in 2000 and has been using VideoRay systems since to service clients worldwide in a full range of applications.
 
@@ -1256,11 +1263,11 @@ Jon Wallace co-founded PSUBS in 1996 and leads the organization today.   He is e
     bio = [==[
 David White graduated from Texas A& M University in 1970 with a BS in Electrical Engineering.
 
-David’s practical design experience is in large, high capacity, high reliability computer and system designs used in battery operated, man portable applications that must work in any environment above, on, or under the earth.
+David's practical design experience is in large, high capacity, high reliability computer and system designs used in battery operated, man portable applications that must work in any environment above, on, or under the earth.
 
 David is named with other colleagues at SWE on over 9 patents or patent applications covering inventions for Continuous Cell Balancing Methods, Module Balancing Methods, and BMS algorithms for extending Li-Ion battery life, reliability, and safety.
 
-David is a member of the MTS, an emeritus member of the Society of Exploration Geophysics and a Life Senior member of the IEEE, and has been recognized during his employment at Texas Instruments, as a Texas Instrument’s Senior member of Technical staff.
+David is a member of the MTS, an emeritus member of the Society of Exploration Geophysics and a Life Senior member of the IEEE, and has been recognized during his employment at Texas Instruments, as a Texas Instruments Senior member of Technical staff.
 ]==],
   },
 
