@@ -92,12 +92,12 @@ for i=1, #allprs do
     write(htmlenc(speaker))
     if lead.org and string.find(lead.org,"%S") then
       write'<br>'
-      if lead.homepage then
-        write('<a href="',lead.homepage,'">',
-          htmlenc(lead.org),'</a>')
-      else
-        write(htmlenc(lead.org))
-      end
+      write(htmlenc(lead.org))
+    end
+    if lead.homepage then
+      write'<br>'
+      write('<a class="orglink" href="',lead.homepage,'">',
+        htmlenc(lead.homepage),'</a>')
     end
     write"</p>\n"
     write'<h2 id="abstract">Abstract</h2>\n'
