@@ -30,7 +30,7 @@ Metal parts hate water, especially salt water. Add the effects of depth pressure
 
 For over thirty years, Polymer Corporation has been a leading producer of high-performance plastic parts and assemblies for undersea use.
 ]==],
-    presimg = "oe2presimg.jpg",
+    image = "oe2presimg.jpg",
     start = { day = 24, month = 1, year = 2012,
       hour = 11, min = 00 },
     length = 1800,
@@ -64,6 +64,7 @@ There will be a discussion of specific maintenance practices that are required t
     abstract = [==[
 The world ocean remains the last unexplored space on earth. Underwater robots, when massively deployed, can bring huge benefit. Their use, however, is much more complicated than aerial or ground ones, due to communication problems. That is why enhancing intelligence of individual robots for increasing autonomy and reducing communications is the primary goal. In this paper we are offering a high-level distributed control technology that can dynamically integrate any underwater units into operable teams with a sort of global consciousness and pursuing global goals. It is based on universal knowledge processing and control modules easily installed in units and communicating with each other via any available channels. Ad hoc networks of these modules spatially, in parallel, interpret global mission descriptions in a special high-level Distributed Scenario Language (DSL) reflecting top semantics of what to be done in a distributed maritime space, while leaving system structuring and task-oriented C2 entirely to automatic language interpretation.  Extremely  short, created on the fly, DSL scenarios are injected into the robotic swarm from any unit, subsequently covering the whole system and setting the needed behavior, with communications between vehicles much shorter than with any other approaches (thus suitable for low speed channels). Implementation details of the technology will be revealed, and exemplary scenarios in DSL related to underwater environments, like collective distributed search of a large territory for specific objects or patrolling coastline will be shown. Cooperation with surface and aerial vehicles, also with higher-level manned systems within the same organizational model, are discussed too.
 ]==],
+    image = "uuv-org.png",
     start = { day = 24, month = 1, year = 2012,
       hour = 13, min = 30 },
     length = 1800,
@@ -75,12 +76,13 @@ The world ocean remains the last unexplored space on earth. Underwater robots, w
     fulltitle = "Environmental Monitoring with AUVs - New sensors and techniques for detection and assessment of hydrocarbons in deep water",
     lead = "Chris Hancock",
     abstract = [==[
-"AUVs are ideal platforms for carrying an array of sensors for monitoring the environment around offshore installations. Combined with subsea docking technology, AUVs equipped with environmental sensors provide a persistent early warning capability against oil and gas leaks from drilling operations and pipelines, or other environmental contaminants. Acoustics is emerging as an alternative method of indirectly (or directly) detecting hydrocarbons in the water column. Kongsberg sonars are at the forefront of this developing technology which has also been adapted for AUV application. Its fisheries echo sounders have been used extensively in recent years for detecting and tracking oil plumes resulting from subsea leaks.
+AUVs are ideal platforms for carrying an array of sensors for monitoring the environment around offshore installations. Combined with subsea docking technology, AUVs equipped with environmental sensors provide a persistent early warning capability against oil and gas leaks from drilling operations and pipelines, or other environmental contaminants. Acoustics is emerging as an alternative method of indirectly (or directly) detecting hydrocarbons in the water column. Kongsberg sonars are at the forefront of this developing technology which has also been adapted for AUV application. Its fisheries echo sounders have been used extensively in recent years for detecting and tracking oil plumes resulting from subsea leaks.
 
-Kongsberg's AUVs combine the latest in sonar technology, hydrocarbon sensors (â€œsniffersâ€) and other chemical sensors to provide a full suite of environmental sensors on a long endurance, autonomous and low-logistics subsea platform. Our host of in-house AUV technologies enables a reliable and capable environmental monitoring and warning tool and includes subsea docking, through-moonpool launch and recovery, platform hovering and adaptive behaviors. Kongsberg AUVs are also fully modular in design, allowing operators to configure a vehicle to suit the task at hand.
+Kongsberg's AUVs combine the latest in sonar technology, hydrocarbon sensors ("sniffers") and other chemical sensors to provide a full suite of environmental sensors on a long endurance, autonomous and low-logistics subsea platform. Our host of in-house AUV technologies enables a reliable and capable environmental monitoring and warning tool and includes subsea docking, through-moonpool launch and recovery, platform hovering and adaptive behaviors. Kongsberg AUVs are also fully modular in design, allowing operators to configure a vehicle to suit the task at hand.
 
-This paper provides a technology update on Kongsberg's AUVs for environmental monitoring and presents recent test results for key technologies, including detecting hydrocarbons with acoustical sensors."
+This paper provides a technology update on Kongsberg's AUVs for environmental monitoring and presents recent test results for key technologies, including detecting hydrocarbons with acoustical sensors.
 ]==],
+    image = "env-mon.jpg",
     start = { day = 24, month = 1, year = 2012,
       hour = 14, min = 00 },
     length = 1800,
@@ -90,7 +92,8 @@ This paper provides a technology update on Kongsberg's AUVs for environmental mo
   {
     title = "Data Loggers For Surface Or Subsea",
     fulltitle = "How to aid your operations in reducing failures",
-    lead = "Raquel Payan",
+    lead = "Richard Davidson",
+    cos = { "Eric Milne" },
     abstract = [==[
 The Surface or Subsea Data Logger is intended to give operators the ability to monitor key pressures and provide information in real-time.
 
@@ -110,6 +113,7 @@ Typical use for the Data Logger for Surface and/or Subsea:
       hour = 14, min = 30 },
     length = 1800,
     room = "217",
+    image = "loggers.jpg",
   },
 
   {
@@ -125,6 +129,7 @@ In cases where a priori data about the pipeline’s position is poor, and where 
 
 In the fall of 2011, Kongsberg Maritime has integrated automatic tracking of pipelines directly from the multibeam echo sounder data, thereby adding an important capability in the toolbox available to the AUV operator. In cases where it is appropriate, this can remove the need for the first survey pass, and gives the operator more flexibility in how to design the inspection mission. This paper highlights recent test results from industry-funded technology demonstration trials conducted along pipelines in the North Sea.
 ]==],
+    image = "pipeline.jpg",
     start = { day = 24, month = 1, year = 2012,
       hour = 15, min = 30 },
     length = 1800,

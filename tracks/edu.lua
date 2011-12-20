@@ -43,7 +43,7 @@ This talk will discuss some of the ways in which VideoRay fosters undersea robot
 In result of MATE activities in educational field, specifically - ROV Competition, 2010 winner student ROV has been successfully commercialized this year. The supply from  Institute of Marine Technology Problems was for Russian Far East Maritime State University  for educational as well as coastal and port/harbor applied  marine research
 This paper reviews relatively fast evolution showing that participation in student’s competitions opens the doors to industry. Details of development project and ROV itself  described pointing the evolution from student “toy” to real product. The issue of growing demand in UUV operator/technician staff is presented from educational establishment’s side.
 ]==],
-    presimg = "edu3presimg.jpg",
+    image = "edu3presimg.jpg",
     start = { day = 24, month = 1, year = 2012,
       hour = 9, min = 30},
     length = 1800,
@@ -123,6 +123,7 @@ Based on this success, the MATE competition will continue its entrepreneurial ap
       hour = 14, min = 00 },
     length = 1800,
     room = "220",
+    image = "rovcomp.jpg",
   },
 
   {

@@ -70,6 +70,7 @@ I hope to present this device and share the safe technology with all our members
     abstract = [==[
 Provide procedures used to conduct on-site system certification survey of U. S. Navy Diving Life Support Equipment.  Present the detailed checklist and requirements used to inspect the material and operational condition of the system.  Discuss U.S. Navy diving system maintence requirements and the system used to track the completion of required maintenance.  Present the documentation used by maintenance personnel to document re-entry and work completed on a certified system.  Discuss the documentation required for replacing components of a certified diving life support system.
 ]==],
+    image = "frey-murphy-pres.jpg",
     start = { day = 24, month = 1, year = 2012,
       hour = 10, min = 30 },
     length = 3600,
@@ -77,8 +78,8 @@ Provide procedures used to conduct on-site system certification survey of U. S. 
   },
 
   {
-    title = "Quality Management System Improves Dive Ops and Safety",
-    fulltitle = "",
+    title = "Using Quality Management Systems to Improve Diving Operations",
+    fulltitle = "Understanding the requirements and the benefits of implementing an integrated Management System to improve Diving Safety and Quality of Operations",
     lead = "Miriam Boudreaux",
     abstract = [==[
 This presentation is aimed at highlighting the benefits of implementing a management system that integrates quality and safety to improve the overall operations and safety performance of a Diving organization.  Organizations that have an established quality management system enjoy higher levels of customer and employee satisfaction.  Employees feel empowered to contribute to the success of the system and also are able to make better decisions because the organization’s processes are in control.  But how can an organization achieve this level of operational excellence?
@@ -136,6 +137,7 @@ Originally presented at the Transportation Research Board in January 2011.  This
       hour = 14, min = 30 },
     length = 1800,
     room = "221",
+    image = "bridge.jpg",
   },
 
   {
@@ -174,8 +176,9 @@ Originally presented at the Transportation Research Board in January 2011.  This
     fulltitle = "The High Pressure Nervous Syndrome (HPNS) and Working Saturation Dives to over 2000 fsw",
     lead = "Peter Bennett",
     abstract = [==[
-
+In 1966-68 the author first discovered HPNS at 600 fsw and 800 fsw.  Amerlioration first proved possible by selection of less susceptible divers, a very slow compression rate and stages for adaptation, but something more was required for depths greater than 1,000 fsw.  The author developed TRIMIX (He/N2/O2) to prevent such HPNS.  Experimental dives were made from the 1970s to 1990s at Duke University Medical Center ending with 4 deep saturation dives leading to a record depth of 686 m (2,250 fsw).  These were then continued at the German Underwater Simulator (Hamburg). At first, there were 14 deep working dives (8 hours welding per day) breathing TRIMIX 5 with little or no HPNS to 600 m (2,150 ft).  Later, further TRIMIX 5 dives with a 13 man diver team and 2,662 man days of saturation and 983 days of successful welding at 450 m (1,440 fsw) were conducted, proving the success of TRIMIX 5 in prevention of HPNS with no long term effects.
 ]==],
+    image = "duke-dive-2250ft.jpg",
     start = { day = 25, month = 1, year = 2012,
       hour = 8, min = 30 },
     length = 3600,
@@ -187,12 +190,13 @@ Originally presented at the Transportation Research Board in January 2011.  This
     fulltitle = "Vital Signs monitoring in a Hyperbaric environment",
     lead = "Chris Peppler",
     abstract = [==[
-
+Commercial Diving is instrumental to the offshore oil and construction industries, with thousands of hours spent sub surface every year. With this being said sickness and hyperbaric illness are a very real threat to all divers. This paper explores what care givers whom provide emergent health care to divers have available to aid in monitoring vital signs for the ill or injured patient. With the move into deeper waters and more demanding work the health and well being of a diver has become a top priority. Further the OGP has published guidelines requiring the ability to monitor the cardiac rhythm of a diver in a chamber. This paper will describe the problems and solutions to patient monitoring at depth.
 ]==],
     start = { day = 25, month = 1, year = 2012,
       hour = 9, min = 30 },
     length = 1800,
     room = "221",
+    image = "hyperbaric-ecg.jpg",
   },
 
   {
@@ -211,15 +215,16 @@ Originally presented at the Transportation Research Board in January 2011.  This
 
   {
     title = "McCray Diving Helmet",
-    fulltitle = "",
+    fulltitle = "Pacific Northwest Modified Diving Helmets, from Hockett to McCray to Clark",
     lead = "Sid Macken",
     abstract = [==[
-
+The contributions of Northwest divers to the craft of commercial diving are significant. Divers have often modified standard helmets to suit their specific needs and, beginning in the 1930s and into the 1960s, Seattle area divers developed a very distinctive helmet with several advantages over the standard gear. The culmination of this design process was a swimmable diving helmet that, but for differing construction materials and lack of swim fins, remains quite comparable to the equipment worn by modern commercial divers. This is the story of the progression from the standard diving helmet design to what became known as the Northwest Modified Diving Helmet or, since it is often named for its major contributor, the McCray helmet.
 ]==],
     start = { day = 25, month = 1, year = 2012,
       hour = 13, min = 30 },
     length = 2700,
     room = "221",
+    image = "helmet.jpg",
   },
 
   {
@@ -253,6 +258,7 @@ Originally presented at the Transportation Research Board in January 2011.  This
     fulltitle = "Highlights from the full Analox Hypergas MkII training course",
     lead = "Simon Lunt",
     cos = { "Larry Janicek", },
+    image = "hypergas.jpg",
     abstract = [==[
 This session will be jointly presented by Simon Lunt, Analox & Larry Janicek, LBJ Maritime.  It is intended to highlight some of the salient points in relation to monitoring hydrocarbons in the diving bell which are covered in greater detail in the official Analox Hypergas MkII training course offered by both Analox and LBJ Maritime.  This taster session will help delegates to determine if the full course is suitable for them.
 
@@ -282,15 +288,20 @@ Whether you are a commercial diver, vessel operator or diving contractor, the in
 
   {
     title = "Domestic Diver Training for International Certification",
-    fulltitle = "",
+    fulltitle = "International recognition of United States' domestic commercial diver training",
     lead = "David Parkes",
     abstract = [==[
+When the Diver Certification Board of Canada (DCBC) was conceived in 2001 divers asked that it be set up in such a way that DCBC certificates would be accepted anywhere in the world they wanted to work; divers wanted to carry just one certificate of professional competency.   The CEO of the DCBC travelled to the UK to confirm that the new Canadian certificates would continue to benefit from the international recognition that the National Energy Board certificates had received.
 
+The Divers Institute of Technology in Seattle, Washington was the first US school to realize the benefit of international recognition of their diver training; they modified their training program and applied for accreditation by the DCBC in 2003.  Since then the Commercial Diving Academy in Jacksonville, Florida and the Minnesota Commercial Diving Training Center in Brainerd have also become accredited by the DCBC and Santa Barbara City College of Santa Barbara, California is just a few steps away from accreditation.  International recognition means that US graduates of those schools are certified to work almost anywhere in the world.
+
+The paper will discuss the governance of the DCBC, the competency standard on which certification is based, the process to certify divers and the process to achieve accreditation.  The paper will also touch upon the work of the DCBC to retain and enhance their international recognition.
 ]==],
     start = { day = 26, month = 1, year = 2012,
       hour = 11, min = 00 },
     length = 1800,
     room = "221",
+    image = "divcert.png",
   },
 
   {
@@ -300,6 +311,7 @@ Whether you are a commercial diver, vessel operator or diving contractor, the in
     abstract = [==[
 This subject will address a recent accident that occured to a diver while performing an underwater welding operation.  The resulting investigation and root cause analysis lead to the identification of several unrealized conditions that aided in creating this "perfect storm."  These included such items as unaccounted power sources, unfamiliar with tools, unknown actual amperage from welder, and adjacent work groups.  The end result was a new, and more detailed JHA was created that addresses these hazards.  This JHA includes all of the best safet practices as laid out by the ADCI, but also takes it to the next level of pre-job set ups, and a firm commitment by AEP on how all U/W buring and welding work will conducted across the entire fleet.
 ]==],
+    image = "welding.gif",
     start = { day = 26, month = 1, year = 2012,
       hour = 11, min = 30 },
     length = 1800,

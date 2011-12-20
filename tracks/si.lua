@@ -14,6 +14,7 @@ The ROV & Diver TRACKER  is a complete navigation system that includes a Fiber O
       hour = 8, min = 30 },
     length = 1800,
     room = "222",
+    image = "inertial-nav.jpg",
   },
 
   {
@@ -48,6 +49,7 @@ Subsea Construction Manager
     title = "Description of Solutions Using Sonar Imaging",
     fulltitle = "Description of Equipment and Sonar Tools Available for Underwater Inspection and Construction Monitoring",
     lead = "Mark Klein",
+    image = "klein-sonar1.jpg",
     abstract = [==[
 A description of various sonar imaging tools readily available to contractors, engineers, and owners associated with underwater infrastructure and construction.  Specifically, inland applications are provided with the goal of sharing exciting opportunities to better communicate and monitor underwater work.  This presentation will review basic imaging techniques, share several samples of sonar imaging recently used to support underwater construction, monitor water intake structures, dock and ship berth maintenance, and dredge operations.  Discussion of how to expand the use of sonar in various markets which can enhance communication, and improve safety on underwater projects.
 ]==],
@@ -61,6 +63,7 @@ A description of various sonar imaging tools readily available to contractors, e
     title = "Case Study of Remote Sensing in Construction",
     fulltitle = "A review of several imaging methods used in a recent construction project to monitor dredging, diving, and progress of a diffuser installation in black water.",
     lead = "Mark Klein",
+    image = "klein-sonar2.jpg",
     abstract = [==[
 Share the benefits and results of using scanning and multi-beam sonar imaging systems on two recent underwater construction projects.  Share samples and results of using both Tritech and Kongsberg systems.  These case studies will review leased and owned systems and how they provided cost effective and safe solutions.  The two case studies provided will include the installation of a new outfall including monitoring dredge and diving operations.  The second case study will show imaging solutions used to improve quality control and safety during the desilting and cleaning of intakes at a Nuclear power plant after Hurricane Irene.  These projects provide examples of sonar imaging readily available for incorporation into a majority of underwater construction projects, especially for inland black water projects.
 ]==],
@@ -90,6 +93,7 @@ This paper discusses some of the unique benefits of the use of real-time 3D imag
     abstract = [==[
 The presentation will review types of instrument currently avaialble, their application and limitations.  Practical tips to ensure correct equipment function and common pitfalls which lead to inaccuarate surveys will be discussed.  The talk will present various case histories on diver surveys, ROV pipeline surveys and general topside cathodic protections surveys. Various probe types will be discussed along with emerging technologies for AUV surveys.
 ]==],
+    image = "probe.jpg",
     start = { day = 25, month = 1, year = 2012,
       hour = 13, min = 30 },
     length = 1800,
@@ -139,6 +143,7 @@ Using a photorealistic 3D model as the starting point for underwater asset inspe
       hour = 15, min = 30 },
     length = 1800,
     room = "222",
+    image = "modelpoints.jpg",
   },
 
   {

@@ -24,6 +24,7 @@ The second part of the presentation will be the implications of the suspected us
 
 I will use examples of both submersible and surface vessel operations, as well as other examples from various transportation sectors.  These examples will clarify how other industries help to separate legitimate from illegitimate operators to ensure both their economic and physical survival.
 ]==],
+    image = "narco-subs.jpg",
     start = { day = 24, month = 1, year = 2012,
       hour = 10, min = 30 },
     length = 1800,
@@ -80,6 +81,7 @@ This presentation will trace the development and use of two manned submersibles 
       hour = 14, min = 00 },
     length = 1800,
     room = "219",
+    image = "muv-photo.jpg",
   },
 
   {
@@ -94,6 +96,7 @@ Since OceanGate acquired the Antipodes manned submersible (former PC-1501) two y
       hour = 14, min = 30 },
     length = 1800,
     room = "219",
+    image = "antipodes.jpg",
   },
 
   {
@@ -131,8 +134,8 @@ The presentation will review the basics of forward looking sonar technologies, i
 -- Wednesday, January 25, 2012
 
   {
-    title = "PSUBS Overview and K-600 rebuild",
-    fulltitle = "",
+    title = "PSUBS Overview and Update",
+    fulltitle = "An overview and update of activities within the Personal Submersibles Organization",
     lead = "Jon Wallace",
     abstract = [==[
 This presentation will provide an update of PSUBS (Personal Submersibles Organization) activities for the past year including various submarine projects under development, organization roadmap and interaction with other industry organizations, and a review of the re-building of the K-600 Kittredge submersible.
@@ -150,6 +153,7 @@ This presentation will provide an update of PSUBS (Personal Submersibles Organiz
     abstract = [==[
 Open meeting of the American Bureau of Shipping (ABS) with the subsea industry to review proposed rule changes to the ABS Rules for Building and Classing Underwater Vehicles, Systems and Hyperbaric Facilities. The meeting facilitates an open dialogue with the industry on current issues that work well or do not work. All active designers, fabricators, owners and operators are invited to attend and provide feedback.
 ]==],
+    image = "abs-rule-change-proposals.jpg",
     start = { day = 25, month = 1, year = 2012,
       hour = 9, min = 00 },
     length = 3600,
@@ -164,6 +168,7 @@ Open meeting of the American Bureau of Shipping (ABS) with the subsea industry t
     abstract = [==[
 A major obstacle in the development of manned submersibles involves the removal of metabolically-produced carbon dioxide from the cabin environment, particularly during long-duration, cold water operations.  Traditional CO2 absorption methods utilized in underwater life support systems use alkali metal hydroxide chemical beds—mostly calcium hydroxide—which have been shown to have poor absorption efficiencies in cold environments.  Experimental evidence suggests that seawater, a readily accessible medium during submersible operations, could be a highly effective alternative scrubbing medium to remove metabolically-produced carbon dioxide.  Laboratory CO2 absorption trials are currently being conducted in a joint research effort between Duke University and the University of Bath in the United Kingdom, under sponsorship by the Office of Naval Research.  An overview of these absorption trials will be presented and the physical principles governing this absorption technique will be explained.   Alternative concept designs will be introduced and the suitability of these concepts for open and closed-circuit breathing systems will be discussed.
 ]==],
+    image = "co2scrubber.jpg",
     start = { day = 25, month = 1, year = 2012,
       hour = 10, min = 30 },
     length = 1800,
@@ -313,12 +318,16 @@ Traditionally, naval architecture has been more craft than science. Determining 
     title = "Modern Buoyancy Foams for Underwater Vehicles",
     fulltitle = "Modern Buoyancy Foams for Underwater Vehicles - Technical Discussion Panel",
     lead = "Roy Thomas",
-    cos = { "Thomas J Murray", "Jim Teague", "Robert Kelly", },
+    cos = { "Robert Kelly", "Thomas J Murray", "Jim Teague", },
     abstract = [==[
+Deep sea buoyancy has evolved significantly since the pre-1960’s days in which paraffin was primary source to today’s use of designed cellular materials.  Material design and quality control of the buoyancy material must be at the forefront when designing the buoyancy package for manned submersible.  This talk will conceptually construct the syntactic foam from the design of the microballon and binder phases and explore the intricate interaction between them in the composite foam.  It will highlight potential modes of failure and technical routes of mitigating this failure.  In addition, it will link the characterization the phases during the development process to the QC testing during production.
+
+A rigorous QC protocol in all components in the syntactic buoyancy is required to maintain a capable manufacturing process as well as reliable, predictable long-term syntactic foams behavior.  This control starts in the microballoon manufacturing process; problems or process deviations during their manufacture can trickle all the way through to the finished foam properties.  The same is expected in the polymer binder phase, coupling agents and other additives that go into the finished product. When the essential constituent properties are identified and quantified, the final performance of the finished syntactic foam can be predicted.
 ]==],
     start = { day = 26, month = 1, year = 2012,
       hour = 10, min = 30 },
     length = 5400,
     room = "219",
+    image = "foam-microbubbles.jpg",
   },
 })

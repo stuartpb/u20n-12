@@ -48,6 +48,7 @@ One of advantageous ROVs for its operation is a flipper type crawler ROV which J
 The authors conducted the running experiment of the flipper type crawler ROVs on sand, cobble, or rock reef seafloor. The authors also conducted an initial hard-rock coring experiment at steep and irregular terrain seafloor off Okinawa.
 This paper presents the advantageous mobility of the flipper type crawler ROV which has been confirmed at sea trial and the possibility of hard-rock coring at steep or irregular terrain seafloor with it.
 ]==],
+    image = "coring.jpg",
     start = { day = 25, month = 1, year = 2012,
       hour = 10, min = 30 },
     length = 1800,
@@ -132,6 +133,7 @@ ROV deployed cutting tools are an important part of the subsea toolbox, and are 
 An overview of the available technologies will be discussed, with particular focus given to the correct selection of the tool to suit the application.  Guidance will be given regarding the safe deployment, use, retrieval and storage of subsea cutting tools, with particular focus on those deployed by ROV to deep water.
 Improvements in the strength of wire rope technology and the increasing use of aramid based soft lines pose particular challenges to current cutting technology.  This will be discussed along with improvements that can be made to ensure modern cutting tools are capable of producing the cutting forces required whilst still maintaining a low enough weight and size for ROV deployment.
 ]==],
+    image = "webtool.jpg",
     start = { day = 25, month = 1, year = 2012,
       hour = 14, min = 00 },
     length = 1800,
@@ -169,6 +171,7 @@ Advances in waterjet intensifier pump technology allow it to be applied subsea a
 
 Waterjet technology has been extended into the deepwater subsea space during the past year. Inclusion of an intensifier style subsea waterjet system in the collection of emergency response assets will give another option for cutting, salvage, and conduct of rapid de-mobilization operations.
 ]==],
+    image = "waterjet.jpg",
     start = { day = 25, month = 1, year = 2012,
       hour = 15, min = 30 },
     length = 1800,
@@ -200,6 +203,7 @@ Fiber optic connectors deliver massive bandwidth in a minute footprint, and thus
 This report explores the theory of fiber optics, both operation and concepts of use, strategies for design, pros and cons, especially as they affect the trade-offs between single mode and multimode fiber for specific applications.
 Further, it examines to the future of the technology and how it can shape the deep ocean industry, from low back reflectance connectors to bend-insensitive, high numerical aperture fiber options, which will allow even greater versatility and performance in robust connector shell designs.
 ]==],
+    image = "fiberoptic-connect.jpg",
     start = { day = 25, month = 1, year = 2012,
       hour = 16, min = 30 },
     length = 1800,

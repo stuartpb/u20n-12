@@ -15,7 +15,7 @@ Unfortunately we were not able to locate the lost diver, but this presentation w
       hour = 8, min = 30 },
     length = 1800,
     room = "218",
-    presimg = "mcdavsfc.jpg",
+    image = "mcdavsfc.jpg",
   },
 
   {
@@ -27,6 +27,7 @@ While underwater operations provide a host of significant anxieties, when a shee
 The Micro-ROV is easily deployed, with minimal risk, into a potential human trap eliminating travel to the unknown.  The Micro-ROV can without difficulty, assess hazards, survey the scene, locate and identify targets, recover evidence and provide a safe lane of travel for a diver.  It doesn’t matter if it is an object that has fallen through or a survey that needs to be done; the employment of Micro-ROV under ice operation is a safe first alternative.
 This presentation will show the experiences of several small ROV projects successfully employed in under-ice operations, along with lessons learned from the agencies involved.  Projects include locating vehicles fallen through the ice, drowning victims and ice rescue training.
 ]==],
+    image = "under-ice.jpg",
     start = { day = 24, month = 1, year = 2012,
       hour = 9, min = 00 },
     length = 1800,
@@ -40,6 +41,7 @@ This presentation will show the experiences of several small ROV projects succes
     abstract = [==[
 The mission of Rozalia Project for a Clean Ocean is to find and remove marine debris from our oceans, bays and rivers. Marine debris takes many forms, and occurs in all marine environments, presenting myriad challenges in removing it from the water. Rachael Miller of Rozalia Project uses a VideoRay with BlueView sonar, Lyyn image enhancement, and Smart Tether positioning system along with the Tritech Starfish side scan sonar, to scour the bottom of a variety of venues looking for and retrieving marine debris - from small pieces of plastic to large masses of derelict fishing gear - and everything in-between. This presentation will show specific examples of how the equipment is integrated and used in concert to locate and recover a variety of objects of differing size and material, and how different benthic environments and conditions affect mission planning and execution. The presentation will conclude with a discussion of lessons learned and the strategies Rachael used to handle specific challenges related to debris search and recovery.
 ]==],
+    image = "debris.jpg",
     start = { day = 24, month = 1, year = 2012,
       hour = 9, min = 30 },
     length = 1800,
@@ -48,7 +50,7 @@ The mission of Rozalia Project for a Clean Ocean is to find and remove marine de
 
   {
     title = "Using micro-ROV's in the aftermath of Japan's Tsunami",
-    fulltitle = "",
+    fulltitle = "Investigating and mapping obstacles and debris washed into the ocean by the tsunami",
     lead = "Masanobu Shibuya",
     abstract = [==[
 Shibuya Diving Industry (http://www.shibuya-diving.co.jp) is one of Japan’s most innovative, high technology companies.  Founder Mr. Masanobu Shibuya, has lead Japan’s diving evolution in many ways – particularly in protecting the environment, and underwater backhoe work in constructing port facilities.  In addition to leading the company, Mr. Shibuya is an expert underwater photographer and videographer, who is more often in the water  than topside when on site.
@@ -190,6 +192,7 @@ The use of VideoRays in the Offshore Oil & Gas Industry is growing rapidly, as r
 
 This presentation covers case studies where Van Meter Consulting has used Micro ROVs to support offshore oil and gas projects. From Russia's Siberian LNG, to an FPSO in the South China Sea, to the Gulf of Mexico, photos and video clips will demonstrate how this maturing technology is being used in the offshore environment. Van Meter will explain how he won the jobs, planned for the mission, adjusted and compensated when things were not working, and successfully completed the mission each time.
 ]==],
+    image = "oilrig.jpg",
     start = { day = 25, month = 1, year = 2012,
       hour = 9, min = 30 },
     length = 1800,
@@ -212,10 +215,15 @@ Multibeam imaging sonars have been available since the early nineties and have s
 
   {
     title = "Remote image enhancement technology",
-    fulltitle = "",
+    fulltitle = "Image processing of IP-network subsea video",
     lead = "Anders Holm",
+    image = "lyyn-sshot.png",
     abstract = [==[
+The key to successful underwater vision is to get rid of the water! This cliché is as old as underwater photography itself, but it's still true today. Depth, distance, lighting, turbidity of the water, salinity, and pollution all contribute to the visibility, and the perception of size, shape, and color of underwater objects.
 
+The LYYN products optimize the contrast and color of each frame to increase the visibility of a scene. Even the smallest fragments of color and object shape can be extracted from the camera sensor to restore the scene as much as possible. And all this is done in real-time. The result is an image that constantly self-adjusts to the environment and the diver or ROV pilot can focus on mission objectives.
+
+Until now, this technology has only been available for analog video. In the near future, it will be available also for HD-SDI video streams and for IP cameras. During the presentation we will demonstrate how we eliminate both the disturbances from water as well as the distance to the camera by connecting an iPad to several IP cameras live from around the world, and enhancing the video in real-time. We will also show some recorded, and lyynified HD footage.
 ]==],
     start = { day = 25, month = 1, year = 2012,
       hour = 11, min = 00 },
@@ -238,6 +246,7 @@ This paper will provide an overview of how these Hydro-Lek manipulators were uti
       hour = 11, min = 30 },
     length = 1800,
     room = "218",
+    image = "manip.jpg",
   },
 
   {
@@ -248,6 +257,7 @@ This paper will provide an overview of how these Hydro-Lek manipulators were uti
     abstract = [==[
 Florida State University Panama City (FSUPC) completed an evaluation study in 2010 that examined the techniques and tools available for the execution of the search and inspection activities that public safety divers are routinely called upon to perform.  The test teams were drawn from major ports across the country and were selected for their experience and skill in conducting port security operations as well as routine public safety dive functions.  The teams included Seattle Police Department Harbor Patrol, NYPD Scuba Team, Jacksonville Sheriff Office Dive Team, and the FBI’s USERT team out of Los Angeles. A team from FSUPC’s Underwater Crime Scene Investigation was utilized to augment the dataset.  The findings indicated that traditional and technology-augmented search techniques were all very successful methods, particularly in the specific contexts for which they were developed.  However, broader implications to ROV training and use were suggested by the results.  While these observations were beyond the scope of the study, they provide valuable insights that are shared in this paper.
 ]==],
+    image = "nypd-rov.jpg",
     start = { day = 25, month = 1, year = 2012,
       hour = 13, min = 30 },
     length = 1800,

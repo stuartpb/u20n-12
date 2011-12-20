@@ -21,13 +21,14 @@ David Phillips travelled to the Philippines in 2008 to work with Titan Salvage C
   },
 
   {
-    title = "Inside the Lusitania",
-    fulltitle = "Inside the Wreck of the Lusitania",
+    title = "Controversial World War I Shipwreck Surveyed with Inspection Class ROV",
+    fulltitle = "Inside a Controversial Shipwreck",
     lead = "Brian Luzzi",
     cos = { "Steven Van Meter" },
     abstract = [==[
-Documenting the 2011 National Geographic project where VideoRay, the leading manufacturer of Inspection Class Remotely Operated Vehicles, was invited to explore both interior and exterior sections of the famous World War I shipwreck off the coast of Ireland.
+Remains of a controversial World War I shipwreck off the coast of Ireland explored with an Inspection Class Remotely Operated Vehicle (ROV) for a high profile television production in the summer of 2011.
 ]==],
+    image = "lusitania.jpg",
     start = { day = 24, month = 1, year = 2012,
       hour = 9, min = 30 },
     length = 1800,
@@ -45,7 +46,7 @@ In this talk we present a comprehensive survey procedure developed in-house and 
       hour = 15, min = 30 },
     length = 1800,
     room = "222",
-    presimg = "UWI-pres-RB.jpg",
+    image = "rambala-presimg.jpg",
   },
 
 })

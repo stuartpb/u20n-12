@@ -63,8 +63,15 @@ Graduated at the Italian Naval Accademy, after a master degree in electronic eng
     org = "Schilling Robotics",
     homepage = "http://www.schilling.com/",
     email = "steve.barrow@schilling.com",
+    headshot = "barrow.jpg",
     bio = [==[
-Steve Barrow, senior applications engineer for Schilling Robotics, has designed ROVs and ROV tooling since 1998.
+Steve Barrow is a senior applications engineer with Schilling Robotics, a leading global, deep-ocean robotics company. Steve has worked in the ROV and ROV tooling since 1998. He specializes in mechanical and hydraulic designs and is a Certified Fluid Power Hydraulic Specialist (CFPHS) through the International Fluid Power Society.
+
+Steve has worked on many subsea vehicle projects, including the integrated hydraulic power unit on Schilling's new HD ROV, an 800-HP trencher used to bury subsea cables and pipelines up to 600 mm in diameter to a depth of 3m, and an autonomous underwater vehicle (AUV). His tooling experience includes a hot-water hydrate remediation skid, high-pressure fluid injection systems, and many other standard and custom tooling projects. Steve is credited as inventor on a patent for an ROV-powered casing cutter—a device used to remove wellheads from depleted or non-producing fields.
+
+Steve holds a B.S. in Ocean Engineering from the Florida Institute of Technology in Melbourne, FL. He was recently pleased to be an engineering judge for the International MATE competition finals held at NASA's Neutral Buoyancy Lab in Houston, TX. The MATE program introduces high school and college students to marine technology by presenting them with a series of challenges that must be accomplished by ROVs designed and built by the student teams.
+
+Steve also serves as a volunteer firefighter with the City of Jersey Village and is a PADI-certified rescue diver.
 ]==],
   },
 
@@ -72,8 +79,15 @@ Steve Barrow, senior applications engineer for Schilling Robotics, has designed 
     first = "Michele",
     middle = "Nelson",
     last = "Bass",
-    org = "",
+    org = "Lesser & Associates Prof Law corp.",
+    homepage = "http://divelaw.com/",
     email = "mnzg@sopris.net",
+    headshot = "michele-nelson-bass.jpg",
+    bio = [==[
+Michele Nelson Bass has been involved with recreational scuba litigation for nearly twenty years.  She left the well-known maritime law firm of Keesal, Young and Logan in 1990 and assisted Mr. Lesser in expanding the firm with a focus on the defense of recreational scuba diving claims.  Since that time she has been involved in all aspects of litigation (from discovery through appellate brief writing) involving wrongful death, product liability, admiralty/maritime, professional negligence and employment related claims.  She is a very experienced trial lawyer and has successfully tried jury cases in State and Federal Courts all over the country.  She received the National Law Journal Top Defense Verdict of the Year in 2004 for the defense of a multi-million dollar scuba diving product liability case.  She also handles ski accident cases and won a unanimous decision from the Colorado Supreme Court in Cooper v. Aspen Ski Company, et al. in 2002.  Her practice now consists of both defense and plaintiff’s cases.
+
+Ms. Bass resides in Aspen, Colorado with her husband and two little boys.  She is an expert skier and road bike rider as well as an avid scuba diver.  She was certified as a NAUI diver by Dr. Glen H. Egstrom, a well known SCUBA industry expert, at  UCLA in 1984. She has been diving all over the world including Truk Lagoon, Palau, Yap, Fiji, Great Barrier Reef, Cozumel, Caribbean, Hawaii, Belize, and the Galapagos.
+]==],
   },
 
   ["Steve Bell"] = {
@@ -82,6 +96,7 @@ Steve Barrow, senior applications engineer for Schilling Robotics, has designed 
     org = "BIRNS, Inc.",
     homepage = "http://www.birns.com/",
     email = "sbell@birns.com",
+    headshot = "bell.jpg",
     bio = [==[
 Serves as Optical/Photonics Engineer for BIRNS, Inc., an ISO 9001:2008-certified global leader in the design and manufacture of unique lines of high performance lights, connectors, penetrators and custom cable assemblies.
 
@@ -96,8 +111,17 @@ Successful career has also included a position at Optiphase as a Senior Engineer
   ["Peter Bennett"] = {
     first = "Peter",
     last = "Bennett",
-    org = "",
+    org = "Undersea and Hyperbaric Medical Society",
+    homepage = "http://www.uhms.org/",
     email = "PeterBennett@uhms.org",
+    headshot = "bennett.jpg",
+    bio = [==[
+Dr. Bennett spent 20 years with the British Royal Navy carrying out research on underwater blast, inert gas narcosis, oxygen toxicity and decompression sickness. In 1966, he discovered the High Pressure Nervous Syndrome (HPNS) and directed a record 1,500 ft oxygen helium saturation dive in 1970. In 1972, he came to Duke University Medical Center as Professor in the Dept. of Anesthesiology to head the multi-chamber Hyperbaric Center. There he developed further TRIMIX (He/N2/O2) to ameliorate or prevent the HPNS. He directed the 4 deep saturation dives "Atlantis" at Duke with TRIMIX and a record depth of 686m (2,250 ft).
+
+Later in 1983-1986, in Germany, 14 deep TRIMIX saturation dives between 300-600 msw were made by 13 divers with 8 hours welding per day with little or no HPNS.  In 1986-1990, a further 17 more dives were made with 2,662 man days' saturation and 983 welding days' at 450 m.
+
+Dr. Bennett was the Founder and President of the Divers Alert Network from 1980-2003 and is presently Executive Director, Undersea and Hyperbaric Medical Society. He has published over 200 papers in diving medicine and 8 books, including the textbook, *The Physiology and Medicine of Diving*, now in its 5th edition. Recipient of some 17 international awards, in 1994 he was elected as a foreign member of the 300 year old Russian Academy of Science and an Honorary Member of University of the Mediterranean in Marseille.
+]==],
   },
 
   ["Thyge Bollmann"] = {
@@ -125,6 +149,7 @@ Thyge Bollmann is a Vice President at miniBOOSTER Hydraulics A/S in Denmark and 
     org = "Mireaux Management Solutions",
     homepage = "http://www.mireauxms.com/",
     email = "miriam@mireauxms.com",
+    headshot = "boudreaux.jpg",
     bio = [==[
 Miriam Boudreaux, an ISO 9001, ISO 27001, QMS, ISMS and Web Specialist, is the President of Mireaux
 Management Solutions, a consulting firm headquartered in Houston, TX.
@@ -151,6 +176,9 @@ Besides her current position as President and head consultant of Mireaux, Miriam
     suffix = "PE",
     org = "",
     email = "drb@wjimed.com",
+    bio = [==[
+
+]==]
   },
 
   ["Robert Bourgeois, MD MPH"] = {
@@ -175,8 +203,9 @@ Besides her current position as President and head consultant of Mireaux, Miriam
     org = "Deepwater Corrosion Services Inc.",
     homepage = "http://www.stoprust.com/",
     email = "jbritton@stoprust.com",
+    headshot = "britton.jpg",
     bio = [==[
-Jim Britton - As founder and CEO of Deepwater Corrosion services Inc in 1986 he has been responsible for the development of currently used CP measurement systems manufactured by his company.  He has worked offshore on thousands of CP surveys both diver / ROV and topside deployed.  The Polatrak brand is currently the leading leader in this type of equipment.
+As founder and CEO of Deepwater Corrosion services Inc in 1986 he has been responsible for the development of currently used CP measurement systems manufactured by his company. He has worked offshore on thousands of CP surveys both diver / ROV and topside deployed. The Polatrak brand is currently the leading leader in this type of equipment.
 ]==],
   },
 
@@ -186,6 +215,18 @@ Jim Britton - As founder and CEO of Deepwater Corrosion services Inc in 1986 he 
     org = "2G Robotics Inc.",
     homepage = "http://www.2grobotics.com/",
     email = "ncavan@2grobotics.com",
+    bio = [==[
+Neil Cavan completed his undergraduate degree in Mechanical Engineering at the University of Waterloo in 2007. After working as a mechanical designer for two years he completed his MASc in Systems Design engineering in August 2011, with research focused on computer vision, 3D reconstruction of unknown scenes and simultaneous localization and mapping (SLAM) for robotic vehicles. Neil is currently employed at 2G Robotics, developing innovative underwater technologies.
+]==],
+    headshot = "cavan.jpg",
+  },
+
+  ["Mike Chapman"] = {
+    first = "Mike",
+    last = "Chapman",
+    org = "MECCO, Inc.",
+    homepage = "http://www.meccoinc.com/",
+    email = "m.e.chapman@att.net",
   },
 
   ["Phillip Cheng"] = {
@@ -223,6 +264,15 @@ Mr. Joseph Curran has been working with underwater vehicle systems for 12 years.
 ]==],
   },
 
+  ["Richard Davidson"] = {
+    first = "Richard",
+    last = "Davidson",
+    org = "The Subsea Company",
+    homepage = "http://www.thesubsea.com/",
+    email = "richard.davidson@thesubsea.com",
+    headshot = "davidson.jpg",
+  },
+
   ["Michael Donovan"] = {
     first = "Michael",
     last = "Donovan",
@@ -237,6 +287,7 @@ Mr. Joseph Curran has been working with underwater vehicle systems for 12 years.
     org = "Allspeeds Ltd. / Webtool",
     homepage = "http://www.allspeeds.co.uk/webtool",
     email = "keith.elliot@allspeeds.co.uk",
+    headshot = "elliot.jpg",
     bio = [==[
 Allspeeds Ltd are a renowned UK engineering company with prominent brands such as Tangye, Millingford International (API 11AX-0034) and Webtool and have been designing and manufacturing subsea tooling for over 25 years.
 
@@ -282,8 +333,9 @@ Daniel Esser is Managing Director and co-founder of CONTROS Systems & Solutions 
     org = "Florida State University Panama City",
     homepage = "http://www.pc.fsu.edu/",
     email = "mfeulner@pc.fsu.edu",
+    headshot = "feulner.jpg",
     bio = [==[
-Mark Feulner has been researcher for Underwater Crime Scene Investigation (UCSI) at FSUPC for eight years, and is co-author of the UCSI Protocols Manual.  He has Master's degrees in Nautical Archaeology and Criminology and currently holds a faculty position in Public Safety and Security at Florida State.  Mr. Feulner has assisted law enforcement agencies and private institutions in numerous underwater investigations, and has trained public safety divers and military personnel in the use of various marine technologies for underwater work.
+Mark Feulner is a member of the faculty for the Public Safety and Security program at Florida State University Panama City and a researcher for the Underwater Crime Scene Investigation program.  He has over a decade of experience as an operator of marine technologies for archaeological, scientific, and law enforcement investigations. Mr. Feulner is a co-author of *Underwater Crime Scene Investigation: A guide for law enforcement* and has trained public safety divers and military divers in the tools and techniques for underwater investigations. He has also worked on several research projects for the military and Federal government investigating the various technologies available for underwater work.
 ]==],
   },
 
@@ -304,10 +356,11 @@ Ian Florence has worked in the offshore industry since 1981, starting in the sei
     org = "U.S. Navy, Naval Sea Systems Command",
     homepage = "http://www.navsea.navy.mil/",
     email = "michael.a.frey@navy.mil",
+    headshot = "frey.jpg",
     bio = [==[
-- 30 years experience as a U.S. Navy Diver
-- 11 years at NAVSEA Office of Salvage and Diving
-- Commander, Civil Engineer Corps, USN
+Mike Frey is Division Head for Diving Systems Safety Certification in the office of the U.S. Navy Director of Ocean Engineering and of Supervisor of Salvage and Diving.  As the USN Diving System Safety Certification Authority (SCA), he has the overall responsibility for ensuring all USN, USMC and other designated military Diver Life Support Systems (DLSS) are safe for manned use. Prior to this position he was a Diving Systems Certification Engineer for 11 years.  The Diving Systems Certification Division certifies over 190 DLSS at 42 Commands, in 7 Countries, 2 Territories and 9 States.
+
+Mr. Frey began his Navy diving career in 1981 after completing 2nd Class Diver training at Harbor Clearance Unit TWO in Little Creek, VA.  After his active duty tour he worked as a commercial diver for two years prior to attending Old Dominion University where he earned a BS in Civil Engineering.  He transferred to the Naval Reserves in 1983 where he completed First Class Diver Training and tours at NR EOD GRU-2, EOD MU-10 and MDSU-2.  In 1996 he received a commission as a Civil Engineer Corps Officer and has completed numerous tours, top among them was as the Reserve Detachment OIC at Underwater Construction Team-ONE. He is still serving as a Commander in the USN Reserve.
 ]==],
   },
 
@@ -345,6 +398,7 @@ Jim Garrington is the founder and president of Shark Marine Technologies Inc. a 
     org = "Great Lakes Naval Memorial and Museum",
     homepage = "http://www.silversidesmuseum.org/",
     email = "gleason@mtu.edu",
+    headshot = "gleason.jpg",
     bio = [==[
 Dr. Mark Gleason has nearly ten years of diverse experience in the operation of ROVs in education, research and industry. His Ph.D. dissertation research demonstrated the usefulness of small ROVs in natural resources education programs. Those programs and their development led to positions creating educational programs at museums. Those efforts resulted in unique underwater experiences for thousands of students and the general public. Other professional work includes several years operating ROVs in the oil/gas industry in the middle-east.
 
@@ -396,6 +450,7 @@ Anthony Hall is the founder and CEO of Welaptega Marine Limited. His experience 
     org = "Kongsberg Underwater Technologies, Inc.",
     homepage = "http://www.km.kongsberg.com/",
     email = "chris.hancock@kongsberg.com",
+    headshot = "hancock.jpg",
     bio = [==[
 After graduating with a B.S. in Industrial Engineering from University of Vermont in 1978, Chris Hancock took a commission in the NOAA Corp (National Oceanographic and Atmospheric Administration) where he received his formal training as a hydrographic surveyor and conducted field operations in Washington State, Alaska and Hawaii. After completing his service with NOAA, Chris continued building his offshore experience with several commercial survey companies, holding positions as hydrographic survey, sonar operator, researcher and project manager. Chris spent several years working offshore in the Bay of Campeche, Mexico while assigned to the Ciudad del Carmen office of Brown & Root, Inc. (Houston, Texas). After more than 10 years in the field, Chris transitioned back to engineering working in systems design, software development and mechanical design related to sonar and hydrographic data acquisition and processing systems, eventually holding positions as program manager and general manger with Kongsberg (formerly Simrad) and other firms. Now in sales and marketing, Chris has been involved in the academic, offshore and naval sectors of the marine industry with a global reach, including business development of markets in the United States, Asia, and Latin America. His current focus is on emerging applications of AUV technology in the offshore oil and gas sector.
 ]==],
@@ -488,6 +543,7 @@ His research interests are in offshore deep drilling technology and underwater v
     last = "Kelly",
     org = "",
     email = "david.j.kelly2@navy.mil",
+    headshot = "david-kelly.jpg",
   },
 
   ["Robert Kelly"] = {
@@ -496,7 +552,7 @@ His research interests are in offshore deep drilling technology and underwater v
     org = "Trelleborg Offshore Boston",
     homepage = "http://www.trelleborg.com/en/Offshore-Boston/",
     email = "bob.kelly@trelleborg.com",
-    headshot = "kelly.jpg",
+    headshot = "bob-kelly.jpg",
     bio = [==[
 Mr. Kelly is vice-president of Trelleborg Offshore, in charge of global customer solutions.  With a global reputation for material development, Trelleborg Offshore is recognized as a leading manufacturer of advanced glass microspheres and high performance syntactic foams which are used in such markets as aerospace, defense, tooling products and buoyancy materials for underwater vehicles.  Located in Mansfield, MA, Trelleborg Offshore Boston was established in 1948 as Emerson & Cuming, Inc., the company was the first to offer a complete line of commercially available aerospace grade glass microspheres through and has continued to focus on material innovation ever since.
 ]==],
@@ -528,6 +584,7 @@ Bart Kemper, P.E. is the principal engineer for Kemper Engineering Services, LLC
     org = "Chukar Waterjet, Inc.",
     homepage = "http://www.chukarwaterjet.com/",
     email = "brucek@chukarwaterjet.com",
+    headshot = "kivisto-square-600px.jpg",
     bio = [==[
 Worked in the waterjet industry for 10 years. Work in the waterjet industry has focused on development of new applications for waterjet equipment and the extension of waterjet technology into the subsea environment. Professionally registered Electrical Engineer from the the University of Minnesota specializing in machine development and control systems.
 ]==],
@@ -641,6 +698,7 @@ Finding things underwater has long been a passion of his, and as a member of dif
     org = "Lesser & Associates Prof Law corp.",
     homepage = "http://divelaw.com/",
     email = "lesser@divelaw.com",
+    headshot = "lesser.jpg",
     bio = [==[
 36 year attorney specializing in commercial and recreational diving, 30 plus year attorney for Kirby Morgan DSI, selected as Superlawyer multiple times by fellow attornies in california, winner of one of National Law Journal "Top Defense Wins in 2004; Defended succesfully and also obtained multiple 7 figure verdicts and settlements over the past 30 years. Full bio is at DIVELAW.COM
 ]==],
@@ -680,6 +738,7 @@ Chris Lokuciewski is founder and MD of Hydro-Lek Ltd, leading manufacturer of re
     org = "Analox Sensor Technology",
     homepage = "http://www.analox.net/",
     email = "simon.lunt@analox.biz",
+    headshot = "lunt.jpg",
     bio = [==[
 Simon Lunt is the Sales Manager at Analox Sensor Technology who have provided the commercial diving industry with gas analysers since 1981.  His history is in chemical and health and safety sales and has been heavily involved in the adoption of the Hypergas MkII by the industry as a vital piece of safety equipment.
 ]==],
@@ -691,6 +750,9 @@ Simon Lunt is the Sales Manager at Analox Sensor Technology who have provided th
     org = "VideoRay",
     homepage = "http://www.videoray.com/",
     email = "brian.luzzi@videoray.com",
+    bio = [==[
+Brian Luzzi currently holds the Marketing Manager position for VideoRay LLC.  His duties have taken him around the world with VideoRay Remotely Operated Vehicles (ROVs) exploring and filming fascinating underwater subjects for television outlets such as the History Channel, Discovery Channel, and National Geographic.  A graduate of the Pennsylvania State University, Brian is responsible for the day to day VideoRay marketing efforts including trade show presence, advertising, website, and public relations.
+]==],
   },
 
   ["Dmitry Lyakhov"] = {
@@ -708,8 +770,14 @@ Dmitry Lyakhov works at the The Institute of Marine Technology Problems. The Ins
   ["Sid Macken"] = {
     first = "Sid",
     last = "Macken",
-    org = "",
+    org = "Historical Diving Society, USA",
+    homepage = "http://www.hds.org/",
     email = "SidM@hds.org",
+    bio = [==[
+A diver for over 50 years, Sid Macken has pursued a lifelong interest in underwater photography. Sid feels fortunate to have begun his diving career during the early years of American sport diving, an exciting time full of innovation, experimentation, and discovery. He is an early graduate of the Santa Barbara City College Marine Diving Technology Program, an ADCI certified commercial diver, a former public safety diver and instructor, and a freelance underwater videographer.
+
+Sid was introduced to the Historical Diving Society USA in 1993, and joined in 1994. He writes a column on the history of underwater photography for the HDS magazine, and presently sits on the Society's Board of Directors. In 1996 he produced the video documentary *Swirling Dark Water: a century of diving in Oregon* and has continued to study the history of Pacific Northwest diving.
+]==],
   },
 
   ["Marie McCormick"] = {
@@ -745,6 +813,7 @@ Tobin McNatt is the Director of the Advanced Marine Technology Center (AMTC) wit
     org = "MTS ROV Committee",
     homepage = "http://www.rov.org/",
     email = "rovdrew@earthlink.net",
+    headshot = "michel.jpg",
     bio = [==[
 Drew has 45 years of experience in technical and executive positions in the industry and is currently one of the most respected independent ROV consultants in this field.   His accomplishments and awards include;
 
@@ -780,9 +849,19 @@ Terresolve's biobased fluids have been extensively proven in the lab and in the 
     org = "Rozalia Project for a Clean Ocean",
     homepage = "http://www.rozaliaproject.org/",
     email = "rachael@rozaliaproject.org",
+    headshot = "rzm.jpg",
     bio = [==[
 Rachael Miller is the co-founder and Director of Rozalia Project for a Clean Ocean, whose mission is to find and remove marine debris through action, technology, outreach and research. She is also the co-captain of Rozalia Project's trash-hunting mothership, American Promise (a Ted Hood 60' sailing research vessel). Rachael established the first public access, ROV-supported shipwreck tour in North American, and is a trainer for VideoRay training remotely operated vehicle (ROV) pilots. She is the primary ROV pilot and technician for the Rozalia Project and travels throughout the US with the ROV/sonar delivering marine debris programs and cleaning harbors. Though dedicated to a clean ocean, she lives, with her husband and 2 Newfoundlands, in the mountains of Vermont.
 ]==],
+  },
+
+  ["Eric Milne"] = {
+    first = "Eric",
+    last = "Milne",
+    org = "The Subsea Company",
+    homepage = "http://www.thesubsea.com/",
+    email = "e.milne@thesubsea.com",
+    headshot = "milne.jpg",
   },
 
   ["Masashi Mochizuki"] = {
@@ -816,6 +895,13 @@ Rachael Miller is the co-founder and Director of Rozalia Project for a Clean Oce
     org = "Naval Sea Systems Command",
     homepage = "http://www.navsea.navy.mil/",
     email = "brendan.w.murphy@navy.mil",
+    bio = [==[
+Brendan Murphy has been a Diving System Safety Certification Manager, working for the Director of Ocean Engineering and Supervisor of Salvage and Diving at the Naval Sea Systems Command (NAVSEA), for over 9 years. The primary function of his position is to ensure that U.S. Navy and Marine Corps Divers Life Support Systems (DLSS) are designed, operated and maintained safely. Currently the Diving Systems Certification Division certifies over 190 DLSS at 42 Commands, in 7 Countries, 2 Territories and 9 States. As an ISO 9000 Lead Auditor, Mr. Murphy also performs Quality Management System audits on major diving equipment and component manufacturers worldwide.
+
+Prior to his employment with NAVSEA Mr. Murphy was the Division Manager of the Diving and Marine Construction Division of J.F. White Contracting Company, a major heavy civil construction company located in Framingham, MA. His duties at J.F. White included estimating, bidding and executing offshore and inshore projects in the United States and Canada.
+
+Mr. Murphy began his diving career in 1980 after completing 2nd Class Diver training at Harbor Clearance Unit TWO in Little Creek, VA.  Subsequently he completed tours at a variety of diving commands including instructor duty at the 2nd Class Dive School in Pearl Harbor, HI, NRL, USS RECOVERY (ARS 43), MDSU-2, USS GRAPPLE (ARS 53) and COMLOGRU TWO.  He retired in 1999 as a Master Chief, Master Diver after over 20 years of Naval Service.
+]==]
   },
 
   ["Robin Murphy"] = {
@@ -918,18 +1004,11 @@ Dr. Phil Nuytten has spent his life in subsea exploration. He has logged many th
     org = "Diver Certification Board of Canada",
     homepage = "http://www.divercertification.com/",
     email = "dparkes@divercertification.com",
+    headshot = "parkes.jpg",
     bio = [==[
 David Parkes is the Chief Executive Officer of the DCBC.  He retired from the Canadian Coast Guard in October 2000, following a 35-year career during which he served in a number of positions including Senior Examiner of Marine Engineers in Ottawa and, for seven years, Director of the Canadian Coast Guard College in Sydney, Nova Scotia.  For the final four years of his career he was Director of Technical Services for the Maritimes Region of the Coast Guard.
 David was hired as a consultant in early 2001 to create the DCBC and in 2002 he agreed to stay on the first Executive Director.  In 2009, during the development of a policy-based governance structure for the board, David's title was changed to CEO.
 ]==],
-  },
-
-  ["Raquel Payan"] = {
-    first = "Raquel",
-    last = "Payan",
-    org = "The Subsea Company",
-    homepage = "http://www.thesubsea.com/",
-    email = "raquel.payan@thesubsea.com",
   },
 
   ["Chris Peppler"] = {
@@ -938,6 +1017,7 @@ David was hired as a consultant in early 2001 to create the DCBC and in 2002 he 
     org = "Safety Management Systems",
     homepage = "http://www.safetyms.com/",
     email = "cpeppler@gmail.com",
+    headshot = "peppler.jpg",
     bio = [==[
 Christopher is employed by Safety Management Systems and brings to the table over 10 years of diving and emergency medical experience. Christopher is a Board certified Hyperbaric Technologist, Diving Medical Technician, and Commercial Diver. Christopher is also the a Course Director for a NBDHMT approved Diver Medical Technician class. Christophers passion lies in employee health and safety and he has incorporated this into the diving industry. Christopher was insturmental in development of a commercial diving harness that reduced suspension trauma and airway occlusin of a unconcious diver. Currently his work has been developing hyperbaric safe paitent monitoring equipment for the offshore and clinic hyperbaric world.
 
@@ -996,8 +1076,12 @@ Andy Porterfield has been a Mechanical Engineer at Schilling Robotics since 2008
   ["Chad Quibodeaux"] = {
     first = "Chad",
     last = "Quibodeaux",
-    org = "",
+    org = "C & S Safety Systems of Louisiana, LLC",
+    homepage = "http://www.candssafety.com/",
     email = "chad@candssafety.com",
+    bio = [==[
+Chad Quibodeaux was born and rasied in New Iberia. After High School he went to work for a Oilflield Service company doing wireline work. After working offshore for 4 years in the well service industry he decided that he wanted to be in the fire and safety industry and went to work for a company where he began my journey in the fire and safety industry. He began to learn about fire extinguishers, gas detection, fire suppression and fire detection, and aids to navigation. After working in the fire and safety industry offshore for 6 years he had the opportunity to come to work for his present company in business development. Since then he has worked with many different industries in trying to help educated people with many different safety topics from fall protection to gloves. He has been employed with C&S Safety Systems now for 10 years and looks forward to many more years in the industry.
+]==]
   },
 
   ["Gary Reynolds"] = {
@@ -1006,6 +1090,7 @@ Andy Porterfield has been a Mechanical Engineer at Schilling Robotics since 2008
     org = "Great Lakes Naval Memorial and Museum",
     homepage = "http://www.silversidesmuseum.org/",
     email = "reynoldsgk@comcast.net",
+    headshot = "reynolds.jpg",
   },
 
   ["Jesse Rodocker"] = {
@@ -1034,6 +1119,7 @@ Stockton Rush is co-founder and Chief Technology Officer of OceanGate. Stockton 
     org = "Institute of Mathematical Machines & Systems Problems",
     homepage = "http://www.immsp.kiev.ua/eng/index.html",
     email = "peter.sapaty@gmail.com",
+    headshot = "sapaty.jpg",
     bio = [==[
 Dr. Peter Sapaty (educated in power networks & missile control), Director of Distributed Simulation and Control, Ukrainian Academy of Sciences, is with networking for 45 years. Worked in Germany, UK, Canada and Japan as project leader, research and invited professor. Invented distributed control technology used in different countries and resulted in European Patent and two John Wiley books. Areas of interest: models and languages for coordination and simulation of distributed dynamic systems with application in cooperative robotics, emergency management and infrastructure protection. His bio is in Marquis Who's Who in the World and Cambridge Outstanding Intellectuals of the 21st Century.
 ]==],
@@ -1045,6 +1131,7 @@ Dr. Peter Sapaty (educated in power networks & missile control), Director of Dis
     org = "American Electric Power",
     homepage = "http://www.aep.com/",
     email = "descarberry@aep.com",
+    headshot = "scarberry.jpg",
     bio = [==[
 David Scarberry is the diving coordinator for American Electric Power.  AEP is one of the nation's largest electric power provider, with over 5 million cutomers, and cover 11 states.  Their generating resources include hydro, wind, fossil and nuclear.  David Scarberry's responsibilites include, but are not limited to, the review, and subsequent approval, of all dive plans, ensuring AEP has an adequate resource pool of qualified diving contractors, and supporting the diving companies with engineering and techinal data as required for repairs, modifications, and new construction.
 ]==],
@@ -1056,6 +1143,7 @@ David Scarberry is the diving coordinator for American Electric Power.  AEP is o
     org = "Fox Industries, Inc.",
     homepage = "http://www.foxind.com/",
     email = "kscheffel@foxind.com",
+    headshot = "scheffel-sr.jpg",
     bio = [==[
 Carl Scheffel Sr. P.E. is President and Chief Engineer of Fox Industries, Inc. Carl has been with Fox since 1970 and is a minority shareholder. He has provided countless material recommendations to consultants and public agencies regarding the selection and applications of engineered materials specified for both new construction and rehabilitation including the FX-70 Inert Corrosion Free Fiberglass Jacket System. Carl's knowledge of underwater construction methods relating to piers, piles, bulkheads and structures is world renowned.
 
@@ -1076,7 +1164,10 @@ Prior to joining Fox Industries, Carl spent 15 years as a Consulting Engineer wi
     last = "Shibuya",
     org = "Shibuya Diving Industry",
     homepage = "http://www.shibuya-diving.co.jp/",
-    email = "",
+    email = "yasuhara.hazuki@gmail.com",
+    bio = [==[
+Born in Hokkaido, Japan, in 1949, Masanobu Shibuya graduated from the Deep Sea Diving Department of the Marine School of Developmental Technology. He proceeded to dive in oceans all over the world, collecting over thirty-thousand hours of dive time experience. He is a leader in the marine construction field, as well as one of the first "dolphin swimmers", diving with dolphins in the wild. Shibuya strives not only to raise professional divers and create structures in harmony with the ocean, but also works to revitalize seaweed beds and hosts underwater seminars to heal the body and spirit. His new theme: "Bringing the Tohoku ocean area back to a state more vibrant than before the earthquake disaster."
+]==],
   },
 
   ["Tony Smith"] = {
@@ -1113,6 +1204,14 @@ Karl Stanley got the idea to make a submersible when he was 9 years old and star
     org = "AEOS",
     homepage = "http://www.aeosciences.com/",
     email = "esteimle@gmail.com",
+  },
+
+  ["Steve Struble"] = {
+    first = "Steve",
+    last = "Struble",
+    org = "Aqueos",
+    homepage = "http://www.aqueossubsea.com/",
+    email = "sstruble@aqueossubsea.com",
   },
 
   ["Ken Takagi"] = {
@@ -1265,6 +1364,7 @@ Mr. Underwood holds a B.S. in Mechanical Engineering (with Great Distinction) an
     org = "Van Meter Consulting",
     homepage = "http://vanmeterconsulting.com/",
     email = "svm123@mindspring.com",
+    headshot = "vanmeter.jpg",
     bio = [==[
 A pioneer and world leading expert on micro ROV operations, Steve retired in 2005 from the US government after 30 years of service. His last posting was as the Hazardous Duty Robotics Specialist for NASA's Space Shuttle program at the Kennedy Space Center, Florida.
 
@@ -1315,6 +1415,7 @@ David is a member of the MTS, an emeritus member of the Society of Exploration G
     org = "Bluefin Robotics",
     homepage = "http://www.bluefinrobotics.com/",
     email = "rwilson@bluefinrobotics.com",
+    headshot = "wilson.jpg",
     bio = [==[
 Dr. Richard Wilson is the Director of Power and Electrical Systems at Bluefin. He has over ten years experience in the design of AUVs and has made significant contributions to Bluefin's pressure-tolerant battery and power systems. Dr. Wilson was the project manager and designer of a number of battery products including an 8.8 kWh pressure tolerant battery designed for use in large battery systems, and also the smart-battery electronics board and power control systems that are used across the battery range. In addition, he has served as project manager for the GAMBIT AUV (ONR-sponsored joint US/UK sonar test bed vehicle) and has led the design of all of the electrical systems that are used on the Bluefin vehicles. Prior to joining Bluefin, Dr. Wilson was employed by the Proudman Oceanographic Laboratory in the UK developing marine instrumentation.
 
@@ -1327,6 +1428,9 @@ Dr. Wilson holds a Postdoctoral degree in Electro-Mechanical Design/instrumentat
     last = "Wrasse",
     org = "",
     email = "jartans@charter.net",
+    bio = [==[
+Tom brings to the table over 30 years of conservation law enforcement experience with nearly 25 of those in supervision. Tom received recognition for his work above and beyond with the prestigious Shikar Safari International Wildlife Officer of the Year award, the Wisconsin Conservation Congress Officer of the Year Award and several intra-departmental recognitions. It wasn't until about 6 years ago that he found a piece of equipment that improved efficiency and effectiveness of officers across all fields. While conservation law enforcement has always involved water related investigations the subsurface has been largely overlooked. Tom recognized the capabilities of the VideoRay as being an opportunity to venture into the unknown.  As team leader for operations Tom has trained and guided staff in successful missions in body recoveries and cross program integrated work.
+]==]
   },
 
   ["Jill Zande"] = {
@@ -1335,6 +1439,15 @@ Dr. Wilson holds a Postdoctoral degree in Electro-Mechanical Design/instrumentat
     org = "Marine Advanced Technology Education (MATE) Center",
     homepage = "http://www.marinetech.org/",
     email = "jzande@marinetech.org",
+    bio = [==[
+As the Associate Director, Co-PI, and Competition Coordinator for theMATE Center, Jill’s role is to work closely with industry to ensure that educational programs are aligned with workforce needs and to facilitate partnerships among educators, students, employers, and working professionals. Jill maintains relationships with well over 100 businesses, research institutions, government agencies, and professional societies and nearly 200 middle schools, high schools, colleges, and universities that participate in MATE ROV competitions each year.
+
+Jill’s role also includes identifying potential funding opportunities and writing proposals; playing a key role in strategic planning; and coordinating the development of MATE’s submersible technology curricula, including its upcoming Introduction to Underwater Vehicle Design textbook.
+
+Jill is an active member of the Marine Technology Society (MTS). She currently serves on the MTS Board as the Vice President of Education and Research. She also serves on the MTS Journal Editorial Board and is the chair of the MTS-Monterey Bay section. She is also a member of the MTS ROV and Education Committees.
+
+Prior to marine technical education, Jill’s focus was on marine research. During her Master's degree program at LSU, Jill participated in research cruises that investigated hydrocarbon seep communities in the Gulf of Mexico using the Johnson Sea-Link and Alvin submersibles. As a research technician at the Dauphin Island Sea Lab (DISL), Jill's focus shifted from the deep ocean to the coastal environments where she studied seagrass communities.
+]==],
   },
 
   ["Michael Zinszer"] = {
