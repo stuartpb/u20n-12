@@ -14,6 +14,16 @@ local tracks = {
     wrex = "Shipwrecks",
     wrov = "Work-Class ROVs",
   },
+  chairs = {
+    div = "Steve Struble",
+    edu = "Jill Zande",
+    muv = "Will Kohnen",
+    oe = "Steve Barrow",
+    si = "Mike Chapman",
+    srov = "Rachael Miller",
+    wrex = "Rachael Miller",
+    wrov = "Steve Barrow",
+  },
 }
 
 for i=1, #names do
