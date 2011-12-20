@@ -31,7 +31,9 @@ for name, prof in pairs(people) do
 
   missingpeople[name] = {
     profile = missing_data,
-    p11s = {}
+    p11s = {},
+    chairs = {},
+    chairset = {[name] = 0}, --sometimes chairs present
   }
   namelist[#namelist+1] = name
 end
@@ -50,7 +52,7 @@ for i=1,#p11s do
   if not present(pres.abstract) then
     insert(missing_data,"Abstract")
   end
-  if not present(pres.presimg) then
+  if not present(pres.image) then
     insert(missing_data,"Presentation Image")
   end
 
@@ -59,6 +61,17 @@ for i=1,#p11s do
   missing_data.pres = pres
 
   insert(missingpeople[person].p11s, missing_data)
+
+  do
+    local mp_chairs = missingpeople[person].chairs
+    local mp_chairset = missingpeople[person].chairset
+    local chair = tracks.chairs[pres.track]
+    if not mp_chairset[chair] then
+      insert(mp_chairs, chair)
+      mp_chairset[chair] = #mp_chairs
+    end
+  end
+
   if pres.cos then
     local mp_cos = missingpeople[person].cos or {}
     local mp_coset = missingpeople[person].coset or {}
@@ -76,12 +89,12 @@ end
 
 local descriptions = {
   --Presenter Info
-  ['Bio'] = [[A description of you.]],
-  ['Organization'] = [[The organization you wish to be identified with (your employer).]],
+  ['Bio'] = [[A description of you, from 100 to 200 words.]],
+  ['Organization'] = [[The organization you wish to be identified with (your employer), as well as their site's URL.]],
   ['Headshot'] = [[A picture of you.]],
   --Presentation Info
   ['Full title'] = [[A one-line description of your presentation, longer than the title. For instance, a presentation entitled "Hydraulic Fluid Performance at Depth" could have a full title of "The effect of Depth and Pressure on Hydraulic and Dielectric Fluids".]],
-  ['Abstract'] = [[An in-depth description of your presentation, from one to three paragraphs. See http://underwaterintervention.com/2012/presentations/hydraulic-fluid-performance-at-depth.html#abstract for an example.]],
+  ['Abstract'] = [[An in-depth description of your presentation, from 100 to 200 words. See http://underwaterintervention.com/2012/presentations/hydraulic-fluid-performance-at-depth.html#abstract for an example.]],
   ['Presentation Image'] = [[An image that represents your presentation (not to be confused with your personal headshot).]],
 }
 
@@ -94,20 +107,31 @@ for name_i = 1, #namelist do
   if #miss.p11s > 0 then -- only draft messages to presentation leads
     local message = {}
     local headers = {format('To: "%s" <%s>', name, prof.email)}
+    local cc = {}
+
+    for chair_i = 1, #miss.chairs do
+      local chair = miss.chairs[chair_i]
+      insert(cc,format('"%s" <%s>', chair, people[chair].email))
+    end
+
     if miss.cos then
-      local co_addrs = {}
       for co_i = 1, #miss.cos do
         local co_name = miss.cos[co_i]
-        local co_prof = people[co_name]
-        co_addrs[co_i] = format('"%s" <%s>', co_name, co_prof.email)
+        insert(cc, format('"%s" <%s>', co_name, people[co_name].email))
       end
-      insert(headers, 'Cc: ' .. concat(co_addrs,'; '))
     end
-    insert(headers, "Subject: Underwater Intervention 2012 information")
+
+    if #cc > 0 then --some track chairs don't have anybody copied
+      insert(headers, 'Cc: ' .. concat(cc,'; '))
+    end
+
+    insert(headers, "Subject: Underwater Intervention 2012 presentation data needed")
 
     insert(message,concat(headers,'\n'))
 
     insert(message, [[Hi, I'm Stuart P. Bentley, organizer for the Underwater Intervention 2012 website.]])
+
+    insert(message, [[We are adding additional information, which must be included very soon for the final printed program. This information will help people to decide to attend your talk.]])
 
     if #miss.profile > 0 then
       insert(message,'I need the following information for your presenter profile:')
@@ -142,9 +166,34 @@ for name_i = 1, #namelist do
         pres.id))
     end
 
-    if miss.cos then
-      insert(message,"Your co-presenters, copied on this message, can submit this information as well.")
+    insert(message,"The entire program can be seen at http://underwaterintervention.com/2012/schedule.html, which is linked from http://www.underwaterintervention.com.")
+
+    local others = {"Your"}
+
+    if #miss.p11s == 1 then
+      insert(others,"presentation's")
+    else
+      insert(others,"presentations'")
     end
+
+    if #miss.chairs == 1 then
+      insert(others,"track chair,")
+    else
+      insert(others,"track chairs,")
+    end
+
+    if miss.cos then
+      if #miss.cos == 1 then
+        insert(others,"and/or co-presenter,")
+      else
+        insert(others,"and/or co-presenters,")
+      end
+    end
+    insert(others,"copied on this message, can submit this information as well.")
+
+    insert(message,concat(others,' '))
+
+    insert(message,"We need this information by Monday, December 20, 2011. Please let me know by then if you need more time.")
 
     insert(messages,concat(message,'\n\n'))
   end
