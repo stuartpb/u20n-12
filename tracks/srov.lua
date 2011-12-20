@@ -36,7 +36,7 @@ This presentation will show the experiences of several small ROV projects succes
 
   {
     title = "Marine debris and underwater tech",
-    fulltitle = "Integrating a micro-ROV, imaging sonar, image enhancement, side scan sonar and tether-based positioning systems to find and remove marine debris along the New England Coast.",
+    fulltitle = "Integrating a micro-ROV, imaging, sonar, and positioning to find and remove debris along the New England Coast",
     lead = "Rachael Miller",
     abstract = [==[
 The mission of Rozalia Project for a Clean Ocean is to find and remove marine debris from our oceans, bays and rivers. Marine debris takes many forms, and occurs in all marine environments, presenting myriad challenges in removing it from the water. Rachael Miller of Rozalia Project uses a VideoRay with BlueView sonar, Lyyn image enhancement, and Smart Tether positioning system along with the Tritech Starfish side scan sonar, to scour the bottom of a variety of venues looking for and retrieving marine debris - from small pieces of plastic to large masses of derelict fishing gear - and everything in-between. This presentation will show specific examples of how the equipment is integrated and used in concert to locate and recover a variety of objects of differing size and material, and how different benthic environments and conditions affect mission planning and execution. The presentation will conclude with a discussion of lessons learned and the strategies Rachael used to handle specific challenges related to debris search and recovery.
@@ -110,7 +110,7 @@ The low-logistics associated with microROVs make it an ideal platform for rapid 
   {
     title = "Tether-based positioning system technology",
     fulltitle = "",
-    lead = "Matt Cowan",
+    lead = "Matt Cowen",
     abstract = [==[
 
 ]==],

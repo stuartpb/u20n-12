@@ -52,6 +52,7 @@ Dr. Balasubramanian is an Associate Professor of Computer Science in the Departm
     org = "Studio Ing. Banfi SAS",
     homepage = "http://www.rovtracker.com/",
     email = "mauriziobanfi@tiscali.it",
+    headshot = "banfi.jpg",
     bio = [==[
 Graduated at the Italian Naval Accademy, after a master degree in electronic engineering and a 16 years long career as Italian Navy Officer, Maurizio Banfi funded Studio Ing. Banfi SAS, that developed the "ROV & Diver TRACKER", now commercially available.
 ]==],
@@ -176,8 +177,15 @@ Besides her current position as President and head consultant of Mireaux, Miriam
     suffix = "PE",
     org = "",
     email = "drb@wjimed.com",
+    headshot = "brian-bourgeois.jpg",
     bio = [==[
+Dr. Brian Bourgeois is a graduate of LSU School of Medicine. He was trained at the LSU department of Surgery and is board certified in General Surgery. He has practiced general and vascular surgery since 1998. He has also practiced occupational medicine on the Westbank of New Orleans since 2002. He provides medical services for a variety of industries.
 
+Dr. Bourgeois' practice is closely tied to the offshore petroleum and shipping industries. He performs physical examinations for US Coast Guard, UKOOA, Marshall Islands, and Vanuatu Island licenses just to name a few. Dr. Bourgeois trains and interacts daily with safety personnel and paramedics in these industries and others. He also cares for the wide variety of medical conditions and work related injuries.
+
+Dr. Bourgeois is also active in the care of commercial divers and fitness to dive examinations. He is a NOAA certified Dive Medical Officer and a member of the Undersea and Hyperbaric Medical Society. He is also certified in fitness to dive examinations. Dr. Bourgeois serves on the Medical Standards and Advisory Board of the Association of Diving Contractors International.
+
+Dr. Bourgeois also serves as a special government employee on the USCG Mariner Medical Advisory Committee.He is a board member of the Jefferson Parish Medical Society and a member of the State Medical Society. He is a Fellow of the American College of Surgeons. Dr. Bourgeois is a licensed medical review officer. He is also medical director for international companies involved in the petrochemical industry. He is active in the education of offshore medics and lectures frequently on many topics including MRSA infections.
 ]==]
   },
 
@@ -237,9 +245,9 @@ Neil Cavan completed his undergraduate degree in Mechanical Engineering at the U
     email = "pcheng31@gatech.edu",
   },
 
-  ["Matt Cowan"] = {
+  ["Matt Cowen"] = {
     first = "Matt",
-    last = "Cowan",
+    last = "Cowen",
     org = "KCF Technologies, Inc.",
     homepage = "http://www.smarttether.com/",
     email = "mcowen@kcftech.com",
@@ -486,6 +494,7 @@ Anders Holm is currently the chief technical officer (CTO) at LYYN AB. He founde
     org = "University of South Florida",
     homepage = "http://www.usf.edu/",
     email = "lieslhotaling@yahoo.com",
+    headshot = "hotaling.jpg",
     bio = [==[
 Liesl Hotaling is a Senior Research Engineering with the College of Marine Sciences, University of South Florida. She holds a B.S. in Marine Science, a M.A.T. in Science Teaching, and a M.S. in Maritime Systems (ocean engineering). She is a partner in Centers for Ocean Science Education Excellence - Networked Ocean World (COSEE-NOW), serves as the Partnerships and Collaborations Coordinator for the COSEE Network and specializes in real time data education projects and hands-on STEM educational projects supporting environmental observing networks.
 ]==],
@@ -750,6 +759,7 @@ Simon Lunt is the Sales Manager at Analox Sensor Technology who have provided th
     org = "VideoRay",
     homepage = "http://www.videoray.com/",
     email = "brian.luzzi@videoray.com",
+    headshot = "luzzi.jpg",
     bio = [==[
 Brian Luzzi currently holds the Marketing Manager position for VideoRay LLC.  His duties have taken him around the world with VideoRay Remotely Operated Vehicles (ROVs) exploring and filming fascinating underwater subjects for television outlets such as the History Channel, Discovery Channel, and National Geographic.  A graduate of the Pennsylvania State University, Brian is responsible for the day to day VideoRay marketing efforts including trade show presence, advertising, website, and public relations.
 ]==],

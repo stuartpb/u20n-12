@@ -60,6 +60,7 @@ The SENSE IT project provides high school students the opportunity to build, cal
 
 SENSE IT promotes student awareness of the interdisciplinary nature of modern engineering and the interdependence of diverse areas of science and math. The theme of environmental stewardship and sensor systems provides: 1) a motivating and meaningful scenario for learning a wide range of core math, science and technology topics, 2) an engaging link between biological, physical and social sciences and 3) a cutting-edge example of science and engineering research, delivered directly into the classroom in a particular area of growing importance and workforce need.
 ]==],
+    image = "sense-it.jpg",
     start = { day = 24, month = 1, year = 2012,
       hour = 10, min = 30 },
     length = 1800,
@@ -74,6 +75,7 @@ SENSE IT promotes student awareness of the interdisciplinary nature of modern en
     abstract = [==[
 The Great Lakes Naval Memorial and Museum (GLNMM) has developed a program that utilizes ROV kits and a professional build ROV to promote STEM based education for all ages. These programs utilize underwater technology to provide educational activities that promote a greater understanding of the underwater environment through direct interaction. The technology used in these programs are small underwater robots referred to as remotely operated vehicles or ROVs. These ROVs can be created, designed and build by students or other program participants such as teachers. GLNMM has created a traveling educational outreach program that includes classes of different lengths and levels for people of all ages and backgrounds. These classes can be offered at locations throughout the region and include two separate experiences. The first experience is creating and building a ROV that the participants can use to explore the underwater environment. The second part is the opportunity to drive a professionally build ROV to explore underwater to depths of several hundred feet. Most dives are in only in depths of fifty feet or less. This technology allows the participants an experience similar to being a SCUBA diver.
 ]==],
+    image = "gleason-reynolds.jpg",
     start = { day = 24, month = 1, year = 2012,
       hour = 11, min = 30 },
     length = 1800,

@@ -8,7 +8,7 @@ return maketrack("si", {
     abstract = [==[
 In many applications, acoustic navigation systems (such as the commonly used USBL) cannot provide accurate positioning information. Because of multiple sound reflections, for instance, acoustic systems have poor performances in shallow water or highly cluttered areas, such as in a port environment, close to piers and various underwater structures. The users of large and very complex ROV's solve the above problem by outfitting their vehicles with Inertial Navigation Systems (INS) and Doppler Velocity Logs (DVL) that extend the use of their equipment much beyond the capabilities of acoustic systems. Unfortunately, though, this kind of equipment is not available to the users of small ROV, because of size, power demand and price reasons.
 
-The ROV & Diver TRACKER  is a complete navigation system that includes a Fiber Optic Gyro (FOG), a DVL and multiple support sensor, suitable for installation into small and micro ROV's. This paper describes the system and the results obtained onboard a VideoRay micro ROV, where the TRACKER was integrated with both the vehicle and a BlueView SONAR.
+The ROV & Diver TRACKER is a complete navigation system that includes a Fiber Optic Gyro (FOG), a DVL and multiple support sensor, suitable for installation into small and micro ROV's. This paper describes the system and the results obtained onboard a VideoRay micro ROV, where the TRACKER was integrated with both the vehicle and a BlueView SONAR.
 ]==],
     start = { day = 25, month = 1, year = 2012,
       hour = 8, min = 30 },
