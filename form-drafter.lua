@@ -72,11 +72,11 @@ for i=1,#p11s do
     end
   end
 
-  if pres.cos then
+  if pres.presenters > 1 then
     local mp_cos = missingpeople[person].cos or {}
     local mp_coset = missingpeople[person].coset or {}
-    for j=1,#pres.cos do
-      local co = pres.cos[j]
+    for j=2,#pres.presenters do
+      local co = pres.presenters[j]
       if not mp_coset[co] then
         mp_cos[#mp_cos+1] = co
         mp_coset[co] = #mp_cos

@@ -1,9 +1,10 @@
 local maketrack = require "maketrack"
 return maketrack("oe", {
+
   {
     title = "Navy Unmanned Systems Experimentation Lab",
     fulltitle = "Bringing Technology to Customers & Markets Faster Through Experimentation",
-    lead = "John Klose",
+    presenters = { "John Klose", },
     abstract = [==[
 Technical innovations are occurring at an ever-increasing rate and create new challenges for both government and industry engineers to take advantage and transition new technology to meet their operational and business needs. Finding rapid technology transition and product development processes that can keep pace with technological innovations is key to bringing the best technology to our customers. To this end, the Naval Surface Warfare Center's Panama City Division has created a special laboratory for unmanned systems experimentation, prototyping and technology transition that is seeking to rapidly develop innovative applications of new and existing technology in modular forms in order to bring new operational concepts to life in much shorter timeframes than normal system development processes.
 
@@ -18,7 +19,7 @@ This presentation will cover the initial efforts of this laboratory to develop n
   {
     title = "Plastic Parts for Undersea Applications",
     fulltitle = "Plastic Parts for Difficult Undersea Applications",
-    lead = "Robert Underwood",
+    presenters = { "Robert Underwood", },
     abstract = [==[
 Metal parts hate water, especially salt water. Add the effects of depth pressure and the rough operating conditions often experienced in the field and the marine parts designer faces unique and difficult challenges.  Frequently plastic is the answer.  Advances in plastic materials and manufacturing processes make that increasingly the case.  Plastic neither rusts nor corrodes, can be as tough as metal, is lightweight, has no magnetic signature, and can be formed into a wide variety of shapes.  Plastic parts can be designed to withstand extreme depth pressures, to minimize or eliminate leak paths, not to outgas, and for specific underwater signal reflection, transmission, or attenuation characteristics.  Plastic can be used to encapsulate delicate electronics, GPS modules, antennae, and power connectors.  This presentation provides an overview of the present state of the art in plastics materials and manufacturing processes for undersea applications and highlights particularly difficult missions where plastic parts have been critical to success.  Highlighted missions include:
 
@@ -40,7 +41,7 @@ For over thirty years, Polymer Corporation has been a leading producer of high-p
   {
     title = "Environmentally Safe Lubricants",
     fulltitle = "Innovations in Biodegradable, Environmentally Safe Lubricants",
-    lead = "Mark Miller",
+    presenters = { "Mark Miller", },
     abstract = [==[
 There is increasing pressure from government, industry and the public to protect the environment. Many underwater projects require the use of environmentally preferable, biodegradable products to bid for contracts. While initially more expensive, these fluids can save money and time when properly utilized. They can improve equipment performance, while protecting the user from costly fines and clean up in the event of a leak or spill.
 
@@ -59,8 +60,7 @@ There will be a discussion of specific maintenance practices that are required t
   {
     title = "High-level Organization of UUVs",
     fulltitle = "High-level Organization of Unmanned Underwater Systems",
-    lead = "Peter Sapaty",
-    cos = { "Bob Nugent" },
+    presenters = { "Peter Sapaty", "Bob Nugent", },
     abstract = [==[
 The world ocean remains the last unexplored space on earth. Underwater robots, when massively deployed, can bring huge benefit. Their use, however, is much more complicated than aerial or ground ones, due to communication problems. That is why enhancing intelligence of individual robots for increasing autonomy and reducing communications is the primary goal. In this paper we are offering a high-level distributed control technology that can dynamically integrate any underwater units into operable teams with a sort of global consciousness and pursuing global goals. It is based on universal knowledge processing and control modules easily installed in units and communicating with each other via any available channels. Ad hoc networks of these modules spatially, in parallel, interpret global mission descriptions in a special high-level Distributed Scenario Language (DSL) reflecting top semantics of what to be done in a distributed maritime space, while leaving system structuring and task-oriented C2 entirely to automatic language interpretation.  Extremely  short, created on the fly, DSL scenarios are injected into the robotic swarm from any unit, subsequently covering the whole system and setting the needed behavior, with communications between vehicles much shorter than with any other approaches (thus suitable for low speed channels). Implementation details of the technology will be revealed, and exemplary scenarios in DSL related to underwater environments, like collective distributed search of a large territory for specific objects or patrolling coastline will be shown. Cooperation with surface and aerial vehicles, also with higher-level manned systems within the same organizational model, are discussed too.
 ]==],
@@ -74,7 +74,7 @@ The world ocean remains the last unexplored space on earth. Underwater robots, w
   {
     title = "Environmental Monitoring with AUVs",
     fulltitle = "Environmental Monitoring with AUVs - New sensors and techniques for detection and assessment of hydrocarbons in deep water",
-    lead = "Chris Hancock",
+    presenters = { "Chris Hancock", },
     abstract = [==[
 AUVs are ideal platforms for carrying an array of sensors for monitoring the environment around offshore installations. Combined with subsea docking technology, AUVs equipped with environmental sensors provide a persistent early warning capability against oil and gas leaks from drilling operations and pipelines, or other environmental contaminants. Acoustics is emerging as an alternative method of indirectly (or directly) detecting hydrocarbons in the water column. Kongsberg sonars are at the forefront of this developing technology which has also been adapted for AUV application. Its fisheries echo sounders have been used extensively in recent years for detecting and tracking oil plumes resulting from subsea leaks.
 
@@ -92,8 +92,7 @@ This paper provides a technology update on Kongsberg's AUVs for environmental mo
   {
     title = "Data Loggers For Surface Or Subsea",
     fulltitle = "How to aid your operations in reducing failures",
-    lead = "Richard Davidson",
-    cos = { "Eric Milne" },
+    presenters = { "Richard Davidson", "Eric Milne", },
     abstract = [==[
 The Surface or Subsea Data Logger is intended to give operators the ability to monitor key pressures and provide information in real-time.
 
@@ -109,17 +108,17 @@ Typical use for the Data Logger for Surface and/or Subsea:
 - Before and after maintenance
 - To justify an extended maintenance period
 ]==],
+    image = "loggers.jpg",
     start = { day = 24, month = 1, year = 2012,
       hour = 14, min = 30 },
     length = 1800,
     room = "217",
-    image = "loggers.jpg",
   },
 
   {
     title = "Advancements in Pipeline Inspection with AUVs",
     fulltitle = "Advancements in Pipeline Inspection with AUVs - results from field trials of the HUGIN AUV and the HISAS Synthetic Aperture Sonar",
-    lead = "Chris Hancock",
+    presenters = { "Chris Hancock", },
     abstract = [==[
 HUGIN and REMUS AUVs use advanced feature recognition algorithms, developed originally for mine-detection, to track subsea pipelines directly in sonar data in real time. This, combined with sensors such as multibeam echo sounder and high-resolution still camera, enables inspection of pipelines at a considerably higher speed, and thus lower cost, than traditional methods, while producing higher quality data. Kongsberg Maritime’s unique way of performing pipeline inspection with AUV involves two fully-autonomous passes along a pipeline. The first pass is run off to the side, and by using either high-resolution interferometric synthetic aperture sonar (HISAS) or conventional side scan sonar (SSS), a wide swath around the pipeline is mapped as the AUV automatically tracks the pipeline directly from the sonar data. This way, the pipeline’s actual position is determined and knowledge is gained about surrounding threats like anchors and trawling activity in a wide swath of up more than 200 meters.
 

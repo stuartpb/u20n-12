@@ -4,14 +4,14 @@ return maketrack("wrov", {
   {
     title = "Hydraulic Fluid Performance at Depth",
     fulltitle = "The effect of Depth and Pressure on Hydraulic and Dielectric Fluids",
-    lead = "Mark Miller",
+    presenters = { "Mark Miller", },
     abstract = [==[
 Offshore drilling has been in existence a little over 100 years. Drilling and production depths have accelerated greatly over the past several years and depths over 3000 meters (10,000 feet) are not uncommon.
 This move into deeper and deeper waters has presented many technical and environmental challenges for ROVs and related equipment.
 One of these challenges is that at the depths and significantly increased pressures that ROVs can see, the physical characteristics of hydraulic and dielectric fluids change. This paper explores the various factors that effect fluid characteristics including; pressure, temperature, viscosity, and type of fluid. It compares and contracts petroleum oils, environmentally safe oils and synthetics. It also includes a comparison of these fluids at atmospheric conditions to isolate any changes solely due to fluid type.
 ]==],
     start = { day = 25, month = 1, year = 2012,
-      hour = 9, min = 00 },
+      hour = 09, min = 00 },
     length = 1800,
     room = "217",
   },
@@ -19,7 +19,7 @@ One of these challenges is that at the depths and significantly increased pressu
   {
     title = "Certification of ROV Personnel",
     fulltitle = "A New Competency Certification Scheme for ROV Operating Personnel",
-    lead = "David Parkes",
+    presenters = { "David Parkes", },
     abstract = [==[
 Since 2003, the Diver Certification Board of Canada (DCBC) has offered certification to commercial diving personnel who can demonstrate that they have sufficient training and experience to enable them to meet the competency requirements of the appropriate section of the Canadian Standards Association (CSA) Competency Standard for Diving Operations (CSA Standard Z275.4). The DCBC also accredits commercial diver training organizations which train to the competency levels of Z275.4.
 
@@ -30,7 +30,7 @@ The purpose of certifying the competence of ROV personnel (Pilot/Technicians and
 In general the levels of certification and the competencies required to obtain certification are designed to meet the requirements of ROV Contractors and ROV end users.
 ]==],
     start = { day = 25, month = 1, year = 2012,
-      hour = 9, min = 30 },
+      hour = 09, min = 30 },
     length = 1800,
     room = "217",
   },
@@ -38,8 +38,7 @@ In general the levels of certification and the competencies required to obtain c
   {
     title = "Hard rock coring on steep terrain",
     fulltitle = "Hard-Rock Coring at Steep Terrain Seafloor with a Flipper-Type Crawler ROV",
-    lead = "Tomoya Inoue",
-    cos = { "Akira Asada", "Tokuihiro Katsui", "Masashi Mochizuki", "Hiroyuki Osawa", "Ken Takagi" },
+    presenters = { "Tomoya Inoue", "Akira Asada", "Tokuihiro Katsui", "Masashi Mochizuki", "Hiroyuki Osawa", "Ken Takagi", },
     abstract = [==[
 Coring at flat even seafloor have been conducted. However, there are of slight difficulty for a conventional ROV to conduct at steep or irregular terrain seafloor because the ROV needs a function or mechanism to keep its attitude tenaciously being subjected to a reaction force.
 
@@ -58,7 +57,7 @@ This paper presents the advantageous mobility of the flipper type crawler ROV wh
   {
     title = "ROV Repair in less than 60 Minutes",
     fulltitle = "ROV Repair and Return to Work in 60 Minutes or Less",
-    lead = "Andy Porterfield",
+    presenters = { "Andy Porterfield", },
     abstract = [==[
 In response to the complexity of the missions they are asked to perform, ROVs continue to become more powerful and complicated in design.  When a component fails, repair tasks can take multiple hours and have a significant economic impact on ROV operators and their customers.  In all instances of major ROV subsystem repairs, the component that needs to be replaced or repaired is located in the second or third tier of the design; gaining access to and repairing the failed component can require multiple hours of work.  For example, a HPU replacement on a conventional ROV can typically take 8 hours.  With an average pipelay vessel day rate of $180,000, the vessel downtime cost of such a task can easily mount to $60,000 or more.
 
@@ -75,7 +74,7 @@ This presentation will review features important in reducing downtime including:
   {
     title = "ROV Dredging Using Advanced Techniques",
     fulltitle = "ROV Dredging Using Advanced Techniques",
-    lead = "Hans Kros",
+    presenters = { "Hans Kros", },
     abstract = [==[
 Trends in underwater salvage and excavation markets indicate improved access
 to remote areas and complex dredging methods are more available to subsea
@@ -112,7 +111,7 @@ with the natural sea bottom.
   {
     title = "Integrating Equipment to Work Class ROVs",
     fulltitle = "Considerations When Integrating Equipment or Tooling to a Work Class ROV",
-    lead = "Steve Barrow",
+    presenters = { "Steve Barrow", },
     abstract = [==[
 Remotely Operated Vehicles (ROVs) serve as the primary platform for a variety of operations in deep water.  ROVs must often be reconfigured with different tools or sensors to accomplish these missions.  However, integrating new sensors, equipment or tooling to a work-class ROV can be a difficult and time consuming experience.
 The lack of standardization between different models of ROVs also makes preplanning the equipment integration difficult.  Taking the time to understand and address the basic considerations and the options available will help to prevent last minute emergencies.
@@ -127,7 +126,7 @@ This presentation will provide an overview of the primary concerns when integrat
   {
     title = "ROV Cutting Tools",
     fulltitle = "ROV deployed tools for cutting ropes, umbilicals, cables and pipelines",
-    lead = "Keith Elliot",
+    presenters = { "Keith Elliot", },
     abstract = [==[
 ROV deployed cutting tools are an important part of the subsea toolbox, and are essential equipment for the installation  and decommissioning of subsea tiebacks and other subsea installations.
 An overview of the available technologies will be discussed, with particular focus given to the correct selection of the tool to suit the application.  Guidance will be given regarding the safe deployment, use, retrieval and storage of subsea cutting tools, with particular focus on those deployed by ROV to deep water.
@@ -143,8 +142,7 @@ Improvements in the strength of wire rope technology and the increasing use of a
   {
     title = "Hydraulic Intensifiers",
     fulltitle = "Hydraulic Intensifers are a Boost for ROV Tooling Requirements",
-    lead = "Bill Niblock",
-    cos = { "Thyge Bollmann", },
+    presenters = { "Bill Niblock", "Thyge Bollmann", },
     abstract = [==[
 The presentation will focus on recent and anticipated trends for high pressure hydraulics in subsea applications, predominately in the oil production industry and how compact hydraulic intensifiers can be a cost effective and reliable solution.
 
@@ -163,7 +161,7 @@ Beyond ROV.  Some of the intervention applications that are served by ROVs, also
   {
     title = "Waterjet Applications Subsea",
     fulltitle = "Waterjet Technology and Applications Deepwater Subsea",
-    lead = "Bruce Kivisto",
+    presenters = { "Bruce Kivisto", },
     abstract = [==[
 Waterjet technology has been developed for application in deepwater (3,000m+) environments. It offers several important advantages over existing technologies and presents new opportunities for continued refinement of subsea maintenance, repair, salvage, and emergency response techniques.
 
@@ -181,7 +179,7 @@ Waterjet technology has been extended into the deepwater subsea space during the
   {
     title = "ROV Automation",
     fulltitle = "Navigation, Object Tracking and Data Monitoring in Real-Time for ROV Automation",
-    lead = "Ioseba Tena",
+    presenters = { "Ioseba Tena", },
     abstract = [==[
 The last five years has seen the advent of commercial-off-the-shelf (COTS) Remotely Operated Vehicle (ROV) automation solutions. The challenges posed by a rapidly expanding ROV pilot workforce, dynamic working environments and increasing demands on quality and performance have been the main drivers for this technology. A good example of its application is the 2008 Doc Ricketts vehicle. This was a Workclass ROV (WROV) equipped with the basic autonomy building blocks to enable station keeping, waypoint following and object tracking. The Doc Ricketts WROV is still in active service with MBARI. This basic capability paved the way for commercial applications and now station keeping is a standard option. More recently, Jan De Nul Fall Pipe ROV is an example that uses COTS sophisticated cruise and mission planning modules. This world's first enables precise positioning of the ROV over a pipeline as it swings from side to side and places rocks over the product. Available capabilities today include real-time monitoring and control of multiple ROVs relative to chart data, mid-water DP using INS and tracking sonar, pre-lay survey flight modes and hands-off touchdown monitoring using sonar. The combination of data from optical cameras with 3D sonar imaging will further enhance the mapping of the subsea environment to facilitate various activities such as mission planning and training.
 
@@ -196,7 +194,7 @@ The purpose of this talk is to provide an insight into this technology and a gli
   {
     title = "Fiber Optic Connectivity",
     fulltitle = "Considerations for Successful Optical Fiber Connectivity in Subsea Applications",
-    lead = "Steve Bell",
+    presenters = { "Steve Bell", },
     abstract = [==[
 Fiber optic connectors deliver massive bandwidth in a minute footprint, and thus are becoming increasingly popular for ROV and manned submersibles for everything from vehicle control and HD cameras to tracking and fiber based sensors. However, there are numerous complex engineering considerations for such systems, given the rigorous demands of subsea applications. Thus, it's key to make informed decisions about how fiber optics should be integrated into a design from its inception to achieve the maximum advantage of the technology.
 
@@ -213,7 +211,7 @@ Further, it examines to the future of the technology and how it can shape the de
   {
     title = "MTS ROV Committee Meeting",
     fulltitle = "",
-    lead = "Drew Michel",
+    presenters = { "Drew Michel", },
     abstract = [==[
 The agenda for the MTS ROV Committee meeting:
 
@@ -226,8 +224,9 @@ The agenda for the MTS ROV Committee meeting:
 - Continue the technical discussion on the future of ROV and AUV technology and how these two technologies are becoming more similar
 ]==],
     start = { day = 26, month = 1, year = 2012,
-      hour = 9, min = 00 },
+      hour = 09, min = 00 },
     length = 5400,
     room = "217",
   },
+
 })
