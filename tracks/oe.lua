@@ -51,6 +51,7 @@ The paper will explore the types of biodegradable products and how they interact
 
 There will be a discussion of specific maintenance practices that are required to maintain long useful life of these fluids as well as long equipment life. This will include real world experience gained by several successful long term field demonstrations with commercial and military divers and ROVs. Data that will be used covers oil analysis, equipment inspections, operating conditions, and overall cost savings.
 ]==],
+    image = "lubes.jpg",
     start = { day = 24, month = 1, year = 2012,
       hour = 11, min = 30 },
     length = 1800,

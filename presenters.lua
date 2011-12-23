@@ -420,6 +420,10 @@ His recent work includes developing partnerships between government agencies, no
     org = "VideoRay",
     homepage = "http://www.videoray.com/",
     email = "Tom.Glebas@videoray.com",
+    headshot = "glebas.jpg",
+    bio = [==[
+Tom Glebas is the Director of Product Management and Customer Programs at VideoRay, LLC.  He has been instrumental in developing internal management and technical support systems and product implementation at VideoRay.  He has also been engaged with numerous underwater ROV projects including the search for Natalee Holloway in Aruba, High Definition 3D imaging inside the USS ARIZONA, and supporting Tsunami relief efforts in Japan.  These experiences have helped him develop the industry leading and comprehensive training programs available from VideoRay.  His current focus is on developing tools and strategies to help organizations implement better fleet management practices for small ROV systems.
+]==],
   },
 
   ["Andrew Goldstein"] = {
@@ -656,6 +660,9 @@ Mr. William Kohnen is President of Hydrospace Group which provides specialized i
     org = "Jesuit High School Robotics Team",
     homepage = "http://jesuitrobotics.org/",
     email = "rovcoach@gmail.com",
+    bio = [==[
+Jesuit High School is a fully-accredited, independent, college preparatory, Jesuit, Catholic, private boys high school that serves the greater Sacramento area by continuing the long tradition of Jesuit education aimed at educating the whole person – mind, body and spirit. The Jesuit Robotics Team was established in 2003 as a competitive, extra-curricular activity designed to foster an interest in technology and engineering. Team members are exposed to the many facets of the engineering profession, including understanding customer requirements, technical writing, technical presentations, engineering solutions to complex problems, manufacturing of components, software development and mission planning. Jesuit Robotics is a two-time champion of the Marine Advanced Technology Education International ROV Competition (2011 and 2007), prevailing over teams from prestigious universities and colleges from around the world. The 18-member team is comprised of students from every class (Freshman through Senior) and is mentored by head coach Rolf Konstad, a full-time Engineering Manager with Intel Corporation, and three assistant coaches.
+]==],
   },
 
   ["Vladimir V. Kostenko"] = {
@@ -783,6 +790,7 @@ Dmitry Lyakhov works at the The Institute of Marine Technology Problems. The Ins
     org = "Historical Diving Society, USA",
     homepage = "http://www.hds.org/",
     email = "SidM@hds.org",
+    headshot = "macken.jpg",
     bio = [==[
 A diver for over 50 years, Sid Macken has pursued a lifelong interest in underwater photography. Sid feels fortunate to have begun his diving career during the early years of American sport diving, an exciting time full of innovation, experimentation, and discovery. He is an early graduate of the Santa Barbara City College Marine Diving Technology Program, an ADCI certified commercial diver, a former public safety diver and instructor, and a freelance underwater videographer.
 
@@ -846,6 +854,7 @@ Drew has 45 years of experience in technical and executive positions in the indu
     org = "Terresolve Technologies",
     homepage = "http://www.terresolve.com/",
     email = "memiller@terresolve.com",
+    headshot = "mark-miller.jpg",
     bio = [==[
 Mark Miller is the CEO of Terresolve Technologies, a Cleveland-based company that provides non-toxic, biodegradable lubricating products. Mr. Miller has a B.S. in Chemical Engineering from Tufts University and an M.B.A. from Manhattan College. He has engineered, sold and marketed lubricants and lubricant additives for over 30 years.
 
@@ -1175,6 +1184,7 @@ Prior to joining Fox Industries, Carl spent 15 years as a Consulting Engineer wi
     org = "Shibuya Diving Industry",
     homepage = "http://www.shibuya-diving.co.jp/",
     email = "yasuhara.hazuki@gmail.com",
+    headshot = "shibuya-crop-small.jpg",
     bio = [==[
 Born in Hokkaido, Japan, in 1949, Masanobu Shibuya graduated from the Deep Sea Diving Department of the Marine School of Developmental Technology. He proceeded to dive in oceans all over the world, collecting over thirty-thousand hours of dive time experience. He is a leader in the marine construction field, as well as one of the first "dolphin swimmers", diving with dolphins in the wild. Shibuya strives not only to raise professional divers and create structures in harmony with the ocean, but also works to revitalize seaweed beds and hosts underwater seminars to heal the body and spirit. His new theme: "Bringing the Tohoku ocean area back to a state more vibrant than before the earthquake disaster."
 ]==],
@@ -1438,6 +1448,7 @@ Dr. Wilson holds a Postdoctoral degree in Electro-Mechanical Design/instrumentat
     last = "Wrasse",
     org = "",
     email = "jartans@charter.net",
+    headshot = "wrasse.jpg",
     bio = [==[
 Tom brings to the table over 30 years of conservation law enforcement experience with nearly 25 of those in supervision. Tom received recognition for his work above and beyond with the prestigious Shikar Safari International Wildlife Officer of the Year award, the Wisconsin Conservation Congress Officer of the Year Award and several intra-departmental recognitions. It wasn't until about 6 years ago that he found a piece of equipment that improved efficiency and effectiveness of officers across all fields. While conservation law enforcement has always involved water related investigations the subsurface has been largely overlooked. Tom recognized the capabilities of the VideoRay as being an opportunity to venture into the unknown.  As team leader for operations Tom has trained and guided staff in successful missions in body recoveries and cross program integrated work.
 ]==]
@@ -1466,6 +1477,27 @@ Prior to marine technical education, Jill’s focus was on marine research. Duri
     org = "Florida State University Panama City",
     homepage = "http://www.pc.fsu.edu/",
     email = "mzinszer@pc.fsu.edu",
+  },
+
+  ["Dr. Mahesh Menon"] = {
+    prefix = "Dr.",
+    first = "Mahesh",
+    last = "Manon",
+    org = "SMD",
+    homepage = "http://www.smd.co.uk/",
+    email = "mahesh.menon@smd.co.uk",
+    headshot = "menon.jpg",
+    bio = [==[
+Dr. Mahesh Menon is an Electronics and Communications engineer by trade and graduated from University of Wales, Swansea. He then pursued his MSc in Photonics and Communications Systems, also at the same University. He held industrial positions at Ericsson Mobile Communications in Malaysia, devising a more reliable testing rig for mobile phone assemblies and ICN Photonics in Wales, where he designed a system for a hand-held laser device used to treat skin blemishes and remove acne/tattoos. He was offered a PhD scholarship at Northumbria University in Newcastle-upon-Tyne, where he devised a novel modulation scheme for optical wireless systems, which formed his thesis. Upon graduating, he worked within the Security and Surveillance industry, firstly as a senior engineer designing intelligent camera systems, such as automatic number plate recognition (ANPR) cameras and ANPR systems to mobile speed enforcement systems. Mahesh was then promoted to Engineering Manager, where he was instrumental in designing the mobile security system for the Dubai Police Force and other law enforcement organisations in Algeria, France, Norway and the Netherlands. The systems utilised scene analysis capabilities together with face recognition, all integrated into one global back office application that can be downloaded onto other mobile platforms such as laptops in vehicles and smart phones. Mahesh is now the R&D Manager at SMD, leading the technological innovation and development in subsea vehicle and systems engineering, within the ROVs, Trenching, Mining, Renewables and Nuclear business streams in the company. Although being from an electronics background, Mahesh has a passion in mechanical engineering and enjoys the challenges presented in designing components and systems for the subsea industry.
+]==],
+  },
+
+  ["Ed Cheesman"] = {
+    first = "Ed",
+    last = "Cheesman",
+    org = "BlueView",
+    homepage = "http://www.blueview.com/",
+    email = "ed.cheesman@blueview.com",
   },
 
 }

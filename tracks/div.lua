@@ -105,6 +105,7 @@ Attendees will also receive a checklist at the end of the session that can be us
     abstract = [==[
 The Code of Federal Regulations specifically adopts the ASME Boiler and Pressure Vessel Code and the PVHO as the standards for diving systems in US waters.  Not all diving systems are made to ASME standards.  This presentation examines several case studies of where the US Coast Guard approved non-ASME vessels.
 ]==],
+    image = "satsystem.jpg",
     start = { day = 24, month = 1, year = 2012,
       hour = 13, min = 30 },
     length = 1800,

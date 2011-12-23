@@ -120,11 +120,12 @@ The presentation provides an overview of the submersible activity at Nuytco for 
 
   {
     title = "Forward Looking Sonar Technology for UW Vehicles",
-    fulltitle = "",
+    fulltitle = "Modern sonar performance as enabling technology for new UW Vehicles productivity frontiers",
     presenters = { "Peter K. Eriksen", },
     abstract = [==[
 The presentation will review the basics of forward looking sonar technologies, its evolution over the years and the present state-of-the-art in multibeam capabilities. This includes discussion and examples of object detection in the water column as well as on the seabed, such as underwater structures, pipelines, marine mammals and hydrocarbon (oil & gas) detection. The adaptation and optimization of these technologies to underwater vehicles is an important aspect of the technology and its future developments. The presentation will address Interface and Power considerations, flexibility of installation and real-time signal processing tradeoffs. These devices provide essential long range viewing capability to help high speed unmanned vehicles as well as manned vehicles under low visibility conditions.
 ]==],
+    image = "sealion.jpg",
     start = { day = 24, month = 1, year = 2012,
       hour = 16, min = 00 },
     length = 1800,
@@ -224,6 +225,7 @@ The talk will describe the characteristics of the underlying technology, the des
 
 Additionally, a new method of achieving safer performance of lithium-based battery packs will be presented. The method essentially prevents the propagation of fire among cells within a pack effectively yielding a safer energy supply. Recent research was conducted that included testing of fundamentally safer cells that shut down following an unsafe event. Results from this research will be shared.
 ]==],
+    image = "bluefin.jpg",
     start = { day = 25, month = 1, year = 2012,
       hour = 14, min = 00 },
     length = 1800,
@@ -250,6 +252,7 @@ Both standard and state-of-the-art advances for operation, maintenance, and safe
 
 The presentation will also describe a means of packaging the 64 modules that allow for pressure equalization of the modules, for mounting the battery external to the manned compartment, and that subdivide the battery system into sections that can be jettisoned.
 ]==],
+    image = "ten-series.jpg",
     start = { day = 25, month = 1, year = 2012,
       hour = 14, min = 30 },
     length = 1800,
@@ -276,6 +279,7 @@ The presentation will also describe a means of packaging the 64 modules that all
     abstract = [==[
 Acrylics are a proven, reliable material for submersible viewports.  The current codes and standards reflect a first-generation development of defining a nonmetallic for pressure vessel application. Kemper Engineering Services, Blanson Ltd., Atlantis Submarines, and Hydrospace Group are building on decades of in-service data to potentially expand the application of acrylics.
 ]==],
+    image = "viewports.jpg",
     start = { day = 26, month = 1, year = 2012,
       hour = 08, min = 30 },
     length = 1800,

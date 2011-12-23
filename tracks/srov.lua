@@ -62,6 +62,7 @@ After attending multiple Underwater Intervention conferences – and paying clos
 
 This presentation by Mr. Shibuya himself will explain the results he experienced with the equipment and the lessons he has learned since acquiring it.
 ]==],
+    image = "tsunami.jpg",
     start = { day = 24, month = 1, year = 2012,
       hour = 10, min = 30 },
     length = 3600,
@@ -82,11 +83,11 @@ Remotely Operated Vehicles were used during two trips to the Tsunami damaged are
   },
 
   {
-    title = "Development and application of accessories on micro-ROVs",
-    fulltitle = "",
+    title = "Extending the Capabilities of Your Small ROV",
+    fulltitle = "Tips and Techniques for Mounting Commercial or Home-Made Accessories",
     presenters = { "Tom Glebas", },
     abstract = [==[
-
+To extend the range of applications of small ROVs beyond that of a swimming camera, manufacturers develop accessory integration schemes to allow the addition of sophisticated systems including sonar, positioning, intervention and various other sensors  Understanding the technical aspects of your small ROV can help you improve the use of these commercial accessories or design and build your own.  This presentation will address related topics including ballast and trim, power, communications and total systems integration.
 ]==],
     start = { day = 24, month = 1, year = 2012,
       hour = 13, min = 30 },
@@ -101,6 +102,7 @@ Remotely Operated Vehicles were used during two trips to the Tsunami damaged are
     abstract = [==[
 The low-logistics associated with microROVs make it an ideal platform for rapid deployment. With microROVs, first respondents are able to rapidly mobilize to an area, run a survey and interact with the subsea environment if required. The time it takes to run a search and the confidence to report that the area has been cleared is often time-crucial for the success of the mission. Recent advances in technology have seen the introduction of software solutions to automate and simplify the piloting of the ROV by analyzing data gathered from navigation and sonar sensors.  Over the last few years technology developments have reduced the size of these sensors and it is now possible to introduce some of the technologies in use with observation-class and work-class ROVs. This talk explores a solution that integrates a phased array Doppler Velocity Log with a microROV and enables a true survey capability that, to date, would normally only be found with Autonomous Underwater Vehicles. The Survey-Control software simplifies the piloting of ROVs, improves the situational awareness of the operator and increases the pace of operations.  With this tool, first respondents will be able to fly the ROV with significantly less training and guide the ROV precisely around the environment.
 ]==],
+    image = "autonomous.jpg",
     start = { day = 24, month = 1, year = 2012,
       hour = 14, min = 00 },
     length = 1800,
@@ -204,6 +206,7 @@ This presentation covers case studies where Van Meter Consulting has used Micro 
     abstract = [==[
 Multibeam imaging sonars have been available since the early nineties and have served well as a tool to improve situational awareness. Operators can observe targets at distances of tens to hundreds of yards and use the information to navigate underwater vehicles and monitor important subsea regions. The original systems were significant in size and weight and required large electronic pods to beam form and process the raw data. But today’s multibeam imaging sonars are of a size suitable for microROV operation, so much so that they have become a common payload option for many operators. In tandem software solutions enabling close control of unmanned systems using through-the-sensor servoing techniques have evolved to a level of maturity suitable for commercial exploitation. The bringing together of this technology with the microROV will enable a new level of user control to the operational users. A common task such as flying to a target can be a difficult undertaking when faced with currents and tether effects, when time is at a premium this can be frustrating and negatively impact the overall mission needs. This proposed technology enables the microROV to keep station relative to an object or structure identified in the sonar data. The ROV can then maneuver relative to this object and the pilot need only provide simple point-and-click commands on the sonar screen. This talk will illustrate some early results on early prototype work.
 ]==],
+    image = "tracking.jpg",
     start = { day = 25, month = 1, year = 2012,
       hour = 10, min = 30 },
     length = 1800,
@@ -261,11 +264,11 @@ Florida State University Panama City (FSUPC) completed an evaluation study in 20
   },
 
   {
-    title = "Fleet Management for small ROV operations",
-    fulltitle = "",
+    title = "Fleet Management",
+    fulltitle = "Developing and Implementing Standard Practices for Managing Fleets of Small ROVs",
     presenters = { "Tom Glebas", },
     abstract = [==[
-
+Small ROVs have reached a point in their adoption curve where organizations may own more than one and acquisitions may involve multiple systems, but are these organizations managing these assets like a fleet, or are they still leaving that in the hands of the lead operator of each system?  This presentation will address the tools, techniques and best practices that owners or managers of multiple small ROVs should consider to ensure that they are getting the most value from their investments in equipment and people.  While the fleet size addressed in this presentation is 10 systems or more, there will be valuable information presented for any level of ownership, including just one system.
 ]==],
     start = { day = 25, month = 1, year = 2012,
       hour = 14, min = 00 },
@@ -302,11 +305,11 @@ This talk will discuss some examples of such non-traditional uses by VideoRay cu
   },
 
   {
-    title = "Small ROV Maintenance",
-    fulltitle = "",
+    title = "ROV Maintenance Program",
+    fulltitle = "Ensuring Maximum Up-Time and Extending the Service Life of Small ROVs",
     presenters = { "Tom Glebas", },
     abstract = [==[
-
+Knowing how to change a flat tire doesn't ensure that your car is maintained in optimal operating condition.  Likewise, knowing how to change a propeller or camera dome doesn't ensure that your small ROV will be properly maintained.  This presentation will look beyond the basic repair techniques and describe key elements in developing and implementing a small ROV maintenance program designed to keep your systems running and extend their service life.  Topics addressed include what items require the most frequent maintenance, how to avoid the most costly repairs, keeping track of service records, how to handle emergencies and many other best practices.
 ]==],
     start = { day = 25, month = 1, year = 2012,
       hour = 16, min = 00 },

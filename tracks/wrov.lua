@@ -10,6 +10,7 @@ Offshore drilling has been in existence a little over 100 years. Drilling and pr
 This move into deeper and deeper waters has presented many technical and environmental challenges for ROVs and related equipment.
 One of these challenges is that at the depths and significantly increased pressures that ROVs can see, the physical characteristics of hydraulic and dielectric fluids change. This paper explores the various factors that effect fluid characteristics including; pressure, temperature, viscosity, and type of fluid. It compares and contracts petroleum oils, environmentally safe oils and synthetics. It also includes a comparison of these fluids at atmospheric conditions to isolate any changes solely due to fluid type.
 ]==],
+    image = "lube-perf.jpg",
     start = { day = 25, month = 1, year = 2012,
       hour = 09, min = 00 },
     length = 1800,
@@ -179,12 +180,13 @@ Waterjet technology has been extended into the deepwater subsea space during the
   {
     title = "ROV Automation",
     fulltitle = "Navigation, Object Tracking and Data Monitoring in Real-Time for ROV Automation",
-    presenters = { "Ioseba Tena", },
+    presenters = { "Dr. Mahesh Menon", "Ioseba Tena", },
     abstract = [==[
 The last five years has seen the advent of commercial-off-the-shelf (COTS) Remotely Operated Vehicle (ROV) automation solutions. The challenges posed by a rapidly expanding ROV pilot workforce, dynamic working environments and increasing demands on quality and performance have been the main drivers for this technology. A good example of its application is the 2008 Doc Ricketts vehicle. This was a Workclass ROV (WROV) equipped with the basic autonomy building blocks to enable station keeping, waypoint following and object tracking. The Doc Ricketts WROV is still in active service with MBARI. This basic capability paved the way for commercial applications and now station keeping is a standard option. More recently, Jan De Nul Fall Pipe ROV is an example that uses COTS sophisticated cruise and mission planning modules. This world's first enables precise positioning of the ROV over a pipeline as it swings from side to side and places rocks over the product. Available capabilities today include real-time monitoring and control of multiple ROVs relative to chart data, mid-water DP using INS and tracking sonar, pre-lay survey flight modes and hands-off touchdown monitoring using sonar. The combination of data from optical cameras with 3D sonar imaging will further enhance the mapping of the subsea environment to facilitate various activities such as mission planning and training.
 
 The purpose of this talk is to provide an insight into this technology and a glimpse of what to expect in the immediate future.
 ]==],
+    image = "rockdump.jpg",
     start = { day = 25, month = 1, year = 2012,
       hour = 16, min = 00 },
     length = 1800,

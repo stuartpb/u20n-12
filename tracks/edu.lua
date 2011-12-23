@@ -87,15 +87,15 @@ Jesuit High School successfully completed missions designed by the Marine Advanc
 
 ## Team Members ##
 
--	Evan Arnold (senior, fourth year member) piloted the ROV "Phorcys" during the 2011 competition.  He is the Operations Manager for this year’s competition.
--	Spencer Breining-Aday (junior, second year member) machinist for the wellhead cap last year.  Spencer machines parts for manipulators on the ROV.
+-	Evan Arnold (senior, fourth year member) piloted the ROV "Phorcys" during the 2011 competition. He is the Operations Manager for this year’s competition.
+-	Spencer Breining-Aday (junior, second year member) was machinist for the wellhead cap last year. Spencer machines parts for the 2012 competition.
 -	Joe Griffin (senior, fourth year member) assisted with the build process of the accessories and was part of the deck crew at NASA.  Joe is the Competition Manager for this season.
--	Chris Konstad (junior, third year member) programmed the electronics on the ROV and is now head of software development for the 2012 completion.
--	Nick Sopwith (sophomore, second year member) worked on the design and build of the wellhead cap.  Nick currently works as a microcontroller programmer.
--	Jesse Tambornini (junior, second year member) worked as a CAD designer.  Jesse still creates computer mockups of each component and now trains new members for future competitions.
--	Louis Styer (junior, third year member) maintains and updates the team website.  He now coordinates picture and video displays for the team on the website.
+-	Chris Konstad (junior, third year member) programmed the electronics on the ROV and is now head of software development for the 2012 competition.
+-	Nick Sopwith (sophomore, second year member) worked on the design and build of the wellhead cap. Nick currently works as a microcontroller programmer.
+-	Jesse Tambornini (junior, second year member) worked as a CAD designer. Jesse still creates computer mockups of each component and now trains new members for future competitions.
+-	Louis Styer (junior, third year member) maintains and updates the team website. He now coordinates picture and video displays for the team on the website.
 -	Drake Nylund (junior, third year member) created computer mockups of each ROV component and is transitioning to software development.
--	Alan Luu (senior, second year member) worked on the design and build of the wellhead cap.  This year Alan is leading the design and build of telemetry sensors.
+-	Alan Luu (senior, second year member) worked on the design and build of the wellhead cap. This year Alan is leading the design and build of telemetry sensors.
 ]==],
     start = { day = 24, month = 1, year = 2012,
       hour = 13, min = 30 },
