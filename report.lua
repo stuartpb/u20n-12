@@ -8,7 +8,7 @@ for ti = 1, #tracks.names do
   for i=1, #track do
     local pres = track[i]
     local st = os.time(pres.start)
-    local name = string.gsub("$first $last","%$(%w*)",pres.lead)
+    local name = pres.presenters[1]
 
     if st ~= lastend then print() end
     lastend = st + pres.length

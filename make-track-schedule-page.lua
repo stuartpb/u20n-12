@@ -1,7 +1,7 @@
 local write = io.write
 
 local tracks = require "tracks"
-local presenters = require "presenters"
+local people = require "presenters"
 
 io.output"tracks.html"
 
@@ -56,8 +56,8 @@ for ni=1, #tracks.names do
   for i=1, #track do
     local pr = track[i]
 
-    local speaker = pr.lead
-    local lead = presenters[speaker]
+    local speaker = pr.presenters[1]
+    local lead = people[speaker]
 
     local pagename = pr.id
     local stime = os.time(pr.start)

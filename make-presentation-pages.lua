@@ -2,7 +2,7 @@ local write = io.write
 
 local tracks = require 'tracks'
 local allprs = tracks.all
-local presenters = require "presenters"
+local people = require "presenters"
 
 --Try to use a proper Markdown encoder, but fail somewhat gracefully otherwise.
 local htmlenc
@@ -24,9 +24,6 @@ end
 
 for i=1, #allprs do
   local pr = allprs[i]
-
-  local speaker = pr.lead
-  local lead = presenters[speaker]
 
   local pagename = pr.id
   io.output('presentations/'..pagename..".html")
@@ -85,21 +82,8 @@ for i=1, #allprs do
     write'<br>\n'
 
     write("Room ",pr.room," - ",tracks.titles[pr.track],'\n')
-
     write'</p>\n'
-    write'<h2 id="presenter">Presenter</h2>'
-    write'<p>'
-    write(htmlenc(speaker))
-    if lead.org and string.find(lead.org,"%S") then
-      write'<br>'
-      write(htmlenc(lead.org))
-    end
-    if lead.homepage then
-      write'<br>'
-      write('<a class="orglink" href="',lead.homepage,'">',
-        htmlenc(lead.homepage),'</a>')
-    end
-    write"</p>\n"
+
     write'<h2 id="abstract">Abstract</h2>\n'
     write'<p>'
     if pr.image then
@@ -108,15 +92,43 @@ for i=1, #allprs do
     end
     write(htmlenc(pr.abstract))
     write'</p>\n'
-    if lead.bio then
-      write'<h2 id="bio">Presenter Bio</h2>\n'
+
+    local presenters = pr.presenters
+
+    write'<h2 id="presenters">'
+    if #presenters > 1 then
+    write "Presenters"
+    else
+    write "Presenter"
+    end
+    write'</h2>'
+
+    for i=1, #presenters do
+      local name = pr.presenters[i]
+      local lead = people[name]
+
       write'<p>'
-      if lead.headshot then
-        write('<img class="headshot" src="',
-          '/2012/images/',lead.headshot,'">','\n')
+      write(htmlenc(name))
+      if lead.org and string.find(lead.org,"%S") then
+        write'<br>'
+        write(htmlenc(lead.org))
       end
-      write(htmlenc(lead.bio))
-      write'</p>\n'
+      if lead.homepage then
+        write'<br>'
+        write('<a class="orglink" href="',lead.homepage,'">',
+          htmlenc(lead.homepage),'</a>')
+      end
+      write"</p>\n"
+
+      if lead.bio then
+        write'<p>'
+        if lead.headshot then
+          write('<img class="headshot" src="',
+            '/2012/images/',lead.headshot,'">','\n')
+        end
+        write(htmlenc(lead.bio))
+        write'</p>\n'
+      end
     end
   write'<br style="clear: both;">\n'
   write'</div>'

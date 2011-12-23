@@ -1,7 +1,7 @@
 local write = io.write
 
 local tracks = require "tracks"
-local presenters = require "presenters"
+local people = require "presenters"
 
 io.output"schedule.html"
 
@@ -98,8 +98,8 @@ for i=1, #times do
     local pr = slot[j]
     local prestime = os.time(pr.start)
 
-    local speaker = pr.lead
-    local lead = presenters[speaker]
+    local speaker = pr.presenters[1]
+    local lead = people[speaker]
 
     assert(lead, "Missing presenter: "..speaker.." ("..pr.id..")")
 
