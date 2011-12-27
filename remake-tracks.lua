@@ -1,10 +1,6 @@
 local tracks = require "tracks"
 
-for ni=1,#tracks.names do
-  local tn = tracks.names[ni]
-  local track = tracks[tn]
-
-  local outfile = io.open('new-tracks/'..tn..'.lua','w')
+  local outfile = io.open('presentations.lua','w')
 
   local function write(...)
     --io.stdout:write(...)
@@ -15,8 +11,85 @@ for ni=1,#tracks.names do
     return write(string.format(...))
   end
 
-  write'local maketrack = require "maketrack"\n'
-  writef('return maketrack(%q, {\n\n',tn)
+write[==[
+local string = require 'string'
+local format = string.format
+local gsub = string.gsub
+local lower = string.lower
+local table = require 'table'
+local sort = table.sort
+local os = require 'os'
+local time = os.time
+
+local idset = {}
+
+local function pressort(m,n)
+  local mstart,nstart = time(m.start), time(n.start)
+
+  if mstart == nstart then
+    return m.room < n.room
+  else
+    return mstart < nstart
+  end
+end
+
+local names = {"oe","wrov","srov","muv","edu","div","si","wrex"}
+local all = {}
+
+local tracks = {
+  names = names,
+  all = all,
+  titles = {
+    div = "Commercial Diving",
+    edu = "Education and Academia",
+    muv = "Manned Underwater Vehicles",
+    oe = "Ocean Engineering",
+    si = "Sensors and Instruments",
+    srov = "Small ROVs",
+    wrex = "Shipwrecks",
+    wrov = "Work-Class ROVs",
+  },
+  chairs = {
+    div = "Steve Struble",
+    edu = "Jill Zande",
+    muv = "Will Kohnen",
+    oe = "Steve Barrow",
+    si = "Mike Chapman",
+    srov = "Rachael Miller",
+    wrex = "Rachael Miller",
+    wrov = "Steve Barrow",
+  },
+}
+
+local function maketrack(track, ps)
+  for i=1, #ps do
+    ps[i].track = track
+    local id = ps[i].title
+    id = gsub(id,"%u",lower)
+    id = gsub(id,"&","and")
+    id = gsub(id,"[ /]","-")
+    id = gsub(id,"%-+","-")
+    id = gsub(id,"[^%w%-]","")
+    if idset[id] then
+      error("redundant id: "..id)
+    else
+      idset[id] = true
+    end
+    ps[i].id = id
+    all[#all+1] = ps[i]
+  end
+
+  sort(ps,pressort)
+
+  tracks[track] = ps
+end
+]==]
+
+for ni=1,#tracks.names do
+  local tn = tracks.names[ni]
+  local track = tracks[tn]
+
+  writef('maketrack(%q, { --%s\n\n',tn,tracks.titles[tn])
   for pi=1, #track do
     local p = track[pi]
     write("  {\n")
@@ -62,3 +135,11 @@ for ni=1,#tracks.names do
   end
   write'})\n'
 end
+
+write[==[
+
+sort(all,pressort)
+
+return tracks
+]==]
+
