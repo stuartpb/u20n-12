@@ -378,6 +378,14 @@ Mr. Frey began his Navy diving career in 1981 after completing 2nd Class Diver t
     org = "MATE Center",
     homepage = "http://www.marinetech.org/",
     email = "megardner@juno.com",
+    headshot = "gardner.jpg",
+    bio = [==[
+As the Competition Technical Manager and Head Rules Judge for the MATE Center ROV competition since 2004, Matthew Gardner has helped to create ROV competition mission tasks for eight years. After creating the general mission, it is Matt's job to design, construct and document the mission tasks so competition teams can replicate the missions anywhere in the world.
+
+Matt also serves as an adjunct professor at Monterey Peninsula College and is the lead instructor for the MATE Center's basic ROV workshop.  He is also involved in outreach to local schools.
+
+Matt graduated from the University of Puget Sound with a degree in Biology.
+]==]
   },
 
   ["Jim Garrington"] = {

@@ -8,7 +8,7 @@ return maketrack("edu", {
     abstract = [==[
 The MATE Center provides an outlet for students of all ages to build and test Remotely Operated Vehicles (ROV). MATE Center goes through great lengths to plan and simulate ‘real-world’ problems as the basis for their competitions. From submarine search and rescue operations to underwater sea mount exploration and, more recently, oil spill containment, the competitions attempt to simulate reality.
 
-Georgia Tech Savannah Robotics’ ROV Beta Mk II is a direct product of the MATE competition. This vehicle was featured in a summer research trip to the Louisiana Gulf Coast to search for remnants of the Deepwater Horizon oil spill. The same system originally developed for competition collected water samples for oil content analysis at the Gulf Coast site.
+Georgia Tech Savannah Robotics' ROV Beta Mk II is a direct product of the MATE competition. This vehicle was featured in a summer research trip to the Louisiana Gulf Coast to search for remnants of the Deepwater Horizon oil spill. The same system originally developed for competition collected water samples for oil content analysis at the Gulf Coast site.
 
 This year, Beta Mk II is slated to survey recently unearthed Revolutionary War shipwrecks off the coast of Yorktown, VA. For 2012, the MATE ROV Competition again aligns with the real world research plan for the vehicle. This talk will outline the competition influences on design, the differences in real world performance vs. competition, and the future work inspired by the competition.
 ]==],
@@ -132,6 +132,7 @@ In an effort to provide realistic educational experiences for students, the MATE
 
 The 2012 mission theme deals with 20th century shipwrecks and their potential environmental threats.    Working with the Professional Marine Explorers Society, the MATE Center is developing tasks that include surveying the wreck and removing fuel from a corroding tank.  Replicating this complex problem involves creating mission props that are designed with inexpensive hardware store technology, allowing teams around the world to copy MATE Center designs.  Underwater missions also take place in a pool environment, with clear, warm water, generally less than 6 meters deep.  Working within these limitations, the MATE Center mission tasks model real world events that students might experience in the underwater industry.
 ]==],
+    image = "eduwreck.jpg",
     start = { day = 24, month = 1, year = 2012,
       hour = 14, min = 30 },
     length = 1800,

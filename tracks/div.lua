@@ -92,6 +92,7 @@ In this session we will answer the following questions:
 
 Attendees will also receive a checklist at the end of the session that can be used to identify the gaps in their quality/safety management system within their organizations to determine areas that need further work in order to achieve full compliance.
 ]==],
+    image = "miriam-pres.gif",
     start = { day = 24, month = 1, year = 2012,
       hour = 11, min = 30 },
     length = 1800,

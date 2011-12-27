@@ -103,6 +103,7 @@ ROVs equipped with dredging hardware can disperse the drill cuttings to
 desirable areas in the adjacent vicinity, keeping wellheads clear and even
 with the natural sea bottom.
 ]==],
+    image = "dredge.jpg",
     start = { day = 25, month = 1, year = 2012,
       hour = 11, min = 30 },
     length = 1800,

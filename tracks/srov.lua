@@ -114,7 +114,7 @@ The low-logistics associated with microROVs make it an ideal platform for rapid 
     fulltitle = "",
     presenters = { "Matt Cowen", },
     abstract = [==[
-
+Smart Tether, a complete underwater navigation system, offers you unmatched operation with your ROV system or tethered diver. The Smart Tether system, which includes tether, control box and software, is designed to meet multiple missions and tested to survive extreme environments. No matter what your mission, the Smart Tether system makes it smarter, faster, safer, and easier
 ]==],
     start = { day = 24, month = 1, year = 2012,
       hour = 14, min = 30 },
@@ -264,7 +264,7 @@ Florida State University Panama City (FSUPC) completed an evaluation study in 20
   },
 
   {
-    title = "Fleet Management",
+    title = "Small ROV Fleet Management",
     fulltitle = "Developing and Implementing Standard Practices for Managing Fleets of Small ROVs",
     presenters = { "Tom Glebas", },
     abstract = [==[
