@@ -1,6 +1,6 @@
 local tracks = require "tracks"
 
-local outfile = io.open('presentations.lua','w')
+local outfile = io.open('tracks.lua','w')
 
 local function write(...)
   --io.stdout:write(...)

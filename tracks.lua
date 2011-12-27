@@ -263,6 +263,7 @@ Coring at flat even seafloor have been conducted. However, there are of slight d
 One of advantageous ROVs for its operation is a flipper type crawler ROV which JAMSTEC has developed. Flipper type crawler system which can rotate a crawler itself provides not only an advantage mobility but also an high performance to hold on.
 
 The authors conducted the running experiment of the flipper type crawler ROVs on sand, cobble, or rock reef seafloor. The authors also conducted an initial hard-rock coring experiment at steep and irregular terrain seafloor off Okinawa.
+
 This paper presents the advantageous mobility of the flipper type crawler ROV which has been confirmed at sea trial and the possibility of hard-rock coring at steep or irregular terrain seafloor with it.
 ]==],
     image = "coring.jpg",
@@ -335,9 +336,11 @@ with the natural sea bottom.
     fulltitle = "Considerations When Integrating Equipment or Tooling to a Work Class ROV",
     presenters = { "Steve Barrow", },
     abstract = [==[
-Remotely Operated Vehicles (ROVs) serve as the primary platform for a variety of operations in deep water.  ROVs must often be reconfigured with different tools or sensors to accomplish these missions.  However, integrating new sensors, equipment or tooling to a work-class ROV can be a difficult and time consuming experience.
-The lack of standardization between different models of ROVs also makes preplanning the equipment integration difficult.  Taking the time to understand and address the basic considerations and the options available will help to prevent last minute emergencies.
-This presentation will provide an overview of the primary concerns when integrating new equipment.  Considerations include the size and weight of the equipment, ROV-specific mechanical attachment points, hydraulic connections, and electrical power and communication requirements.
+Remotely Operated Vehicles (ROVs) serve as the primary platform for a variety of operations in deep water. ROVs must often be reconfigured with different tools or sensors to accomplish these missions. However, integrating new sensors, equipment or tooling to a work-class ROV can be a difficult and time consuming experience.
+
+The lack of standardization between different models of ROVs also makes preplanning the equipment integration difficult. Taking the time to understand and address the basic considerations and the options available will help to prevent last minute emergencies.
+
+This presentation will provide an overview of the primary concerns when integrating new equipment. Considerations include the size and weight of the equipment, ROV-specific mechanical attachment points, hydraulic connections, and electrical power and communication requirements.
 ]==],
     materials = false,
     start = { day = 25, month = 1, year = 2012,
@@ -352,7 +355,9 @@ This presentation will provide an overview of the primary concerns when integrat
     presenters = { "Keith Elliot", },
     abstract = [==[
 ROV deployed cutting tools are an important part of the subsea toolbox, and are essential equipment for the installation  and decommissioning of subsea tiebacks and other subsea installations.
+
 An overview of the available technologies will be discussed, with particular focus given to the correct selection of the tool to suit the application.  Guidance will be given regarding the safe deployment, use, retrieval and storage of subsea cutting tools, with particular focus on those deployed by ROV to deep water.
+
 Improvements in the strength of wire rope technology and the increasing use of aramid based soft lines pose particular challenges to current cutting technology.  This will be discussed along with improvements that can be made to ensure modern cutting tools are capable of producing the cutting forces required whilst still maintaining a low enough weight and size for ROV deployment.
 ]==],
     image = "webtool.jpg",
@@ -452,6 +457,7 @@ The agenda for the MTS ROV Committee meeting:
 - Discuss future leadership of the committee and vote for officers
 - Continue the technical discussion on the future of ROV and AUV technology and how these two technologies are becoming more similar
 ]==],
+    materials = false,
     start = { day = 26, month = 1, year = 2012,
       hour = 09, min = 00 },
     length = 5400,
@@ -504,8 +510,8 @@ This presentation will show the experiences of several small ROV projects succes
     abstract = [==[
 The mission of Rozalia Project for a Clean Ocean is to find and remove marine debris from our oceans, bays and rivers. Marine debris takes many forms, and occurs in all marine environments, presenting myriad challenges in removing it from the water. Rachael Miller of Rozalia Project uses a VideoRay with BlueView sonar, Lyyn image enhancement, and Smart Tether positioning system along with the Tritech Starfish side scan sonar, to scour the bottom of a variety of venues looking for and retrieving marine debris - from small pieces of plastic to large masses of derelict fishing gear - and everything in-between. This presentation will show specific examples of how the equipment is integrated and used in concert to locate and recover a variety of objects of differing size and material, and how different benthic environments and conditions affect mission planning and execution. The presentation will conclude with a discussion of lessons learned and the strategies Rachael used to handle specific challenges related to debris search and recovery.
 ]==],
-    materials = false,
     image = "debris.jpg",
+    materials = false,
     start = { day = 24, month = 1, year = 2012,
       hour = 09, min = 30 },
     length = 1800,
@@ -525,8 +531,8 @@ After attending multiple Underwater Intervention conferences – and paying clos
 
 This presentation by Mr. Shibuya himself will explain the results he experienced with the equipment and the lessons he has learned since acquiring it.
 ]==],
-    materials = false,
     image = "tsunami.jpg",
+    materials = false,
     start = { day = 24, month = 1, year = 2012,
       hour = 10, min = 30 },
     length = 3600,
@@ -665,7 +671,6 @@ The use of VideoRays in the Offshore Oil & Gas Industry is growing rapidly, as r
 This presentation covers case studies where Van Meter Consulting has used Micro ROVs to support offshore oil and gas projects. From Russia's Siberian LNG, to an FPSO in the South China Sea, to the Gulf of Mexico, photos and video clips will demonstrate how this maturing technology is being used in the offshore environment. Van Meter will explain how he won the jobs, planned for the mission, adjusted and compensated when things were not working, and successfully completed the mission each time.
 ]==],
     image = "oilrig.jpg",
-    materials = true,
     materials = false,
     start = { day = 25, month = 1, year = 2012,
       hour = 09, min = 30 },
@@ -806,6 +811,7 @@ maketrack("muv", { --Manned Underwater Vehicles
     abstract = [==[
 The presentation will provide a yearly review of the state of the Manned Submersible industry in 2011. The overview will look at developments in all branches of activity, including international research, tourism activity, leisure and security developments. This will include a summary of submersibles under Classification, operating and in construction, review of the industry trends and regulatory highlights for the year.
 ]==],
+    materials = false,
     start = { day = 24, month = 1, year = 2012,
       hour = 09, min = 00 },
     length = 3600,
@@ -824,6 +830,7 @@ The second part of the presentation will be the implications of the suspected us
 I will use examples of both submersible and surface vessel operations, as well as other examples from various transportation sectors.  These examples will clarify how other industries help to separate legitimate from illegitimate operators to ensure both their economic and physical survival.
 ]==],
     image = "narco-subs.jpg",
+    materials = false,
     start = { day = 24, month = 1, year = 2012,
       hour = 10, min = 30 },
     length = 1800,
@@ -837,6 +844,7 @@ I will use examples of both submersible and surface vessel operations, as well a
     abstract = [==[
 Southwest Research Institute (SwRI) is under contract to WHOI to design, fabricate and test the titanium personnel sphere that will be installed in the upgraded ALVIN submersible. SwRI is nearing completion of the fabrication and testing phases for the new personnel sphere. The personnel sphere will be tested in the Annapolis Test Chambers for a 6500 MSW maximum operating depth. The fabrication and testing had been expected to be completed but the decision to have the personnel sphere dual certified by both ABS and NAVSEA has resulted in schedule delays. All major weldments and the final machining of all components have been completed without experiencing any appreciable distortion or change in out-of-sphericity. Component assembly and structural validation tests are in progress. Stud welding procedures for the viewport windows and the hatch have been developed and are being employed.  A strain gauge location plan is being developed based upon an as-built dimensional FEA model and analysis. A comprehensive hydrostatic test procedure is being developed and going through the dual approval process leading up to the hydro test in the Spring of 2012.  SwRI will deliver the sphere and documentation to WHOI after the hydro test to complete our contract. The status and activities since last year and activities to complete the personnel sphere in 2012 will be discussed.
 ]==],
+    materials = false,
     start = { day = 24, month = 1, year = 2012,
       hour = 11, min = 00 },
     length = 1800,
@@ -850,6 +858,7 @@ Southwest Research Institute (SwRI) is under contract to WHOI to design, fabrica
     abstract = [==[
 Woods Hole Oceanographic Institution (WHOI) is developing a new deeper diving submersible by upgrading the present ALVIN in stages. The upgraded ALVIN will ultimately have an increased operating depth from 4500 MSW to 6500 MSW. The project at WHOI is being accomplished in two phases. .  .    .
 ]==],
+    materials = false,
     start = { day = 24, month = 1, year = 2012,
       hour = 11, min = 30 },
     length = 1800,
@@ -863,6 +872,7 @@ Woods Hole Oceanographic Institution (WHOI) is developing a new deeper diving su
     abstract = [==[
 Titanic is now 100 and on April 15, 2012 Titanic will be subject to the 2001 UNESCO Convention on the Protection of Underwater Cultural Heritage (UCH) as well other U.S. domestic laws.   This presentation will discuss these laws and the unique use of the law of salvage to protect Titanic from looting and keep the collection of salvaged as an intact collection for the public benefit.    Finally, the presentation will discuss the potential implications of all of these laws to those planning visits to the wrecksite in commemorating the 100th Anniversary, including on manned submersibles.
 ]==],
+    materials = false,
     start = { day = 24, month = 1, year = 2012,
       hour = 13, min = 30 },
     length = 1800,
@@ -877,6 +887,7 @@ Titanic is now 100 and on April 15, 2012 Titanic will be subject to the 2001 UNE
 This presentation will trace the development and use of two manned submersibles on budgets that are a fraction of other vehicles with similar capabilities.  The first one of these was began in 1989 and named C-BUG (Controlled by Buoyancy Underwater Glider). It was one of the first winged subs ever made and enjoyed a successful career spanning over 550 dives in three countries. The next vehicle was named Idabel, and despite an initial budget of under 100k it has made over 900 dives to depths of up to half a mile.   In addition to keeping manufacturing costs low, operating costs have been kept low as well by a location choice that offers immediate access to deep water without the need for a support craft of any sort. A third aspect to the low operating costs has been the engineering of Idabel for minimum displacement. This craft carries two passengers and a pilot and weighs in at just over 9,000 pounds, making it not only less expensive to build and operate, but giving it a distinct advantage for photography. This formula has resulted in dive rates that start at just $400 per person for a 1000 foot dive, and a day rate of $2,000 for up to 6 hour-long dives.
 ]==],
     image = "muv-photo.jpg",
+    materials = false,
     start = { day = 24, month = 1, year = 2012,
       hour = 14, min = 00 },
     length = 1800,
@@ -891,6 +902,7 @@ This presentation will trace the development and use of two manned submersibles 
 Since OceanGate acquired the Antipodes manned submersible (former PC-1501) two years ago, we have been deploying her on different missions in support of ocean exploration, marine research, filmmaking, and education and community outreach.  To expand our range of operations while simultaneously controlling costs, we have been developing a towable Launch, Retrieval, and Transport (LRT) system that will allow us to access more near-shore dive sites without the need for expensive support vessels.  We tested our first prototype in Southern California last fall, and we are currently developing the next version out of our headquarters in Seattle.  We plan to field-test this next system in Florida during early 2012, so this presentation will provide an update on our efforts and our future plans.
 ]==],
     image = "antipodes.jpg",
+    materials = false,
     start = { day = 24, month = 1, year = 2012,
       hour = 14, min = 30 },
     length = 1800,
@@ -910,6 +922,7 @@ The presentation provides an overview of the submersible activity at Nuytco for 
 4. Deployment of 2 Deep Worker submersibles to support the NASA Extreme Environment Mission Operations #15 (NEEMO 15). Deep Workers were used as vehicle Analogs for NASA’s proposed Multi Mission Space Exploration Vehicle (MMSEV).
 5. Completion of the Shaft 19 remediation project for the NYDEP in Valhalla NY. Nuytco Research deployed two Newtsuits to support construction efforts to complete the uptake and downtake shaft repairs on the worlds’ largest UV Water Purification facility.
 ]==],
+    materials = false,
     start = { day = 24, month = 1, year = 2012,
       hour = 15, min = 30 },
     length = 1800,
@@ -924,6 +937,7 @@ The presentation provides an overview of the submersible activity at Nuytco for 
 The presentation will review the basics of forward looking sonar technologies, its evolution over the years and the present state-of-the-art in multibeam capabilities. This includes discussion and examples of object detection in the water column as well as on the seabed, such as underwater structures, pipelines, marine mammals and hydrocarbon (oil & gas) detection. The adaptation and optimization of these technologies to underwater vehicles is an important aspect of the technology and its future developments. The presentation will address Interface and Power considerations, flexibility of installation and real-time signal processing tradeoffs. These devices provide essential long range viewing capability to help high speed unmanned vehicles as well as manned vehicles under low visibility conditions.
 ]==],
     image = "sealion.jpg",
+    materials = false,
     start = { day = 24, month = 1, year = 2012,
       hour = 16, min = 00 },
     length = 1800,
@@ -937,6 +951,7 @@ The presentation will review the basics of forward looking sonar technologies, i
     abstract = [==[
 This presentation will provide an update of PSUBS (Personal Submersibles Organization) activities for the past year including various submarine projects under development, organization roadmap and interaction with other industry organizations, and a review of the re-building of the K-600 Kittredge submersible.
 ]==],
+    materials = false,
     start = { day = 25, month = 1, year = 2012,
       hour = 08, min = 30 },
     length = 1800,
@@ -951,6 +966,7 @@ This presentation will provide an update of PSUBS (Personal Submersibles Organiz
 Open meeting of the American Bureau of Shipping (ABS) with the subsea industry to review proposed rule changes to the ABS Rules for Building and Classing Underwater Vehicles, Systems and Hyperbaric Facilities. The meeting facilitates an open dialogue with the industry on current issues that work well or do not work. All active designers, fabricators, owners and operators are invited to attend and provide feedback.
 ]==],
     image = "abs-rule-change-proposals.jpg",
+    materials = false,
     start = { day = 25, month = 1, year = 2012,
       hour = 09, min = 00 },
     length = 3600,
@@ -965,6 +981,7 @@ Open meeting of the American Bureau of Shipping (ABS) with the subsea industry t
 A major obstacle in the development of manned submersibles involves the removal of metabolically-produced carbon dioxide from the cabin environment, particularly during long-duration, cold water operations.  Traditional CO2 absorption methods utilized in underwater life support systems use alkali metal hydroxide chemical beds—mostly calcium hydroxide—which have been shown to have poor absorption efficiencies in cold environments.  Experimental evidence suggests that seawater, a readily accessible medium during submersible operations, could be a highly effective alternative scrubbing medium to remove metabolically-produced carbon dioxide.  Laboratory CO2 absorption trials are currently being conducted in a joint research effort between Duke University and the University of Bath in the United Kingdom, under sponsorship by the Office of Naval Research.  An overview of these absorption trials will be presented and the physical principles governing this absorption technique will be explained.   Alternative concept designs will be introduced and the suitability of these concepts for open and closed-circuit breathing systems will be discussed.
 ]==],
     image = "co2scrubber.jpg",
+    materials = false,
     start = { day = 25, month = 1, year = 2012,
       hour = 10, min = 30 },
     length = 1800,
@@ -978,6 +995,7 @@ A major obstacle in the development of manned submersibles involves the removal 
     abstract = [==[
 Since 1986 MSUBS has been producing small, diesel-electric submersibles; coupled with recent rapid prototyping projects, in concert with Submergence Group, that produced manned and unmanned vehicles ranging from 25-65 tons, MSUBS and Submergence Group have embarked on a project to produce the world's first privately owned and operated ocean-going diesel-electric submarine for research purposes.  The submarine, as yet unnamed, will be approximately 30 meters in length with a beam of nearly 4 meters and be capable of diving to 300msw and transiting vast ocean distances while snorkeling.  The presentation will provide an overview of the submarine design and production plans.
 ]==],
+    materials = false,
     start = { day = 25, month = 1, year = 2012,
       hour = 11, min = 00 },
     length = 1800,
@@ -988,6 +1006,7 @@ Since 1986 MSUBS has been producing small, diesel-electric submersibles; coupled
     title = "Deep Ocean Engineering Solutions",
     fulltitle = "TBD",
     presenters = { "Liz Taylor", },
+    materials = false,
     start = { day = 25, month = 1, year = 2012,
       hour = 11, min = 30 },
     length = 1800,
@@ -1001,6 +1020,7 @@ Since 1986 MSUBS has been producing small, diesel-electric submersibles; coupled
     abstract = [==[
 In 2010 and 2011 Corvus Energy has obtained class certification for its subsea lithium battery technology from Lloyds Registry and is completing its classification with the American Bureau of Shipping (ABS) and Det Nortske Veritas (DNV). The presentation will review the certification process and discuss the future trends and possibilities for use of these batteries in underwater vehicles.
 ]==],
+    materials = false,
     start = { day = 25, month = 1, year = 2012,
       hour = 13, min = 30 },
     length = 1800,
@@ -1021,6 +1041,7 @@ The talk will describe the characteristics of the underlying technology, the des
 Additionally, a new method of achieving safer performance of lithium-based battery packs will be presented. The method essentially prevents the propagation of fire among cells within a pack effectively yielding a safer energy supply. Recent research was conducted that included testing of fundamentally safer cells that shut down following an unsafe event. Results from this research will be shared.
 ]==],
     image = "bluefin.jpg",
+    materials = false,
     start = { day = 25, month = 1, year = 2012,
       hour = 14, min = 00 },
     length = 1800,
@@ -1048,6 +1069,7 @@ Both standard and state-of-the-art advances for operation, maintenance, and safe
 The presentation will also describe a means of packaging the 64 modules that allow for pressure equalization of the modules, for mounting the battery external to the manned compartment, and that subdivide the battery system into sections that can be jettisoned.
 ]==],
     image = "ten-series.jpg",
+    materials = false,
     start = { day = 25, month = 1, year = 2012,
       hour = 14, min = 30 },
     length = 1800,
@@ -1058,6 +1080,7 @@ The presentation will also describe a means of packaging the 64 modules that all
     title = "MTS MUV Committee Meeting",
     fulltitle = "Annual Committee Meeting for MTS Manned Underwater Vehicles",
     presenters = { "Will Kohnen", },
+    materials = false,
     start = { day = 25, month = 1, year = 2012,
       hour = 15, min = 30 },
     length = 3600,
@@ -1072,6 +1095,7 @@ The presentation will also describe a means of packaging the 64 modules that all
 Acrylics are a proven, reliable material for submersible viewports.  The current codes and standards reflect a first-generation development of defining a nonmetallic for pressure vessel application. Kemper Engineering Services, Blanson Ltd., Atlantis Submarines, and Hydrospace Group are building on decades of in-service data to potentially expand the application of acrylics.
 ]==],
     image = "viewports.jpg",
+    materials = false,
     start = { day = 26, month = 1, year = 2012,
       hour = 08, min = 30 },
     length = 1800,
@@ -1085,6 +1109,7 @@ Acrylics are a proven, reliable material for submersible viewports.  The current
     abstract = [==[
 Traditionally, naval architecture has been more craft than science. Determining what is 'right' in a particular situation in the absence of definitive supporting analysis encompasses the art of naval architecture to this day.  With the advent of computers, naval architects began to move their work from 'the drawing board' into the computer and its display.  This presentation describes the evolution of computer-based naval architecture tools from the early stages circa 1980 through the present, from the point of view of a team that pioneered tools which gained a diverse user community over that time frame.  This team's story reflects progress and successes as well as continuing opportunities for advancement. Technical domains such as hull form design, hydrostatics and stability, structures, and weights and moments will be included, with applications to underwater vehicles discussed.  Technology developments related to software architecture and development processes will be highlighted, as well as a view toward future opportunities to further integrate and extend the scope of marine vehicle design tools.
 ]==],
+    materials = false,
     start = { day = 26, month = 1, year = 2012,
       hour = 09, min = 00 },
     length = 1800,
@@ -1098,6 +1123,7 @@ Traditionally, naval architecture has been more craft than science. Determining 
     abstract = [==[
 
 ]==],
+    materials = false,
     start = { day = 26, month = 1, year = 2012,
       hour = 09, min = 30 },
     length = 1800,
@@ -1114,6 +1140,7 @@ Deep sea buoyancy has evolved significantly since the pre-1960’s days in which
 A rigorous QC protocol in all components in the syntactic buoyancy is required to maintain a capable manufacturing process as well as reliable, predictable long-term syntactic foams behavior.  This control starts in the microballoon manufacturing process; problems or process deviations during their manufacture can trickle all the way through to the finished foam properties.  The same is expected in the polymer binder phase, coupling agents and other additives that go into the finished product. When the essential constituent properties are identified and quantified, the final performance of the finished syntactic foam can be predicted.
 ]==],
     image = "foam-microbubbles.jpg",
+    materials = false,
     start = { day = 26, month = 1, year = 2012,
       hour = 10, min = 30 },
     length = 5400,
@@ -1134,6 +1161,7 @@ Georgia Tech Savannah Robotics' ROV Beta Mk II is a direct product of the MATE c
 
 This year, Beta Mk II is slated to survey recently unearthed Revolutionary War shipwrecks off the coast of Yorktown, VA. For 2012, the MATE ROV Competition again aligns with the real world research plan for the vehicle. This talk will outline the competition influences on design, the differences in real world performance vs. competition, and the future work inspired by the competition.
 ]==],
+    materials = false,
     start = { day = 24, month = 1, year = 2012,
       hour = 08, min = 30 },
     length = 1800,
@@ -1149,6 +1177,7 @@ Robotics plays an increasing role in STEM education.   It provides for a systems
 The commercial micro ROV provides benefits as an educational tool.   The primary benefits being ease of use and logistics, relative low cost, multiplicity of roles, and system completeness.   The microROV also enables a continuum of development which synchronizes well with other popular STEM efforts.
 This talk will discuss some of the ways in which VideoRay fosters undersea robotics in educational roles.   The applicability to students in various stages of development from k-12 to post-graduate will be discussed.   Suggestions on ways other commercial organizations can more proactively support improvements to STEM education will be covered.
 ]==],
+    materials = false,
     start = { day = 24, month = 1, year = 2012,
       hour = 09, min = 00 },
     length = 1800,
@@ -1181,6 +1210,7 @@ The SENSE IT project provides high school students the opportunity to build, cal
 SENSE IT promotes student awareness of the interdisciplinary nature of modern engineering and the interdependence of diverse areas of science and math. The theme of environmental stewardship and sensor systems provides: 1) a motivating and meaningful scenario for learning a wide range of core math, science and technology topics, 2) an engaging link between biological, physical and social sciences and 3) a cutting-edge example of science and engineering research, delivered directly into the classroom in a particular area of growing importance and workforce need.
 ]==],
     image = "sense-it.jpg",
+    materials = false,
     start = { day = 24, month = 1, year = 2012,
       hour = 10, min = 30 },
     length = 1800,
@@ -1195,6 +1225,7 @@ SENSE IT promotes student awareness of the interdisciplinary nature of modern en
 The Great Lakes Naval Memorial and Museum (GLNMM) has developed a program that utilizes ROV kits and a professional build ROV to promote STEM based education for all ages. These programs utilize underwater technology to provide educational activities that promote a greater understanding of the underwater environment through direct interaction. The technology used in these programs are small underwater robots referred to as remotely operated vehicles or ROVs. These ROVs can be created, designed and build by students or other program participants such as teachers. GLNMM has created a traveling educational outreach program that includes classes of different lengths and levels for people of all ages and backgrounds. These classes can be offered at locations throughout the region and include two separate experiences. The first experience is creating and building a ROV that the participants can use to explore the underwater environment. The second part is the opportunity to drive a professionally build ROV to explore underwater to depths of several hundred feet. Most dives are in only in depths of fifty feet or less. This technology allows the participants an experience similar to being a SCUBA diver.
 ]==],
     image = "gleason-reynolds.jpg",
+    materials = false,
     start = { day = 24, month = 1, year = 2012,
       hour = 11, min = 30 },
     length = 1800,
@@ -1220,6 +1251,7 @@ Jesuit High School successfully completed missions designed by the Marine Advanc
 -	Drake Nylund (junior, third year member) created computer mockups of each ROV component and is transitioning to software development.
 -	Alan Luu (senior, second year member) worked on the design and build of the wellhead cap. This year Alan is leading the design and build of telemetry sensors.
 ]==],
+    materials = false,
     start = { day = 24, month = 1, year = 2012,
       hour = 13, min = 30 },
     length = 1800,
@@ -1240,6 +1272,7 @@ The response was positive – and powerful!  Students and mentors took the chall
 Based on this success, the MATE competition will continue its entrepreneurial approach and add to it in 2012.  For example, in order to reach out to and further engage students with an interest in technology but an aptitude in the arts, MATE will ask companies to develop PR “kits” and put them into practice by targeting their local media.
 ]==],
     image = "rovcomp.jpg",
+    materials = false,
     start = { day = 24, month = 1, year = 2012,
       hour = 14, min = 00 },
     length = 1800,
@@ -1256,6 +1289,7 @@ In an effort to provide realistic educational experiences for students, the MATE
 The 2012 mission theme deals with 20th century shipwrecks and their potential environmental threats.    Working with the Professional Marine Explorers Society, the MATE Center is developing tasks that include surveying the wreck and removing fuel from a corroding tank.  Replicating this complex problem involves creating mission props that are designed with inexpensive hardware store technology, allowing teams around the world to copy MATE Center designs.  Underwater missions also take place in a pool environment, with clear, warm water, generally less than 6 meters deep.  Working within these limitations, the MATE Center mission tasks model real world events that students might experience in the underwater industry.
 ]==],
     image = "eduwreck.jpg",
+    materials = false,
     start = { day = 24, month = 1, year = 2012,
       hour = 14, min = 30 },
     length = 1800,
@@ -1290,6 +1324,7 @@ Archaeological mapping, bathymetry
 Law Enforcement
 SAR operations, Crime scene investigations
 ]==],
+    materials = false,
     start = { day = 24, month = 1, year = 2012,
       hour = 08, min = 30 },
     length = 1800,
@@ -1303,6 +1338,7 @@ SAR operations, Crime scene investigations
     abstract = [==[
 American Electric Power, a Sustaining Member of ADCI, continues to conduct training of its employees in the rules and regulations of commercial diving via OSHA, US Coast Guard and the ADCI Consensus Standards.  Training programs are conducted each year at selected AEP facilities for new students and re-qualifying Diving Contacts.  Criteria for becoming a Diving Contact at AEP is delineated in their program and requires each person to be nominated by management, complete the program and a written examination.  They serve in the program for a period of three years and must re-qualify by attending refresher training.  An AEP Diving Contact works directly with diving contractors at any AEP facility.  They are familiar with all diving regulations and the Consensus Standards, including Rev. 6, and can work the diving tables for repetitive dives, surface decompression on air or oxygen for example. Since they understand parts of our industry; they really make it easier for a diving contractor to communicate with them.  Dave Scarberry has been their Diving Coordinator and the originator of their program since inception and is responsible for its development and administration.  Will Hux is the instructor from MESCO/ Stroud Diving & Hydrography and wrote the training curriculum for the classroom portion of the training.  They make a strong team in presenting a safety program of which is an industry first.
 ]==],
+    materials = false,
     start = { day = 24, month = 1, year = 2012,
       hour = 09, min = 00 },
     length = 1800,
@@ -1320,6 +1356,7 @@ As a safety device, the recorders are completely indelible and the data is store
 
 I hope to present this device and share the safe technology with all our members in January.
 ]==],
+    materials = false,
     start = { day = 24, month = 1, year = 2012,
       hour = 09, min = 30 },
     length = 1800,
@@ -1358,6 +1395,7 @@ In this session we will answer the following questions:
 Attendees will also receive a checklist at the end of the session that can be used to identify the gaps in their quality/safety management system within their organizations to determine areas that need further work in order to achieve full compliance.
 ]==],
     image = "miriam-pres.gif",
+    materials = false,
     start = { day = 24, month = 1, year = 2012,
       hour = 11, min = 30 },
     length = 1800,
@@ -1372,6 +1410,7 @@ Attendees will also receive a checklist at the end of the session that can be us
 The Code of Federal Regulations specifically adopts the ASME Boiler and Pressure Vessel Code and the PVHO as the standards for diving systems in US waters.  Not all diving systems are made to ASME standards.  This presentation examines several case studies of where the US Coast Guard approved non-ASME vessels.
 ]==],
     image = "satsystem.jpg",
+    materials = false,
     start = { day = 24, month = 1, year = 2012,
       hour = 13, min = 30 },
     length = 1800,
@@ -1385,6 +1424,7 @@ The Code of Federal Regulations specifically adopts the ASME Boiler and Pressure
     abstract = [==[
 
 ]==],
+    materials = false,
     start = { day = 24, month = 1, year = 2012,
       hour = 14, min = 00 },
     length = 1800,
@@ -1399,6 +1439,7 @@ The Code of Federal Regulations specifically adopts the ASME Boiler and Pressure
 Originally presented at the Transportation Research Board in January 2011.  This paper discusses systems and techniques that have been utilized to restore the structural integrity and protect concrete, steel, and woodpiles for more than 35 years. Many bridges in active use today are well beyond their intended designed life.  Since it would be much too costly and time consuming to replace these bridges with new bridges, proven repair and rehabilitation systems are critical to the life and safety of these structures. This paper will discuss the use of the FX-70 Inert Corrosion Free fiberglass jacket system that utilizes FX-70-6 Hydro-Ester Multipurpose Marine Epoxy and FX-225 Underwater Mortar specifically designed for bridge pile restoration.
 ]==],
     image = "bridge.jpg",
+    materials = false,
     start = { day = 24, month = 1, year = 2012,
       hour = 14, min = 30 },
     length = 1800,
@@ -1412,6 +1453,7 @@ Originally presented at the Transportation Research Board in January 2011.  This
     abstract = [==[
 
 ]==],
+    materials = false,
     start = { day = 24, month = 1, year = 2012,
       hour = 15, min = 30 },
     length = 1800,
@@ -1425,6 +1467,7 @@ Originally presented at the Transportation Research Board in January 2011.  This
     abstract = [==[
 
 ]==],
+    materials = false,
     start = { day = 24, month = 1, year = 2012,
       hour = 16, min = 00 },
     length = 3600,
@@ -1439,6 +1482,7 @@ Originally presented at the Transportation Research Board in January 2011.  This
 In 1966-68 the author first discovered HPNS at 600 fsw and 800 fsw.  Amerlioration first proved possible by selection of less susceptible divers, a very slow compression rate and stages for adaptation, but something more was required for depths greater than 1,000 fsw.  The author developed TRIMIX (He/N2/O2) to prevent such HPNS.  Experimental dives were made from the 1970s to 1990s at Duke University Medical Center ending with 4 deep saturation dives leading to a record depth of 686 m (2,250 fsw).  These were then continued at the German Underwater Simulator (Hamburg). At first, there were 14 deep working dives (8 hours welding per day) breathing TRIMIX 5 with little or no HPNS to 600 m (2,150 ft).  Later, further TRIMIX 5 dives with a 13 man diver team and 2,662 man days of saturation and 983 days of successful welding at 450 m (1,440 fsw) were conducted, proving the success of TRIMIX 5 in prevention of HPNS with no long term effects.
 ]==],
     image = "duke-dive-2250ft.jpg",
+    materials = false,
     start = { day = 25, month = 1, year = 2012,
       hour = 08, min = 30 },
     length = 3600,
@@ -1453,6 +1497,7 @@ In 1966-68 the author first discovered HPNS at 600 fsw and 800 fsw.  Amerliorati
 Commercial Diving is instrumental to the offshore oil and construction industries, with thousands of hours spent sub surface every year. With this being said sickness and hyperbaric illness are a very real threat to all divers. This paper explores what care givers whom provide emergent health care to divers have available to aid in monitoring vital signs for the ill or injured patient. With the move into deeper waters and more demanding work the health and well being of a diver has become a top priority. Further the OGP has published guidelines requiring the ability to monitor the cardiac rhythm of a diver in a chamber. This paper will describe the problems and solutions to patient monitoring at depth.
 ]==],
     image = "hyperbaric-ecg.jpg",
+    materials = false,
     start = { day = 25, month = 1, year = 2012,
       hour = 09, min = 30 },
     length = 1800,
@@ -1466,6 +1511,7 @@ Commercial Diving is instrumental to the offshore oil and construction industrie
     abstract = [==[
 
 ]==],
+    materials = false,
     start = { day = 25, month = 1, year = 2012,
       hour = 10, min = 30 },
     length = 5400,
@@ -1480,6 +1526,7 @@ Commercial Diving is instrumental to the offshore oil and construction industrie
 The contributions of Northwest divers to the craft of commercial diving are significant. Divers have often modified standard helmets to suit their specific needs and, beginning in the 1930s and into the 1960s, Seattle area divers developed a very distinctive helmet with several advantages over the standard gear. The culmination of this design process was a swimmable diving helmet that, but for differing construction materials and lack of swim fins, remains quite comparable to the equipment worn by modern commercial divers. This is the story of the progression from the standard diving helmet design to what became known as the Northwest Modified Diving Helmet or, since it is often named for its major contributor, the McCray helmet.
 ]==],
     image = "helmet.jpg",
+    materials = false,
     start = { day = 25, month = 1, year = 2012,
       hour = 13, min = 30 },
     length = 2700,
@@ -1493,6 +1540,7 @@ The contributions of Northwest divers to the craft of commercial diving are sign
     abstract = [==[
 
 ]==],
+    materials = false,
     start = { day = 25, month = 1, year = 2012,
       hour = 14, min = 15 },
     length = 2700,
@@ -1506,6 +1554,7 @@ The contributions of Northwest divers to the craft of commercial diving are sign
     abstract = [==[
 
 ]==],
+    materials = false,
     start = { day = 25, month = 1, year = 2012,
       hour = 15, min = 30 },
     length = 3600,
@@ -1522,6 +1571,7 @@ This session will be jointly presented by Simon Lunt, Analox & Larry Janicek, LB
 There will also be a short section in the presentation which will update delegates on Analox's project relating to the monitoring of H2S in the diving bell.
 ]==],
     image = "hypergas.jpg",
+    materials = false,
     start = { day = 25, month = 1, year = 2012,
       hour = 16, min = 30 },
     length = 1800,
@@ -1537,6 +1587,7 @@ The US Supreme Court ruling in Atlantic Sounding v Townsend and the cases that h
 Bringing you over three decades of diving risk management and analysis,  six time Superlawyer Rick Lesser will provide a summary of the most current aspects of diving and maritime law that will be invaluable in making  your own analysis of the risks and potential legal problems facing you., and more importantly, how to deal with them.
 Whether you are a commercial diver, vessel operator or diving contractor, the information in this seminar is vital to help you protect your business and your livelihood.
 ]==],
+    materials = false,
     start = { day = 26, month = 1, year = 2012,
       hour = 10, min = 30 },
     length = 1800,
@@ -1555,6 +1606,7 @@ The Divers Institute of Technology in Seattle, Washington was the first US schoo
 The paper will discuss the governance of the DCBC, the competency standard on which certification is based, the process to certify divers and the process to achieve accreditation.  The paper will also touch upon the work of the DCBC to retain and enhance their international recognition.
 ]==],
     image = "divcert.png",
+    materials = false,
     start = { day = 26, month = 1, year = 2012,
       hour = 11, min = 00 },
     length = 1800,
@@ -1569,6 +1621,7 @@ The paper will discuss the governance of the DCBC, the competency standard on wh
 This subject will address a recent accident that occured to a diver while performing an underwater welding operation.  The resulting investigation and root cause analysis lead to the identification of several unrealized conditions that aided in creating this "perfect storm."  These included such items as unaccounted power sources, unfamiliar with tools, unknown actual amperage from welder, and adjacent work groups.  The end result was a new, and more detailed JHA was created that addresses these hazards.  This JHA includes all of the best safet practices as laid out by the ADCI, but also takes it to the next level of pre-job set ups, and a firm commitment by AEP on how all U/W buring and welding work will conducted across the entire fleet.
 ]==],
     image = "welding.gif",
+    materials = false,
     start = { day = 26, month = 1, year = 2012,
       hour = 11, min = 30 },
     length = 1800,
@@ -1588,6 +1641,7 @@ In many applications, acoustic navigation systems (such as the commonly used USB
 The ROV & Diver TRACKER is a complete navigation system that includes a Fiber Optic Gyro (FOG), a DVL and multiple support sensor, suitable for installation into small and micro ROV's. This paper describes the system and the results obtained onboard a VideoRay micro ROV, where the TRACKER was integrated with both the vehicle and a BlueView SONAR.
 ]==],
     image = "inertial-nav.jpg",
+    materials = false,
     start = { day = 25, month = 1, year = 2012,
       hour = 08, min = 30 },
     length = 1800,
@@ -1601,6 +1655,7 @@ The ROV & Diver TRACKER is a complete navigation system that includes a Fiber Op
     abstract = [==[
 Multibeam imaging sonars have been available since the early nineties and have served well as a tool to improve situational awareness. Operators can observe targets at distances of tens to hundreds of yards and use the information to navigate underwater vehicles and monitor important subsea regions. The original systems were significant in size and weight and required large electronic pods to beam form and process the raw data. But today’s multibeam imaging sonars are of a size suitable for microROV operation, so much so that they have become a common payload option for many operators. In tandem software solutions enabling close control of unmanned systems using through-the-sensor servoing techniques have evolved to a level of maturity suitable for commercial exploitation. The bringing together of this technology with the microROV will enable a new level of user control to the operational users. A common task such as flying to a target can be a difficult undertaking when faced with currents and tether effects, when time is at a premium this can be frustrating and negatively impact the overall mission needs. This proposed technology enables the microROV to keep station relative to an object or structure identified in the sonar data. The ROV can then maneuver relative to this object and the pilot need only provide simple point-and-click commands on the sonar screen. This talk will illustrate some early results on early prototype work.
 ]==],
+    materials = false,
     start = { day = 25, month = 1, year = 2012,
       hour = 09, min = 00 },
     length = 1800,
@@ -1616,6 +1671,7 @@ The concept of ROV subsea inertial navigation and ROV mounted Multibeam has been
 Ian Florence
 Subsea Construction Manager
 ]==],
+    materials = false,
     start = { day = 25, month = 1, year = 2012,
       hour = 09, min = 30 },
     length = 1800,
@@ -1630,6 +1686,7 @@ Subsea Construction Manager
 A description of various sonar imaging tools readily available to contractors, engineers, and owners associated with underwater infrastructure and construction.  Specifically, inland applications are provided with the goal of sharing exciting opportunities to better communicate and monitor underwater work.  This presentation will review basic imaging techniques, share several samples of sonar imaging recently used to support underwater construction, monitor water intake structures, dock and ship berth maintenance, and dredge operations.  Discussion of how to expand the use of sonar in various markets which can enhance communication, and improve safety on underwater projects.
 ]==],
     image = "klein-sonar1.jpg",
+    materials = false,
     start = { day = 25, month = 1, year = 2012,
       hour = 10, min = 30 },
     length = 1800,
@@ -1644,6 +1701,7 @@ A description of various sonar imaging tools readily available to contractors, e
 Share the benefits and results of using scanning and multi-beam sonar imaging systems on two recent underwater construction projects.  Share samples and results of using both Tritech and Kongsberg systems.  These case studies will review leased and owned systems and how they provided cost effective and safe solutions.  The two case studies provided will include the installation of a new outfall including monitoring dredge and diving operations.  The second case study will show imaging solutions used to improve quality control and safety during the desilting and cleaning of intakes at a Nuclear power plant after Hurricane Irene.  These projects provide examples of sonar imaging readily available for incorporation into a majority of underwater construction projects, especially for inland black water projects.
 ]==],
     image = "klein-sonar2.jpg",
+    materials = false,
     start = { day = 25, month = 1, year = 2012,
       hour = 11, min = 00 },
     length = 1800,
@@ -1657,6 +1715,7 @@ Share the benefits and results of using scanning and multi-beam sonar imaging sy
     abstract = [==[
 This paper discusses some of the unique benefits of the use of real-time 3D imaging sonar technology as a multi-discipline sensor. This technology can provide exceptional data in real-time monitoring applications as well as mapping and survey applications, saving considerable money in complex and time sensitive operations. With the benefit of fully geo-referenced 3D data sets for every ping, the use of CGI (Computer Generated Imagery) is possible, allowing a fully immersive "augmented reality" environment for operators, engineers and clients all in real-time. In addition to the real-time monitoring benefits, 3D imaging sonar provides huge data redundancy which is available for in-line processing algorithms to improve accuracy, provide automatic noise and clutter removal, and produce incredible image detail over what could be normally achieved by current 2D and multibeam sonar technology.
 ]==],
+    materials = false,
     start = { day = 25, month = 1, year = 2012,
       hour = 11, min = 30 },
     length = 1800,
@@ -1671,6 +1730,7 @@ This paper discusses some of the unique benefits of the use of real-time 3D imag
 The presentation will review types of instrument currently avaialble, their application and limitations.  Practical tips to ensure correct equipment function and common pitfalls which lead to inaccuarate surveys will be discussed.  The talk will present various case histories on diver surveys, ROV pipeline surveys and general topside cathodic protections surveys. Various probe types will be discussed along with emerging technologies for AUV surveys.
 ]==],
     image = "probe.jpg",
+    materials = false,
     start = { day = 25, month = 1, year = 2012,
       hour = 13, min = 30 },
     length = 1800,
@@ -1684,6 +1744,7 @@ The presentation will review types of instrument currently avaialble, their appl
     abstract = [==[
 Using the MS 1000 scanning sonar for creating baseline surveys on large scale projects. These large scale projects can be but not limited to bridges, dams, ports & harbors and canal systems.  Creating these baseline surveys allows for better engineering assessment of structures and site conditions for homeland security issues.  Changing the orientation of the sonar allows one to image in different plans and obtain information necessary to build a three dimensional structure of the site.  All of this information can be tied into a GPSRTK system allowing for one to reacquire information at a later date and time.
 ]==],
+    materials = false,
     start = { day = 25, month = 1, year = 2012,
       hour = 14, min = 00 },
     length = 1800,
@@ -1698,6 +1759,7 @@ Using the MS 1000 scanning sonar for creating baseline surveys on large scale pr
 Exploration and production activities for oil and gas are steadily increasing in subsea areas. Various methods exist to detect and localize subsea oil and gas emissions but there is still a lack of understanding the processes of subsea leakages, and technologies to detect and localize emissions from subsea installations at an early stage have to be improved. Detecting and localizing subsea oil and gas emissions means dealing with warm multiphase outflow consisting of oil phase, gas bubbles and dissolved gas (mainly Methane), formation water, mixing with cold seawater, and sometimes even the formation of additional solid gas hydrate phases. Recent field observations and hydrodynamic models of Methane-rich fluid transport at natural seeping sites indicate the distinct behavior of Methane-dominated fluids in seawater.
 A successful leak detection strategy must focus on the different physicochemical fluid characteristics of Methane as a tracer for subsea oil and gas emissions in general. The feasibility of Hydrocarbon Sniffers for the detection, localization and subsequent validation of subsea oil and gas emissions has been proven in several ROV- and AUV-borne subsea flowline surveys from 2008 until today. Field experience and latest results will be presented for different environmental backgrounds, reaching from arctic areas to extreme shallow waters.
 ]==],
+    materials = false,
     start = { day = 25, month = 1, year = 2012,
       hour = 14, min = 30 },
     length = 1800,
@@ -1716,6 +1778,7 @@ This presentation demonstrates a software tool developed by 2G Robotics for gene
 Using a photorealistic 3D model as the starting point for underwater asset inspection allows the state of the entire asset to be understood more quickly and intuitively compared to using video alone.  This technology has the potential to alter the post inspection work-flow, saving time and providing greater asset understanding, resulting in reduced project costs and risks.
 ]==],
     image = "modelpoints.jpg",
+    materials = false,
     start = { day = 25, month = 1, year = 2012,
       hour = 15, min = 30 },
     length = 1800,
@@ -1729,6 +1792,7 @@ Using a photorealistic 3D model as the starting point for underwater asset inspe
     abstract = [==[
 The presentation will encompass a step through the basics of digital 3D photogrammetric modeling hardware and techniques, followed by a series of case studies that highlight the flexibility and value of the technology to provide highly accurate geometric information of damaged subsea components that can then be used to conduct structural analyses (e.g. FEAs). design tooling, and and verify design repairs. Case studies will include but not be limited to an impact-damaged well head, a deepwater pipeline damaged by anchor impacts, and heavily corroded mooring components. The presentation will finish with some discussion of the opportunities by this technology in combination with advances in metallic and polymer 3D printing technologies
 ]==],
+    materials = false,
     start = { day = 25, month = 1, year = 2012,
       hour = 16, min = 00 },
     length = 1800,
@@ -1751,6 +1815,7 @@ Dave Phillips will explain the challenges faced while diving in high current wit
 
 David Phillips travelled to the Philippines in 2008 to work with Titan Salvage Company on salvage efforts for a major ferry tragedy. The M/V Princess of the Stars, carrying several hundred people tragically capsized during a major typhoon leaving only a handful of survivors. During this salvage, VideoRay played a part in the early assessment and overview of the wreck. David will present footage of this wreck as case study for melding use of VideoRay ROVs into commercial salvage and other industrial applications.
 ]==],
+    materials = false,
     start = { day = 24, month = 1, year = 2012,
       hour = 09, min = 00 },
     length = 1800,
@@ -1765,6 +1830,7 @@ David Phillips travelled to the Philippines in 2008 to work with Titan Salvage C
 Remains of a controversial World War I shipwreck off the coast of Ireland explored with an Inspection Class Remotely Operated Vehicle (ROV) for a high profile television production in the summer of 2011.
 ]==],
     image = "lusitania.jpg",
+    materials = false,
     start = { day = 24, month = 1, year = 2012,
       hour = 09, min = 30 },
     length = 1800,
@@ -1779,6 +1845,7 @@ Remains of a controversial World War I shipwreck off the coast of Ireland explor
 In this talk we present a comprehensive survey procedure developed in-house and deployed on a recent survey mission in Mount Hope Bay to locate two ship wreckages using an Iver2. The vehicles were equipped with a Klein Side Scan Sonar, an Imagenex Delta-T multi-beam sensor and a Sontec Doppler Velocity Log (DVL) sensor. We present details on the in water compass calibration procedure that was developed using an Extended Kalman Filtering approach.   In addition, details on mission specification, localization including slant range correction and logging of multi-beam and side-scan sonar data are also presented. The multi-beam and side-scan data are prost-processed for automatic as well as manual artifact identification. Some sample results are also presented. We envision this comprehensive approach to be adopted for  multiple applications such as SLAM, hydrographic survey and underwater inspection missions.
 ]==],
     image = "rambala-presimg.jpg",
+    materials = false,
     start = { day = 24, month = 1, year = 2012,
       hour = 15, min = 30 },
     length = 1800,
