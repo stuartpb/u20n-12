@@ -80,6 +80,7 @@ Technical innovations are occurring at an ever-increasing rate and create new ch
 
 This presentation will cover the initial efforts of this laboratory to develop new innovative Operational Concepts for Explosive Ordnance Disposal forces, Anti-Terrorism/Force Protection (AT/FP) forces, and Maritime Critical Infrastructure Protection using modular, Micro Unmanned Surface Vessel (USV) technology. The presentation will focus on processes for creating modular hardware and software architectures, conducting important experiments in the operational environment, and finding or developing new technologies that open up new possibilities for innovative changes to operational concepts or market segments.
 ]==],
+    materials = false,
     start = { day = 24, month = 1, year = 2012,
       hour = 10, min = 30 },
     length = 1800,
@@ -102,6 +103,7 @@ Metal parts hate water, especially salt water. Add the effects of depth pressure
 For over thirty years, Polymer Corporation has been a leading producer of high-performance plastic parts and assemblies for undersea use.
 ]==],
     image = "oe2presimg.jpg",
+    materials = false,
     start = { day = 24, month = 1, year = 2012,
       hour = 11, min = 00 },
     length = 1800,
@@ -122,6 +124,7 @@ The paper will explore the types of biodegradable products and how they interact
 There will be a discussion of specific maintenance practices that are required to maintain long useful life of these fluids as well as long equipment life. This will include real world experience gained by several successful long term field demonstrations with commercial and military divers and ROVs. Data that will be used covers oil analysis, equipment inspections, operating conditions, and overall cost savings.
 ]==],
     image = "lubes.jpg",
+    materials = true,
     start = { day = 24, month = 1, year = 2012,
       hour = 11, min = 30 },
     length = 1800,
@@ -136,6 +139,7 @@ There will be a discussion of specific maintenance practices that are required t
 The world ocean remains the last unexplored space on earth. Underwater robots, when massively deployed, can bring huge benefit. Their use, however, is much more complicated than aerial or ground ones, due to communication problems. That is why enhancing intelligence of individual robots for increasing autonomy and reducing communications is the primary goal. In this paper we are offering a high-level distributed control technology that can dynamically integrate any underwater units into operable teams with a sort of global consciousness and pursuing global goals. It is based on universal knowledge processing and control modules easily installed in units and communicating with each other via any available channels. Ad hoc networks of these modules spatially, in parallel, interpret global mission descriptions in a special high-level Distributed Scenario Language (DSL) reflecting top semantics of what to be done in a distributed maritime space, while leaving system structuring and task-oriented C2 entirely to automatic language interpretation.  Extremely  short, created on the fly, DSL scenarios are injected into the robotic swarm from any unit, subsequently covering the whole system and setting the needed behavior, with communications between vehicles much shorter than with any other approaches (thus suitable for low speed channels). Implementation details of the technology will be revealed, and exemplary scenarios in DSL related to underwater environments, like collective distributed search of a large territory for specific objects or patrolling coastline will be shown. Cooperation with surface and aerial vehicles, also with higher-level manned systems within the same organizational model, are discussed too.
 ]==],
     image = "uuv-org.png",
+    materials = true,
     start = { day = 24, month = 1, year = 2012,
       hour = 13, min = 30 },
     length = 1800,
@@ -154,6 +158,7 @@ Kongsberg's AUVs combine the latest in sonar technology, hydrocarbon sensors ("s
 This paper provides a technology update on Kongsberg's AUVs for environmental monitoring and presents recent test results for key technologies, including detecting hydrocarbons with acoustical sensors.
 ]==],
     image = "env-mon.jpg",
+    materials = false,
     start = { day = 24, month = 1, year = 2012,
       hour = 14, min = 00 },
     length = 1800,
@@ -180,6 +185,7 @@ Typical use for the Data Logger for Surface and/or Subsea:
 - To justify an extended maintenance period
 ]==],
     image = "loggers.jpg",
+    materials = false,
     start = { day = 24, month = 1, year = 2012,
       hour = 14, min = 30 },
     length = 1800,
@@ -200,6 +206,7 @@ In cases where a priori data about the pipeline’s position is poor, and where 
 In the fall of 2011, Kongsberg Maritime has integrated automatic tracking of pipelines directly from the multibeam echo sounder data, thereby adding an important capability in the toolbox available to the AUV operator. In cases where it is appropriate, this can remove the need for the first survey pass, and gives the operator more flexibility in how to design the inspection mission. This paper highlights recent test results from industry-funded technology demonstration trials conducted along pipelines in the North Sea.
 ]==],
     image = "pipeline.jpg",
+    materials = false,
     start = { day = 24, month = 1, year = 2012,
       hour = 15, min = 30 },
     length = 1800,
@@ -219,6 +226,7 @@ This move into deeper and deeper waters has presented many technical and environ
 One of these challenges is that at the depths and significantly increased pressures that ROVs can see, the physical characteristics of hydraulic and dielectric fluids change. This paper explores the various factors that effect fluid characteristics including; pressure, temperature, viscosity, and type of fluid. It compares and contracts petroleum oils, environmentally safe oils and synthetics. It also includes a comparison of these fluids at atmospheric conditions to isolate any changes solely due to fluid type.
 ]==],
     image = "lube-perf.jpg",
+    materials = true,
     start = { day = 25, month = 1, year = 2012,
       hour = 09, min = 00 },
     length = 1800,
@@ -238,6 +246,7 @@ The purpose of certifying the competence of ROV personnel (Pilot/Technicians and
 
 In general the levels of certification and the competencies required to obtain certification are designed to meet the requirements of ROV Contractors and ROV end users.
 ]==],
+    materials = false,
     start = { day = 25, month = 1, year = 2012,
       hour = 09, min = 30 },
     length = 1800,
@@ -257,6 +266,7 @@ The authors conducted the running experiment of the flipper type crawler ROVs on
 This paper presents the advantageous mobility of the flipper type crawler ROV which has been confirmed at sea trial and the possibility of hard-rock coring at steep or irregular terrain seafloor with it.
 ]==],
     image = "coring.jpg",
+    materials = true,
     start = { day = 25, month = 1, year = 2012,
       hour = 10, min = 30 },
     length = 1800,
@@ -274,6 +284,7 @@ An assessment of this issue showed that it was not feasible to achieve step-chan
 
 This presentation will review features important in reducing downtime including: modular subsystem design, component accessibility, ease of replacement, and removal of the potential for installation errors during the maintenance process.  Major ROV subsystem examples will be discussed, including the HPU, the electrical power distribution system, and the tether/umbilical terminations.
 ]==],
+    materials = false,
     start = { day = 25, month = 1, year = 2012,
       hour = 11, min = 00 },
     length = 1800,
@@ -312,6 +323,7 @@ desirable areas in the adjacent vicinity, keeping wellheads clear and even
 with the natural sea bottom.
 ]==],
     image = "dredge.jpg",
+    materials = true,
     start = { day = 25, month = 1, year = 2012,
       hour = 11, min = 30 },
     length = 1800,
@@ -327,6 +339,7 @@ Remotely Operated Vehicles (ROVs) serve as the primary platform for a variety of
 The lack of standardization between different models of ROVs also makes preplanning the equipment integration difficult.  Taking the time to understand and address the basic considerations and the options available will help to prevent last minute emergencies.
 This presentation will provide an overview of the primary concerns when integrating new equipment.  Considerations include the size and weight of the equipment, ROV-specific mechanical attachment points, hydraulic connections, and electrical power and communication requirements.
 ]==],
+    materials = false,
     start = { day = 25, month = 1, year = 2012,
       hour = 13, min = 30 },
     length = 1800,
@@ -343,6 +356,7 @@ An overview of the available technologies will be discussed, with particular foc
 Improvements in the strength of wire rope technology and the increasing use of aramid based soft lines pose particular challenges to current cutting technology.  This will be discussed along with improvements that can be made to ensure modern cutting tools are capable of producing the cutting forces required whilst still maintaining a low enough weight and size for ROV deployment.
 ]==],
     image = "webtool.jpg",
+    materials = false,
     start = { day = 25, month = 1, year = 2012,
       hour = 14, min = 00 },
     length = 1800,
@@ -362,6 +376,7 @@ Reliability and Flexibility.  Being able to perform at depth and at a range of f
 
 Beyond ROV.  Some of the intervention applications that are served by ROVs, also need upgrading, such as BOP accumulator charging.  Discussion will cover how compact hydraulic intensifiers can be a cost effective solution.
 ]==],
+    materials = true,
     start = { day = 25, month = 1, year = 2012,
       hour = 14, min = 30 },
     length = 1800,
@@ -380,6 +395,7 @@ Advances in waterjet intensifier pump technology allow it to be applied subsea a
 Waterjet technology has been extended into the deepwater subsea space during the past year. Inclusion of an intensifier style subsea waterjet system in the collection of emergency response assets will give another option for cutting, salvage, and conduct of rapid de-mobilization operations.
 ]==],
     image = "waterjet.jpg",
+    materials = false,
     start = { day = 25, month = 1, year = 2012,
       hour = 15, min = 30 },
     length = 1800,
@@ -396,6 +412,7 @@ The last five years has seen the advent of commercial-off-the-shelf (COTS) Remot
 The purpose of this talk is to provide an insight into this technology and a glimpse of what to expect in the immediate future.
 ]==],
     image = "rockdump.jpg",
+    materials = true,
     start = { day = 25, month = 1, year = 2012,
       hour = 16, min = 00 },
     length = 1800,
@@ -413,6 +430,7 @@ This report explores the theory of fiber optics, both operation and concepts of 
 Further, it examines to the future of the technology and how it can shape the deep ocean industry, from low back reflectance connectors to bend-insensitive, high numerical aperture fiber options, which will allow even greater versatility and performance in robust connector shell designs.
 ]==],
     image = "fiberoptic-connect.jpg",
+    materials = true,
     start = { day = 25, month = 1, year = 2012,
       hour = 16, min = 30 },
     length = 1800,
@@ -455,6 +473,7 @@ Before we left to assist with our Pro 4 ROV we were told that the missing diver 
 Unfortunately we were not able to locate the lost diver, but this presentation will review the challenges we encountered using an ROV in these most difficult circumstances, in a rarely attempted type of search and recovery mission. I will also talk about the equipment used during this attempted recovery, the support supplied by Video Ray, and the lessons learned during the mission.
 ]==],
     image = "mcdavsfc.jpg",
+    materials = true,
     start = { day = 24, month = 1, year = 2012,
       hour = 08, min = 30 },
     length = 1800,
@@ -471,6 +490,7 @@ The Micro-ROV is easily deployed, with minimal risk, into a potential human trap
 This presentation will show the experiences of several small ROV projects successfully employed in under-ice operations, along with lessons learned from the agencies involved.  Projects include locating vehicles fallen through the ice, drowning victims and ice rescue training.
 ]==],
     image = "under-ice.jpg",
+    materials = true,
     start = { day = 24, month = 1, year = 2012,
       hour = 09, min = 00 },
     length = 1800,
@@ -484,6 +504,7 @@ This presentation will show the experiences of several small ROV projects succes
     abstract = [==[
 The mission of Rozalia Project for a Clean Ocean is to find and remove marine debris from our oceans, bays and rivers. Marine debris takes many forms, and occurs in all marine environments, presenting myriad challenges in removing it from the water. Rachael Miller of Rozalia Project uses a VideoRay with BlueView sonar, Lyyn image enhancement, and Smart Tether positioning system along with the Tritech Starfish side scan sonar, to scour the bottom of a variety of venues looking for and retrieving marine debris - from small pieces of plastic to large masses of derelict fishing gear - and everything in-between. This presentation will show specific examples of how the equipment is integrated and used in concert to locate and recover a variety of objects of differing size and material, and how different benthic environments and conditions affect mission planning and execution. The presentation will conclude with a discussion of lessons learned and the strategies Rachael used to handle specific challenges related to debris search and recovery.
 ]==],
+    materials = false,
     image = "debris.jpg",
     start = { day = 24, month = 1, year = 2012,
       hour = 09, min = 30 },
@@ -504,6 +525,7 @@ After attending multiple Underwater Intervention conferences – and paying clos
 
 This presentation by Mr. Shibuya himself will explain the results he experienced with the equipment and the lessons he has learned since acquiring it.
 ]==],
+    materials = false,
     image = "tsunami.jpg",
     start = { day = 24, month = 1, year = 2012,
       hour = 10, min = 30 },
@@ -518,6 +540,7 @@ This presentation by Mr. Shibuya himself will explain the results he experienced
     abstract = [==[
 Remotely Operated Vehicles were used during two trips to the Tsunami damaged areas in the Iwate Prefecture of Japan. In April 2011 four ROV’s were used to inspect infrastructure and to assist with victim search and recovery.  The ROV’s successfully allowed a fishing port to be reopened and were used to search for victims in debris to dangerous for manual search with divers. During this trip a SeaBotix SARbot, a SeaBotix LBV-300-5, a SeaMor ROV and an AC-ROV were used. A second trip in October 2011 saw a return to the city of Minamisanriku Cho. The city had requested an expanded search for debris in the ports and open areas of the bay where fishing nets were to be redeployed. Based on lessons learned in April a SeaBotix SARbot was chosen.  This paper will present data and lessons learned from the two trips.
 ]==],
+    materials = false,
     start = { day = 24, month = 1, year = 2012,
       hour = 11, min = 30 },
     length = 1800,
@@ -531,6 +554,7 @@ Remotely Operated Vehicles were used during two trips to the Tsunami damaged are
     abstract = [==[
 To extend the range of applications of small ROVs beyond that of a swimming camera, manufacturers develop accessory integration schemes to allow the addition of sophisticated systems including sonar, positioning, intervention and various other sensors  Understanding the technical aspects of your small ROV can help you improve the use of these commercial accessories or design and build your own.  This presentation will address related topics including ballast and trim, power, communications and total systems integration.
 ]==],
+    materials = false,
     start = { day = 24, month = 1, year = 2012,
       hour = 13, min = 30 },
     length = 1800,
@@ -545,6 +569,7 @@ To extend the range of applications of small ROVs beyond that of a swimming came
 The low-logistics associated with microROVs make it an ideal platform for rapid deployment. With microROVs, first respondents are able to rapidly mobilize to an area, run a survey and interact with the subsea environment if required. The time it takes to run a search and the confidence to report that the area has been cleared is often time-crucial for the success of the mission. Recent advances in technology have seen the introduction of software solutions to automate and simplify the piloting of the ROV by analyzing data gathered from navigation and sonar sensors.  Over the last few years technology developments have reduced the size of these sensors and it is now possible to introduce some of the technologies in use with observation-class and work-class ROVs. This talk explores a solution that integrates a phased array Doppler Velocity Log with a microROV and enables a true survey capability that, to date, would normally only be found with Autonomous Underwater Vehicles. The Survey-Control software simplifies the piloting of ROVs, improves the situational awareness of the operator and increases the pace of operations.  With this tool, first respondents will be able to fly the ROV with significantly less training and guide the ROV precisely around the environment.
 ]==],
     image = "autonomous.jpg",
+    materials = false,
     start = { day = 24, month = 1, year = 2012,
       hour = 14, min = 00 },
     length = 1800,
@@ -558,6 +583,7 @@ The low-logistics associated with microROVs make it an ideal platform for rapid 
     abstract = [==[
 Smart Tether, a complete underwater navigation system, offers you unmatched operation with your ROV system or tethered diver. The Smart Tether system, which includes tether, control box and software, is designed to meet multiple missions and tested to survive extreme environments. No matter what your mission, the Smart Tether system makes it smarter, faster, safer, and easier
 ]==],
+    materials = true,
     start = { day = 24, month = 1, year = 2012,
       hour = 14, min = 30 },
     length = 1800,
@@ -572,6 +598,7 @@ Smart Tether, a complete underwater navigation system, offers you unmatched oper
 Autonomous Underwater Vehicles (AUVs) and Remotely Operated Vehicles (ROVs) fill different niches within the underwater intervention task spectrum.  AUVs provide the capability for subsea inspection and survey on a variety of range scales and with multiple sensors, including sidescan and synthetic aperture sonar, sub-bottom profiling, multi-beam echosounding and still and video photography.  Small ROVs can provide inspection, repair and maintenance capabilities to assist the oil and gas industries in deep water environments.
 Bluefin Robotics recently acquired the assets of Hawkes Remotes, Inc. (HRI), a spinoff from Hawkes Ocean Technologies (HOT) that develops advanced ROVs.  The HRI designs offer scalable, modular solutions including a thin, armored fiber-optic tether and on-board high-energy-density batteries that will reduce the total cost of ownership/operating costs while simultaneously outperforming existing ROV technology.  Bluefin will leverage their autonomy and subsea experience to add hybrid capabilities to the ROVs and offer them as an extension of their current product line to the oil and gas industry.  The presentation will show how the Bluefin/Hawkes capabilities in the AUV and ROV space provide complementary technologies that will enable a wide variety of underwater intervention tasks with a cost-effective footprint and low infrastructure support.
 ]==],
+    materials = false,
     start = { day = 24, month = 1, year = 2012,
       hour = 15, min = 30 },
     length = 1800,
@@ -589,6 +616,7 @@ Although the Institute  is not an educational establishment there are several st
 
 Since 2008, teams of students from IMPT have participated in the MATE ROV Competition. In 2010 they won. This paper will present how the student ROV innovations were transformed into commercial product and why students involved in MATE are in demand in the underwater engineering workplace. Theoretical approaches in developing underwater vehicles, practical construction work and sea trials will be described in this presentation giving useful insight to students, teachers, and underwater technology professionals.
 ]==],
+    materials = false,
     start = { day = 24, month = 1, year = 2012,
       hour = 16, min = 00 },
     length = 1800,
@@ -603,6 +631,7 @@ Since 2008, teams of students from IMPT have participated in the MATE ROV Compet
 In order to quantify the effect of biofouling on ship performance, an accurate measure must be made of the fouling on the ship. This biofouling is very dependent on timing and ship service. Inspections must be carried out immediately after a ship’s return, and before a deployment. Not only are multiple, repeatable points to be inspected on the ship, but the ability must exist to do so anywhere in the world and on short notice. Both divers and ROVs were utilized to accomplish this mission.
 By utilizing both divers and ROVs, NSWC Carderock Division has been able to provide a consistent, high-quality survey of Navy ship hulls to meet the goals of the experiment. The lessons learned from over 60 hull inspections in two years will be shared. These include comments on rapid response, ship tagouts, ruggedization for air shipment of systems, and a novel CONOP for small-footprint operation on a pier. Divers and ROVs need not be competitors. By playing to the strengths of both, a much better product can be produced, and vital data can be gathered that would otherwise be missed.
 ]==],
+    materials = false,
     start = { day = 25, month = 1, year = 2012,
       hour = 08, min = 30 },
     length = 1800,
@@ -619,6 +648,7 @@ This presentation will cover the highlights and triumphs of a very ambitious exp
 Some of the requirements for the tasking were an extremely tight work schedule, limited support facilities, accurate positioning for data collection and very specific data gathering.  Additionally, all of the work had to be conducted off of a 25’ Boston Whaler.
 Due to these stringent requirements a VideoRay Pro4 ROV, KCF Technologies Smart Tether, LYYN Video Enhancement System and a YSI 600XL Sonde Gauge were chosen to complete the survey.
 ]==],
+    materials = true,
     start = { day = 25, month = 1, year = 2012,
       hour = 09, min = 00 },
     length = 1800,
@@ -635,6 +665,8 @@ The use of VideoRays in the Offshore Oil & Gas Industry is growing rapidly, as r
 This presentation covers case studies where Van Meter Consulting has used Micro ROVs to support offshore oil and gas projects. From Russia's Siberian LNG, to an FPSO in the South China Sea, to the Gulf of Mexico, photos and video clips will demonstrate how this maturing technology is being used in the offshore environment. Van Meter will explain how he won the jobs, planned for the mission, adjusted and compensated when things were not working, and successfully completed the mission each time.
 ]==],
     image = "oilrig.jpg",
+    materials = true,
+    materials = false,
     start = { day = 25, month = 1, year = 2012,
       hour = 09, min = 30 },
     length = 1800,
@@ -649,6 +681,7 @@ This presentation covers case studies where Van Meter Consulting has used Micro 
 Multibeam imaging sonars have been available since the early nineties and have served well as a tool to improve situational awareness. Operators can observe targets at distances of tens to hundreds of yards and use the information to navigate underwater vehicles and monitor important subsea regions. The original systems were significant in size and weight and required large electronic pods to beam form and process the raw data. But today’s multibeam imaging sonars are of a size suitable for microROV operation, so much so that they have become a common payload option for many operators. In tandem software solutions enabling close control of unmanned systems using through-the-sensor servoing techniques have evolved to a level of maturity suitable for commercial exploitation. The bringing together of this technology with the microROV will enable a new level of user control to the operational users. A common task such as flying to a target can be a difficult undertaking when faced with currents and tether effects, when time is at a premium this can be frustrating and negatively impact the overall mission needs. This proposed technology enables the microROV to keep station relative to an object or structure identified in the sonar data. The ROV can then maneuver relative to this object and the pilot need only provide simple point-and-click commands on the sonar screen. This talk will illustrate some early results on early prototype work.
 ]==],
     image = "tracking.jpg",
+    materials = false,
     start = { day = 25, month = 1, year = 2012,
       hour = 10, min = 30 },
     length = 1800,
@@ -667,6 +700,7 @@ The LYYN products optimize the contrast and color of each frame to increase the 
 Until now, this technology has only been available for analog video. In the near future, it will be available also for HD-SDI video streams and for IP cameras. During the presentation we will demonstrate how we eliminate both the disturbances from water as well as the distance to the camera by connecting an iPad to several IP cameras live from around the world, and enhancing the video in real-time. We will also show some recorded, and lyynified HD footage.
 ]==],
     image = "lyyn-sshot.png",
+    materials = false,
     start = { day = 25, month = 1, year = 2012,
       hour = 11, min = 00 },
     length = 1800,
@@ -685,6 +719,7 @@ To accomplish these goals, RPMNF uses an ROV fitted with two Hydro-lek multifunc
 This paper will provide an overview of how these Hydro-Lek manipulators were utilized in the recovery of not just these important archaeological artefacts but also in many other deep sea salvage operations.  It will also explain the design and operation of the hydraulic manipulator technology and how smaller ROV's can be empowered by the use of high performance subsea tooling.
 ]==],
     image = "manip.jpg",
+    materials = true,
     start = { day = 25, month = 1, year = 2012,
       hour = 11, min = 30 },
     length = 1800,
@@ -699,6 +734,7 @@ This paper will provide an overview of how these Hydro-Lek manipulators were uti
 Florida State University Panama City (FSUPC) completed an evaluation study in 2010 that examined the techniques and tools available for the execution of the search and inspection activities that public safety divers are routinely called upon to perform.  The test teams were drawn from major ports across the country and were selected for their experience and skill in conducting port security operations as well as routine public safety dive functions.  The teams included Seattle Police Department Harbor Patrol, NYPD Scuba Team, Jacksonville Sheriff Office Dive Team, and the FBI’s USERT team out of Los Angeles. A team from FSUPC’s Underwater Crime Scene Investigation was utilized to augment the dataset.  The findings indicated that traditional and technology-augmented search techniques were all very successful methods, particularly in the specific contexts for which they were developed.  However, broader implications to ROV training and use were suggested by the results.  While these observations were beyond the scope of the study, they provide valuable insights that are shared in this paper.
 ]==],
     image = "nypd-rov.jpg",
+    materials = false,
     start = { day = 25, month = 1, year = 2012,
       hour = 13, min = 30 },
     length = 1800,
@@ -712,6 +748,7 @@ Florida State University Panama City (FSUPC) completed an evaluation study in 20
     abstract = [==[
 Small ROVs have reached a point in their adoption curve where organizations may own more than one and acquisitions may involve multiple systems, but are these organizations managing these assets like a fleet, or are they still leaving that in the hands of the lead operator of each system?  This presentation will address the tools, techniques and best practices that owners or managers of multiple small ROVs should consider to ensure that they are getting the most value from their investments in equipment and people.  While the fleet size addressed in this presentation is 10 systems or more, there will be valuable information presented for any level of ownership, including just one system.
 ]==],
+    materials = false,
     start = { day = 25, month = 1, year = 2012,
       hour = 14, min = 00 },
     length = 1800,
@@ -727,6 +764,7 @@ Remotely operated vehicles have become a commonplace undersea tool.  However the
 The micro-ROV lends itself to non-traditional use more so than its bigger brethren.  The lower cost, lower complexity, and ease of transportation and operational insertion promote novel uses and experimentation.  The micro-ROV also packs many capabilities into a systems package: imaging and navigation sensors, propulsion, illumination, pressure vessel, power, communications, etc.
 This talk will discuss some examples of such non-traditional uses by VideoRay customers and ways in which manufactures can foster and leverage this type of end-user application.
 ]==],
+    materials = false,
     start = { day = 25, month = 1, year = 2012,
       hour = 14, min = 30 },
     length = 1800,
@@ -737,9 +775,7 @@ This talk will discuss some examples of such non-traditional uses by VideoRay cu
     title = "A high performance mini-ROV for fishery bi-catch studies",
     fulltitle = "",
     presenters = { "Darren Moss", },
-    abstract = [==[
-
-]==],
+    materials = false,
     start = { day = 25, month = 1, year = 2012,
       hour = 15, min = 30 },
     length = 1800,
@@ -753,6 +789,7 @@ This talk will discuss some examples of such non-traditional uses by VideoRay cu
     abstract = [==[
 Knowing how to change a flat tire doesn't ensure that your car is maintained in optimal operating condition.  Likewise, knowing how to change a propeller or camera dome doesn't ensure that your small ROV will be properly maintained.  This presentation will look beyond the basic repair techniques and describe key elements in developing and implementing a small ROV maintenance program designed to keep your systems running and extend their service life.  Topics addressed include what items require the most frequent maintenance, how to avoid the most costly repairs, keeping track of service records, how to handle emergencies and many other best practices.
 ]==],
+    materials = false,
     start = { day = 25, month = 1, year = 2012,
       hour = 16, min = 00 },
     length = 1800,
@@ -951,9 +988,6 @@ Since 1986 MSUBS has been producing small, diesel-electric submersibles; coupled
     title = "Deep Ocean Engineering Solutions",
     fulltitle = "TBD",
     presenters = { "Liz Taylor", },
-    abstract = [==[
-
-]==],
     start = { day = 25, month = 1, year = 2012,
       hour = 11, min = 30 },
     length = 1800,
@@ -1024,9 +1058,6 @@ The presentation will also describe a means of packaging the 64 modules that all
     title = "MTS MUV Committee Meeting",
     fulltitle = "Annual Committee Meeting for MTS Manned Underwater Vehicles",
     presenters = { "Will Kohnen", },
-    abstract = [==[
-
-]==],
     start = { day = 25, month = 1, year = 2012,
       hour = 15, min = 30 },
     length = 3600,
@@ -1133,6 +1164,7 @@ In result of MATE activities in educational field, specifically - ROV Competitio
 This paper reviews relatively fast evolution showing that participation in student’s competitions opens the doors to industry. Details of development project and ROV itself  described pointing the evolution from student “toy” to real product. The issue of growing demand in UUV operator/technician staff is presented from educational establishment’s side.
 ]==],
     image = "edu3presimg.jpg",
+    materials = true,
     start = { day = 24, month = 1, year = 2012,
       hour = 09, min = 30 },
     length = 1800,
@@ -1302,6 +1334,7 @@ I hope to present this device and share the safe technology with all our members
 Provide procedures used to conduct on-site system certification survey of U. S. Navy Diving Life Support Equipment.  Present the detailed checklist and requirements used to inspect the material and operational condition of the system.  Discuss U.S. Navy diving system maintence requirements and the system used to track the completion of required maintenance.  Present the documentation used by maintenance personnel to document re-entry and work completed on a certified system.  Discuss the documentation required for replacing components of a certified diving life support system.
 ]==],
     image = "frey-murphy-pres.jpg",
+    materials = true,
     start = { day = 24, month = 1, year = 2012,
       hour = 10, min = 30 },
     length = 3600,

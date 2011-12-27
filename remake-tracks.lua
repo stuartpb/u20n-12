@@ -1,15 +1,15 @@
 local tracks = require "tracks"
 
-  local outfile = io.open('presentations.lua','w')
+local outfile = io.open('presentations.lua','w')
 
-  local function write(...)
-    --io.stdout:write(...)
-    outfile:write(...)
-  end
+local function write(...)
+  --io.stdout:write(...)
+  outfile:write(...)
+end
 
-  local function writef(...)
-    return write(string.format(...))
-  end
+local function writef(...)
+  return write(string.format(...))
+end
 
 write[==[
 local string = require 'string'
@@ -123,6 +123,9 @@ for ni=1,#tracks.names do
     end
 
     if p.image then writef("    image = %q,\n",p.image) end
+    if p.materials then write("    materials = true,\n")
+      else write("    materials = false,\n") end
+
     writef("    start = { day = %i, month = %i, year = %i,\n",
       p.start.day, p.start.month, p.start.year)
     writef("      hour = %02i, min = %02i },\n",
