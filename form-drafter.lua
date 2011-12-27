@@ -42,7 +42,7 @@ sort(namelist,function(m,n) return people[m].last < people[n].last end)
 
 for i=1,#p11s do
   local pres = p11s[i]
-  local person = pres.lead
+  local person = pres.presenters[1]
 
   local missing_data = {}
 
@@ -72,7 +72,7 @@ for i=1,#p11s do
     end
   end
 
-  if pres.presenters > 1 then
+  if #pres.presenters > 1 then
     local mp_cos = missingpeople[person].cos or {}
     local mp_coset = missingpeople[person].coset or {}
     for j=2,#pres.presenters do
