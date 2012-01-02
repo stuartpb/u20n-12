@@ -131,6 +131,7 @@ Dr. Bennett was the Founder and President of the Divers Alert Network from 1980-
     org = "miniBOOSTER Hydraulics A/S",
     homepage = "http://www.minibooster.com/",
     email = "TB@minibooster.com",
+    headshot = "bollmann.jpg",
     bio = [==[
 Thyge Bollmann is a Vice President at miniBOOSTER Hydraulics A/S in Denmark and works with customers worldwide in support of miniBOOSTER Hydraulic Intensifiers.
 ]==],
@@ -203,6 +204,10 @@ Dr. Bourgeois also serves as a special government employee on the USCG Mariner M
     org = "Georgia Tech Savannah Robotics",
     homepage = "http://gtsr.gtsav.gatech.edu/",
     email = "sbradshaw6@mail.gatech.edu",
+    headshot = "bradshaw.jpg",
+    bio = [==[
+Steven Bradshaw is currently an Electrical Engineering masters student for Dr. Fumin Zhang. In May 2011 he graduated from Georgia Tech with an undergraduate in Mechanical Engineering. He started the robotics team in April 2008. He has participated in the 2009 and 2010 International MATE ROV competitions, and the AUVSI ASV competition in 2010.
+]==],
   },
 
   ["Jim Britton"] = {
@@ -281,14 +286,6 @@ Mr. Joseph Curran has been working with underwater vehicle systems for 12 years.
     headshot = "davidson.jpg",
   },
 
-  ["Michael Donovan"] = {
-    first = "Michael",
-    last = "Donovan",
-    org = "Bluefin Robotics",
-    homepage = "http://www.bluefinrobotics.com/",
-    email = "mdonovan@bluefinrobotics.com",
-  },
-
   ["Keith Elliot"] = {
     first = "Keith",
     last = "Elliot",
@@ -330,6 +327,7 @@ Peter K. Eriksen is Business Development Director of Norbit Subsea AS which prov
     org = "Contros Systems & Solutions GmbH",
     homepage = "http://www.contros.eu/",
     email = "d.esser@contros.eu",
+    headshot = "esser.jpg",
     bio = [==[
 Daniel Esser is Managing Director and co-founder of CONTROS Systems & Solutions GmbH, a company that provides state-of-the-art multi-parameter sensor systems and services for both scientific and commercial hydrocarbon and CO2 leak detection and environmental monitoring projects worldwide. After working as a radio operator on a German Research Submarine, Daniel graduated from the University of North London with a Master in International Business. Since then he was working as a project manager, consultant and as a marketing manager for various international companies in the scientific, as well as in the industrial environment. In 2007, CONTROS has successfully launched the first fully integrated Mobile Leak Detection System for the detection, localization and qualification of early stage subsea oil and gas emissions.
 ]==],
@@ -519,6 +517,7 @@ Liesl Hotaling is a Senior Research Engineering with the College of Marine Scien
     org = "MESCO/ Stroud Diving & Hydrography",
     homepage = "http://www.mesco-offshore.com/",
     email = "will.hux@mesco-offshore.com",
+    headshot = "hux.jpg",
     bio = [==[
 Will Hux is a graduate of the Coastal School of Deep Sea Diving (1970) and Commercial Diving Center's Bell and Saturation course in 1973.  He is a mechanical engineer and has been employed with Stroud Diving & Hydrography since 1983.  He is a Wound Care Technologist and Certified Hyperbaric Technologist with the American College of Hyperbaric Medicine.
 ]==],
@@ -668,6 +667,7 @@ Mr. William Kohnen is President of Hydrospace Group which provides specialized i
     org = "Jesuit High School Robotics Team",
     homepage = "http://jesuitrobotics.org/",
     email = "rovcoach@gmail.com",
+    headshot = "jesuit-team.jpg",
     bio = [==[
 Jesuit High School is a fully-accredited, independent, college preparatory, Jesuit, Catholic, private boys high school that serves the greater Sacramento area by continuing the long tradition of Jesuit education aimed at educating the whole person – mind, body and spirit. The Jesuit Robotics Team was established in 2003 as a competitive, extra-curricular activity designed to foster an interest in technology and engineering. Team members are exposed to the many facets of the engineering profession, including understanding customer requirements, technical writing, technical presentations, engineering solutions to complex problems, manufacturing of components, software development and mission planning. Jesuit Robotics is a two-time champion of the Marine Advanced Technology Education International ROV Competition (2011 and 2007), prevailing over teams from prestigious universities and colleges from around the world. The 18-member team is comprised of students from every class (Freshman through Senior) and is mentored by head coach Rolf Konstad, a full-time Engineering Manager with Intel Corporation, and three assistant coaches.
 ]==],
@@ -952,6 +952,20 @@ Mr. Murray is a Materials Engineers with over 30 years of experience in the Rese
 ]==],
   },
 
+  ["Dean Nafziger"] = {
+    first = "Dean",
+    last = "Nafziger",
+    org = "Underwater Recovery Observation & Video",
+    homepage = "http://urov.net",
+    email = "dean@urov.net",
+    headshot = "dean-nafziger.jpg",
+    bio = [==[
+As a business owner serving the fleet equipment maintenance industry for  30 years Dean knows the value of protecting assets by proper care and routine maintenance. His work included providing managers and end users with information and instruction on implementing  proper applications, best practices, and improved techniques.
+
+Dean is a certified systems trainer for VideoRay LLC , and has assisted in developing training materials for the operation and maintenance of micro ROVs. He is also the owner of UROV.net (Underwater Recovery Observation and Video) based near Philadelphia, Pennsylvania.
+]==],
+  },
+
   ["Bill Niblock"] = {
     first = "Bill",
     last = "Niblock",
@@ -1095,6 +1109,7 @@ Dave is also a VideoRay Certified Instructor and has conducted operator training
     org = "Schilling Robotics",
     homepage = "http://www.schilling.com/",
     email = "andy.porterfield@schilling.com",
+    headshot = "porterfield.jpg",
     bio = [==[
 Andy Porterfield has been a Mechanical Engineer at Schilling Robotics since 2008, and has prior design and test experience in the Aerospace, Railroad, and Highway Safety industries.
 ]==],
@@ -1445,9 +1460,9 @@ David is a member of the MTS, an emeritus member of the Society of Exploration G
     email = "rwilson@bluefinrobotics.com",
     headshot = "wilson.jpg",
     bio = [==[
-Dr. Richard Wilson is the Director of Power and Electrical Systems at Bluefin. He has over ten years experience in the design of AUVs and has made significant contributions to Bluefin's pressure-tolerant battery and power systems. Dr. Wilson was the project manager and designer of a number of battery products including an 8.8 kWh pressure tolerant battery designed for use in large battery systems, and also the smart-battery electronics board and power control systems that are used across the battery range. In addition, he has served as project manager for the GAMBIT AUV (ONR-sponsored joint US/UK sonar test bed vehicle) and has led the design of all of the electrical systems that are used on the Bluefin vehicles. Prior to joining Bluefin, Dr. Wilson was employed by the Proudman Oceanographic Laboratory in the UK developing marine instrumentation.
+Dr. Richard Wilson is the Director of Power Systems at Bluefin Robotics. He has over ten years experience in the design of AUVs and has made significant contributions to Bluefin's pressure-tolerant battery and power systems. Dr. Wilson was the project manager and designer of a number of battery products including an 8.8 kWh pressure tolerant battery designed for use in large battery systems, and also the smart-battery electronics board and power control systems that are used across the battery product range. In addition, he has served as project manager for the GAMBIT AUV (ONR-sponsored joint US/UK sonar test bed vehicle) and has led the design of all of the electrical systems that are used on the Bluefin vehicles. Prior to joining Bluefin, Dr. Wilson was employed by the Proudman Oceanographic Laboratory in the UK developing marine instrumentation.
 
-Dr. Wilson holds a Postdoctoral degree in Electro-Mechanical Design/instrumentation, a  Masters degree in Electro-Mechanical Design/Technology and aBachelor of Engineering in Electrical and Electronics Engineering from Plymouth University in the UK.
+Dr. Wilson holds a PhD in Electro-Mechanical Design/instrumentation, a Masters degree in Electro-Mechanical Design/Technology and a Bachelor of Engineering in Electrical and Electronics Engineering.
 ]==],
   },
 

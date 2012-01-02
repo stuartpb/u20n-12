@@ -283,9 +283,10 @@ In response to the complexity of the missions they are asked to perform, ROVs co
 
 An assessment of this issue showed that it was not feasible to achieve step-change improvements in repair tasks without revisiting the overall system design philosophy and placing a significant focus on the primary challenges of time to repair and ability to perform the repair correctly the first time.  As a result, Schilling Robotics has invested in developing ROV technology that can be repaired within 60 minutes, providing a significant increase in ROV system uptime and customer profitability.
 
-This presentation will review features important in reducing downtime including: modular subsystem design, component accessibility, ease of replacement, and removal of the potential for installation errors during the maintenance process.  Major ROV subsystem examples will be discussed, including the HPU, the electrical power distribution system, and the tether/umbilical terminations.
+This presentation will review features important in reducing downtime including: modular subsystem design, component accessibility, ease of replacement, and removal of the potential for installation errors during the maintenance process.  Major ROV subsystem examples will be discussed, including the HPU and the electrical power distribution system.
 ]==],
-    materials = false,
+    materials = true,
+    image = "rov-rts.jpg",
     start = { day = 25, month = 1, year = 2012,
       hour = 11, min = 00 },
     length = 1800,
@@ -343,6 +344,7 @@ The lack of standardization between different models of ROVs also makes preplann
 This presentation will provide an overview of the primary concerns when integrating new equipment. Considerations include the size and weight of the equipment, ROV-specific mechanical attachment points, hydraulic connections, and electrical power and communication requirements.
 ]==],
     materials = false,
+    image = "sim-services.jpg",
     start = { day = 25, month = 1, year = 2012,
       hour = 13, min = 30 },
     length = 1800,
@@ -382,6 +384,7 @@ Reliability and Flexibility.  Being able to perform at depth and at a range of f
 Beyond ROV.  Some of the intervention applications that are served by ROVs, also need upgrading, such as BOP accumulator charging.  Discussion will cover how compact hydraulic intensifiers can be a cost effective solution.
 ]==],
     materials = true,
+    image = "tooling.png",
     start = { day = 25, month = 1, year = 2012,
       hour = 14, min = 30 },
     length = 1800,
@@ -444,7 +447,7 @@ Further, it examines to the future of the technology and how it can shape the de
 
   {
     title = "MTS ROV Committee Meeting",
-    fulltitle = "",
+    fulltitle = "Marine Technology Society Remotely Operated Vehicle Committee Meeting",
     presenters = { "Drew Michel", },
     abstract = [==[
 The agenda for the MTS ROV Committee meeting:
@@ -561,6 +564,7 @@ Remotely Operated Vehicles were used during two trips to the Tsunami damaged are
 To extend the range of applications of small ROVs beyond that of a swimming camera, manufacturers develop accessory integration schemes to allow the addition of sophisticated systems including sonar, positioning, intervention and various other sensors  Understanding the technical aspects of your small ROV can help you improve the use of these commercial accessories or design and build your own.  This presentation will address related topics including ballast and trim, power, communications and total systems integration.
 ]==],
     materials = false,
+    image = "accessories.jpg",
     start = { day = 24, month = 1, year = 2012,
       hour = 13, min = 30 },
     length = 1800,
@@ -599,7 +603,7 @@ Smart Tether, a complete underwater navigation system, offers you unmatched oper
   {
     title = "Bluefin AUVs & ROVs",
     fulltitle = "ROVs and AUVs: Complementary Technologies for Underwater Intervention Tasks",
-    presenters = { "Joshua Elvander", "Michael Donovan", },
+    presenters = { "Joshua Elvander", },
     abstract = [==[
 Autonomous Underwater Vehicles (AUVs) and Remotely Operated Vehicles (ROVs) fill different niches within the underwater intervention task spectrum.  AUVs provide the capability for subsea inspection and survey on a variety of range scales and with multiple sensors, including sidescan and synthetic aperture sonar, sub-bottom profiling, multi-beam echosounding and still and video photography.  Small ROVs can provide inspection, repair and maintenance capabilities to assist the oil and gas industries in deep water environments.
 Bluefin Robotics recently acquired the assets of Hawkes Remotes, Inc. (HRI), a spinoff from Hawkes Ocean Technologies (HOT) that develops advanced ROVs.  The HRI designs offer scalable, modular solutions including a thin, armored fiber-optic tether and on-board high-energy-density batteries that will reduce the total cost of ownership/operating costs while simultaneously outperforming existing ROV technology.  Bluefin will leverage their autonomy and subsea experience to add hybrid capabilities to the ROVs and offer them as an extension of their current product line to the oil and gas industry.  The presentation will show how the Bluefin/Hawkes capabilities in the AUV and ROV space provide complementary technologies that will enable a wide variety of underwater intervention tasks with a cost-effective footprint and low infrastructure support.
@@ -614,7 +618,7 @@ Bluefin Robotics recently acquired the assets of Hawkes Remotes, Inc. (HRI), a s
   {
     title = "Student innovations transforming commercial ROV technologies",
     fulltitle = "Evaluation of Quality indicators for observation class ROVs",
-    presenters = { "Dmitry Lyakhov", "Irina G. Mokeeva", "Vladimir V. Kostenko", },
+    presenters = { "Dmitry Lyakhov", "Sergey Ogay", "Jill Zande", },
     abstract = [==[
 The Institute of Marine Technology Problems (IMPT) is a unit of the Far Eastern Branch of the Russian Academy of Sciences. It was formed as the Navigation and Control Systems Lab in 1972 and in 1988 grown into the IMPT with an emphasis on research, development and engineering of AUVs. In an almost 40 years of establishment, the IMPT has been successful in developing dozens of unmanned underwater vehicles (prototypes and initial production).
 
@@ -623,6 +627,7 @@ Although the Institute  is not an educational establishment there are several st
 Since 2008, teams of students from IMPT have participated in the MATE ROV Competition. In 2010 they won. This paper will present how the student ROV innovations were transformed into commercial product and why students involved in MATE are in demand in the underwater engineering workplace. Theoretical approaches in developing underwater vehicles, practical construction work and sea trials will be described in this presentation giving useful insight to students, teachers, and underwater technology professionals.
 ]==],
     materials = false,
+    image = "student-inno.jpg",
     start = { day = 24, month = 1, year = 2012,
       hour = 16, min = 00 },
     length = 1800,
@@ -646,7 +651,7 @@ By utilizing both divers and ROVs, NSWC Carderock Division has been able to prov
 
   {
     title = "Bathymetry and Biotope Surveys in the Red Sea",
-    fulltitle = "Using micro-ROV's to Conduct 200+ Km's of Bathymetry and Biotope Transect Surveys in the Red Sea",
+    fulltitle = "Using micro-ROVs to Conduct 200+ Km's of Bathymetry and Biotope Transect Surveys in the Red Sea",
     presenters = { "Craig Thorngren", },
     abstract = [==[
 During the summer of 2011, King Fahd University of Petroleum and Minerals was contracted by Saudi ARAMCO to conduct  an extensive surveys in the Red Sea where they wanted to conduct test drills for oil.  The survey was needed to complete a baseline assessment and to see if there were any critical habitat areas in or near the proposed well sights.
@@ -654,6 +659,7 @@ This presentation will cover the highlights and triumphs of a very ambitious exp
 Some of the requirements for the tasking were an extremely tight work schedule, limited support facilities, accurate positioning for data collection and very specific data gathering.  Additionally, all of the work had to be conducted off of a 25’ Boston Whaler.
 Due to these stringent requirements a VideoRay Pro4 ROV, KCF Technologies Smart Tether, LYYN Video Enhancement System and a YSI 600XL Sonde Gauge were chosen to complete the survey.
 ]==],
+    image = "bathys.jpg",
     materials = true,
     start = { day = 25, month = 1, year = 2012,
       hour = 09, min = 00 },
@@ -705,7 +711,7 @@ The LYYN products optimize the contrast and color of each frame to increase the 
 Until now, this technology has only been available for analog video. In the near future, it will be available also for HD-SDI video streams and for IP cameras. During the presentation we will demonstrate how we eliminate both the disturbances from water as well as the distance to the camera by connecting an iPad to several IP cameras live from around the world, and enhancing the video in real-time. We will also show some recorded, and lyynified HD footage.
 ]==],
     image = "lyyn-sshot.png",
-    materials = false,
+    materials = "http://www.lyyn.com/UI2012",
     start = { day = 25, month = 1, year = 2012,
       hour = 11, min = 00 },
     length = 1800,
@@ -754,6 +760,7 @@ Florida State University Panama City (FSUPC) completed an evaluation study in 20
 Small ROVs have reached a point in their adoption curve where organizations may own more than one and acquisitions may involve multiple systems, but are these organizations managing these assets like a fleet, or are they still leaving that in the hands of the lead operator of each system?  This presentation will address the tools, techniques and best practices that owners or managers of multiple small ROVs should consider to ensure that they are getting the most value from their investments in equipment and people.  While the fleet size addressed in this presentation is 10 systems or more, there will be valuable information presented for any level of ownership, including just one system.
 ]==],
     materials = false,
+    image = "fleet-mgmt.jpg",
     start = { day = 25, month = 1, year = 2012,
       hour = 14, min = 00 },
     length = 1800,
@@ -790,11 +797,12 @@ This talk will discuss some examples of such non-traditional uses by VideoRay cu
   {
     title = "ROV Maintenance Program",
     fulltitle = "Ensuring Maximum Up-Time and Extending the Service Life of Small ROVs",
-    presenters = { "Tom Glebas", },
+    presenters = { "Dean Nafziger", },
     abstract = [==[
 Knowing how to change a flat tire doesn't ensure that your car is maintained in optimal operating condition.  Likewise, knowing how to change a propeller or camera dome doesn't ensure that your small ROV will be properly maintained.  This presentation will look beyond the basic repair techniques and describe key elements in developing and implementing a small ROV maintenance program designed to keep your systems running and extend their service life.  Topics addressed include what items require the most frequent maintenance, how to avoid the most costly repairs, keeping track of service records, how to handle emergencies and many other best practices.
 ]==],
     materials = false,
+    image = "vital.jpg",
     start = { day = 25, month = 1, year = 2012,
       hour = 16, min = 00 },
     length = 1800,
@@ -1036,7 +1044,7 @@ Subsea power has long been identified as a challenging component of designing an
 
 This presentation will outline the challenges of subsea power and describe the benefits of modular pressure-tolerant batteries. It will also highlight how this type of battery can effectively be used to supply power for a multitude of subsea applications such as AUVs, ROVs, benthic instrumentation and actuation of subsea equipment.
 
-The talk will describe the characteristics of the underlying technology, the design methodology and historical development and the characteristics of pressure-tolerant batteries ranging from small replaceable units (1.5kWh / 30V) to larger units (29.6kWh /  240V). Field data of the battery performance in AUVs and possibly other platforms will also be presented.
+The talk will describe the characteristics of the underlying technology, the design methodology and historical development and the characteristics of pressure-tolerant batteries ranging from small replaceable units (1.5kWh / 30V) to larger units (29.6kWh / 240V). Field data of the battery performance in AUVs and possibly other platforms will also be presented.
 
 Additionally, a new method of achieving safer performance of lithium-based battery packs will be presented. The method essentially prevents the propagation of fire among cells within a pack effectively yielding a safer energy supply. Recent research was conducted that included testing of fundamentally safer cells that shut down following an unsafe event. Results from this research will be shared.
 ]==],
@@ -1140,7 +1148,7 @@ Deep sea buoyancy has evolved significantly since the pre-1960’s days in which
 A rigorous QC protocol in all components in the syntactic buoyancy is required to maintain a capable manufacturing process as well as reliable, predictable long-term syntactic foams behavior.  This control starts in the microballoon manufacturing process; problems or process deviations during their manufacture can trickle all the way through to the finished foam properties.  The same is expected in the polymer binder phase, coupling agents and other additives that go into the finished product. When the essential constituent properties are identified and quantified, the final performance of the finished syntactic foam can be predicted.
 ]==],
     image = "foam-microbubbles.jpg",
-    materials = false,
+    materials = nil,
     start = { day = 26, month = 1, year = 2012,
       hour = 10, min = 30 },
     length = 5400,
@@ -1161,7 +1169,8 @@ Georgia Tech Savannah Robotics' ROV Beta Mk II is a direct product of the MATE c
 
 This year, Beta Mk II is slated to survey recently unearthed Revolutionary War shipwrecks off the coast of Yorktown, VA. For 2012, the MATE ROV Competition again aligns with the real world research plan for the vehicle. This talk will outline the competition influences on design, the differences in real world performance vs. competition, and the future work inspired by the competition.
 ]==],
-    materials = false,
+    materials = true,
+    image = "savannah.jpg",
     start = { day = 24, month = 1, year = 2012,
       hour = 08, min = 30 },
     length = 1800,
@@ -1177,6 +1186,7 @@ Robotics plays an increasing role in STEM education.   It provides for a systems
 The commercial micro ROV provides benefits as an educational tool.   The primary benefits being ease of use and logistics, relative low cost, multiplicity of roles, and system completeness.   The microROV also enables a continuum of development which synchronizes well with other popular STEM efforts.
 This talk will discuss some of the ways in which VideoRay fosters undersea robotics in educational roles.   The applicability to students in various stages of development from k-12 to post-graduate will be discussed.   Suggestions on ways other commercial organizations can more proactively support improvements to STEM education will be covered.
 ]==],
+    image = "edunablers.jpg",
     materials = false,
     start = { day = 24, month = 1, year = 2012,
       hour = 09, min = 00 },
@@ -1225,7 +1235,7 @@ SENSE IT promotes student awareness of the interdisciplinary nature of modern en
 The Great Lakes Naval Memorial and Museum (GLNMM) has developed a program that utilizes ROV kits and a professional build ROV to promote STEM based education for all ages. These programs utilize underwater technology to provide educational activities that promote a greater understanding of the underwater environment through direct interaction. The technology used in these programs are small underwater robots referred to as remotely operated vehicles or ROVs. These ROVs can be created, designed and build by students or other program participants such as teachers. GLNMM has created a traveling educational outreach program that includes classes of different lengths and levels for people of all ages and backgrounds. These classes can be offered at locations throughout the region and include two separate experiences. The first experience is creating and building a ROV that the participants can use to explore the underwater environment. The second part is the opportunity to drive a professionally build ROV to explore underwater to depths of several hundred feet. Most dives are in only in depths of fifty feet or less. This technology allows the participants an experience similar to being a SCUBA diver.
 ]==],
     image = "gleason-reynolds.jpg",
-    materials = false,
+    materials = true,
     start = { day = 24, month = 1, year = 2012,
       hour = 11, min = 30 },
     length = 1800,
@@ -1251,6 +1261,7 @@ Jesuit High School successfully completed missions designed by the Marine Advanc
 -	Drake Nylund (junior, third year member) created computer mockups of each ROV component and is transitioning to software development.
 -	Alan Luu (senior, second year member) worked on the design and build of the wellhead cap. This year Alan is leading the design and build of telemetry sensors.
 ]==],
+    image = "phorcys.jpg",
     materials = false,
     start = { day = 24, month = 1, year = 2012,
       hour = 13, min = 30 },
@@ -1289,7 +1300,7 @@ In an effort to provide realistic educational experiences for students, the MATE
 The 2012 mission theme deals with 20th century shipwrecks and their potential environmental threats.    Working with the Professional Marine Explorers Society, the MATE Center is developing tasks that include surveying the wreck and removing fuel from a corroding tank.  Replicating this complex problem involves creating mission props that are designed with inexpensive hardware store technology, allowing teams around the world to copy MATE Center designs.  Underwater missions also take place in a pool environment, with clear, warm water, generally less than 6 meters deep.  Working within these limitations, the MATE Center mission tasks model real world events that students might experience in the underwater industry.
 ]==],
     image = "eduwreck.jpg",
-    materials = false,
+    materials = true,
     start = { day = 24, month = 1, year = 2012,
       hour = 14, min = 30 },
     length = 1800,
@@ -1339,6 +1350,7 @@ SAR operations, Crime scene investigations
 American Electric Power, a Sustaining Member of ADCI, continues to conduct training of its employees in the rules and regulations of commercial diving via OSHA, US Coast Guard and the ADCI Consensus Standards.  Training programs are conducted each year at selected AEP facilities for new students and re-qualifying Diving Contacts.  Criteria for becoming a Diving Contact at AEP is delineated in their program and requires each person to be nominated by management, complete the program and a written examination.  They serve in the program for a period of three years and must re-qualify by attending refresher training.  An AEP Diving Contact works directly with diving contractors at any AEP facility.  They are familiar with all diving regulations and the Consensus Standards, including Rev. 6, and can work the diving tables for repetitive dives, surface decompression on air or oxygen for example. Since they understand parts of our industry; they really make it easier for a diving contractor to communicate with them.  Dave Scarberry has been their Diving Coordinator and the originator of their program since inception and is responsible for its development and administration.  Will Hux is the instructor from MESCO/ Stroud Diving & Hydrography and wrote the training curriculum for the classroom portion of the training.  They make a strong team in presenting a safety program of which is an industry first.
 ]==],
     materials = false,
+    image = "div-training.gif",
     start = { day = 24, month = 1, year = 2012,
       hour = 09, min = 00 },
     length = 1800,
@@ -1356,7 +1368,8 @@ As a safety device, the recorders are completely indelible and the data is store
 
 I hope to present this device and share the safe technology with all our members in January.
 ]==],
-    materials = false,
+    image = "recording.jpg",
+    materials = true,
     start = { day = 24, month = 1, year = 2012,
       hour = 09, min = 30 },
     length = 1800,
@@ -1535,12 +1548,19 @@ The contributions of Northwest divers to the craft of commercial diving are sign
 
   {
     title = "Diving Accident which claimed five lives aboard USS GRAYBACK (SS-574)",
-    fulltitle = "",
+    fulltitle = "How the USS Grayback (SS-574) accident in 1982 has led to improvements in submarine diving safety",
     presenters = { "David J Kelly", },
     abstract = [==[
+The principal objective of this presentation is to provide participants with a detailed perspective on a seminal event in the history of Navy submarine based diving systems.
 
+The diving accident which claimed five lives aboard USS GRAYBACK (SS-574) in January 1982 led to numerous changes in how the Navy designed, built, maintained and operated complex submarine based diving systems.  The lessons learned from this accident and the actions taken to ensure safety in future designs and operations are ones that can and must be applied to all such high-risk evolutions, and should be understood by all those responsible for such work.
+
+A full description of the system in use at the time of the accident will be provided, with photographs and diagrams, to explain the layout and operation of the starboard hangar aboard GRAYBACK where the accident occurred.
+
+The conversion work done at Mare Island Naval Shipyard will be discussed, along with contractor oversight issues.  The discussion will also cover other causes leading up to the accident including maintenance and training shortfalls and operator actions.  In addition, corrective actions specific to GRAYBACK and lessons learned applied to future systems will be presented.
 ]==],
-    materials = false,
+    materials = true,
+    image = "grayback.jpg",
     start = { day = 25, month = 1, year = 2012,
       hour = 14, min = 15 },
     length = 2700,
@@ -1641,7 +1661,7 @@ In many applications, acoustic navigation systems (such as the commonly used USB
 The ROV & Diver TRACKER is a complete navigation system that includes a Fiber Optic Gyro (FOG), a DVL and multiple support sensor, suitable for installation into small and micro ROV's. This paper describes the system and the results obtained onboard a VideoRay micro ROV, where the TRACKER was integrated with both the vehicle and a BlueView SONAR.
 ]==],
     image = "inertial-nav.jpg",
-    materials = false,
+    materials = true,
     start = { day = 25, month = 1, year = 2012,
       hour = 08, min = 30 },
     length = 1800,
@@ -1759,7 +1779,8 @@ Using the MS 1000 scanning sonar for creating baseline surveys on large scale pr
 Exploration and production activities for oil and gas are steadily increasing in subsea areas. Various methods exist to detect and localize subsea oil and gas emissions but there is still a lack of understanding the processes of subsea leakages, and technologies to detect and localize emissions from subsea installations at an early stage have to be improved. Detecting and localizing subsea oil and gas emissions means dealing with warm multiphase outflow consisting of oil phase, gas bubbles and dissolved gas (mainly Methane), formation water, mixing with cold seawater, and sometimes even the formation of additional solid gas hydrate phases. Recent field observations and hydrodynamic models of Methane-rich fluid transport at natural seeping sites indicate the distinct behavior of Methane-dominated fluids in seawater.
 A successful leak detection strategy must focus on the different physicochemical fluid characteristics of Methane as a tracer for subsea oil and gas emissions in general. The feasibility of Hydrocarbon Sniffers for the detection, localization and subsequent validation of subsea oil and gas emissions has been proven in several ROV- and AUV-borne subsea flowline surveys from 2008 until today. Field experience and latest results will be presented for different environmental backgrounds, reaching from arctic areas to extreme shallow waters.
 ]==],
-    materials = false,
+    image = "contros.jpg",
+    materials = true,
     start = { day = 25, month = 1, year = 2012,
       hour = 14, min = 30 },
     length = 1800,
