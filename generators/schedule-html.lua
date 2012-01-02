@@ -3,7 +3,7 @@ local write = io.write
 local tracks = require "tracks"
 local people = require "presenters"
 
-io.output"schedule.html"
+io.output"site/schedule.html"
 
 local function htmlenc(str)
   return (string.gsub(str,"[<>&]",{["<"]="&lt;",[">"]="&gt;",["&"]="&amp;"}))

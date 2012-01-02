@@ -2,7 +2,7 @@ local write = io.write
 
 local tracks = require 'tracks'
 local allprs = tracks.all
-local people = require "presenters"
+local people = require 'presenters'
 
 --Try to use a proper Markdown encoder, but fail somewhat gracefully otherwise.
 local htmlenc
@@ -26,7 +26,7 @@ for i=1, #allprs do
   local pr = allprs[i]
 
   local pagename = pr.id
-  io.output('presentations/'..pagename..".html")
+  io.output('site/presentations/'..pagename..".html")
 
   write[[
   <!DOCTYPE html>
