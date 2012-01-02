@@ -84,14 +84,16 @@ for i=1, #allprs do
     write("Room ",pr.room," - ",tracks.titles[pr.track],'\n')
     write'</p>\n'
 
-    write'<h2 id="abstract">Abstract</h2>\n'
-    write'<p>'
-    if pr.image then
-      write('<img class="presimg" src="',
-        '/2012/images/',pr.image,'">','\n')
+    if pr.abstract then
+      write'<h2 id="abstract">Abstract</h2>\n'
+      write'<p>'
+      if pr.image then
+        write('<img class="presimg" src="',
+          '/2012/images/',pr.image,'">','\n')
+      end
+      write(htmlenc(pr.abstract))
+      write'</p>\n'
     end
-    write(htmlenc(pr.abstract))
-    write'</p>\n'
 
     local presenters = pr.presenters
 
