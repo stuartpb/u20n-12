@@ -80,14 +80,12 @@ Steve also serves as a volunteer firefighter with the City of Jersey Village and
     first = "Michele",
     middle = "Nelson",
     last = "Bass",
-    org = "Lesser & Associates Prof Law corp.",
-    homepage = "http://divelaw.com/",
+    org = "Law Offices of Michele Nelson Bass",
+    homepage = "http://www.divelaw.com/?page_id=13",
     email = "mnzg@sopris.net",
     headshot = "michele-nelson-bass.jpg",
     bio = [==[
-Michele Nelson Bass has been involved with recreational scuba litigation for nearly twenty years.  She left the well-known maritime law firm of Keesal, Young and Logan in 1990 and assisted Mr. Lesser in expanding the firm with a focus on the defense of recreational scuba diving claims.  Since that time she has been involved in all aspects of litigation (from discovery through appellate brief writing) involving wrongful death, product liability, admiralty/maritime, professional negligence and employment related claims.  She is a very experienced trial lawyer and has successfully tried jury cases in State and Federal Courts all over the country.  She received the National Law Journal Top Defense Verdict of the Year in 2004 for the defense of a multi-million dollar scuba diving product liability case.  She also handles ski accident cases and won a unanimous decision from the Colorado Supreme Court in Cooper v. Aspen Ski Company, et al. in 2002.  Her practice now consists of both defense and plaintiff’s cases.
-
-Ms. Bass resides in Aspen, Colorado with her husband and two little boys.  She is an expert skier and road bike rider as well as an avid scuba diver.  She was certified as a NAUI diver by Dr. Glen H. Egstrom, a well known SCUBA industry expert, at  UCLA in 1984. She has been diving all over the world including Truk Lagoon, Palau, Yap, Fiji, Great Barrier Reef, Cozumel, Caribbean, Hawaii, Belize, and the Galapagos.
+Co-presenter Michele Nelson Bass has maintained an independent office in Aspen, Colorado for the past 15 years, but works regularly with Mr. Lesser in trial matters involving maritime and diving accidents.  She likewise has lectured extensively at ADCI and DEMA, and is also an accomplished trial lawyer and maritime specialist.
 ]==],
   },
 
@@ -272,6 +270,7 @@ Neil Cavan completed his undergraduate degree in Mechanical Engineering at the U
     org = "Naval Surface Warfare Center Carderock Division",
     homepage = "http://www.navsea.navy.mil/nswc/carderock",
     email = "joseph.r.curran@navy.mil",
+    headshot = "curran.jpg",
     bio = [==[
 Mr. Joseph Curran has been working with underwater vehicle systems for 12 years. He has operated AUVs at MIT, ROVs for the Navy, and has been a guest expert on Junkyard Wars for TLC. He currently works for the Naval Surface Warfare Center, Carderock Division, in West Bethesda, MD.
 ]==],
@@ -438,6 +437,7 @@ Tom Glebas is the Director of Product Management and Customer Programs at VideoR
     org = "VideoRay",
     homepage = "http://www.videoray.com/",
     email = "andy.goldstein@videoray.com",
+    headshot = "andy.jpg",
     bio = [==[
 Andew Goldstein is the Director of Software Engineering at VideoRay LLC. and is the manager of the University Developer program.  Before VideoRay, he was chief software developer and part owner of Desert Star Systems.  He holds degrees in Materials Science Engineering and Computer Science.
 ]==],
@@ -724,7 +724,11 @@ Finding things underwater has long been a passion of his, and as a member of dif
     email = "lesser@divelaw.com",
     headshot = "lesser.jpg",
     bio = [==[
-36 year attorney specializing in commercial and recreational diving, 30 plus year attorney for Kirby Morgan DSI, selected as Superlawyer multiple times by fellow attornies in california, winner of one of National Law Journal "Top Defense Wins in 2004; Defended succesfully and also obtained multiple 7 figure verdicts and settlements over the past 30 years. Full bio is at DIVELAW.COM
+Rick Lesser has been specializing in recreational and commercial diving litigation for over 35 years, having received multiple selections as a "Super Lawyer" by his peers, and receiving one of the National Law Journals' "Top Defense Wins of the Year" in a diving case.
+
+He has lectured on diving and maritime litigation for 17 years at ADCI, as well as for 20 years at the recreational DEMA Show, and served on the DEMA Board of Directors for five years. His commercial dive clients include Kirby Morgan DSI, and on the recreational side his firm represents Aqua Lung America.
+
+In the past years he has achieved significant defense verdicts, but likewise has obtained seven-figure settlements and verdicts at trial representing injured recreational divers and seamen. He maintains offices in California, Hawaii and Florida, and is admitted to practice in four states including Texas.
 ]==],
   },
 
@@ -1247,6 +1251,10 @@ Karl Stanley got the idea to make a submersible when he was 9 years old and star
     org = "AEOS",
     homepage = "http://www.aeosciences.com/",
     email = "esteimle@gmail.com",
+    headshot = "steimle.jpg",
+    bio = [==[
+Dr. Steimle is the program manager with AEOS LLC based in St. Petersburg Florida. He is a member of Texas A&M's Roboticists Without Borders program and has over 13 years' experience with Unmanned Marine Vehicles. Dr. Steimle's current focus is on the use of Unmanned Surface Vehicles as mobile instrument platforms and the use of UMVs for disaster recovery.
+]==]
   },
 
   ["Steve Struble"] = {

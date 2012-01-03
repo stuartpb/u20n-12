@@ -225,7 +225,7 @@ Offshore drilling has been in existence a little over 100 years. Drilling and pr
 This move into deeper and deeper waters has presented many technical and environmental challenges for ROVs and related equipment.
 One of these challenges is that at the depths and significantly increased pressures that ROVs can see, the physical characteristics of hydraulic and dielectric fluids change. This paper explores the various factors that effect fluid characteristics including; pressure, temperature, viscosity, and type of fluid. It compares and contracts petroleum oils, environmentally safe oils and synthetics. It also includes a comparison of these fluids at atmospheric conditions to isolate any changes solely due to fluid type.
 ]==],
-    image = "lube-perf.jpg",
+    image = "lubes.jpg",
     materials = true,
     start = { day = 25, month = 1, year = 2012,
       hour = 09, min = 00 },
@@ -1603,9 +1603,15 @@ There will also be a short section in the presentation which will update delegat
     fulltitle = "Legal Update 2012 For the Commerical Dive Industry",
     presenters = { "Rick Lesser", "Michele Nelson Bass", },
     abstract = [==[
-The US Supreme Court ruling in Atlantic Sounding v Townsend and the cases that have followed over the last two years have turned previously allowed employee damage remedies upside down. Punitive damages have been allowed not only in unseaworthiness claims, but in loss of consortium claims as well. In virtually all aspects of commercial diving and vessel operations , there has been a steady expansion of employee rights that every marine contractor and vessel operator need to understand and plan for.
-Bringing you over three decades of diving risk management and analysis,  six time Superlawyer Rick Lesser will provide a summary of the most current aspects of diving and maritime law that will be invaluable in making  your own analysis of the risks and potential legal problems facing you., and more importantly, how to deal with them.
-Whether you are a commercial diver, vessel operator or diving contractor, the information in this seminar is vital to help you protect your business and your livelihood.
+While our previous legal seminars have focused on the determination as to whether divers working offshore or on navigable waters were actually Jones Act Seamen, the last two years have seen a sea change (pun intended) in the remedies available to workers offshore.
+
+The 1995 case of <cite>Chandris v. Latsis</cite> set up the basic ground rules regarding who generally was a Seaman (those working in the service of the vessel at least thirty percent of their time, etc.), and the U.S. Supreme Court in 2005 finally nailed down a definition of what constitutes a vessel.
+
+Now, following the seminal case of <cite>Atlantic Sounding v. Townsend</cite> in 2009, courts all over the country have rejected the notion that punitive damages are not allowed to Seamen who are denied maintenance and cure, or more importantly, are injured on an "unseaworthy" vessel.
+
+These rulings reverse the longstanding (since 1990 in <cite>Miles v. Apex</cite>) rule that Seamen were not allowed to collect punitive damages under any theory, but now punitive damages have been granted in cases involving failure to pay maintenance and cure, unseaworthy vessel conditions, and more recently courts have allowed a loss of consortium claim for a Seaman's spouse.
+
+This expansion of remedies under general maritime law needs to be addressed by those employing Seamen and divers (who certainly now appear to fall into the Seamen class), so understanding the consequences of non-compliance and properly insuring for potential losses is a critical need for all maritime employers today.  This seminar will provide that information.
 ]==],
     materials = false,
     start = { day = 26, month = 1, year = 2012,
