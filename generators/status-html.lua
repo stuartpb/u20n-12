@@ -81,6 +81,7 @@ write[[
   <style type="text/css">
     .present {background-color: #cfc}
     .missing {background-color: #fcc}
+    .trackname {font-size: large}
     table, td, th {
       border: 1px solid #000;
       //border-collapse: collapse;
@@ -89,11 +90,13 @@ write[[
 </head>
 <body>
 ]]
+write[[
+<table>
+]]
 for tri=1,#tracks.names do
   local trn = tracks.names[tri]
-  write("  <h2>",htmlenc(tracks.titles[trn]),"</h2>",'\n')
+  write("  <tr><th colspan=5><h2>",htmlenc(tracks.titles[trn]),"</h2></th></tr>",'\n')
   write[[
-  <table>
   <tr>
     <th>Title</th>
     <th>Full Title</th>
@@ -106,16 +109,17 @@ for tri=1,#tracks.names do
   for pri=1, #track do
     local pr = track[pri]
     write('  <tr>\n',
-          '    <td>',pr.title,'</td>\n')
+          '    <td><a href="/2012/presentations/',pr.id,'.html">',
+          pr.title,'</a></td>\n')
     write_present(pr.fulltitle)
     write_present(pr.abstract)
     write_link(pr.image,'/2012/images/')
     write_str(pr.materials)
   end
-  write[[
-  </table>
-  ]]
 end
+write[[
+</table>
+]]
 
 write[[
 </body>
