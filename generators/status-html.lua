@@ -76,7 +76,7 @@ write[[
 <html>
 <head>
   <meta charset='utf-8'>
-  <title>UI 2012 / schedule</title>
+  <title>STATUS FOR UI2012 PRESENTATIONS</title>
   <link rel="stylesheet" type="text/css" href="/2012/ui2012.css" />
   <style type="text/css">
     .present {background-color: #cfc}
@@ -89,6 +89,9 @@ write[[
   </style>
 </head>
 <body>
+<p style="font-size: xx-large; color: red;">
+  USE DISCRETION WHEN SHARING THIS PAGE
+</p>
 ]]
 write[[
 <table>
@@ -114,7 +117,7 @@ for tri=1,#tracks.names do
     write_present(pr.fulltitle)
     write_present(pr.abstract)
     write_link(pr.image,'/2012/images/')
-    write_str(pr.materials)
+    write_link(pr.materials,'/2012/materials/')
   end
 end
 write[[
