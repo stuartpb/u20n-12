@@ -16,6 +16,9 @@ return {
     suffix = "MD MPH",
     org = "",
     email = "talleman@omcsl.com",
+    bio = [==[
+Dr. Alleman started practicing in family practice but has been in occupational medicine for over 18 years.  Dr. Alleman is currently board certified in occupational medicine.  He recently completed a fellowship in undersea and hyperbaric medicine at LSU in New Orleans.  He successfully passed the board certification exam in Undersea and Hyperbaric Medicine in October of this year.
+]==],
   },
 
   ["Akira Asada"] = {
@@ -194,6 +197,9 @@ Dr. Bourgeois also serves as a special government employee on the USCG Mariner M
     suffix = "MD MPH",
     org = "",
     email = "cajunmd@b-m-c.net",
+    bio = [==[
+Dr. Bourgeois began working with divers at the Living Seas at EPCOT and Disney World in Orlando 25 years ago.  He is board certified in occupational medicine.  He practices occupational medicine in Morgan City with Drs. Don Thibodaux, Melvin Bourgeois and Charles Parsiola.  Dr. Bourgeois and Dr. Thibodaux perform diving medical examinations.
+]==],
   },
 
   ["Steven Bradshaw"] = {
@@ -639,6 +645,7 @@ Cdr. John P. Klose is a retired submarine officer and project engineer at the Na
     org = "Corvus Energy Ltd.",
     homepage = "http://www.corvus-energy.com/",
     email = "Mkoenig@corvus-energy.com",
+    headshot = "koenig.jpg",
   },
 
   ["Will Kohnen"] = {
@@ -1031,8 +1038,17 @@ Dr. Phil Nuytten has spent his life in subsea exploration. He has logged many th
   ["Bill Orr"] = {
     first = "Bill",
     last = "Orr",
-    org = "",
+    org = "International Submarine Escape and Rescue Liaison Office",
+    homepage = "http://www.ismerlo.org/",
     email = "william.orr@navy.mil",
+    headshot = "orr.jpg",
+    bio = [==[
+Bill Orr, Commander USN Ret. Has a Bachelor of Science Degree in Industrial Management from the Georgia Institute of Technology and a Master’s degree in Public Administration from Auburn University.
+
+Commander Orr served Director of Training at the Navy Diving School and various ships including command of the USS GRASP (ARS-51) where his ship played a key role in the TWA Flight 800 recovery operations. He completed his career with 6 years on the Chief of Naval Operations Staff at the Pentagon.
+
+Bill is now a civil servant working in Norfolk, VA for the U.S. Navy as the U.S. Submarine Force Escape and Rescue officer. In addition he is the Director of the International Submarine Escape and Rescue Liaison Office (ISMERLO). An office that works with nations around the globe to develop cooperative global rescue plans. He developed the web based global rescue coordination system at http://www.ismerlo.org which played a key role in the rescue 7 sailors from the Russian AS-28 mini submarine off Kamchatka in 2005.
+]==]
   },
 
   ["Hiroyuki Osawa"] = {
@@ -1094,6 +1110,18 @@ Brett Phaneuf is president of ProMare, a non-profit organization established in 
 ]==],
   },
 
+  ["Brennan Phillips"] = {
+    first = "Brennan",
+    last = "Phillips",
+    org = "Institute for Exploration",
+    homepage = "http://www.mysticaquarium.org/ife",
+    email = "brennan@ife.org",
+    headshot = "brennan-phillips.jpg",
+    bio = [==[
+Brennan Phillips is the Operations Manager for the Institute for Exploration, a non-profit oceanographic research organization. He is responsible for the ROV and sidescan systems onboard the E/V Nautilus, as well as the technical team that operates them. Brennan has participated in a wide range of research projects utilizing deep-water ROV’s and AUV’s all over the globe. Brennan earned his BS in Ocean Engineering and an MS in Biological Oceanography.
+]==],
+  },
+
   ["Dave Phillips"] = {
       first = "Dave",
       last = "Phillips",
@@ -1105,7 +1133,7 @@ Dave Phillips is the Undersheriff for the St. Louis County Sheriff's Office in D
 
 Dave is also a VideoRay Certified Instructor and has conducted operator trainings for many public and private agencies including New York Police Counter-terror division, United States Coast Guard, Miami-Dade Police Dive Team, US Army Corp of Engineers, among others. As a VideoRay consultant, he has travelled the United States and several countries on a wide variety of missions ranging from jobs on Gulf of Mexico oil rigs and searches for missing persons in Norway and Ecuador, to equipment demos in Southeast Asia. Dave has been a certified diver since 1977 and enjoys cruising Lake Superior with his family on their boat, "Kristarah".
 ]==],
-    },
+  },
 
   ["Andy Porterfield"] = {
     first = "Andy",
@@ -1203,6 +1231,9 @@ Prior to joining Fox Industries, Carl spent 15 years as a Consulting Engineer wi
     suffix = "MD",
     org = "",
     email = "jrserio@cox.net",
+    bio = [==[
+Dr. Serio is well known in the diving community after contributing over 40 years to divers and diving companies.  He is a past recipient of the ADCI hall of fame award.  He currently practices in Lafayette, LA and limits his practice to diving medicine.
+]==],
   },
 
   ["Masanobu Shibuya"] = {
