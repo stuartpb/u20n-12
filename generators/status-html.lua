@@ -19,6 +19,11 @@ end
 
 local indent = '    '
 
+local function prsr_id(name)
+  return string.lower(string.gsub(string.gsub(name,"%W","%-"
+  ),"%-+","-"))
+end
+
 local function write_present(dat)
   if type(dat) == "string" then
     if find(dat,"%S") then
@@ -102,6 +107,7 @@ for tri=1,#tracks.names do
   write[[
   <tr>
     <th>Title</th>
+    <th>Presenter(s)</th>
     <th>Full Title</th>
     <th>Abstract</th>
     <th>Image</th>
@@ -111,9 +117,17 @@ for tri=1,#tracks.names do
   local track = tracks[trn]
   for pri=1, #track do
     local pr = track[pri]
+    local prsrs = pr.presenters
     write('  <tr>\n',
           '    <td><a href="/2012/presentations/',pr.id,'.html">',
           pr.title,'</a></td>\n')
+    write"    <td>\n"
+    for i=1, #prsrs do
+      local prsr = prsrs[i]
+      write('      <a href="#',prsr_id(prsr),'">',prsr,"</a>")
+      if i ~= #prsrs then write"<br>\n" end
+    end
+    write"    </td>\n"
     write_present(pr.fulltitle)
     write_present(pr.abstract)
     write_link(pr.image,'/2012/images/')
@@ -123,6 +137,38 @@ end
 write[[
 </table>
 ]]
+
+local names = {}
+for name in pairs(people) do
+  names[#names+1]=name
+end
+table.sort(names)
+
+write"<h1>Presenters</h1>\n"
+write"<table>"
+write[[
+  <tr>
+    <th>Name</th>
+    <th>Email</th>
+    <th>Organization</th>
+    <th>Homepage</th>
+    <th>Bio</th>
+    <th>Headshot</th>
+  </tr>
+]]
+for ni=1, #names do
+  local name = names[ni]
+  local pr = people[name]
+  write('  <tr id="',prsr_id(name),'">\n')
+  write('    <td>',name,'</td>\n')
+  write('    <td>',pr.email,'</td>\n')
+  write_str(pr.org)
+  write_link(pr.homepage,'http://')
+  write_present(pr.bio)
+  write_link(pr.headshot,'/2012/images/')
+  write'  </tr>\n'
+end
+write'</table>\n'
 
 write[[
 </body>
