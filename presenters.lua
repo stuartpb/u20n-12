@@ -1023,7 +1023,8 @@ Dr. Phil Nuytten has spent his life in subsea exploration. He has logged many th
   ["Sergey Ogay"] = {
     first = "Sergey",
     last = "Ogay",
-    org = "Maritime State University named after admiral G.I.Nevelskoi",
+    org = "Maritime State University named after G.I. Nevelskoi",
+    homepage = "http://www.msun.ru/en/",
     email = "ogay@msun.ru",
   },
 
