@@ -32,13 +32,16 @@ end
     <title>UI 2012</title>
     <link rel="stylesheet" type="text/css" href="ui2012.css" />
     <style type="text/css">
-      .content {margin: 0}
-      body {margin: 0}
+      .content {
+        margin: 0 !important;
+        page-break-before: always;
+      }
 
-      @media print
-      {
-      .content {page-break-before:always}
       .content:first-child {page-break-before:auto}
+
+      body {
+        font-size: 50%;
+        margin: 0 !important;
       }
     </style>
   </head>
@@ -79,15 +82,15 @@ for i=1, #allprs do
 
     if pr.abstract then
       write'<h2 id="abstract">Abstract</h2>\n'
-      write'<p>'
+      write'<div style="width: 100%;">'
       write(htmlenc(pr.abstract))
-      write'</p>\n'
+      write'</div>\n'
     end
 
     local presenters = pr.presenters
 
     write'<h2 id="presenters"'
-    if pr.abstract then write' style="page-break-before:always"' end
+    --if pr.abstract then write' style="page-break-before:always"' end
     write'>'
     if #presenters > 1 then
     write "Presenters"
@@ -99,6 +102,11 @@ for i=1, #allprs do
     for i=1, #presenters do
       local name = pr.presenters[i]
       local lead = people[name]
+
+      if lead.headshot then
+        write('<img class="headshot" src="',
+          'images/',lead.headshot,'">','\n')
+      end
 
       write'<p>'
       write(htmlenc(name))
@@ -114,13 +122,9 @@ for i=1, #allprs do
       write"</p>\n"
 
       if lead.bio then
-        write'<p>'
-        if lead.headshot then
-          write('<img class="headshot" src="',
-            'images/',lead.headshot,'">','\n')
-        end
+        write'<div style="width: 100%;">'
         write(htmlenc(lead.bio))
-        write'</p>\n'
+        write'</div>\n'
       end
     end
   write'<br style="clear: both;">\n'

@@ -130,16 +130,15 @@ nav li {
 
 .headshot {
   float: left;
-  max-width: 320px;
-  max-height: 480px;
+  clear: left;
+  width: 30%;
   display: block;
   margin: 4px;
 }
 
 .presimg {
   float: right;
-  max-width: 320px;
-  max-height: 480px;
+  width: 30%;
   display: block;
   margin: 4px;
 }
