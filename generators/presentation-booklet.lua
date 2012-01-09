@@ -22,7 +22,7 @@ else
   end
 end
 
-  io.output('site/booklet.html')
+  io.output('site/booklet-bad.html')
 
   write[[
   <!DOCTYPE html>
@@ -48,8 +48,19 @@ end
   <body>
   ]]
 
-for i=1, #allprs do
-  local pr = allprs[i]
+local badpgs = {
+   6, 11, 14, 16,
+  17, 18, 22, 23,
+  32, 38, 43, 44,
+  48, 66, 68, 69,
+  --i17-26
+  74, 76, 79, 80,
+  81, 88, 96, 98,
+  99, 101
+}
+
+for i=1, #badpgs do
+  local pr = allprs[badpgs[i]]
 
   local pagename = pr.id
 
