@@ -103,7 +103,7 @@ write[[
 ]]
 for tri=1,#tracks.names do
   local trn = tracks.names[tri]
-  write("  <tr><th colspan=5><h2>",htmlenc(tracks.titles[trn]),"</h2></th></tr>",'\n')
+  write("  <tr><th colspan=6><h2>",htmlenc(tracks.titles[trn]),"</h2></th></tr>",'\n')
   write[[
   <tr>
     <th>Title</th>
@@ -151,7 +151,6 @@ write[[
     <th>Name</th>
     <th>Email</th>
     <th>Organization</th>
-    <th>Homepage</th>
     <th>Bio</th>
     <th>Headshot</th>
   </tr>
@@ -162,8 +161,11 @@ for ni=1, #names do
   write('  <tr id="',prsr_id(name),'">\n')
   write('    <td>',name,'</td>\n')
   write('    <td>',pr.email,'</td>\n')
-  write_str(pr.org)
-  write_link(pr.homepage,'http://')
+  if pr.org and pr.homepage and find(pr.org,"%S") then
+    write(indent,'<td class="present"><a href="',pr.homepage,'">',htmlenc(pr.org),'</a></td>\n')
+  else
+    write(indent,'<td class="missing"></td>\n')
+  end
   write_present(pr.bio)
   write_link(pr.headshot,'/2012/images/')
   write'  </tr>\n'
