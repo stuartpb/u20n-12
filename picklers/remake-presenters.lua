@@ -3,7 +3,7 @@ local ps = require "presenters"
 local outfile = io.open('presenters.lua','w')
 
 local function write(...)
-  io.stdout:write(...)
+  --io.stdout:write(...)
   outfile:write(...)
 end
 
@@ -34,7 +34,7 @@ local fields = {
   "headshot",
 }
 
-write'return {\n\n'
+write'--encoding: utf-8\nreturn {\n\n'
 for i=1, #names do
   local name = names[i]
   local p = ps[name]

@@ -12,6 +12,8 @@ local function writef(...)
 end
 
 write[==[
+--encoding: utf-8
+
 local string = require 'string'
 local format = string.format
 local gsub = string.gsub
@@ -123,8 +125,13 @@ for ni=1,#tracks.names do
     end
 
     if p.image then writef("    image = %q,\n",p.image) end
-    if p.materials then write("    materials = true,\n")
-      else write("    materials = false,\n") end
+    if p.materials then
+      if type(p.materials) == "string" then
+        writef("    materials = %q,\n",p.materials)
+      else
+        writef("    materials = %s,\n",tostring(p.materials))
+      end
+    else write("    materials = false,\n") end
 
     writef("    start = { day = %i, month = %i, year = %i,\n",
       p.start.day, p.start.month, p.start.year)
