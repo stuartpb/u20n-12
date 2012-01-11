@@ -1316,14 +1316,6 @@ Dr. Steimle is the program manager with AEOS LLC based in St. Petersburg Florida
     email = "mtam77@gatech.edu",
   },
 
-  ["Liz Taylor"] = {
-    first = "Liz",
-    last = "Taylor",
-    org = "DOER Marine",
-    homepage = "http://www.doermarine.com/",
-    email = "Liz@doermarine.com",
-  },
-
   ["Jim Teague"] = {
     first = "Jim",
     last = "Teague",
@@ -1537,6 +1529,32 @@ Prior to marine technical education, Jill’s focus was on marine research. Duri
 ]==],
   },
 
+  ["Phil Ziegler"] = {
+    first = "Phil",
+    last = "Ziegler",
+    org = "Zeke Underwater Consulting",
+    homepage = "http://www.zekeunderwaterconsulting.com/",
+    email = "",
+    bio = [==[
+During his career, Philip Ziegler designed a range of equipment from machinery for raising a dam’s
+Tainter gates; to small, high-pressure, pump heads to motion compensation equipment capable of
+supporting 1¼ million pounds. He also spent eight years as a technical review engineer for the
+American Bureau of Shipping, spending the majority of his time reviewing plans produced worldwide
+for underwater vehicles. The common thread running throughout Phil's career is an ability to conceive
+and produce innovative solutions to the problems he faced, often solving problems other failed to solve.
+Some of his innovations are now standard industry practice.
+
+Philip is past vice-chair of the ABS Special Committee on Underwater Systems and Vehicles and past
+chair of the International Association of Classification Societies Correspondence Group on Passenger
+Submersibles and Diving Systems. He represented the latter at the 41st and 43rd sessions of the
+International Maritime Organization Sub-Committee on Ship Design and Equipment meetings in
+London, actively participating in the production of the IMO <cite>Guidelines for the Design, Construction and
+Operation of Passenger Submersible Craft</cite> (MSC/Circ. 981). Currently, Philip is an active member of
+the ASME Pressure Vessels for Human Occupancy Committee and the ABS Special Committee on
+Underwater Systems and Vehicles.
+]==]
+  },
+
   ["Michael Zinszer"] = {
     first = "Michael",
     last = "Zinszer",
@@ -1564,6 +1582,14 @@ Dr. Mahesh Menon is an Electronics and Communications engineer by trade and grad
     org = "BlueView",
     homepage = "http://www.blueview.com/",
     email = "ed.cheesman@blueview.com",
+  },
+
+  ["Colin Wollerman"] = {
+    first = "Colin",
+    last = "Wollerman",
+    org = "Hawaii Undersea Research Lab",
+    homepage = "http://www.soest.hawaii.edu/HURL/",
+    email = "wollerma@hawaii.edu",
   },
 
 }

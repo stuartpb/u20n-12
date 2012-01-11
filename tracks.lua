@@ -969,6 +969,19 @@ The presentation will review the basics of forward looking sonar technologies, i
   },
 
   {
+    title = "Improved Oxygen Calculations and Their Benefits to MUVs",
+    presenters = { "Phil Ziegler" },
+    abstract = [==[
+This presentation discusses an improved method of performing oxygen supply calculations and describes how its significantly greater accuracy can improve safety and reduce operating costs.
+]==],
+    materials = false,
+    start = { day = 24, month = 1, year = 2012,
+      hour = 16, min = 30 },
+    length = 1800,
+    room = "219",
+  },
+
+  {
     title = "PSUBS Overview and Update",
     fulltitle = "An overview and update of activities within the Personal Submersibles Organization",
     presenters = { "Jon Wallace", },
@@ -1027,9 +1040,14 @@ Since 1986 MSUBS has been producing small, diesel-electric submersibles; coupled
   },
 
   {
-    title = "Deep Ocean Engineering Solutions",
-    fulltitle = "TBD",
-    presenters = { "Liz Taylor", },
+    title = "Hawaii Undersea Research Lab (HURL) 2011 Update",
+    fulltitle = "A University of Hawaii research facility operating under the auspices of NOAA's National Undersea Research Program",
+    presenters = { "Colin Wollerman", },
+    abstract = [==[
+Operating two manned submersibles with a crew of five specialists at close to 100% success rate for over ten years is unique in the industry. The presentation will provide an update on the operation of the PISCES IV and V along with a review of the technical updates made to the equipment and expansion of personnel at HURL. This includes the two submersibles, ROV, multibeam sonar and the support ship R/V Ka`imiaki-o-Kanaloa.
+
+The 2011 pre-season "test & trial" produced a number of Marine Heritage site dives. These historical wrecks were discovered while the HURL team multi-tasked its way through its operational, training, and safety protocols conducted prior to each dive season. In September HURL took part in a National Geographic production Alien Deep using the Pisces IV and V outfitted with 3D HD camera gear and LED lights from Woods Hole Advanced Imaging and Visualization Lab (AIVL). HURL also enjoyed a successful series of dives in the North West Hawaiian Island National Monument. The Pisces IV is coming apart for a special survey and the Pisces V is in stand-by for emergency deployment.
+]==],
     materials = false,
     start = { day = 25, month = 1, year = 2012,
       hour = 11, min = 30 },
@@ -1107,8 +1125,8 @@ The presentation will also describe a means of packaging the 64 modules that all
     fulltitle = "Annual Committee Meeting for MTS Manned Underwater Vehicles",
     presenters = { "Will Kohnen", },
     materials = true,
-    start = { day = 25, month = 1, year = 2012,
-      hour = 15, min = 30 },
+    start = { day = 26, month = 1, year = 2012,
+      hour = 13, min = 30 },
     length = 3600,
     room = "219",
   },
@@ -1597,18 +1615,17 @@ The conversion work done at Mare Island Naval Shipyard will be discussed, along 
   },
 
   {
-    title = "Using ISMERLO (relating to the KOOSHA1 sinking)",
-    fulltitle = "Using a rescue coordination system to support multinational and multi-organizational rescue responses",
-    presenters = { "Bill Orr", },
+    title = "Underwater Burning and Welding Safety",
+    fulltitle = "Underwater Burning and Welding Safety",
+    presenters = { "David Scarberry", },
     abstract = [==[
-The advent of web based coordination has enabled significant improvements in coordinating global rescue operations.  The International Submarine Escape and Rescue Liaison Office and its web based system located at http://www.ismerlo.org enables coordination across multinational and multi-organizational boundaries in support of incidents like KOOSHA 1.
-
-The presentation will look at a short history and the development of the current capabilities of the ISMERLO rescue coordination system. Then look at incidents like the rescue of the AS-28 PRIZ mini submarine off Kamchatka in 2005 and other contingencies operations like the KOOSHA 1. Discussion will include options for the future to support the local Rescue Coordination Centers (RCCs) and initiatives for further support the International Aeronautical and Maritime Search and Rescue.  Future options could include development of a stand-alone system managed and supported by the offshore industry or options for integration into the existing ismerlo.org system.
+This subject will address a recent accident that occured to a diver while performing an underwater welding operation.  The resulting investigation and root cause analysis lead to the identification of several unrealized conditions that aided in creating this "perfect storm."  These included such items as unaccounted power sources, unfamiliar with tools, unknown actual amperage from welder, and adjacent work groups.  The end result was a new, and more detailed JHA was created that addresses these hazards.  This JHA includes all of the best safet practices as laid out by the ADCI, but also takes it to the next level of pre-job set ups, and a firm commitment by AEP on how all U/W buring and welding work will conducted across the entire fleet.
 ]==],
-    materials = false,
+    image = "welding.gif",
+    materials = true,
     start = { day = 25, month = 1, year = 2012,
       hour = 15, min = 30 },
-    length = 3600,
+    length = 1800,
     room = "221",
   },
 
@@ -1671,17 +1688,18 @@ The paper will discuss the governance of the DCBC, the competency standard on wh
   },
 
   {
-    title = "Underwater Burning and Welding Safety",
-    fulltitle = "Underwater Burning and Welding Safety",
-    presenters = { "David Scarberry", },
+    title = "Using ISMERLO (relating to the KOOSHA1 sinking)",
+    fulltitle = "Using a rescue coordination system to support multinational and multi-organizational rescue responses",
+    presenters = { "Bill Orr", },
     abstract = [==[
-This subject will address a recent accident that occured to a diver while performing an underwater welding operation.  The resulting investigation and root cause analysis lead to the identification of several unrealized conditions that aided in creating this "perfect storm."  These included such items as unaccounted power sources, unfamiliar with tools, unknown actual amperage from welder, and adjacent work groups.  The end result was a new, and more detailed JHA was created that addresses these hazards.  This JHA includes all of the best safet practices as laid out by the ADCI, but also takes it to the next level of pre-job set ups, and a firm commitment by AEP on how all U/W buring and welding work will conducted across the entire fleet.
+The advent of web based coordination has enabled significant improvements in coordinating global rescue operations.  The International Submarine Escape and Rescue Liaison Office and its web based system located at http://www.ismerlo.org enables coordination across multinational and multi-organizational boundaries in support of incidents like KOOSHA 1.
+
+The presentation will look at a short history and the development of the current capabilities of the ISMERLO rescue coordination system. Then look at incidents like the rescue of the AS-28 PRIZ mini submarine off Kamchatka in 2005 and other contingencies operations like the KOOSHA 1. Discussion will include options for the future to support the local Rescue Coordination Centers (RCCs) and initiatives for further support the International Aeronautical and Maritime Search and Rescue.  Future options could include development of a stand-alone system managed and supported by the offshore industry or options for integration into the existing ismerlo.org system.
 ]==],
-    image = "welding.gif",
-    materials = true,
+    materials = false,
     start = { day = 26, month = 1, year = 2012,
       hour = 11, min = 30 },
-    length = 1800,
+    length = 3600,
     room = "221",
   },
 
