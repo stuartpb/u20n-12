@@ -646,6 +646,9 @@ Cdr. John P. Klose is a retired submarine officer and project engineer at the Na
     homepage = "http://www.corvus-energy.com/",
     email = "Mkoenig@corvus-energy.com",
     headshot = "koenig.jpg",
+    bio = [==[
+Matt Koenig, VP Americas for Corvus Energy, has more than 25 years management experience in finance, distribution, manufacturing, and technical sales and marketing.  He most recently served as Vice President of Isoflex Technologies Pty., Ltd. America. Earlier, he held several positions in the marine and composites industries, including Director of Business Development for Polynova Composites, Marine Division manager at Globe Composite Solutions COO The Violette Companies, and management roles at State Street Bank and Trust, Fidelity Investments and Bank of Boston.  He holds a BA in Economics from John Carroll University.  Matt is based in Boston.
+]==]
   },
 
   ["Will Kohnen"] = {

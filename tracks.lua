@@ -1040,9 +1040,11 @@ Since 1986 MSUBS has been producing small, diesel-electric submersibles; coupled
   {
     title = "SubSea Lithium Battery Certification",
     fulltitle = "Subsea Lithium Battery Certification Considerations at ABS, LR and DNV",
-    presenters = { "Brent Perry", "Matt Koenig", },
+    presenters = { "Matt Koenig", "Brent Perry", },
     abstract = [==[
-In 2010 and 2011 Corvus Energy has obtained class certification for its subsea lithium battery technology from Lloyds Registry and is completing its classification with the American Bureau of Shipping (ABS) and Det Nortske Veritas (DNV). The presentation will review the certification process and discuss the future trends and possibilities for use of these batteries in underwater vehicles.
+Manned submersibles, as well as Remotely Operated Vehicles (ROVs), are two of the most significant platforms for Marine Technology research and operations.  Long lived and powerful on board energy storage is a major roadblock to fully exploiting their operational effectiveness. Lithium based storage has the potential to provide this much needed capacity and scalability.  Lack of Type certification for a technology can terminate the process of its implementation in the MarTech sector, and for many operators, is equally as terminal to obtaining government approvals and funding.
+
+Corvus Energy has obtained class certification for its lithium battery technology from Lloyds Registry and is completing its classification with ABS and DNV.  The path which it travelled to obtain these informs Corvus’ process for submerged type approval, as well as the process for others seeking to pursue these certifications in this sector. The presentation will review the certification process and discuss the future trends and possibilities for use of these batteries in underwater vehicles.
 ]==],
     materials = false,
     start = { day = 25, month = 1, year = 2012,
@@ -1491,10 +1493,21 @@ Originally presented at the Transportation Research Board in January 2011.  This
 
   {
     title = "Are Today's DMTs Properly Trained?",
-    fulltitle = "",
+    fulltitle = "The Evolving role of DMT - Training and Performance",
     presenters = { "Dr. Brian S. Bourgeois, PE", "Richard Meister", },
     abstract = [==[
-
+The diving industry is made of individuals that perform many duties in often
+challenging circumstances. These individuals are asked to perform as divers,
+hands, operators, and tenders. The work above and below the surface of the
+water is not all that different. The Dive Medic is often seen as the
+on-scene medical care provider to divers. Quality medical care is
+indispensable. In the case of a diving accident the DMT is asked to step-in
+and administer care. This care will often not be associated with the direct
+application of pressurized gas. In fact, many conditions arising from
+decompression/recompression scenarios are actually medical in basis. The DMT
+should be educated to act as an adjunct to the treating physician in all
+such cases. This will require a new approach to the education of the vital
+individuals.
 ]==],
     materials = false,
     start = { day = 24, month = 1, year = 2012,
@@ -1697,7 +1710,13 @@ The ROV & Diver TRACKER is a complete navigation system that includes a Fiber Op
     fulltitle = "Multibeam Imaging Sonar-Track, through-the-sensor control for microROVs",
     presenters = { "Ed Cheesman", },
     abstract = [==[
-Multibeam imaging sonars have been available since the early nineties and have served well as a tool to improve situational awareness. Operators can observe targets at distances of tens to hundreds of yards and use the information to navigate underwater vehicles and monitor important subsea regions. The original systems were significant in size and weight and required large electronic pods to beam form and process the raw data. But today’s multibeam imaging sonars are of a size suitable for microROV operation, so much so that they have become a common payload option for many operators. In tandem software solutions enabling close control of unmanned systems using through-the-sensor servoing techniques have evolved to a level of maturity suitable for commercial exploitation. The bringing together of this technology with the microROV will enable a new level of user control to the operational users. A common task such as flying to a target can be a difficult undertaking when faced with currents and tether effects, when time is at a premium this can be frustrating and negatively impact the overall mission needs. This proposed technology enables the microROV to keep station relative to an object or structure identified in the sonar data. The ROV can then maneuver relative to this object and the pilot need only provide simple point-and-click commands on the sonar screen. This talk will illustrate some early results on early prototype work.
+This presentation delves behind the scenes to provide a series of examples on how this new generation of acoustic-based imaging and measurement technology is being used to automate ROV navigation, improve AUV efficiency, and revolutionize the underwater construction and maintenance industries.
+
+The rapid adoption of 2D MultiBeam Imaging Sonar (MBI) has already made real time, water-clarity independent situational awareness a reality for today's well equipped ROVs. In addition to their fast update rate, smart sonar functions like advanced target tracking algorithms, exclusively licensed from SeeByte, now enable MBI-based automated solutions in addition to crisp imagery.
+
+Compact, lightweight, and low-power 3D MicroBathymetric systems can nearly double efficiency in AUV side scan surveys. Deployed as part of an integrated bottom survey system with side-scan or SAS sonar, a 3D MicroBathymetric sensor can fill the nadir gap directly below the AUV with high resolution 3D imagery and data - eliminating the need for overlapping runs and minimizing survey time.
+
+A similar paradigm shift is occurring in the area of underwater 3D scanning, with highly accurate modeling & measurement now possible thanks to the BV5000 3D MultiBeam Scanning Sonar and geospatial data handling techniques currently employed by the terrestrial and airborne laser survey communities.
 ]==],
     materials = true,
     start = { day = 25, month = 1, year = 2012,
