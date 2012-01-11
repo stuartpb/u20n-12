@@ -1,3 +1,5 @@
+--encoding: utf-8
+
 local string = require 'string'
 local format = string.format
 local gsub = string.gsub
