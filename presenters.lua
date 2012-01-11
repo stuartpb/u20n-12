@@ -1,5 +1,3 @@
---encoding: utf-8
-
 return {
 
   ["Brian Abbott"] = {
@@ -47,7 +45,7 @@ Dr. Alleman started practicing in family practice but has been in occupational m
     bio = [==[
 Dr. Balasubramanian is an Associate Professor of Computer Science in the Department of Computer and Information Science at the University Of Massachusetts Dartmouth (UMass Dartmouth). He works with the Advanced Technology Manufacturing Center (ATMC) of UMass Dartmouth as well as OceanServer Technologies, Fall River, MA. His research interests include multi-sensor data fusion, multi-auv collaboration and coordination. He continues to work on several projects related to the US Navy and the Office of Naval Research.
 ]==],
-    },
+  },
 
   ["Maurizio Banfi"] = {
     first = "Maurizio",
@@ -188,7 +186,7 @@ Dr. Bourgeois' practice is closely tied to the offshore petroleum and shipping i
 Dr. Bourgeois is also active in the care of commercial divers and fitness to dive examinations. He is a NOAA certified Dive Medical Officer and a member of the Undersea and Hyperbaric Medical Society. He is also certified in fitness to dive examinations. Dr. Bourgeois serves on the Medical Standards and Advisory Board of the Association of Diving Contractors International.
 
 Dr. Bourgeois also serves as a special government employee on the USCG Mariner Medical Advisory Committee.He is a board member of the Jefferson Parish Medical Society and a member of the State Medical Society. He is a Fellow of the American College of Surgeons. Dr. Bourgeois is a licensed medical review officer. He is also medical director for international companies involved in the petrochemical industry. He is active in the education of offshore medics and lectures frequently on many topics including MRSA infections.
-]==]
+]==],
   },
 
   ["Robert Bourgeois, MD MPH"] = {
@@ -232,10 +230,10 @@ As founder and CEO of Deepwater Corrosion services Inc in 1986 he has been respo
     org = "2G Robotics Inc.",
     homepage = "http://www.2grobotics.com/",
     email = "ncavan@2grobotics.com",
+    headshot = "cavan.jpg",
     bio = [==[
 Neil Cavan completed his undergraduate degree in Mechanical Engineering at the University of Waterloo in 2007. After working as a mechanical designer for two years he completed his MASc in Systems Design engineering in August 2011, with research focused on computer vision, 3D reconstruction of unknown scenes and simultaneous localization and mapping (SLAM) for robotic vehicles. Neil is currently employed at 2G Robotics, developing innovative underwater technologies.
 ]==],
-    headshot = "cavan.jpg",
   },
 
   ["Mike Chapman"] = {
@@ -244,6 +242,14 @@ Neil Cavan completed his undergraduate degree in Mechanical Engineering at the U
     org = "MECCO, Inc.",
     homepage = "http://www.meccoinc.com/",
     email = "m.e.chapman@att.net",
+  },
+
+  ["Ed Cheesman"] = {
+    first = "Ed",
+    last = "Cheesman",
+    org = "BlueView",
+    homepage = "http://www.blueview.com/",
+    email = "ed.cheesman@blueview.com",
   },
 
   ["Phillip Cheng"] = {
@@ -388,7 +394,7 @@ As the Competition Technical Manager and Head Rules Judge for the MATE Center RO
 Matt also serves as an adjunct professor at Monterey Peninsula College and is the lead instructor for the MATE Center's basic ROV workshop.  He is also involved in outreach to local schools.
 
 Matt graduated from the University of Puget Sound with a degree in Biology.
-]==]
+]==],
   },
 
   ["Jim Garrington"] = {
@@ -625,7 +631,7 @@ Worked in the waterjet industry for 10 years. Work in the waterjet industry has 
     headshot = "klein.jpg",
     bio = [==[
 Mark I Klein the Manager of Field Services for S.T. Hudson Engineers Inc. has over 30 years experience in the Marine Construction and Engineering Field.  A graduate of Pennsylvania State University, (BSCE 87), and Florida Tech (UT 81), Mr. Klein has continuously used and adapted new technology and applied it to meet the rigorous demands for a wide range of clients to meet traditional, and sometimes non-traditional requirements.  Mr. Klein is also a Certified Hydrographer (ACSM #182), and Commercial Hard Hat Diver specializing in black water and inland applications.  Marine Corrosion and Structural Evaluations, with Dredge Consulting are routine services provided by S.T. Hudson Engineers Inc.
-]==]
+]==],
   },
 
   ["John Klose"] = {
@@ -648,7 +654,7 @@ Cdr. John P. Klose is a retired submarine officer and project engineer at the Na
     headshot = "koenig.jpg",
     bio = [==[
 Matt Koenig, VP Americas for Corvus Energy, has more than 25 years management experience in finance, distribution, manufacturing, and technical sales and marketing.  He most recently served as Vice President of Isoflex Technologies Pty., Ltd. America. Earlier, he held several positions in the marine and composites industries, including Director of Business Development for Polynova Composites, Marine Division manager at Globe Composite Solutions COO The Violette Companies, and management roles at State Street Bank and Trust, Fidelity Investments and Bank of Boston.  He holds a BA in Economics from John Carroll University.  Matt is based in Boston.
-]==]
+]==],
   },
 
   ["Will Kohnen"] = {
@@ -782,7 +788,7 @@ Simon Lunt is the Sales Manager at Analox Sensor Technology who have provided th
 ]==],
   },
 
-  ["Brian Luzzi"]  = {
+  ["Brian Luzzi"] = {
     first = "Brian",
     last = "Luzzi",
     org = "VideoRay",
@@ -817,6 +823,19 @@ Dmitry Lyakhov works at the The Institute of Marine Technology Problems. The Ins
 A diver for over 50 years, Sid Macken has pursued a lifelong interest in underwater photography. Sid feels fortunate to have begun his diving career during the early years of American sport diving, an exciting time full of innovation, experimentation, and discovery. He is an early graduate of the Santa Barbara City College Marine Diving Technology Program, an ADCI certified commercial diver, a former public safety diver and instructor, and a freelance underwater videographer.
 
 Sid was introduced to the Historical Diving Society USA in 1993, and joined in 1994. He writes a column on the history of underwater photography for the HDS magazine, and presently sits on the Society's Board of Directors. In 1996 he produced the video documentary *Swirling Dark Water: a century of diving in Oregon* and has continued to study the history of Pacific Northwest diving.
+]==],
+  },
+
+  ["Dr. Mahesh Menon"] = {
+    prefix = "Dr.",
+    first = "Mahesh",
+    last = "Manon",
+    org = "SMD",
+    homepage = "http://www.smd.co.uk/",
+    email = "mahesh.menon@smd.co.uk",
+    headshot = "menon.jpg",
+    bio = [==[
+Dr. Mahesh Menon is an Electronics and Communications engineer by trade and graduated from University of Wales, Swansea. He then pursued his MSc in Photonics and Communications Systems, also at the same University. He held industrial positions at Ericsson Mobile Communications in Malaysia, devising a more reliable testing rig for mobile phone assemblies and ICN Photonics in Wales, where he designed a system for a hand-held laser device used to treat skin blemishes and remove acne/tattoos. He was offered a PhD scholarship at Northumbria University in Newcastle-upon-Tyne, where he devised a novel modulation scheme for optical wireless systems, which formed his thesis. Upon graduating, he worked within the Security and Surveillance industry, firstly as a senior engineer designing intelligent camera systems, such as automatic number plate recognition (ANPR) cameras and ANPR systems to mobile speed enforcement systems. Mahesh was then promoted to Engineering Manager, where he was instrumental in designing the mobile security system for the Dubai Police Force and other law enforcement organisations in Algeria, France, Norway and the Netherlands. The systems utilised scene analysis capabilities together with face recognition, all integrated into one global back office application that can be downloaded onto other mobile platforms such as laptops in vehicles and smart phones. Mahesh is now the R&D Manager at SMD, leading the technological innovation and development in subsea vehicle and systems engineering, within the ROVs, Trenching, Mining, Renewables and Nuclear business streams in the company. Although being from an electronics background, Mahesh has a passion in mechanical engineering and enjoys the challenges presented in designing components and systems for the subsea industry.
 ]==],
   },
 
@@ -942,7 +961,7 @@ Brendan Murphy has been a Diving System Safety Certification Manager, working fo
 Prior to his employment with NAVSEA Mr. Murphy was the Division Manager of the Diving and Marine Construction Division of J.F. White Contracting Company, a major heavy civil construction company located in Framingham, MA. His duties at J.F. White included estimating, bidding and executing offshore and inshore projects in the United States and Canada.
 
 Mr. Murphy began his diving career in 1980 after completing 2nd Class Diver training at Harbor Clearance Unit TWO in Little Creek, VA.  Subsequently he completed tours at a variety of diving commands including instructor duty at the 2nd Class Dive School in Pearl Harbor, HI, NRL, USS RECOVERY (ARS 43), MDSU-2, USS GRAPPLE (ARS 53) and COMLOGRU TWO.  He retired in 1999 as a Master Chief, Master Diver after over 20 years of Naval Service.
-]==]
+]==],
   },
 
   ["Robin Murphy"] = {
@@ -1052,7 +1071,7 @@ Bill Orr, Commander USN Ret. Has a Bachelor of Science Degree in Industrial Mana
 Commander Orr served Director of Training at the Navy Diving School and various ships including command of the USS GRASP (ARS-51) where his ship played a key role in the TWA Flight 800 recovery operations. He completed his career with 6 years on the Chief of Naval Operations Staff at the Pentagon.
 
 Bill is now a civil servant working in Norfolk, VA for the U.S. Navy as the U.S. Submarine Force Escape and Rescue officer. In addition he is the Director of the International Submarine Escape and Rescue Liaison Office (ISMERLO). An office that works with nations around the globe to develop cooperative global rescue plans. He developed the web based global rescue coordination system at http://www.ismerlo.org which played a key role in the rescue 7 sailors from the Russian AS-28 mini submarine off Kamchatka in 2005.
-]==]
+]==],
   },
 
   ["Hiroyuki Osawa"] = {
@@ -1127,12 +1146,12 @@ Brennan Phillips is the Operations Manager for the Institute for Exploration, a 
   },
 
   ["Dave Phillips"] = {
-      first = "Dave",
-      last = "Phillips",
-      org = "St Louis County Sheriff's Office",
-      homepage = "http://www.stlouiscountymn.gov/GOVERNMENT/DepartmentsAgencies/Sheriff.aspx",
-      email = "davnan@q.com",
-      bio = [==[
+    first = "Dave",
+    last = "Phillips",
+    org = "St Louis County Sheriff's Office",
+    homepage = "http://www.stlouiscountymn.gov/GOVERNMENT/DepartmentsAgencies/Sheriff.aspx",
+    email = "davnan@q.com",
+    bio = [==[
 Dave Phillips is the Undersheriff for the St. Louis County Sheriff's Office in Duluth, Minnesota. Dave has 24 years of law enforcement experience, and has worked as a Patrol Sergeant, Tactical Team Leader and Commander, and Liaison to the St. Louis County Rescue Squad. Dave currently is second in command of the Sheriff's Office and serves on the Western Lake Superior Area Maritime Security Committee and Arrowhead Joint Terrorism Task Force.
 
 Dave is also a VideoRay Certified Instructor and has conducted operator trainings for many public and private agencies including New York Police Counter-terror division, United States Coast Guard, Miami-Dade Police Dive Team, US Army Corp of Engineers, among others. As a VideoRay consultant, he has travelled the United States and several countries on a wide variety of missions ranging from jobs on Gulf of Mexico oil rigs and searches for missing persons in Norway and Ecuador, to equipment demos in Southeast Asia. Dave has been a certified diver since 1977 and enjoys cruising Lake Superior with his family on their boat, "Kristarah".
@@ -1159,7 +1178,7 @@ Andy Porterfield has been a Mechanical Engineer at Schilling Robotics since 2008
     email = "chad@candssafety.com",
     bio = [==[
 Chad Quibodeaux was born and rasied in New Iberia. After High School he went to work for a Oilflield Service company doing wireline work. After working offshore for 4 years in the well service industry he decided that he wanted to be in the fire and safety industry and went to work for a company where he began my journey in the fire and safety industry. He began to learn about fire extinguishers, gas detection, fire suppression and fire detection, and aids to navigation. After working in the fire and safety industry offshore for 6 years he had the opportunity to come to work for his present company in business development. Since then he has worked with many different industries in trying to help educated people with many different safety topics from fall protection to gloves. He has been employed with C&S Safety Systems now for 10 years and looks forward to many more years in the industry.
-]==]
+]==],
   },
 
   ["Gary Reynolds"] = {
@@ -1289,7 +1308,7 @@ Karl Stanley got the idea to make a submersible when he was 9 years old and star
     headshot = "steimle.jpg",
     bio = [==[
 Dr. Steimle is the program manager with AEOS LLC based in St. Petersburg Florida. He is a member of Texas A&M's Roboticists Without Borders program and has over 13 years' experience with Unmanned Marine Vehicles. Dr. Steimle's current focus is on the use of Unmanned Surface Vehicles as mobile instrument platforms and the use of UMVs for disaster recovery.
-]==]
+]==],
   },
 
   ["Steve Struble"] = {
@@ -1314,14 +1333,6 @@ Dr. Steimle is the program manager with AEOS LLC based in St. Petersburg Florida
     org = "Georgia Tech Savannah Robotics",
     homepage = "http://gtsr.gtsav.gatech.edu/",
     email = "mtam77@gatech.edu",
-  },
-
-  ["Liz Taylor"] = {
-    first = "Liz",
-    last = "Taylor",
-    org = "DOER Marine",
-    homepage = "http://www.doermarine.com/",
-    email = "Liz@doermarine.com",
   },
 
   ["Jim Teague"] = {
@@ -1509,6 +1520,14 @@ Dr. Wilson holds a PhD in Electro-Mechanical Design/instrumentation, a Masters d
 ]==],
   },
 
+  ["Colin Wollerman"] = {
+    first = "Colin",
+    last = "Wollerman",
+    org = "Hawaii Undersea Research Lab",
+    homepage = "http://www.soest.hawaii.edu/HURL/",
+    email = "wollerma@hawaii.edu",
+  },
+
   ["Thomas Wrasse"] = {
     first = "Thomas",
     last = "Wrasse",
@@ -1517,7 +1536,7 @@ Dr. Wilson holds a PhD in Electro-Mechanical Design/instrumentation, a Masters d
     headshot = "wrasse.jpg",
     bio = [==[
 Tom brings to the table over 30 years of conservation law enforcement experience with nearly 25 of those in supervision. Tom received recognition for his work above and beyond with the prestigious Shikar Safari International Wildlife Officer of the Year award, the Wisconsin Conservation Congress Officer of the Year Award and several intra-departmental recognitions. It wasn't until about 6 years ago that he found a piece of equipment that improved efficiency and effectiveness of officers across all fields. While conservation law enforcement has always involved water related investigations the subsurface has been largely overlooked. Tom recognized the capabilities of the VideoRay as being an opportunity to venture into the unknown.  As team leader for operations Tom has trained and guided staff in successful missions in body recoveries and cross program integrated work.
-]==]
+]==],
   },
 
   ["Jill Zande"] = {
@@ -1537,33 +1556,38 @@ Prior to marine technical education, Jill’s focus was on marine research. Duri
 ]==],
   },
 
+  ["Phil Ziegler"] = {
+    first = "Phil",
+    last = "Ziegler",
+    org = "Zeke Underwater Consulting",
+    homepage = "http://www.zekeunderwaterconsulting.com/",
+    email = "",
+    bio = [==[
+During his career, Philip Ziegler designed a range of equipment from machinery for raising a dam’s
+Tainter gates; to small, high-pressure, pump heads to motion compensation equipment capable of
+supporting 1¼ million pounds. He also spent eight years as a technical review engineer for the
+American Bureau of Shipping, spending the majority of his time reviewing plans produced worldwide
+for underwater vehicles. The common thread running throughout Phil's career is an ability to conceive
+and produce innovative solutions to the problems he faced, often solving problems other failed to solve.
+Some of his innovations are now standard industry practice.
+
+Philip is past vice-chair of the ABS Special Committee on Underwater Systems and Vehicles and past
+chair of the International Association of Classification Societies Correspondence Group on Passenger
+Submersibles and Diving Systems. He represented the latter at the 41st and 43rd sessions of the
+International Maritime Organization Sub-Committee on Ship Design and Equipment meetings in
+London, actively participating in the production of the IMO <cite>Guidelines for the Design, Construction and
+Operation of Passenger Submersible Craft</cite> (MSC/Circ. 981). Currently, Philip is an active member of
+the ASME Pressure Vessels for Human Occupancy Committee and the ABS Special Committee on
+Underwater Systems and Vehicles.
+]==],
+  },
+
   ["Michael Zinszer"] = {
     first = "Michael",
     last = "Zinszer",
     org = "Florida State University Panama City",
     homepage = "http://www.pc.fsu.edu/",
     email = "mzinszer@pc.fsu.edu",
-  },
-
-  ["Dr. Mahesh Menon"] = {
-    prefix = "Dr.",
-    first = "Mahesh",
-    last = "Manon",
-    org = "SMD",
-    homepage = "http://www.smd.co.uk/",
-    email = "mahesh.menon@smd.co.uk",
-    headshot = "menon.jpg",
-    bio = [==[
-Dr. Mahesh Menon is an Electronics and Communications engineer by trade and graduated from University of Wales, Swansea. He then pursued his MSc in Photonics and Communications Systems, also at the same University. He held industrial positions at Ericsson Mobile Communications in Malaysia, devising a more reliable testing rig for mobile phone assemblies and ICN Photonics in Wales, where he designed a system for a hand-held laser device used to treat skin blemishes and remove acne/tattoos. He was offered a PhD scholarship at Northumbria University in Newcastle-upon-Tyne, where he devised a novel modulation scheme for optical wireless systems, which formed his thesis. Upon graduating, he worked within the Security and Surveillance industry, firstly as a senior engineer designing intelligent camera systems, such as automatic number plate recognition (ANPR) cameras and ANPR systems to mobile speed enforcement systems. Mahesh was then promoted to Engineering Manager, where he was instrumental in designing the mobile security system for the Dubai Police Force and other law enforcement organisations in Algeria, France, Norway and the Netherlands. The systems utilised scene analysis capabilities together with face recognition, all integrated into one global back office application that can be downloaded onto other mobile platforms such as laptops in vehicles and smart phones. Mahesh is now the R&D Manager at SMD, leading the technological innovation and development in subsea vehicle and systems engineering, within the ROVs, Trenching, Mining, Renewables and Nuclear business streams in the company. Although being from an electronics background, Mahesh has a passion in mechanical engineering and enjoys the challenges presented in designing components and systems for the subsea industry.
-]==],
-  },
-
-  ["Ed Cheesman"] = {
-    first = "Ed",
-    last = "Cheesman",
-    org = "BlueView",
-    homepage = "http://www.blueview.com/",
-    email = "ed.cheesman@blueview.com",
   },
 
 }

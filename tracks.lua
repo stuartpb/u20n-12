@@ -300,8 +300,8 @@ An assessment of this issue showed that it was not feasible to achieve step-chan
 
 This presentation will review features important in reducing downtime including: modular subsystem design, component accessibility, ease of replacement, and removal of the potential for installation errors during the maintenance process.  Major ROV subsystem examples will be discussed, including the HPU and the electrical power distribution system.
 ]==],
-    materials = true,
     image = "rov-rts.jpg",
+    materials = true,
     start = { day = 25, month = 1, year = 2012,
       hour = 11, min = 00 },
     length = 1800,
@@ -358,8 +358,8 @@ The lack of standardization between different models of ROVs also makes preplann
 
 This presentation will provide an overview of the primary concerns when integrating new equipment. Considerations include the size and weight of the equipment, ROV-specific mechanical attachment points, hydraulic connections, and electrical power and communication requirements.
 ]==],
-    materials = true,
     image = "sim-services.jpg",
+    materials = true,
     start = { day = 25, month = 1, year = 2012,
       hour = 13, min = 30 },
     length = 1800,
@@ -398,8 +398,8 @@ Reliability and Flexibility.  Being able to perform at depth and at a range of f
 
 Beyond ROV.  Some of the intervention applications that are served by ROVs, also need upgrading, such as BOP accumulator charging.  Discussion will cover how compact hydraulic intensifiers can be a cost effective solution.
 ]==],
-    materials = true,
     image = "tooling.png",
+    materials = true,
     start = { day = 25, month = 1, year = 2012,
       hour = 14, min = 30 },
     length = 1800,
@@ -578,8 +578,8 @@ Remotely Operated Vehicles were used during two trips to the Tsunami damaged are
     abstract = [==[
 To extend the range of applications of small ROVs beyond that of a swimming camera, manufacturers develop accessory integration schemes to allow the addition of sophisticated systems including sonar, positioning, intervention and various other sensors  Understanding the technical aspects of your small ROV can help you improve the use of these commercial accessories or design and build your own.  This presentation will address related topics including ballast and trim, power, communications and total systems integration.
 ]==],
-    materials = true,
     image = "accessories.jpg",
+    materials = true,
     start = { day = 24, month = 1, year = 2012,
       hour = 13, min = 30 },
     length = 1800,
@@ -642,8 +642,8 @@ Although the Institute  is not an educational establishment there are several st
 
 Since 2008, teams of students from IMPT have participated in the MATE ROV Competition. In 2010 they won. This paper will present how the student ROV innovations were transformed into commercial product and why students involved in MATE are in demand in the underwater engineering workplace. Theoretical approaches in developing underwater vehicles, practical construction work and sea trials will be described in this presentation giving useful insight to students, teachers, and underwater technology professionals.
 ]==],
-    materials = true,
     image = "student-inno.jpg",
+    materials = true,
     start = { day = 24, month = 1, year = 2012,
       hour = 16, min = 00 },
     length = 1800,
@@ -775,8 +775,8 @@ Florida State University Panama City (FSUPC) completed an evaluation study in 20
     abstract = [==[
 Small ROVs have reached a point in their adoption curve where organizations may own more than one and acquisitions may involve multiple systems, but are these organizations managing these assets like a fleet, or are they still leaving that in the hands of the lead operator of each system?  This presentation will address the tools, techniques and best practices that owners or managers of multiple small ROVs should consider to ensure that they are getting the most value from their investments in equipment and people.  While the fleet size addressed in this presentation is 10 systems or more, there will be valuable information presented for any level of ownership, including just one system.
 ]==],
-    materials = true,
     image = "fleet-mgmt.jpg",
+    materials = true,
     start = { day = 25, month = 1, year = 2012,
       hour = 14, min = 00 },
     length = 1800,
@@ -817,8 +817,8 @@ This talk will discuss some examples of such non-traditional uses by VideoRay cu
     abstract = [==[
 Knowing how to change a flat tire doesn't ensure that your car is maintained in optimal operating condition.  Likewise, knowing how to change a propeller or camera dome doesn't ensure that your small ROV will be properly maintained.  This presentation will look beyond the basic repair techniques and describe key elements in developing and implementing a small ROV maintenance program designed to keep your systems running and extend their service life.  Topics addressed include what items require the most frequent maintenance, how to avoid the most costly repairs, keeping track of service records, how to handle emergencies and many other best practices.
 ]==],
-    materials = true,
     image = "vital.jpg",
+    materials = true,
     start = { day = 25, month = 1, year = 2012,
       hour = 16, min = 00 },
     length = 1800,
@@ -969,6 +969,19 @@ The presentation will review the basics of forward looking sonar technologies, i
   },
 
   {
+    title = "Improved Oxygen Calculations and Their Benefits to MUVs",
+    presenters = { "Phil Ziegler", },
+    abstract = [==[
+This presentation discusses an improved method of performing oxygen supply calculations and describes how its significantly greater accuracy can improve safety and reduce operating costs.
+]==],
+    materials = false,
+    start = { day = 24, month = 1, year = 2012,
+      hour = 16, min = 30 },
+    length = 1800,
+    room = "219",
+  },
+
+  {
     title = "PSUBS Overview and Update",
     fulltitle = "An overview and update of activities within the Personal Submersibles Organization",
     presenters = { "Jon Wallace", },
@@ -1027,9 +1040,14 @@ Since 1986 MSUBS has been producing small, diesel-electric submersibles; coupled
   },
 
   {
-    title = "Deep Ocean Engineering Solutions",
-    fulltitle = "TBD",
-    presenters = { "Liz Taylor", },
+    title = "Hawaii Undersea Research Lab (HURL) 2011 Update",
+    fulltitle = "A University of Hawaii research facility operating under the auspices of NOAA's National Undersea Research Program",
+    presenters = { "Colin Wollerman", },
+    abstract = [==[
+Operating two manned submersibles with a crew of five specialists at close to 100% success rate for over ten years is unique in the industry. The presentation will provide an update on the operation of the PISCES IV and V along with a review of the technical updates made to the equipment and expansion of personnel at HURL. This includes the two submersibles, ROV, multibeam sonar and the support ship R/V Ka`imiaki-o-Kanaloa.
+
+The 2011 pre-season "test & trial" produced a number of Marine Heritage site dives. These historical wrecks were discovered while the HURL team multi-tasked its way through its operational, training, and safety protocols conducted prior to each dive season. In September HURL took part in a National Geographic production Alien Deep using the Pisces IV and V outfitted with 3D HD camera gear and LED lights from Woods Hole Advanced Imaging and Visualization Lab (AIVL). HURL also enjoyed a successful series of dives in the North West Hawaiian Island National Monument. The Pisces IV is coming apart for a special survey and the Pisces V is in stand-by for emergency deployment.
+]==],
     materials = false,
     start = { day = 25, month = 1, year = 2012,
       hour = 11, min = 30 },
@@ -1103,17 +1121,6 @@ The presentation will also describe a means of packaging the 64 modules that all
   },
 
   {
-    title = "MTS MUV Committee Meeting",
-    fulltitle = "Annual Committee Meeting for MTS Manned Underwater Vehicles",
-    presenters = { "Will Kohnen", },
-    materials = true,
-    start = { day = 25, month = 1, year = 2012,
-      hour = 15, min = 30 },
-    length = 3600,
-    room = "219",
-  },
-
-  {
     title = "New Developments in Acrylics",
     fulltitle = "New Developments in Pressure Vessel Applications of Acrylics",
     presenters = { "Bart Kemper", },
@@ -1166,10 +1173,21 @@ Deep sea buoyancy has evolved significantly since the pre-1960’s days in which
 A rigorous QC protocol in all components in the syntactic buoyancy is required to maintain a capable manufacturing process as well as reliable, predictable long-term syntactic foams behavior.  This control starts in the microballoon manufacturing process; problems or process deviations during their manufacture can trickle all the way through to the finished foam properties.  The same is expected in the polymer binder phase, coupling agents and other additives that go into the finished product. When the essential constituent properties are identified and quantified, the final performance of the finished syntactic foam can be predicted.
 ]==],
     image = "foam-microbubbles.jpg",
-    materials = nil,
+    materials = false,
     start = { day = 26, month = 1, year = 2012,
       hour = 10, min = 30 },
     length = 5400,
+    room = "219",
+  },
+
+  {
+    title = "MTS MUV Committee Meeting",
+    fulltitle = "Annual Committee Meeting for MTS Manned Underwater Vehicles",
+    presenters = { "Will Kohnen", },
+    materials = true,
+    start = { day = 26, month = 1, year = 2012,
+      hour = 13, min = 30 },
+    length = 3600,
     room = "219",
   },
 
@@ -1187,8 +1205,8 @@ Georgia Tech Savannah Robotics' ROV Beta Mk II is a direct product of the MATE c
 
 This year, Beta Mk II is slated to survey recently unearthed Revolutionary War shipwrecks off the coast of Yorktown, VA. For 2012, the MATE ROV Competition again aligns with the real world research plan for the vehicle. This talk will outline the competition influences on design, the differences in real world performance vs. competition, and the future work inspired by the competition.
 ]==],
-    materials = "savannah.pdf",
     image = "savannah.jpg",
+    materials = "savannah.pdf",
     start = { day = 24, month = 1, year = 2012,
       hour = 08, min = 30 },
     length = 1800,
@@ -1367,8 +1385,8 @@ SAR operations, Crime scene investigations
     abstract = [==[
 American Electric Power, a Sustaining Member of ADCI, continues to conduct training of its employees in the rules and regulations of commercial diving via OSHA, US Coast Guard and the ADCI Consensus Standards.  Training programs are conducted each year at selected AEP facilities for new students and re-qualifying Diving Contacts.  Criteria for becoming a Diving Contact at AEP is delineated in their program and requires each person to be nominated by management, complete the program and a written examination.  They serve in the program for a period of three years and must re-qualify by attending refresher training.  An AEP Diving Contact works directly with diving contractors at any AEP facility.  They are familiar with all diving regulations and the Consensus Standards, including Rev. 6, and can work the diving tables for repetitive dives, surface decompression on air or oxygen for example. Since they understand parts of our industry; they really make it easier for a diving contractor to communicate with them.  Dave Scarberry has been their Diving Coordinator and the originator of their program since inception and is responsible for its development and administration.  Will Hux is the instructor from MESCO/ Stroud Diving & Hydrography and wrote the training curriculum for the classroom portion of the training.  They make a strong team in presenting a safety program of which is an industry first.
 ]==],
-    materials = false,
     image = "div-training.gif",
+    materials = false,
     start = { day = 24, month = 1, year = 2012,
       hour = 09, min = 00 },
     length = 1800,
@@ -1588,8 +1606,8 @@ A full description of the system in use at the time of the accident will be prov
 
 The conversion work done at Mare Island Naval Shipyard will be discussed, along with contractor oversight issues.  The discussion will also cover other causes leading up to the accident including maintenance and training shortfalls and operator actions.  In addition, corrective actions specific to GRAYBACK and lessons learned applied to future systems will be presented.
 ]==],
-    materials = "grayback.pdf",
     image = "grayback.jpg",
+    materials = "grayback.pdf",
     start = { day = 25, month = 1, year = 2012,
       hour = 14, min = 15 },
     length = 2700,
@@ -1597,18 +1615,17 @@ The conversion work done at Mare Island Naval Shipyard will be discussed, along 
   },
 
   {
-    title = "Using ISMERLO (relating to the KOOSHA1 sinking)",
-    fulltitle = "Using a rescue coordination system to support multinational and multi-organizational rescue responses",
-    presenters = { "Bill Orr", },
+    title = "Underwater Burning and Welding Safety",
+    fulltitle = "Underwater Burning and Welding Safety",
+    presenters = { "David Scarberry", },
     abstract = [==[
-The advent of web based coordination has enabled significant improvements in coordinating global rescue operations.  The International Submarine Escape and Rescue Liaison Office and its web based system located at http://www.ismerlo.org enables coordination across multinational and multi-organizational boundaries in support of incidents like KOOSHA 1.
-
-The presentation will look at a short history and the development of the current capabilities of the ISMERLO rescue coordination system. Then look at incidents like the rescue of the AS-28 PRIZ mini submarine off Kamchatka in 2005 and other contingencies operations like the KOOSHA 1. Discussion will include options for the future to support the local Rescue Coordination Centers (RCCs) and initiatives for further support the International Aeronautical and Maritime Search and Rescue.  Future options could include development of a stand-alone system managed and supported by the offshore industry or options for integration into the existing ismerlo.org system.
+This subject will address a recent accident that occured to a diver while performing an underwater welding operation.  The resulting investigation and root cause analysis lead to the identification of several unrealized conditions that aided in creating this "perfect storm."  These included such items as unaccounted power sources, unfamiliar with tools, unknown actual amperage from welder, and adjacent work groups.  The end result was a new, and more detailed JHA was created that addresses these hazards.  This JHA includes all of the best safet practices as laid out by the ADCI, but also takes it to the next level of pre-job set ups, and a firm commitment by AEP on how all U/W buring and welding work will conducted across the entire fleet.
 ]==],
-    materials = false,
+    image = "welding.gif",
+    materials = true,
     start = { day = 25, month = 1, year = 2012,
       hour = 15, min = 30 },
-    length = 3600,
+    length = 1800,
     room = "221",
   },
 
@@ -1671,17 +1688,18 @@ The paper will discuss the governance of the DCBC, the competency standard on wh
   },
 
   {
-    title = "Underwater Burning and Welding Safety",
-    fulltitle = "Underwater Burning and Welding Safety",
-    presenters = { "David Scarberry", },
+    title = "Using ISMERLO (relating to the KOOSHA1 sinking)",
+    fulltitle = "Using a rescue coordination system to support multinational and multi-organizational rescue responses",
+    presenters = { "Bill Orr", },
     abstract = [==[
-This subject will address a recent accident that occured to a diver while performing an underwater welding operation.  The resulting investigation and root cause analysis lead to the identification of several unrealized conditions that aided in creating this "perfect storm."  These included such items as unaccounted power sources, unfamiliar with tools, unknown actual amperage from welder, and adjacent work groups.  The end result was a new, and more detailed JHA was created that addresses these hazards.  This JHA includes all of the best safet practices as laid out by the ADCI, but also takes it to the next level of pre-job set ups, and a firm commitment by AEP on how all U/W buring and welding work will conducted across the entire fleet.
+The advent of web based coordination has enabled significant improvements in coordinating global rescue operations.  The International Submarine Escape and Rescue Liaison Office and its web based system located at http://www.ismerlo.org enables coordination across multinational and multi-organizational boundaries in support of incidents like KOOSHA 1.
+
+The presentation will look at a short history and the development of the current capabilities of the ISMERLO rescue coordination system. Then look at incidents like the rescue of the AS-28 PRIZ mini submarine off Kamchatka in 2005 and other contingencies operations like the KOOSHA 1. Discussion will include options for the future to support the local Rescue Coordination Centers (RCCs) and initiatives for further support the International Aeronautical and Maritime Search and Rescue.  Future options could include development of a stand-alone system managed and supported by the offshore industry or options for integration into the existing ismerlo.org system.
 ]==],
-    image = "welding.gif",
-    materials = true,
+    materials = false,
     start = { day = 26, month = 1, year = 2012,
       hour = 11, min = 30 },
-    length = 1800,
+    length = 3600,
     room = "221",
   },
 
