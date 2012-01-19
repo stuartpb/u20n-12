@@ -838,6 +838,7 @@ Sid was introduced to the Historical Diving Society USA in 1993, and joined in 1
     org = "Welaptega Marine Limited",
     homepage = "http://www.welaptega.com/",
     email = "m.maccormick@welaptega.com",
+    headshot = "maccormick.jpg",
     bio = [==[
 Marie graduated with a degree in mechanical engineering from Dalhousie University in Halifax, Canada. She joined Welaptega Marine in 2007 to develop the company's 3D modeling capability and has executed subsea projects in Canada, Norway, the Gulf of Mexico, Australia, and the UK. She is now the Lead 3D Projects Engineer in Welaptega’s Halifax office, and occasionally travels offshore as a project manager.
 ]==],
@@ -951,6 +952,7 @@ Rachael Miller is the co-founder and Director of Rozalia Project for a Clean Oce
     org = "Marine Advanced Technology Education (MATE) Center",
     homepage = "http://www.marinetech.org/",
     email = "emoulton@marinetech.org",
+    headshot = "moulton.jpg",
     bio = [==[
 Erica received her B.S. in biology from the University of West Florida and her Master's degree in conservation education from Prescott College. She is a Master scuba diver as well as an AAUS Certified Scientific Diver and holds certifications in Nitrox diving and Rescue diving.
 
@@ -1565,6 +1567,7 @@ Tom brings to the table over 30 years of conservation law enforcement experience
     org = "Marine Advanced Technology Education (MATE) Center",
     homepage = "http://www.marinetech.org/",
     email = "jzande@marinetech.org",
+    headshot = "zande.jpg",
     bio = [==[
 As the Associate Director, Co-PI, and Competition Coordinator for the MATE Center, Jill's role is to work closely with industry to ensure that educational programs are aligned with workforce needs and to facilitate partnerships among educators, students, employers, and working professionals. Jill maintains relationships with well over 100 businesses, research institutions, government agencies, and professional societies and nearly 200 middle schools, high schools, colleges, and universities that participate in MATE ROV competitions each year.
 
