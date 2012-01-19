@@ -70,7 +70,7 @@ for ni=1, #tracks.names do
     write('<div class="presdiv presdiv-',pr.track,'" id="',pr.id,'">')
     write(os.date("%I:%M %p",stime),
       string.format(" (%.0f min)",pr.length/60),
-      ' <span class="trackroom">Room ',pr.room,"</span>")
+      ' <span class="trackroom">',pr.loc,"</span>")
     write"<br>\n"
     write'<span class="speaker">'
     write(htmlenc(speaker))

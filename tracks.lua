@@ -13,7 +13,7 @@ local function pressort(m,n)
   local mstart,nstart = time(m.start), time(n.start)
 
   if mstart == nstart then
-    return m.room < n.room
+    return m.loc < n.loc
   else
     return mstart < nstart
   end
@@ -84,7 +84,7 @@ This presentation will cover the initial efforts of this laboratory to develop n
     start = { day = 24, month = 1, year = 2012,
       hour = 10, min = 30 },
     length = 1800,
-    room = "217",
+    loc = "Room 217",
   },
 
   {
@@ -107,7 +107,7 @@ For over thirty years, Polymer Corporation has been a leading producer of high-p
     start = { day = 24, month = 1, year = 2012,
       hour = 11, min = 00 },
     length = 1800,
-    room = "217",
+    loc = "Room 217",
   },
 
   {
@@ -128,7 +128,7 @@ There will be a discussion of specific maintenance practices that are required t
     start = { day = 24, month = 1, year = 2012,
       hour = 11, min = 30 },
     length = 1800,
-    room = "217",
+    loc = "Room 217",
   },
 
   {
@@ -143,7 +143,7 @@ The world ocean remains the last unexplored space on earth. Underwater robots, w
     start = { day = 24, month = 1, year = 2012,
       hour = 13, min = 30 },
     length = 1800,
-    room = "217",
+    loc = "Room 217",
   },
 
   {
@@ -162,7 +162,7 @@ This paper provides a technology update on Kongsberg's AUVs for environmental mo
     start = { day = 24, month = 1, year = 2012,
       hour = 14, min = 00 },
     length = 1800,
-    room = "217",
+    loc = "Room 217",
   },
 
   {
@@ -189,7 +189,7 @@ Typical use for the Data Logger for Surface and/or Subsea:
     start = { day = 24, month = 1, year = 2012,
       hour = 14, min = 30 },
     length = 1800,
-    room = "217",
+    loc = "Room 217",
   },
 
   {
@@ -210,7 +210,7 @@ In the fall of 2011, Kongsberg Maritime has integrated automatic tracking of pip
     start = { day = 24, month = 1, year = 2012,
       hour = 15, min = 30 },
     length = 1800,
-    room = "217",
+    loc = "Room 217",
   },
 
   {
@@ -225,7 +225,7 @@ The Institute for Exploration is a non-profit oceanographic research organizatio
     start = { day = 24, month = 1, year = 2012,
       hour = 16, min = 00 },
     length = 1800,
-    room = "217",
+    loc = "Room 217",
   },
 
 })
@@ -245,7 +245,7 @@ One of these challenges is that at the depths and significantly increased pressu
     start = { day = 25, month = 1, year = 2012,
       hour = 09, min = 00 },
     length = 1800,
-    room = "217",
+    loc = "Room 217",
   },
 
   {
@@ -265,7 +265,7 @@ In general the levels of certification and the competencies required to obtain c
     start = { day = 25, month = 1, year = 2012,
       hour = 09, min = 30 },
     length = 1800,
-    room = "217",
+    loc = "Room 217",
   },
 
   {
@@ -286,7 +286,7 @@ This paper presents the advantageous mobility of the flipper type crawler ROV wh
     start = { day = 25, month = 1, year = 2012,
       hour = 10, min = 30 },
     length = 1800,
-    room = "217",
+    loc = "Room 217",
   },
 
   {
@@ -305,7 +305,7 @@ This presentation will review features important in reducing downtime including:
     start = { day = 25, month = 1, year = 2012,
       hour = 11, min = 00 },
     length = 1800,
-    room = "217",
+    loc = "Room 217",
   },
 
   {
@@ -344,7 +344,7 @@ with the natural sea bottom.
     start = { day = 25, month = 1, year = 2012,
       hour = 11, min = 30 },
     length = 1800,
-    room = "217",
+    loc = "Room 217",
   },
 
   {
@@ -363,7 +363,7 @@ This presentation will provide an overview of the primary concerns when integrat
     start = { day = 25, month = 1, year = 2012,
       hour = 13, min = 30 },
     length = 1800,
-    room = "217",
+    loc = "Room 217",
   },
 
   {
@@ -382,7 +382,7 @@ Improvements in the strength of wire rope technology and the increasing use of a
     start = { day = 25, month = 1, year = 2012,
       hour = 14, min = 00 },
     length = 1800,
-    room = "217",
+    loc = "Room 217",
   },
 
   {
@@ -403,7 +403,7 @@ Beyond ROV.  Some of the intervention applications that are served by ROVs, also
     start = { day = 25, month = 1, year = 2012,
       hour = 14, min = 30 },
     length = 1800,
-    room = "217",
+    loc = "Room 217",
   },
 
   {
@@ -422,7 +422,7 @@ Waterjet technology has been extended into the deepwater subsea space during the
     start = { day = 25, month = 1, year = 2012,
       hour = 15, min = 30 },
     length = 1800,
-    room = "217",
+    loc = "Room 217",
   },
 
   {
@@ -439,7 +439,7 @@ The purpose of this talk is to provide an insight into this technology and a gli
     start = { day = 25, month = 1, year = 2012,
       hour = 16, min = 00 },
     length = 1800,
-    room = "217",
+    loc = "Room 217",
   },
 
   {
@@ -457,7 +457,7 @@ Further, it examines to the future of the technology and how it can shape the de
     start = { day = 25, month = 1, year = 2012,
       hour = 16, min = 30 },
     length = 1800,
-    room = "217",
+    loc = "Room 217",
   },
 
   {
@@ -479,7 +479,7 @@ The agenda for the MTS ROV Committee meeting:
     start = { day = 26, month = 1, year = 2012,
       hour = 09, min = 00 },
     length = 5400,
-    room = "217",
+    loc = "Room 217",
   },
 
 })
@@ -501,7 +501,7 @@ Unfortunately we were not able to locate the lost diver, but this presentation w
     start = { day = 24, month = 1, year = 2012,
       hour = 08, min = 30 },
     length = 1800,
-    room = "218",
+    loc = "Room 218",
   },
 
   {
@@ -518,7 +518,7 @@ This presentation will show the experiences of several small ROV projects succes
     start = { day = 24, month = 1, year = 2012,
       hour = 09, min = 00 },
     length = 1800,
-    room = "218",
+    loc = "Room 218",
   },
 
   {
@@ -533,7 +533,7 @@ The mission of Rozalia Project for a Clean Ocean is to find and remove marine de
     start = { day = 24, month = 1, year = 2012,
       hour = 09, min = 30 },
     length = 1800,
-    room = "218",
+    loc = "Room 218",
   },
 
   {
@@ -554,7 +554,7 @@ This presentation by Mr. Shibuya himself will explain the results he experienced
     start = { day = 24, month = 1, year = 2012,
       hour = 10, min = 30 },
     length = 3600,
-    room = "218",
+    loc = "Room 218",
   },
 
   {
@@ -568,7 +568,7 @@ Remotely Operated Vehicles were used during two trips to the Tsunami damaged are
     start = { day = 24, month = 1, year = 2012,
       hour = 11, min = 30 },
     length = 1800,
-    room = "218",
+    loc = "Room 218",
   },
 
   {
@@ -583,7 +583,7 @@ To extend the range of applications of small ROVs beyond that of a swimming came
     start = { day = 24, month = 1, year = 2012,
       hour = 13, min = 30 },
     length = 1800,
-    room = "218",
+    loc = "Room 218",
   },
 
   {
@@ -598,7 +598,7 @@ The low-logistics associated with microROVs make it an ideal platform for rapid 
     start = { day = 24, month = 1, year = 2012,
       hour = 14, min = 00 },
     length = 1800,
-    room = "218",
+    loc = "Room 218",
   },
 
   {
@@ -612,7 +612,7 @@ Smart Tether, a complete underwater navigation system, offers you unmatched oper
     start = { day = 24, month = 1, year = 2012,
       hour = 14, min = 30 },
     length = 1800,
-    room = "218",
+    loc = "Room 218",
   },
 
   {
@@ -628,7 +628,7 @@ Bluefin Robotics recently acquired the assets of Hawkes Remotes, Inc. (HRI), a s
     start = { day = 24, month = 1, year = 2012,
       hour = 15, min = 30 },
     length = 1800,
-    room = "218",
+    loc = "Room 218",
   },
 
   {
@@ -647,7 +647,7 @@ Since 2008, teams of students from IMPT have participated in the MATE ROV Compet
     start = { day = 24, month = 1, year = 2012,
       hour = 16, min = 00 },
     length = 1800,
-    room = "218",
+    loc = "Room 218",
   },
 
   {
@@ -662,7 +662,7 @@ By utilizing both divers and ROVs, NSWC Carderock Division has been able to prov
     start = { day = 25, month = 1, year = 2012,
       hour = 08, min = 30 },
     length = 1800,
-    room = "218",
+    loc = "Room 218",
   },
 
   {
@@ -680,7 +680,7 @@ Due to these stringent requirements a VideoRay Pro4 ROV, KCF Technologies Smart 
     start = { day = 25, month = 1, year = 2012,
       hour = 09, min = 00 },
     length = 1800,
-    room = "218",
+    loc = "Room 218",
   },
 
   {
@@ -697,7 +697,7 @@ This presentation covers case studies where Van Meter Consulting has used Micro 
     start = { day = 25, month = 1, year = 2012,
       hour = 09, min = 30 },
     length = 1800,
-    room = "218",
+    loc = "Room 218",
   },
 
   {
@@ -712,7 +712,7 @@ Multibeam imaging sonars have been available since the early nineties and have s
     start = { day = 25, month = 1, year = 2012,
       hour = 10, min = 30 },
     length = 1800,
-    room = "218",
+    loc = "Room 218",
   },
 
   {
@@ -731,7 +731,7 @@ Until now, this technology has only been available for analog video. In the near
     start = { day = 25, month = 1, year = 2012,
       hour = 11, min = 00 },
     length = 1800,
-    room = "218",
+    loc = "Room 218",
   },
 
   {
@@ -750,7 +750,7 @@ This paper will provide an overview of how these Hydro-Lek manipulators were uti
     start = { day = 25, month = 1, year = 2012,
       hour = 11, min = 30 },
     length = 1800,
-    room = "218",
+    loc = "Room 218",
   },
 
   {
@@ -781,7 +781,7 @@ This talk will discuss VideoRays for Port Security, and this project.
     start = { day = 25, month = 1, year = 2012,
       hour = 13, min = 30 },
     length = 1800,
-    room = "218",
+    loc = "Room 218",
   },
 
   {
@@ -796,7 +796,7 @@ Small ROVs have reached a point in their adoption curve where organizations may 
     start = { day = 25, month = 1, year = 2012,
       hour = 14, min = 00 },
     length = 1800,
-    room = "218",
+    loc = "Room 218",
   },
 
   {
@@ -812,7 +812,7 @@ This talk will discuss some examples of such non-traditional uses by VideoRay cu
     start = { day = 25, month = 1, year = 2012,
       hour = 14, min = 30 },
     length = 1800,
-    room = "218",
+    loc = "Room 218",
   },
 
   {
@@ -823,7 +823,7 @@ This talk will discuss some examples of such non-traditional uses by VideoRay cu
     start = { day = 25, month = 1, year = 2012,
       hour = 15, min = 30 },
     length = 1800,
-    room = "218",
+    loc = "Room 218",
   },
 
   {
@@ -838,7 +838,7 @@ Knowing how to change a flat tire doesn't ensure that your car is maintained in 
     start = { day = 25, month = 1, year = 2012,
       hour = 16, min = 00 },
     length = 1800,
-    room = "218",
+    loc = "Room 218",
   },
 
 })
@@ -855,7 +855,7 @@ The presentation will provide a yearly review of the state of the Manned Submers
     start = { day = 24, month = 1, year = 2012,
       hour = 09, min = 00 },
     length = 3600,
-    room = "219",
+    loc = "Room 219",
   },
 
   {
@@ -874,7 +874,7 @@ I will use examples of both submersible and surface vessel operations, as well a
     start = { day = 24, month = 1, year = 2012,
       hour = 10, min = 30 },
     length = 1800,
-    room = "219",
+    loc = "Room 219",
   },
 
   {
@@ -888,7 +888,7 @@ Southwest Research Institute (SwRI) is under contract to WHOI to design, fabrica
     start = { day = 24, month = 1, year = 2012,
       hour = 11, min = 00 },
     length = 1800,
-    room = "219",
+    loc = "Room 219",
   },
 
   {
@@ -902,7 +902,7 @@ Woods Hole Oceanographic Institution (WHOI) is developing a new deeper diving su
     start = { day = 24, month = 1, year = 2012,
       hour = 11, min = 30 },
     length = 1800,
-    room = "219",
+    loc = "Room 219",
   },
 
   {
@@ -916,7 +916,7 @@ Titanic is now 100 and on April 15, 2012 Titanic will be subject to the 2001 UNE
     start = { day = 24, month = 1, year = 2012,
       hour = 13, min = 30 },
     length = 1800,
-    room = "219",
+    loc = "Room 219",
   },
 
   {
@@ -931,7 +931,7 @@ This presentation will trace the development and use of two manned submersibles 
     start = { day = 24, month = 1, year = 2012,
       hour = 14, min = 00 },
     length = 1800,
-    room = "219",
+    loc = "Room 219",
   },
 
   {
@@ -946,7 +946,7 @@ Since OceanGate acquired the Antipodes manned submersible (former PC-1501) two y
     start = { day = 24, month = 1, year = 2012,
       hour = 14, min = 30 },
     length = 1800,
-    room = "219",
+    loc = "Room 219",
   },
 
   {
@@ -966,7 +966,7 @@ The presentation provides an overview of the submersible activity at Nuytco for 
     start = { day = 24, month = 1, year = 2012,
       hour = 15, min = 30 },
     length = 1800,
-    room = "219",
+    loc = "Room 219",
   },
 
   {
@@ -981,7 +981,7 @@ The presentation will review the basics of forward looking sonar technologies, i
     start = { day = 24, month = 1, year = 2012,
       hour = 16, min = 00 },
     length = 1800,
-    room = "219",
+    loc = "Room 219",
   },
 
   {
@@ -994,7 +994,7 @@ This presentation discusses an improved method of performing oxygen supply calcu
     start = { day = 24, month = 1, year = 2012,
       hour = 16, min = 30 },
     length = 1800,
-    room = "219",
+    loc = "Room 219",
   },
 
   {
@@ -1008,7 +1008,7 @@ This presentation will provide an update of PSUBS (Personal Submersibles Organiz
     start = { day = 25, month = 1, year = 2012,
       hour = 08, min = 30 },
     length = 1800,
-    room = "219",
+    loc = "Room 219",
   },
 
   {
@@ -1023,7 +1023,7 @@ Open meeting of the American Bureau of Shipping (ABS) with the subsea industry t
     start = { day = 25, month = 1, year = 2012,
       hour = 09, min = 00 },
     length = 3600,
-    room = "219",
+    loc = "Room 219",
   },
 
   {
@@ -1038,7 +1038,7 @@ A major obstacle in the development of manned submersibles involves the removal 
     start = { day = 25, month = 1, year = 2012,
       hour = 10, min = 30 },
     length = 1800,
-    room = "219",
+    loc = "Room 219",
   },
 
   {
@@ -1052,7 +1052,7 @@ Since 1986 MSUBS has been producing small, diesel-electric submersibles; coupled
     start = { day = 25, month = 1, year = 2012,
       hour = 11, min = 00 },
     length = 1800,
-    room = "219",
+    loc = "Room 219",
   },
 
   {
@@ -1068,7 +1068,7 @@ The 2011 pre-season "test & trial" produced a number of Marine Heritage site div
     start = { day = 25, month = 1, year = 2012,
       hour = 11, min = 30 },
     length = 1800,
-    room = "219",
+    loc = "Room 219",
   },
 
   {
@@ -1084,7 +1084,7 @@ Corvus Energy has obtained class certification for its lithium battery technolog
     start = { day = 25, month = 1, year = 2012,
       hour = 13, min = 30 },
     length = 1800,
-    room = "219",
+    loc = "Room 219",
   },
 
   {
@@ -1105,7 +1105,7 @@ Additionally, a new method of achieving safer performance of lithium-based batte
     start = { day = 25, month = 1, year = 2012,
       hour = 14, min = 00 },
     length = 1800,
-    room = "219",
+    loc = "Room 219",
   },
 
   {
@@ -1133,7 +1133,7 @@ The presentation will also describe a means of packaging the 64 modules that all
     start = { day = 25, month = 1, year = 2012,
       hour = 14, min = 30 },
     length = 1800,
-    room = "219",
+    loc = "Room 219",
   },
 
   {
@@ -1144,7 +1144,7 @@ The presentation will also describe a means of packaging the 64 modules that all
     start = { day = 26, month = 1, year = 2012,
       hour = 13, min = 30 },
     length = 3600,
-    room = "219",
+    loc = "Room 219",
   },
 
   {
@@ -1159,7 +1159,7 @@ Acrylics are a proven, reliable material for submersible viewports.  The current
     start = { day = 26, month = 1, year = 2012,
       hour = 08, min = 30 },
     length = 1800,
-    room = "219",
+    loc = "Room 219",
   },
 
   {
@@ -1173,7 +1173,7 @@ Traditionally, naval architecture has been more craft than science. Determining 
     start = { day = 26, month = 1, year = 2012,
       hour = 09, min = 00 },
     length = 1800,
-    room = "219",
+    loc = "Room 219",
   },
 
   {
@@ -1187,7 +1187,7 @@ Traditionally, naval architecture has been more craft than science. Determining 
     start = { day = 26, month = 1, year = 2012,
       hour = 09, min = 30 },
     length = 1800,
-    room = "219",
+    loc = "Room 219",
   },
 
   {
@@ -1204,7 +1204,7 @@ A rigorous QC protocol in all components in the syntactic buoyancy is required t
     start = { day = 26, month = 1, year = 2012,
       hour = 10, min = 30 },
     length = 5400,
-    room = "219",
+    loc = "Room 219",
   },
 
 })
@@ -1226,7 +1226,7 @@ This year, Beta Mk II is slated to survey recently unearthed Revolutionary War s
     start = { day = 24, month = 1, year = 2012,
       hour = 08, min = 30 },
     length = 1800,
-    room = "220",
+    loc = "Room 220",
   },
 
   {
@@ -1243,7 +1243,7 @@ This talk will discuss some of the ways in which VideoRay fosters undersea robot
     start = { day = 24, month = 1, year = 2012,
       hour = 09, min = 00 },
     length = 1800,
-    room = "220",
+    loc = "Room 220",
   },
 
   {
@@ -1259,7 +1259,7 @@ This paper reviews relatively fast evolution showing that participation in stude
     start = { day = 24, month = 1, year = 2012,
       hour = 09, min = 30 },
     length = 1800,
-    room = "220",
+    loc = "Room 220",
   },
 
   {
@@ -1276,7 +1276,7 @@ SENSE IT promotes student awareness of the interdisciplinary nature of modern en
     start = { day = 24, month = 1, year = 2012,
       hour = 10, min = 30 },
     length = 1800,
-    room = "220",
+    loc = "Room 220",
   },
 
   {
@@ -1291,7 +1291,7 @@ The Great Lakes Naval Memorial and Museum (GLNMM) has developed a program that u
     start = { day = 24, month = 1, year = 2012,
       hour = 11, min = 30 },
     length = 1800,
-    room = "220",
+    loc = "Room 220",
   },
 
   {
@@ -1318,7 +1318,7 @@ Jesuit High School successfully completed missions designed by the Marine Advanc
     start = { day = 24, month = 1, year = 2012,
       hour = 13, min = 30 },
     length = 1800,
-    room = "220",
+    loc = "Room 220",
   },
 
   {
@@ -1339,7 +1339,7 @@ Based on this success, the MATE competition will continue its entrepreneurial ap
     start = { day = 24, month = 1, year = 2012,
       hour = 14, min = 00 },
     length = 1800,
-    room = "220",
+    loc = "Room 220",
   },
 
   {
@@ -1356,12 +1356,12 @@ The 2012 mission theme deals with 20th century shipwrecks and their potential en
     start = { day = 24, month = 1, year = 2012,
       hour = 14, min = 30 },
     length = 1800,
-    room = "220",
+    loc = "Room 220",
   },
 
   {
-    title = "Remotely Operated Vehicles (ROV) Building and Design. ",
-    fulltitle = "Educating the next generation of scientists with real world scenarios:  Modeling a shipwreck for the MATE Center ROV competition",
+    title = "Remotely Operated Vehicles (ROV) Building and Design",
+    fulltitle = "",
     presenters = { "Erica Moulton", },
     abstract = [==[
 How do we reach educators, of all levels, who are interested in learning about ROV technology and its use in ocean exploration and research? We teach them how to teach their students to build an ROV using a program we call "ROV in a Bag". The ROV in a Bag program is a concept created from the original work of Harry Bohm and Vickie Jensen and adapted from the ROV kit developments in their books <cite>Build Your Own Underwater Robot and Other Wet Projects</cite>. The small, yet fully functional ROV in a Bag kit has also undergone successive tweaks by the Marine Advanced Technology Education Center (MATE) staff and Monterey Bay Aquarium Research Institute (MBARI) engineers as well as its hundreds of users over the years to bring it where it is today. Now it's your turn to play, as we assemble ROV in a Bag kits in this session.
@@ -1370,7 +1370,7 @@ How do we reach educators, of all levels, who are interested in learning about R
     start = { day = 24, month = 1, year = 2012,
       hour = 15, min = 30 },
     length = 3600,
-    room = "220",
+    loc = "Booth #201 (VideoRay)",
   },
 
 })
@@ -1405,7 +1405,7 @@ SAR operations, Crime scene investigations
     start = { day = 24, month = 1, year = 2012,
       hour = 08, min = 30 },
     length = 1800,
-    room = "221",
+    loc = "Room 221",
   },
 
   {
@@ -1420,7 +1420,7 @@ American Electric Power, a Sustaining Member of ADCI, continues to conduct train
     start = { day = 24, month = 1, year = 2012,
       hour = 09, min = 00 },
     length = 1800,
-    room = "221",
+    loc = "Room 221",
   },
 
   {
@@ -1439,7 +1439,7 @@ I hope to present this device and share the safe technology with all our members
     start = { day = 24, month = 1, year = 2012,
       hour = 09, min = 30 },
     length = 1800,
-    room = "221",
+    loc = "Room 221",
   },
 
   {
@@ -1454,7 +1454,7 @@ Provide procedures used to conduct on-site system certification survey of U. S. 
     start = { day = 24, month = 1, year = 2012,
       hour = 10, min = 30 },
     length = 3600,
-    room = "221",
+    loc = "Room 221",
   },
 
   {
@@ -1478,7 +1478,7 @@ Attendees will also receive a checklist at the end of the session that can be us
     start = { day = 24, month = 1, year = 2012,
       hour = 11, min = 30 },
     length = 1800,
-    room = "221",
+    loc = "Room 221",
   },
 
   {
@@ -1493,7 +1493,7 @@ The Code of Federal Regulations specifically adopts the ASME Boiler and Pressure
     start = { day = 24, month = 1, year = 2012,
       hour = 13, min = 30 },
     length = 1800,
-    room = "221",
+    loc = "Room 221",
   },
 
   {
@@ -1507,7 +1507,7 @@ The Code of Federal Regulations specifically adopts the ASME Boiler and Pressure
     start = { day = 24, month = 1, year = 2012,
       hour = 14, min = 00 },
     length = 1800,
-    room = "221",
+    loc = "Room 221",
   },
 
   {
@@ -1522,7 +1522,7 @@ Originally presented at the Transportation Research Board in January 2011.  This
     start = { day = 24, month = 1, year = 2012,
       hour = 14, min = 30 },
     length = 1800,
-    room = "221",
+    loc = "Room 221",
   },
 
   {
@@ -1536,7 +1536,7 @@ Originally presented at the Transportation Research Board in January 2011.  This
     start = { day = 24, month = 1, year = 2012,
       hour = 15, min = 30 },
     length = 1800,
-    room = "221",
+    loc = "Room 221",
   },
 
   {
@@ -1561,7 +1561,7 @@ individuals.
     start = { day = 24, month = 1, year = 2012,
       hour = 16, min = 00 },
     length = 3600,
-    room = "221",
+    loc = "Room 221",
   },
 
   {
@@ -1576,7 +1576,7 @@ In 1966-68 the author first discovered HPNS at 600 fsw and 800 fsw.  Amerliorati
     start = { day = 25, month = 1, year = 2012,
       hour = 08, min = 30 },
     length = 3600,
-    room = "221",
+    loc = "Room 221",
   },
 
   {
@@ -1591,7 +1591,7 @@ Commercial Diving is instrumental to the offshore oil and construction industrie
     start = { day = 25, month = 1, year = 2012,
       hour = 09, min = 30 },
     length = 1800,
-    room = "221",
+    loc = "Room 221",
   },
 
   {
@@ -1605,7 +1605,7 @@ This session will attempt to cover answers to questions frequently asked by dive
     start = { day = 25, month = 1, year = 2012,
       hour = 10, min = 30 },
     length = 5400,
-    room = "221",
+    loc = "Room 221",
   },
 
   {
@@ -1620,7 +1620,7 @@ The contributions of Northwest divers to the craft of commercial diving are sign
     start = { day = 25, month = 1, year = 2012,
       hour = 13, min = 30 },
     length = 2700,
-    room = "221",
+    loc = "Room 221",
   },
 
   {
@@ -1641,7 +1641,7 @@ The conversion work done at Mare Island Naval Shipyard will be discussed, along 
     start = { day = 25, month = 1, year = 2012,
       hour = 14, min = 15 },
     length = 2700,
-    room = "221",
+    loc = "Room 221",
   },
 
   {
@@ -1656,7 +1656,7 @@ This subject will address a recent accident that occured to a diver while perfor
     start = { day = 25, month = 1, year = 2012,
       hour = 15, min = 30 },
     length = 1800,
-    room = "221",
+    loc = "Room 221",
   },
 
   {
@@ -1673,7 +1673,7 @@ There will also be a short section in the presentation which will update delegat
     start = { day = 25, month = 1, year = 2012,
       hour = 16, min = 30 },
     length = 1800,
-    room = "221",
+    loc = "Room 221",
   },
 
   {
@@ -1692,7 +1692,7 @@ Commercial diving accident cases will be presented to illustrate that severely i
     start = { day = 25, month = 1, year = 2012,
       hour = 16, min = 30 },
     length = 1800,
-    room = "221",
+    loc = "Room 221",
   },
 
   {
@@ -1714,7 +1714,7 @@ This expansion of remedies under general maritime law needs to be addressed by t
     start = { day = 26, month = 1, year = 2012,
       hour = 10, min = 30 },
     length = 1800,
-    room = "221",
+    loc = "Room 221",
   },
 
   {
@@ -1733,7 +1733,7 @@ The paper will discuss the governance of the DCBC, the competency standard on wh
     start = { day = 26, month = 1, year = 2012,
       hour = 11, min = 00 },
     length = 1800,
-    room = "221",
+    loc = "Room 221",
   },
 
   {
@@ -1749,7 +1749,7 @@ The presentation will look at a short history and the development of the current
     start = { day = 26, month = 1, year = 2012,
       hour = 11, min = 30 },
     length = 3600,
-    room = "221",
+    loc = "Room 221",
   },
 
 })
@@ -1769,7 +1769,7 @@ The ROV & Diver TRACKER is a complete navigation system that includes a Fiber Op
     start = { day = 25, month = 1, year = 2012,
       hour = 08, min = 30 },
     length = 1800,
-    room = "222",
+    loc = "Room 222",
   },
 
   {
@@ -1789,23 +1789,21 @@ A similar paradigm shift is occurring in the area of underwater 3D scanning, wit
     start = { day = 25, month = 1, year = 2012,
       hour = 09, min = 00 },
     length = 1800,
-    room = "222",
+    loc = "Room 222",
   },
 
   {
     title = "Mapping, Integration of Inertial and Multibeam on ROVs",
     fulltitle = "",
-    presenters = { "Ian Florence", },
+    presenters = { "Craig Wallace", },
     abstract = [==[
 The concept of ROV subsea inertial navigation and ROV mounted Multibeam has been around for a number of years. In a recent offshore project the two systems were tightly integrated so the inertial system provided Heading, pitch, roll and position directly to the Multibeam. The paper discusses the integration processes – good parts and bad. In the results errors in the system are shown and how they were resolved. Also demonstrates the 2 way LBL and inertial for ROV navigation. The paper gives real project result from the Gulf of Mexico with some spectacular images.
-Ian Florence
-Subsea Construction Manager
 ]==],
     materials = false,
     start = { day = 25, month = 1, year = 2012,
       hour = 09, min = 30 },
     length = 1800,
-    room = "222",
+    loc = "Room 222",
   },
 
   {
@@ -1820,7 +1818,7 @@ A description of various sonar imaging tools readily available to contractors, e
     start = { day = 25, month = 1, year = 2012,
       hour = 10, min = 30 },
     length = 1800,
-    room = "222",
+    loc = "Room 222",
   },
 
   {
@@ -1835,7 +1833,7 @@ Share the benefits and results of using scanning and multi-beam sonar imaging sy
     start = { day = 25, month = 1, year = 2012,
       hour = 11, min = 00 },
     length = 1800,
-    room = "222",
+    loc = "Room 222",
   },
 
   {
@@ -1849,7 +1847,7 @@ This paper discusses some of the unique benefits of the use of real-time 3D imag
     start = { day = 25, month = 1, year = 2012,
       hour = 11, min = 30 },
     length = 1800,
-    room = "222",
+    loc = "Room 222",
   },
 
   {
@@ -1864,7 +1862,7 @@ The presentation will review types of instrument currently avaialble, their appl
     start = { day = 25, month = 1, year = 2012,
       hour = 13, min = 30 },
     length = 1800,
-    room = "222",
+    loc = "Room 222",
   },
 
   {
@@ -1878,7 +1876,7 @@ Using the MS 1000 scanning sonar for creating baseline surveys on large scale pr
     start = { day = 25, month = 1, year = 2012,
       hour = 14, min = 00 },
     length = 1800,
-    room = "222",
+    loc = "Room 222",
   },
 
   {
@@ -1894,7 +1892,7 @@ A successful leak detection strategy must focus on the different physicochemical
     start = { day = 25, month = 1, year = 2012,
       hour = 14, min = 30 },
     length = 1800,
-    room = "222",
+    loc = "Room 222",
   },
 
   {
@@ -1913,7 +1911,7 @@ Using a photorealistic 3D model as the starting point for underwater asset inspe
     start = { day = 25, month = 1, year = 2012,
       hour = 15, min = 30 },
     length = 1800,
-    room = "222",
+    loc = "Room 222",
   },
 
   {
@@ -1927,7 +1925,7 @@ The presentation will encompass a step through the basics of digital 3D photogra
     start = { day = 25, month = 1, year = 2012,
       hour = 16, min = 00 },
     length = 1800,
-    room = "222",
+    loc = "Room 222",
   },
 
 })
@@ -1950,7 +1948,7 @@ David Phillips travelled to the Philippines in 2008 to work with Titan Salvage C
     start = { day = 24, month = 1, year = 2012,
       hour = 09, min = 00 },
     length = 1800,
-    room = "217",
+    loc = "Room 217",
   },
 
   {
@@ -1965,7 +1963,7 @@ Remains of a controversial World War I shipwreck off the coast of Ireland explor
     start = { day = 24, month = 1, year = 2012,
       hour = 09, min = 30 },
     length = 1800,
-    room = "217",
+    loc = "Room 217",
   },
 
   {
@@ -1980,7 +1978,7 @@ In this talk we present a comprehensive survey procedure developed in-house and 
     start = { day = 24, month = 1, year = 2012,
       hour = 15, min = 30 },
     length = 1800,
-    room = "222",
+    loc = "Room 222",
   },
 
 })

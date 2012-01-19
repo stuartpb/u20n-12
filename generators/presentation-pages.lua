@@ -82,7 +82,7 @@ for i=1, #allprs do
       pr.length/60))
     write'<br>\n'
 
-    write("Room ",pr.room," - ",tracks.titles[pr.track],'\n')
+    write(pr.loc," - ",tracks.titles[pr.track],'\n')
     write'</p>\n'
 
     if pr.abstract then

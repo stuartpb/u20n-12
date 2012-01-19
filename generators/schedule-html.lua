@@ -41,7 +41,7 @@ for i=1,#tracks.all do
 end
 
 for i=1,#times do
-  table.sort(slots[i],function(m,n) return m.room < n.room end)
+  table.sort(slots[i],function(m,n) return m.loc < n.loc end)
 end
 
 --write HTML--
@@ -107,7 +107,7 @@ for i=1, #times do
     local pagename = pr.id
 
     write('<div class = "presdiv presdiv-',pr.track,'" id="',pr.id,'">')
-    write("Room ",pr.room,' ')
+    write(pr.loc,' ')
     if prestime == slottime then
       write(string.format(" (%.0f min)",pr.length/60))
     else

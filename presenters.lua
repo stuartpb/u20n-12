@@ -362,14 +362,14 @@ Mark Feulner is a member of the faculty for the Public Safety and Security progr
 ]==],
   },
 
-  ["Ian Florence"] = {
-    first = "Ian",
-    last = "Florence",
+  ["Craig Wallace"] = {
+    first = "Craig",
+    last = "Wallace",
     org = "Kongsberg Maritime Ltd.",
     homepage = "http://www.km.kongsberg.com/",
-    email = "ian.florence@kongsberg.com",
+    email = "craig.wallace@kongsberg.com",
     bio = [==[
-Ian Florence has worked in the offshore industry since 1981, starting in the seismic industry he moved to OHP Oilfield hydrographic Projects) in 1984 where he was a survey engineer and online surveyor. From 1986 - 1996 he was a contract engineer, surveyor and party chief for all on the major - and a lot of minor survey contactors. He then became a project surveyor for Subsea 7 for a West of Shetland field for 2 years. He joined Kongsberg Maritime where he specializes in acoustic special projects.
+Craig Wallace, qualified in Electrical Engineering, has worked with Kongsberg since 2006. Specialising in acoustics, he works primarily with special project operations for the integration of new Subsea technologies.
 ]==],
   },
 
