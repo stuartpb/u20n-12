@@ -16,6 +16,7 @@ write[[
   <meta charset='utf-8'>
   <title>UI 2012 / tracks</title>
   <link rel="stylesheet" type="text/css" href="/2012/ui2012.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 </head>
 <body>
 ]]
@@ -88,7 +89,7 @@ for ni=1, #tracks.names do
     write"<br>\n"
 
     write'<span class="session-fulltitle">'
-    write(htmlenc(pr.fulltitle))
+    write(htmlenc(pr.fulltitle or ""))
     write'</span>'
     write'</div>\n'
   end

@@ -35,6 +35,7 @@ for i=1, #allprs do
     <meta charset='utf-8'>
     <title>UI 2012</title>
     <link rel="stylesheet" type="text/css" href="/2012/ui2012.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   </head>
   <body>
   ]]
@@ -108,6 +109,7 @@ for i=1, #allprs do
     for i=1, #presenters do
       local name = pr.presenters[i]
       local lead = people[name]
+      if not lead then error("Missing entry for "..name) end
 
       write'<p>'
       write(htmlenc(name))
