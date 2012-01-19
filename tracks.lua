@@ -1,5 +1,3 @@
---encoding: utf-8
-
 local string = require 'string'
 local format = string.format
 local gsub = string.gsub
@@ -302,8 +300,8 @@ An assessment of this issue showed that it was not feasible to achieve step-chan
 
 This presentation will review features important in reducing downtime including: modular subsystem design, component accessibility, ease of replacement, and removal of the potential for installation errors during the maintenance process.  Major ROV subsystem examples will be discussed, including the HPU and the electrical power distribution system.
 ]==],
-    image = "rov-rts.jpg",
     materials = true,
+    image = "rov-rts.jpg",
     start = { day = 25, month = 1, year = 2012,
       hour = 11, min = 00 },
     length = 1800,
@@ -360,8 +358,8 @@ The lack of standardization between different models of ROVs also makes preplann
 
 This presentation will provide an overview of the primary concerns when integrating new equipment. Considerations include the size and weight of the equipment, ROV-specific mechanical attachment points, hydraulic connections, and electrical power and communication requirements.
 ]==],
-    image = "sim-services.jpg",
     materials = true,
+    image = "sim-services.jpg",
     start = { day = 25, month = 1, year = 2012,
       hour = 13, min = 30 },
     length = 1800,
@@ -400,8 +398,8 @@ Reliability and Flexibility.  Being able to perform at depth and at a range of f
 
 Beyond ROV.  Some of the intervention applications that are served by ROVs, also need upgrading, such as BOP accumulator charging.  Discussion will cover how compact hydraulic intensifiers can be a cost effective solution.
 ]==],
-    image = "tooling.png",
     materials = true,
+    image = "tooling.png",
     start = { day = 25, month = 1, year = 2012,
       hour = 14, min = 30 },
     length = 1800,
@@ -580,8 +578,8 @@ Remotely Operated Vehicles were used during two trips to the Tsunami damaged are
     abstract = [==[
 To extend the range of applications of small ROVs beyond that of a swimming camera, manufacturers develop accessory integration schemes to allow the addition of sophisticated systems including sonar, positioning, intervention and various other sensors  Understanding the technical aspects of your small ROV can help you improve the use of these commercial accessories or design and build your own.  This presentation will address related topics including ballast and trim, power, communications and total systems integration.
 ]==],
-    image = "accessories.jpg",
     materials = true,
+    image = "accessories.jpg",
     start = { day = 24, month = 1, year = 2012,
       hour = 13, min = 30 },
     length = 1800,
@@ -644,8 +642,8 @@ Although the Institute  is not an educational establishment there are several st
 
 Since 2008, teams of students from IMPT have participated in the MATE ROV Competition. In 2010 they won. This paper will present how the student ROV innovations were transformed into commercial product and why students involved in MATE are in demand in the underwater engineering workplace. Theoretical approaches in developing underwater vehicles, practical construction work and sea trials will be described in this presentation giving useful insight to students, teachers, and underwater technology professionals.
 ]==],
-    image = "student-inno.jpg",
     materials = true,
+    image = "student-inno.jpg",
     start = { day = 24, month = 1, year = 2012,
       hour = 16, min = 00 },
     length = 1800,
@@ -756,14 +754,30 @@ This paper will provide an overview of how these Hydro-Lek manipulators were uti
   },
 
   {
-    title = "ROV Training for PSD & Port Security",
-    fulltitle = "Micro ROVs in Public Safety Diving and Port Security: The Need for Standards and Training",
-    presenters = { "Mark Feulner", "Michael Zinszer", },
+    title = "Hull Searching with mini ROVs",
+    fulltitle = "Advancements in Hull Searching by mini ROVs",
+    presenters = { "Scott Bentley", },
     abstract = [==[
-Florida State University Panama City (FSUPC) completed an evaluation study in 2010 that examined the techniques and tools available for the execution of the search and inspection activities that public safety divers are routinely called upon to perform.  The test teams were drawn from major ports across the country and were selected for their experience and skill in conducting port security operations as well as routine public safety dive functions.  The teams included Seattle Police Department Harbor Patrol, NYPD Scuba Team, Jacksonville Sheriff Office Dive Team, and the FBI’s USERT team out of Los Angeles. A team from FSUPC’s Underwater Crime Scene Investigation was utilized to augment the dataset.  The findings indicated that traditional and technology-augmented search techniques were all very successful methods, particularly in the specific contexts for which they were developed.  However, broader implications to ROV training and use were suggested by the results.  While these observations were beyond the scope of the study, they provide valuable insights that are shared in this paper.
+VideoRay Port Security configuration Pro 4 ROVs were recently selected for exclusive use at the United States Coast Guard. The Combatting Terrorism Technical Support Office (CTTSO) of the US Department of Defense funded improvements to the Pro 4. This project is described in [CTTSO’s review book](http://www.cttso.gov/reviewbook/CTTSOReviewBook2011_ALL.pdf) for 2011:
+
+> Securing ports and harbors remains a key mission in defending against
+> terrorist acts. The U.S. Coast Guard (USCG) requires the capability to
+> conduct timely and effective hull searches/inspections of vessels, piers,
+> the seafloor and/or anomalous events (parasitic attachments, drifting
+> or moored mines, and improvised explosive devices). The Coast Guard
+> currently maintains Remotely Operated Vehicle (ROV) systems devoted
+> to the port security mission. Current system performance is limited in
+> certain capacities. This project aims to enhance the USCG’s current ROV
+> systems with an improved sonar, manipulator, image enhancement
+> system, hull crawler, and an improved non-acoustic navigation system.
+> These upgraded ROVs will provide better search capabilities in all water
+> clarities and in very strong currents, keeping divers out of dangerous
+> waters while searching for hazardous devices.
+
+This talk will discuss VideoRays for Port Security, and this project.
 ]==],
-    image = "nypd-rov.jpg",
-    materials = false,
+    image = "hull-search.jpg",
+    materials = true,
     start = { day = 25, month = 1, year = 2012,
       hour = 13, min = 30 },
     length = 1800,
@@ -777,8 +791,8 @@ Florida State University Panama City (FSUPC) completed an evaluation study in 20
     abstract = [==[
 Small ROVs have reached a point in their adoption curve where organizations may own more than one and acquisitions may involve multiple systems, but are these organizations managing these assets like a fleet, or are they still leaving that in the hands of the lead operator of each system?  This presentation will address the tools, techniques and best practices that owners or managers of multiple small ROVs should consider to ensure that they are getting the most value from their investments in equipment and people.  While the fleet size addressed in this presentation is 10 systems or more, there will be valuable information presented for any level of ownership, including just one system.
 ]==],
-    image = "fleet-mgmt.jpg",
     materials = true,
+    image = "fleet-mgmt.jpg",
     start = { day = 25, month = 1, year = 2012,
       hour = 14, min = 00 },
     length = 1800,
@@ -819,8 +833,8 @@ This talk will discuss some examples of such non-traditional uses by VideoRay cu
     abstract = [==[
 Knowing how to change a flat tire doesn't ensure that your car is maintained in optimal operating condition.  Likewise, knowing how to change a propeller or camera dome doesn't ensure that your small ROV will be properly maintained.  This presentation will look beyond the basic repair techniques and describe key elements in developing and implementing a small ROV maintenance program designed to keep your systems running and extend their service life.  Topics addressed include what items require the most frequent maintenance, how to avoid the most costly repairs, keeping track of service records, how to handle emergencies and many other best practices.
 ]==],
-    image = "vital.jpg",
     materials = true,
+    image = "vital.jpg",
     start = { day = 25, month = 1, year = 2012,
       hour = 16, min = 00 },
     length = 1800,
@@ -972,7 +986,7 @@ The presentation will review the basics of forward looking sonar technologies, i
 
   {
     title = "Improved Oxygen Calculations and Their Benefits to MUVs",
-    presenters = { "Phil Ziegler", },
+    presenters = { "Phil Ziegler" },
     abstract = [==[
 This presentation discusses an improved method of performing oxygen supply calculations and describes how its significantly greater accuracy can improve safety and reduce operating costs.
 ]==],
@@ -1060,7 +1074,7 @@ The 2011 pre-season "test & trial" produced a number of Marine Heritage site div
   {
     title = "SubSea Lithium Battery Certification",
     fulltitle = "Subsea Lithium Battery Certification Considerations at ABS, LR and DNV",
-    presenters = { "Matt Koenig", "Brent Perry", },
+    presenters = { "Matt Koenig", },
     abstract = [==[
 Manned submersibles, as well as Remotely Operated Vehicles (ROVs), are two of the most significant platforms for Marine Technology research and operations.  Long lived and powerful on board energy storage is a major roadblock to fully exploiting their operational effectiveness. Lithium based storage has the potential to provide this much needed capacity and scalability.  Lack of Type certification for a technology can terminate the process of its implementation in the MarTech sector, and for many operators, is equally as terminal to obtaining government approvals and funding.
 
@@ -1123,6 +1137,17 @@ The presentation will also describe a means of packaging the 64 modules that all
   },
 
   {
+    title = "MTS MUV Committee Meeting",
+    fulltitle = "Annual Committee Meeting for MTS Manned Underwater Vehicles",
+    presenters = { "Will Kohnen", },
+    materials = true,
+    start = { day = 26, month = 1, year = 2012,
+      hour = 13, min = 30 },
+    length = 3600,
+    room = "219",
+  },
+
+  {
     title = "New Developments in Acrylics",
     fulltitle = "New Developments in Pressure Vessel Applications of Acrylics",
     presenters = { "Bart Kemper", },
@@ -1175,21 +1200,10 @@ Deep sea buoyancy has evolved significantly since the pre-1960’s days in which
 A rigorous QC protocol in all components in the syntactic buoyancy is required to maintain a capable manufacturing process as well as reliable, predictable long-term syntactic foams behavior.  This control starts in the microballoon manufacturing process; problems or process deviations during their manufacture can trickle all the way through to the finished foam properties.  The same is expected in the polymer binder phase, coupling agents and other additives that go into the finished product. When the essential constituent properties are identified and quantified, the final performance of the finished syntactic foam can be predicted.
 ]==],
     image = "foam-microbubbles.jpg",
-    materials = false,
+    materials = nil,
     start = { day = 26, month = 1, year = 2012,
       hour = 10, min = 30 },
     length = 5400,
-    room = "219",
-  },
-
-  {
-    title = "MTS MUV Committee Meeting",
-    fulltitle = "Annual Committee Meeting for MTS Manned Underwater Vehicles",
-    presenters = { "Will Kohnen", },
-    materials = true,
-    start = { day = 26, month = 1, year = 2012,
-      hour = 13, min = 30 },
-    length = 3600,
     room = "219",
   },
 
@@ -1207,8 +1221,8 @@ Georgia Tech Savannah Robotics' ROV Beta Mk II is a direct product of the MATE c
 
 This year, Beta Mk II is slated to survey recently unearthed Revolutionary War shipwrecks off the coast of Yorktown, VA. For 2012, the MATE ROV Competition again aligns with the real world research plan for the vehicle. This talk will outline the competition influences on design, the differences in real world performance vs. competition, and the future work inspired by the competition.
 ]==],
-    image = "savannah.jpg",
     materials = "savannah.pdf",
+    image = "savannah.jpg",
     start = { day = 24, month = 1, year = 2012,
       hour = 08, min = 30 },
     length = 1800,
@@ -1345,6 +1359,20 @@ The 2012 mission theme deals with 20th century shipwrecks and their potential en
     room = "220",
   },
 
+  {
+    title = "Remotely Operated Vehicles (ROV) Building and Design. ",
+    fulltitle = "Educating the next generation of scientists with real world scenarios:  Modeling a shipwreck for the MATE Center ROV competition",
+    presenters = { "Erica Moulton", },
+    abstract = [==[
+How do we reach educators, of all levels, who are interested in learning about ROV technology and its use in ocean exploration and research? We teach them how to teach their students to build an ROV using a program we call "ROV in a Bag". The ROV in a Bag program is a concept created from the original work of Harry Bohm and Vickie Jensen and adapted from the ROV kit developments in their books <cite>Build Your Own Underwater Robot and Other Wet Projects</cite>. The small, yet fully functional ROV in a Bag kit has also undergone successive tweaks by the Marine Advanced Technology Education Center (MATE) staff and Monterey Bay Aquarium Research Institute (MBARI) engineers as well as its hundreds of users over the years to bring it where it is today. Now it's your turn to play, as we assemble ROV in a Bag kits in this session.
+]==],
+    image = "rovbuild.jpg",
+    start = { day = 24, month = 1, year = 2012,
+      hour = 15, min = 30 },
+    length = 3600,
+    room = "220",
+  },
+
 })
 maketrack("div", { --Commercial Diving
 
@@ -1387,8 +1415,8 @@ SAR operations, Crime scene investigations
     abstract = [==[
 American Electric Power, a Sustaining Member of ADCI, continues to conduct training of its employees in the rules and regulations of commercial diving via OSHA, US Coast Guard and the ADCI Consensus Standards.  Training programs are conducted each year at selected AEP facilities for new students and re-qualifying Diving Contacts.  Criteria for becoming a Diving Contact at AEP is delineated in their program and requires each person to be nominated by management, complete the program and a written examination.  They serve in the program for a period of three years and must re-qualify by attending refresher training.  An AEP Diving Contact works directly with diving contractors at any AEP facility.  They are familiar with all diving regulations and the Consensus Standards, including Rev. 6, and can work the diving tables for repetitive dives, surface decompression on air or oxygen for example. Since they understand parts of our industry; they really make it easier for a diving contractor to communicate with them.  Dave Scarberry has been their Diving Coordinator and the originator of their program since inception and is responsible for its development and administration.  Will Hux is the instructor from MESCO/ Stroud Diving & Hydrography and wrote the training curriculum for the classroom portion of the training.  They make a strong team in presenting a safety program of which is an industry first.
 ]==],
-    image = "div-training.gif",
     materials = false,
+    image = "div-training.gif",
     start = { day = 24, month = 1, year = 2012,
       hour = 09, min = 00 },
     length = 1800,
@@ -1608,8 +1636,8 @@ A full description of the system in use at the time of the accident will be prov
 
 The conversion work done at Mare Island Naval Shipyard will be discussed, along with contractor oversight issues.  The discussion will also cover other causes leading up to the accident including maintenance and training shortfalls and operator actions.  In addition, corrective actions specific to GRAYBACK and lessons learned applied to future systems will be presented.
 ]==],
-    image = "grayback.jpg",
     materials = "grayback.pdf",
+    image = "grayback.jpg",
     start = { day = 25, month = 1, year = 2012,
       hour = 14, min = 15 },
     length = 2700,
@@ -1640,6 +1668,25 @@ This session will be jointly presented by Simon Lunt, Analox & Larry Janicek, LB
 
 There will also be a short section in the presentation which will update delegates on Analox's project relating to the monitoring of H2S in the diving bell.
 ]==],
+    image = "hypergas.jpg",
+    materials = false,
+    start = { day = 25, month = 1, year = 2012,
+      hour = 16, min = 30 },
+    length = 1800,
+    room = "221",
+  },
+
+  {
+    title = "Use of HBO in ATLS/ACLS",
+    fulltitle = "The Use of High-Dose Hyperbaric Oxygen in ATLS/ACLS Resuscitation and Shock",
+    presenters = { "Keith Van Meter", },
+    abstract = [==[
+Commercial diving accident cases will be presented to illustrate that severely injured patients, expected to need trauma center management, may be successfully treated in remote, medically-primitive, pre-hospital settings and be definitely stabilized by oxygen therapy in the field. Immediate post-injury hyperbaric oxygen therapy at the site of the accident and continuation of same at short intervals until wound stabilization is key to the successful minimalization of reperfusion injury.
+
+-	Discuss high-yield patient recovery results following immediate, short-interval hyperbaric oxygen administered at accident site and upon arrival for entry into hospital's chain of care
+-	Demonstrate that successful hyperbaric oxygen therapy, in effect, "DOPES" (delivered oxygen pressure establishing survival) the plasma with enough dissolved oxygen to promote traumatic reperfusion injury resolution
+-	Present laboratory animal verification by randomized, controlled studies of similar, very favorable recovery as described in clinical human injury resuscitated by hyperbaric oxygen therapy.
+ ]==],
     image = "hypergas.jpg",
     materials = false,
     start = { day = 25, month = 1, year = 2012,
@@ -1872,7 +1919,7 @@ Using a photorealistic 3D model as the starting point for underwater asset inspe
   {
     title = "HD 3D photogrammetric modeling applications",
     fulltitle = "High definition 3D photogrammetric modeling offers unprecedented levels of geometric accuracy for post-incident analysis and repair of damage to subsea components",
-    presenters = { "Anthony Hall", "Marie McCormick", "Alastair Trower", },
+    presenters = { "Anthony Hall", "Marie MacCormick", "Alastair Trower", },
     abstract = [==[
 The presentation will encompass a step through the basics of digital 3D photogrammetric modeling hardware and techniques, followed by a series of case studies that highlight the flexibility and value of the technology to provide highly accurate geometric information of damaged subsea components that can then be used to conduct structural analyses (e.g. FEAs). design tooling, and and verify design repairs. Case studies will include but not be limited to an impact-damaged well head, a deepwater pipeline damaged by anchor impacts, and heavily corroded mooring components. The presentation will finish with some discussion of the opportunities by this technology in combination with advances in metallic and polymer 3D printing technologies
 ]==],
