@@ -129,6 +129,11 @@ nav li {
   background-color: #666;
 }
 
+.presdiv-err {
+  color: gray;
+  border: 3px solid gray;
+}
+
 .headshot {
   float: left;
   clear: left;

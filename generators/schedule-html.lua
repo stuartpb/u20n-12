@@ -75,6 +75,7 @@ write[[
   <ul>
     <li><a href="/">underwater intervention home</a></li>
     <li><a href="/2012/tracks.html">view presentations by track</a></li>
+    <li><a href="/2012/errata.html">booklet errata</a></li>
   </ul>
 </nav>
 ]]
