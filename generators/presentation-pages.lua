@@ -23,7 +23,7 @@ else
 end
 
 local function with_path(str)
-  return string.gsub(str,"%$root","/mirror/ui2012")
+  return (string.gsub(str,"%$root","/mirror/ui2012"))
 end
 
 for i=1, #allprs do

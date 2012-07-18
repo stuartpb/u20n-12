@@ -10,7 +10,7 @@ local function htmlenc(str)
 end
 
 local function with_path(str)
-  return string.gsub(str,"%$root","/mirror/ui2012")
+  return (string.gsub(str,"%$root","/mirror/ui2012"))
 end
 
 write(with_path[[
