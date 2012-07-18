@@ -1,3 +1,17 @@
+--[=[ Usage:
+  This script was used to construct the
+  print booklet for the conference.
+
+  Due to a bug in Google Chrome's
+  PDF export function that caused certain presentations' pages to
+  be mangled when exported as PDF, I hacked in a workaround
+  in the eleventh hour to export only pages that were
+  broken in the previously exported set of pages.
+  These sets are the "bad_phases" arrays, and the "redos" array
+  was the phase being re-exported. (The initial phase could be
+  exported by setting "local redos = allprs".)
+--]=]
+
 local write = io.write
 
 local tracks = require 'tracks'

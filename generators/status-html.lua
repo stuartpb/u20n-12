@@ -61,7 +61,7 @@ local function write_link(dat,lead)
       if startswith(dat,"http://") or startswith(dat,"https://") then
         link = dat
       else
-        link = lead .. dat
+        link = "/mirror/ui2012" .. lead .. dat
       end
       write(indent,'<td class="present">','<a href="',link,'">',dat,'</a></td>\n')
     else
@@ -82,7 +82,7 @@ write[[
 <head>
   <meta charset='utf-8'>
   <title>STATUS FOR UI2012 PRESENTATIONS</title>
-  <link rel="stylesheet" type="text/css" href="/2012/ui2012.css" />
+  <link rel="stylesheet" type="text/css" href="/mirror/ui2012/ui2012.css" />
   <style type="text/css">
     .present {background-color: #cfc}
     .missing {background-color: #fcc}
@@ -119,7 +119,7 @@ for tri=1,#tracks.names do
     local pr = track[pri]
     local prsrs = pr.presenters
     write('  <tr>\n',
-          '    <td><a href="/2012/presentations/',pr.id,'.html">',
+          '    <td><a href="/mirror/ui2012/presentations/',pr.id,'.html">',
           pr.title,'</a></td>\n')
     write"    <td>\n"
     for i=1, #prsrs do
@@ -130,8 +130,8 @@ for tri=1,#tracks.names do
     write"    </td>\n"
     write_present(pr.fulltitle)
     write_present(pr.abstract)
-    write_link(pr.image,'/2012/images/')
-    write_link(pr.materials,'/2012/materials/')
+    write_link(pr.image,'/images/')
+    write_link(pr.materials,'/materials/')
   end
 end
 write[[
@@ -167,7 +167,7 @@ for ni=1, #names do
     write(indent,'<td class="missing"></td>\n')
   end
   write_present(pr.bio)
-  write_link(pr.headshot,'/2012/images/')
+  write_link(pr.headshot,'/images/')
   write'  </tr>\n'
 end
 write'</table>\n'

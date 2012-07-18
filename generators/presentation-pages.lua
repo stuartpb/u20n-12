@@ -22,29 +22,33 @@ else
   end
 end
 
+local function with_path(str)
+  return string.gsub(str,"%$root","/mirror/ui2012")
+end
+
 for i=1, #allprs do
   local pr = allprs[i]
 
   local pagename = pr.id
   io.output('site/presentations/'..pagename..".html")
 
-  write[[
+  write(with_path[[
   <!DOCTYPE html>
   <html>
   <head>
     <meta charset='utf-8'>
     <title>UI 2012</title>
-    <link rel="stylesheet" type="text/css" href="/2012/ui2012.css" />
+    <link rel="stylesheet" type="text/css" href="$root/ui2012.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   </head>
   <body>
-  ]]
+  ]])
 
-  write[[
+  write(with_path[[
   <header>
-    <img src="/2012/images/logo.jpg" class="logo"> <span class="page-title">underwater intervention 2012</span>
+    <img src="$root/images/logo.jpg" class="logo"> <span class="page-title">underwater intervention 2012</span>
   </header>
-  ]]
+  ]])
 
   --write(elements.nav)
   write[[
@@ -52,17 +56,17 @@ for i=1, #allprs do
     <ul>
       <li>return to:</li>
 ]]
-  write('      <li><a href="/2012/schedule.html#',
+  write(with_path'      <li><a href="$root/schedule.html#',
     pr.id,'">schedule</a></li>\n')
-  write('      <li><a href="/2012/tracks.html#',
+  write(with_path'      <li><a href="$root/tracks.html#',
     pr.id,'">tracks</a></li>\n')
-  write[[
+  write(with_path[[
     </ul>
     <ul>
-      <li><a href="/">underwater intervention home</a></li>
+      <li><a href="$root/index.html">underwater intervention home</a></li>
     </ul>
   </nav>
-]]
+]])
 
   write'<div class="content">\n'
     write"<h1>"
@@ -90,7 +94,7 @@ for i=1, #allprs do
       write'<p>'
       if pr.image then
         write('<img class="presimg" src="',
-          '/2012/images/',pr.image,'">','\n')
+          with_path'$root/images/',pr.image,'">','\n')
       end
       write(htmlenc(pr.abstract))
       write'</p>\n'
@@ -128,7 +132,7 @@ for i=1, #allprs do
         write'<p>'
         if lead.headshot then
           write('<img class="headshot" src="',
-            '/2012/images/',lead.headshot,'">','\n')
+            with_path'$root/images/',lead.headshot,'">','\n')
         end
         write(htmlenc(lead.bio))
         write'</p>\n'

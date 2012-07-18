@@ -9,6 +9,10 @@ local function htmlenc(str)
   return (string.gsub(str,"[<>&]",{["<"]="&lt;",[">"]="&gt;",["&"]="&amp;"}))
 end
 
+local function with_path(str)
+  return string.gsub(str,"%$root","/mirror/ui2012")
+end
+
 --organize by time--
 
 local times = {}
@@ -46,25 +50,25 @@ end
 
 --write HTML--
 
-write[[
+write(with_path[[
 <!DOCTYPE html>
 <html>
 <head>
   <meta charset='utf-8'>
   <title>UI 2012 / schedule</title>
-  <link rel="stylesheet" type="text/css" href="/2012/ui2012.css" />
+  <link rel="stylesheet" type="text/css" href="$root/ui2012.css" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 </head>
 <body>
-]]
+]])
 
-write[[
+write(with_path[[
 <header>
-  <img src="/2012/images/logo.jpg" class="logo"> <span class="page-title">underwater intervention 2012: schedule</span>
+  <img src="$root/images/logo.jpg" class="logo"> <span class="page-title">underwater intervention 2012: schedule</span>
 </header>
-]]
+]])
 
-write[[
+write(with_path[[
 <nav>
   <ul>
     <li>go to:</li>
@@ -73,12 +77,12 @@ write[[
     <li><a href="#thu">thursday</a></li>
   </ul>
   <ul>
-    <li><a href="/">underwater intervention home</a></li>
-    <li><a href="/2012/tracks.html">view presentations by track</a></li>
-    <li><a href="/2012/errata.html">booklet errata</a></li>
+    <li><a href="$root/index.html">underwater intervention home</a></li>
+    <li><a href="$root/tracks.html">view presentations by track</a></li>
+    <li><a href="$root/errata.html">booklet errata</a></li>
   </ul>
 </nav>
-]]
+]])
 
 write'<div class="content">\n'
 
@@ -127,7 +131,7 @@ for i=1, #times do
     end
     write" - "
     write'<a href="'
-    write('/2012/presentations/',pagename,".html")
+    write(with_path'$root/presentations/',pagename,".html")
     write'" class="session-title">'
     write(htmlenc(pr.title))
     write'</a>'
