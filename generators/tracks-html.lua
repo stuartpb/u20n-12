@@ -42,7 +42,7 @@ for i=1, #tracks.names do
   write('    <li><a href="#',tn,'">',tracks.titles[tn],'</a></li>\n')
 end
 
-write[[
+write(with_path[[
   </ul>
   <ul>
     <li><a href="$root/index.html">underwater intervention home</a></li>
@@ -50,7 +50,7 @@ write[[
     <li><a href="$root/errata.html">booklet errata</a></li>
   </ul>
 </nav>
-]]
+]])
 
 write'<div class="content">\n'
 
