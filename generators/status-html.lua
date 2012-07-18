@@ -120,7 +120,7 @@ for tri=1,#tracks.names do
     local prsrs = pr.presenters
     write('  <tr>\n',
           '    <td><a href="/mirror/ui2012/presentations/',pr.id,'.html">',
-          pr.title,'</a></td>\n')
+          htmlenc(pr.title),'</a></td>\n')
     write"    <td>\n"
     for i=1, #prsrs do
       local prsr = prsrs[i]
@@ -159,8 +159,8 @@ for ni=1, #names do
   local name = names[ni]
   local pr = people[name]
   write('  <tr id="',prsr_id(name),'">\n')
-  write('    <td>',name,'</td>\n')
-  write('    <td>',pr.email,'</td>\n')
+  write('    <td>',htmlenc(name),'</td>\n')
+  write('    <td>',htmlenc(pr.email),'</td>\n')
   if pr.org and pr.homepage and find(pr.org,"%S") then
     write(indent,'<td class="present"><a href="',pr.homepage,'">',htmlenc(pr.org),'</a></td>\n')
   else
