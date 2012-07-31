@@ -51,14 +51,11 @@ nav li {
 .content {
   margin-left: 50px;
   margin-bottom: 50px;
+  margin-right: 12px;
 }
 
 .content a {
   color: blue;
-}
-
-.speaker {
-  font-weight: bold;
 }
 
 .speakorg {
@@ -134,19 +131,35 @@ nav li {
   border: 3px solid gray;
 }
 
+.presenter-name {
+  font-weight: bold;
+}
+
+.presenter-info {
+  clear: left;
+  margin-top: 12px;
+}
+
+.presenter-org {
+
+}
+
 .headshot {
   float: left;
   clear: left;
-  width: 30%;
+  max-width: 30%;
   display: block;
-  margin: 4px;
+  max-height: 300px;
+  margin-right: 18px;
+  margin-bottom: 18px;
 }
 
 .presimg {
   float: right;
   width: 30%;
   display: block;
-  margin: 4px;
+  margin-left: 18px;
+  margin-bottom: 24px;
 }
 
 @media print

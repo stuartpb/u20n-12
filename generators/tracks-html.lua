@@ -62,8 +62,8 @@ for ni=1, #tracks.names do
   for i=1, #track do
     local pr = track[i]
 
-    local speaker = pr.presenters[1]
-    local lead = people[speaker]
+    local presentername = pr.presenters[1]
+    local person = people[presentername]
 
     local pagename = pr.id
     local stime = os.time(pr.start)
@@ -77,12 +77,12 @@ for ni=1, #tracks.names do
       string.format(" (%.0f min)",pr.length/60),
       ' <span class="trackroom">',pr.loc,"</span>")
     write"<br>\n"
-    write'<span class="speaker">'
-    write(htmlenc(speaker))
+    write'<span class="presenter-name">'
+    write(htmlenc(presentername))
     write'</span>'
-    if lead.org and string.find(lead.org,"%S") then
-      write' <span class="speakorg">('
-      write(htmlenc(lead.org))
+    if person.org and string.find(person.org,"%S") then
+      write' <span class="presenter-org">('
+      write(htmlenc(person.org))
       write')</span>'
     end
     write" - "

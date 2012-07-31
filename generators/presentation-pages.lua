@@ -108,38 +108,41 @@ for i=1, #allprs do
     else
     write "Presenter"
     end
-    write'</h2>'
+    write'</h2>\n'
 
     for i=1, #presenters do
       local name = pr.presenters[i]
-      local lead = people[name]
-      if not lead then error("Missing entry for "..name) end
+      local person = people[name]
+      if not person then error("Missing entry for "..name) end
+
+      write'<div class="presenter-info">'
+      if person.headshot then
+        write('<img class="headshot" src="',
+          with_path'$root/images/',person.headshot,'">','\n')
+      end
 
       write'<p>'
-      write(htmlenc(name))
-      if lead.org and string.find(lead.org,"%S") then
-        write'<br>'
-        write(htmlenc(lead.org))
+      write('<span class="presenter-name">',htmlenc(name),'</span>')
+      if person.org and string.find(person.org,"%S") then
+        write'<br>\n'
+        write('<span class="presenter-org">',htmlenc(person.org),'</span>')
       end
-      if lead.homepage then
-        write'<br>'
-        write('<a class="orglink" href="',lead.homepage,'">',
-          htmlenc(lead.homepage),'</a>')
-      end
-      write"</p>\n"
 
-      if lead.bio then
+      if person.homepage then
+        write'<br>\n'
+        write('<a class="orglink" href="',person.homepage,'">',
+          htmlenc(person.homepage),'</a>')
+      end
+      write"\n</p>\n"
+
+      if person.bio then
         write'<p>'
-        if lead.headshot then
-          write('<img class="headshot" src="',
-            with_path'$root/images/',lead.headshot,'">','\n')
-        end
-        write(htmlenc(lead.bio))
+        write(htmlenc(person.bio))
         write'</p>\n'
       end
+    write'</div>\n'
     end
-  write'<br style="clear: both;">\n'
-  write'</div>'
+  write'</div>\n'
 
   write[[
   </body>

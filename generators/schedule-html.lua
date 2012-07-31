@@ -104,10 +104,10 @@ for i=1, #times do
     local pr = slot[j]
     local prestime = os.time(pr.start)
 
-    local speaker = pr.presenters[1]
-    local lead = people[speaker]
+    local presentername = pr.presenters[1]
+    local person = people[presentername]
 
-    assert(lead, "Missing presenter: "..speaker.." ("..pr.id..")")
+    assert(person, "Missing presenter: "..presentername.." ("..pr.id..")")
 
     local pagename = pr.id
 
@@ -121,12 +121,12 @@ for i=1, #times do
     end
     write('<span class="prestrack">',tracks.titles[pr.track],"</span>")
     write"<br>\n"
-    write'<span class="speaker">'
-    write(htmlenc(speaker))
+    write'<span class="presenter-name">'
+    write(htmlenc(presentername))
     write'</span>'
-    if lead.org and string.find(lead.org,"%S") then
-      write' <span class="speakorg">('
-      write(htmlenc(lead.org))
+    if person.org and string.find(person.org,"%S") then
+      write' <span class="presenter-org">('
+      write(htmlenc(person.org))
       write')</span>'
     end
     write" - "
